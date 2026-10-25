@@ -14,6 +14,10 @@ import curriculum from '../../data/curriculum.json'
 import grammarA1 from '../../data/grammar/a1.json'
 import grammarA2 from '../../data/grammar/a2.json'
 import grammarB1 from '../../data/grammar/b1.json'
+import grammarA1b from '../../data/grammar/a1b.json'
+import grammarA2b from '../../data/grammar/a2b.json'
+import grammarB1b from '../../data/grammar/b1b.json'
+import extraDrills from '../../data/grammar/extra_drills.json'
 
 export type Cefr = 'A1' | 'A2' | 'B1'
 
@@ -277,7 +281,13 @@ export interface Week {
   patterns: string[]
 }
 
-export const GRAMMAR_FILES: Raw[] = [grammarA1, grammarA2, grammarB1]
+/** Extra drills (data/grammar/extra_drills.json) are appended to lessons by code. tools/tts/generate.py mirrors this. */
+export function mergeDrills(files: Raw[], extra: Record<string, Raw[]>): Raw[] {
+  return files.map((f) => ({ ...f, patterns: f.patterns.map((p: Raw) => (extra[p.code] ? { ...p, drills: [...p.drills, ...extra[p.code]] } : p)) }))
+}
+
+export const EXTRA_DRILLS: Record<string, Raw[]> = extraDrills.drills
+export const GRAMMAR_FILES: Raw[] = mergeDrills([grammarA1, grammarA1b, grammarA2, grammarA2b, grammarB1, grammarB1b], EXTRA_DRILLS)
 export const CURRICULUM: Raw = curriculum
 
 export function validateGrammar(files: Raw[], weeks: Raw): string[] {

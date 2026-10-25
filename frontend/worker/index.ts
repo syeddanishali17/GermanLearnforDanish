@@ -15,6 +15,7 @@ import * as progress from './progress'
 import * as srs from './srs'
 import * as talk from './talk'
 import * as course from './course'
+import * as workout from './workout'
 
 export const content = makeContent()
 type C = Context<{ Bindings: Env }>
@@ -172,6 +173,7 @@ app.get('/daily', async (c) => {
     level: lvl,
     conversation: rec ? talk.summary(rec, lvl.week, counts) : null,
     grammar: await course.dailyGrammar(db, content, lvl.week, t),
+    words: await workout.dailyWords(db, content, lvl.week, t, await course.patternStats(db)),
   })
 })
 
@@ -420,21 +422,97 @@ app.get('/grammar/:code', async (c) => {
   return c.json({ ...p, ...course.patternSummary(p, stats.get(p.code)) })
 })
 
+/** One practice round (grammar lesson, word workout or one lesson's share of a mixed round). Idempotent by uuid. */
+async function recordPractice(db: D1Database, uuid: string | null, code: string, ts: number, correct: number, total: number) {
+  if (uuid && (await one(db, 'SELECT id FROM grammar_practice WHERE client_uuid = ?', uuid))) return false
+  await run(db, 'INSERT INTO grammar_practice (client_uuid, code, ts, correct, total) VALUES (?, ?, ?, ?, ?)', uuid, code, ts, correct, total)
+  return true
+}
+
+/** Drills are written production: a round with a right answer counts toward the minimum day. */
+async function afterPractice(db: D1Database, ts: number, anyCorrect: boolean) {
+  if (anyCorrect) await progress.addToDay(db, localDay(ts), { produced: 1 })
+  await progress.refreshDay(db, content, await profile(db), now())
+}
+
+function roundResult(b: Record<string, unknown> | null) {
+  const total = int(b?.total, 1, 50)
+  const correct = int(b?.correct, 0, 50)
+  if (total === null || correct === null || correct > total) return null
+  return { total, correct, uuid: str(b?.uuid, 40), ts: tsOf(b?.ts) }
+}
+
 app.post('/grammar/:code/practice', async (c) => {
   const db = c.env.DB
   const p = content.patternByCode.get(c.req.param('code'))
   if (!p) return bad(c, 'Pattern not found', 404)
+  const r = roundResult(await body(c))
+  if (!r) return bad(c, 'Invalid result')
+  if (!(await recordPractice(db, r.uuid, p.code, r.ts, r.correct, r.total))) return c.json({ ok: true, duplicate: true })
+  await afterPractice(db, r.ts, r.correct > 0)
+  return c.json({ ok: true, duplicate: false })
+})
+
+const wordWeek = (s: string) => {
+  const n = Number(s)
+  return Number.isInteger(n) && n >= 0 && n <= 36 ? n : null
+}
+
+app.get('/vocab/:week', async (c) => {
+  const db = c.env.DB
+  const week = wordWeek(c.req.param('week'))
+  if (week === null) return bad(c, 'Week not found', 404)
+  const lvl = await talk.level(db, content)
+  const drills = workout.wordWorkout(content, week, lvl.week)
+  if (!drills.length) return bad(c, 'No words for this week', 404)
+  const stats = await course.patternStats(db)
+  const w = content.weeks.find((x) => x.week === week)
+  return c.json({
+    week,
+    title: w ? `Week ${week} words` : `Words up to week ${Math.max(lvl.week, 1)}`,
+    sub: w ? w.title : 'Mixed revision',
+    drills,
+    accuracy: stats.get(workout.wordCode(week))?.accuracy ?? null,
+  })
+})
+
+app.post('/vocab/:week/practice', async (c) => {
+  const db = c.env.DB
+  const week = wordWeek(c.req.param('week'))
+  if (week === null) return bad(c, 'Week not found', 404)
+  const r = roundResult(await body(c))
+  if (!r) return bad(c, 'Invalid result')
+  if (!(await recordPractice(db, r.uuid, workout.wordCode(week), r.ts, r.correct, r.total))) return c.json({ ok: true, duplicate: true })
+  await afterPractice(db, r.ts, r.correct > 0)
+  return c.json({ ok: true, duplicate: false })
+})
+
+app.get('/workout/grammar', async (c) => {
+  const db = c.env.DB
+  const lvl = await talk.level(db, content)
+  const drills = workout.grammarMix(content, await course.patternStats(db), lvl.week)
+  return c.json({ week: lvl.week, title: 'Grammar mix', sub: `Lessons up to week ${Math.max(lvl.week, 1)}`, drills, accuracy: null })
+})
+
+/** Mixed round: results arrive per lesson and are stored as one row per lesson, so mastery stays per lesson. */
+app.post('/workout/grammar/practice', async (c) => {
+  const db = c.env.DB
   const b = await body(c)
-  const total = int(b?.total, 1, 50)
-  const correct = int(b?.correct, 0, 50)
-  if (total === null || correct === null || correct > total) return bad(c, 'Invalid result')
   const uuid = str(b?.uuid, 40)
-  if (uuid && (await one(db, 'SELECT id FROM grammar_practice WHERE client_uuid = ?', uuid))) return c.json({ ok: true, duplicate: true })
   const ts = tsOf(b?.ts)
-  await run(db, 'INSERT INTO grammar_practice (client_uuid, code, ts, correct, total) VALUES (?, ?, ?, ?, ?)', uuid, p.code, ts, correct, total)
-  // Drills are written production: they count toward the minimum day.
-  if (correct > 0) await progress.addToDay(db, localDay(ts), { produced: 1 })
-  await progress.refreshDay(db, content, await profile(db), now())
+  const results = Array.isArray(b?.results) ? (b.results as unknown[]).slice(0, 50) : null
+  if (!results?.length) return bad(c, 'Invalid result')
+  const per = new Map<string, { correct: number; total: number }>()
+  for (const x of results as Record<string, unknown>[]) {
+    const code = str(x?.code, 8)
+    if (!code || !content.patternByCode.has(code) || typeof x?.ok !== 'boolean') return bad(c, 'Invalid result')
+    const s = per.get(code) ?? { correct: 0, total: 0 }
+    per.set(code, { correct: s.correct + (x.ok ? 1 : 0), total: s.total + 1 })
+  }
+  let fresh = false
+  for (const [code, s] of per) fresh = (await recordPractice(db, uuid ? `${uuid}:${code}` : null, code, ts, s.correct, s.total)) || fresh
+  if (!fresh) return c.json({ ok: true, duplicate: true })
+  await afterPractice(db, ts, [...per.values()].some((s) => s.correct > 0))
   return c.json({ ok: true, duplicate: false })
 })
 

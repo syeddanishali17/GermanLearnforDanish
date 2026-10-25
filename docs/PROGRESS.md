@@ -11,6 +11,7 @@
 | v2.3 all-Cloudflare + natural voice | Done (see below) |
 | Privacy & security hardening | Done (see below, docs/PRIVACY.md) |
 | v2.4 Course, grammar, vocabulary, UI review | Done (see below) |
+| v2.5 More grammar, word workout, grammar mix | Done (see below) |
 | 1b. iPhone deploy | Deployed; iPhone acceptance test is Danish's |
 | 2. Speaking MVP | Not started. Start in plan mode. Fill docs/vendors.md first |
 
@@ -76,3 +77,13 @@
 
 ## Next session prompt
 > Read CLAUDE.md and docs/PROGRESS.md, then help me do Phase 1b using docs/DEPLOY.md.
+
+## v2.5 more grammar and vocabulary practice evidence
+- 13 new grammar lessons (P43–P55, 8 drills each) in data/grammar/{a1b,a2b,b1b}.json, placed in curriculum weeks 2–34. 5 extra drills for each of P01–P42 (data/grammar/extra_drills.json). Total 55 lessons, 524 drills; drill order shuffles each round.
+- Word workout (der/die/das, plurals, meaning both ways, hat/ist, typing) per week and mixed; daily Lughat step on Today; week page button with last accuracy.
+- Grammar mix: 10 drills across lessons up to the current week, weakest first, stored per lesson.
+- Routes: GET /api/vocab/:week, POST /api/vocab/:week/practice, GET /api/workout/grammar, POST /api/workout/grammar/practice (all private, in security.test.ts).
+- `npm run test`: 83 passed. Manual run in the in-app browser at 375px: full word round, full grammar mix, results visible on Today and in /api/grammar.
+- Found and fixed during the run: the label above a question gave away the answer on German → English picks; fake plurals put umlauts on -ung nouns.
+- New drill sentences have no audio clip yet ("No audio for this line yet"); run tools/tts/generate.py to add them.
+

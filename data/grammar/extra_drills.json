@@ -1,0 +1,299 @@
+{
+ "note": "Extra drills merged into existing lessons by code (worker/content.ts, tools/tts/generate.py).",
+ "drills": {
+  "P01": [
+   {"t": "gap", "q": "Morgen ___ wir nach Salzburg.", "a": "fahren", "o": ["fahren", "wir fahren", "fährt"], "en": "Tomorrow we're going to Salzburg."},
+   {"t": "order", "a": "Heute habe ich keine Zeit.", "en": "Today I don't have time."},
+   {"t": "tr", "q": "Start with „Im Sommer“: Ich fahre nach Italien.", "a": "Im Sommer fahre ich nach Italien.", "en": "In summer I'm going to Italy."},
+   {"t": "gap", "q": "Jetzt ___ ich nach Hause.", "a": "gehe", "o": ["gehe", "ich gehe", "gehen"], "en": "Now I'm going home."},
+   {"t": "tr", "q": "Start with „Leider“: Ich kann nicht kommen.", "a": "Leider kann ich nicht kommen.", "en": "Unfortunately I can't come."}
+  ],
+  "P02": [
+   {"t": "gap", "q": "Wo ___ ihr? – Wir sind im Park.", "a": "seid", "o": ["seid", "sind", "ist"], "en": "Where are you? – We're in the park."},
+   {"t": "gap", "q": "Ich ___ müde.", "a": "bin", "o": ["bin", "bist", "ist"], "en": "I'm tired."},
+   {"t": "gap", "q": "Die Kinder ___ in der Schule.", "a": "sind", "o": ["sind", "ist", "seid"], "en": "The children are at school."},
+   {"t": "gap", "q": "___ Sie Frau Huber?", "a": "Sind", "o": ["Sind", "Ist", "Seid"], "en": "Are you Mrs Huber?"},
+   {"t": "tr", "q": "Make it a question: Du bist neu hier.", "a": "Bist du neu hier?", "en": "Are you new here?"}
+  ],
+  "P07": [
+   {"t": "gap", "q": "___ Bus kommt gleich.", "a": "Der", "o": ["Der", "Die", "Das"], "en": "The bus is coming soon."},
+   {"t": "gap", "q": "___ Küche ist klein.", "a": "Die", "o": ["Der", "Die", "Das"], "en": "The kitchen is small."},
+   {"t": "gap", "q": "___ Fenster ist offen.", "a": "Das", "o": ["Der", "Die", "Das"], "en": "The window is open."},
+   {"t": "gap", "q": "___ Zeitung liegt auf dem Tisch.", "a": "Die", "o": ["Der", "Die", "Das"], "en": "The newspaper is on the table."},
+   {"t": "gap", "q": "___ Brötchen ist frisch.", "a": "Das", "o": ["Der", "Die", "Das"], "en": "The bread roll is fresh."}
+  ],
+  "P04": [
+   {"t": "tr", "q": "Make it a question: Er kommt heute.", "a": "Kommt er heute?", "en": "Is he coming today?"},
+   {"t": "tr", "q": "Make it a question: Ihr habt Hunger.", "a": "Habt ihr Hunger?", "en": "Are you hungry?"},
+   {"t": "order", "a": "Kannst du mir helfen?", "en": "Can you help me?"},
+   {"t": "gap", "q": "___ das Ihr Platz?", "a": "Ist", "o": ["Ist", "Sind", "Bist"], "en": "Is this your seat?"},
+   {"t": "tr", "q": "Make it a question: Sie haben einen Termin.", "a": "Haben Sie einen Termin?", "en": "Do you have an appointment?"}
+  ],
+  "P05": [
+   {"t": "gap", "q": "___ wohnst du? – Im fünften Bezirk.", "a": "Wo", "o": ["Wo", "Woher", "Wohin"], "en": "Where do you live? – In the 5th district."},
+   {"t": "gap", "q": "___ fährst du am Wochenende? – Nach Linz.", "a": "Wohin", "o": ["Wohin", "Wo", "Woher"], "en": "Where are you going at the weekend? – To Linz."},
+   {"t": "gap", "q": "___ ist das? – Das ist mein Kollege.", "a": "Wer", "o": ["Wer", "Was", "Wie"], "en": "Who is that? – That's my colleague."},
+   {"t": "gap", "q": "___ lernst du Deutsch? – Weil ich hier wohne.", "a": "Warum", "o": ["Warum", "Wann", "Was"], "en": "Why are you learning German? – Because I live here."},
+   {"t": "order", "a": "Wie viel kostet die Fahrkarte?", "en": "How much is the ticket?"}
+  ],
+  "P03": [
+   {"t": "gap", "q": "Ihr ___ ein schönes Zimmer.", "a": "habt", "o": ["habt", "haben", "hat"], "en": "You have a nice room."},
+   {"t": "gap", "q": "Der Zug ___ Verspätung.", "a": "hat", "o": ["hat", "ist", "haben"], "en": "The train is late."},
+   {"t": "gap", "q": "Hast du ___ Stift?", "a": "einen", "o": ["einen", "ein", "eine"], "en": "Do you have a pen?"},
+   {"t": "tr", "q": "Make it a question: Du hast Zeit.", "a": "Hast du Zeit?", "en": "Do you have time?"},
+   {"t": "tr", "q": "Say it about yourself: Sie hat Hunger.", "a": "Ich habe Hunger.", "en": "I'm hungry."}
+  ],
+  "P06": [
+   {"t": "gap", "q": "Er ___ heute lange. (arbeiten)", "a": "arbeitet", "o": ["arbeitet", "arbeit", "arbeitest"], "en": "He's working late today."},
+   {"t": "gap", "q": "___ du auch Kaffee? (nehmen)", "a": "Nimmst", "o": ["Nimmst", "Nehmst", "Nimmt"], "en": "Are you having coffee too?"},
+   {"t": "gap", "q": "Sie ___ ein Buch. (lesen)", "a": "liest", "o": ["liest", "lest", "lesst"], "en": "She's reading a book."},
+   {"t": "gap", "q": "Ihr ___ zu schnell. (sprechen)", "a": "sprecht", "o": ["sprecht", "sprechen", "sprichst"], "en": "You (all) speak too fast."},
+   {"t": "tr", "q": "Change to er: Ich esse in der Mensa.", "a": "Er isst in der Mensa.", "en": "He eats in the canteen."}
+  ],
+  "P08": [
+   {"t": "gap", "q": "Hast du ___ Fahrrad?", "a": "ein", "o": ["ein", "eine", "einen"], "en": "Do you have a bike?"},
+   {"t": "gap", "q": "Ich habe ___ Hunger.", "a": "keinen", "o": ["keinen", "kein", "nicht"], "en": "I'm not hungry."},
+   {"t": "gap", "q": "Das ist ___ Problem.", "a": "kein", "o": ["kein", "keine", "nicht"], "en": "That's no problem."},
+   {"t": "tr", "q": "Make it negative: Wir haben eine Waschmaschine.", "a": "Wir haben keine Waschmaschine.", "en": "We don't have a washing machine."},
+   {"t": "gap", "q": "Ich trinke ___ Alkohol.", "a": "keinen", "o": ["keinen", "kein", "keine"], "en": "I don't drink alcohol."}
+  ],
+  "P09": [
+   {"t": "gap", "q": "Ich habe ___ Bruder und eine Schwester.", "a": "einen", "o": ["einen", "ein", "eine"], "en": "I have a brother and a sister."},
+   {"t": "gap", "q": "Kennst du ___ Mann da drüben?", "a": "den", "o": ["den", "der", "dem"], "en": "Do you know the man over there?"},
+   {"t": "gap", "q": "Er kauft ___ Fahrrad.", "a": "ein", "o": ["ein", "einen", "eine"], "en": "He's buying a bike."},
+   {"t": "gap", "q": "Wir brauchen ___ Kühlschrank.", "a": "einen", "o": ["einen", "ein", "eine"], "en": "We need a fridge."},
+   {"t": "tr", "q": "Complete with der Bahnhof: Ich suche ...", "a": "Ich suche den Bahnhof.", "en": "I'm looking for the station."}
+  ],
+  "P10": [
+   {"t": "tr", "q": "Order politely with hätte gern: eine Melange", "a": "Ich hätte gern eine Melange.", "alt": ["Ich hätte gerne eine Melange.", "Ich hätte gern eine Melange, bitte."], "en": "I'd like a Melange."},
+   {"t": "gap", "q": "Was ___ Sie trinken?", "a": "möchten", "o": ["möchten", "möchtest", "möchte"], "en": "What would you like to drink?"},
+   {"t": "tr", "q": "Order with möchte: zwei Semmeln", "a": "Ich möchte zwei Semmeln.", "alt": ["Ich möchte zwei Semmeln, bitte."], "en": "I'd like two bread rolls."},
+   {"t": "order", "a": "Wir hätten gern die Rechnung.", "en": "We'd like the bill."},
+   {"t": "gap", "q": "Ich ___ gern einen Tee.", "a": "hätte", "o": ["hätte", "habe", "hatte"], "en": "I'd like a tea."}
+  ],
+  "P11": [
+   {"t": "gap", "q": "Wir ___ heute nicht kommen. (können)", "a": "können", "o": ["können", "kann", "könnt"], "en": "We can't come today."},
+   {"t": "gap", "q": "Er ___ morgen arbeiten. (müssen)", "a": "muss", "o": ["muss", "musst", "müssen"], "en": "He has to work tomorrow."},
+   {"t": "gap", "q": "Hier ___ man nicht rauchen. (dürfen)", "a": "darf", "o": ["darf", "darfst", "dürfen"], "en": "You're not allowed to smoke here."},
+   {"t": "order", "a": "Ich will heute Abend kochen.", "en": "I want to cook this evening."},
+   {"t": "tr", "q": "Add wollen: Ich lerne Deutsch.", "a": "Ich will Deutsch lernen.", "en": "I want to learn German."}
+  ],
+  "P33": [
+   {"t": "gap", "q": "___ Sie bitte langsamer!", "a": "Sprechen", "o": ["Sprechen", "Sprich", "Sprecht"], "en": "Please speak more slowly!"},
+   {"t": "gap", "q": "___ mir bitte! (helfen, du)", "a": "Hilf", "o": ["Hilf", "Helf", "Hilfst"], "en": "Help me, please!"},
+   {"t": "tr", "q": "Formal instruction: an der nächsten Station aussteigen", "a": "Steigen Sie an der nächsten Station aus!", "alt": ["Steigen Sie an der nächsten Station aus.", "Steigen Sie bitte an der nächsten Station aus."], "en": "Get off at the next stop!"},
+   {"t": "tr", "q": "Informal (du): das Fenster zumachen", "a": "Mach das Fenster zu!", "alt": ["Mach bitte das Fenster zu!", "Mach das Fenster zu.", "Mach das Fenster bitte zu."], "en": "Close the window!"},
+   {"t": "order", "a": "Warten Sie bitte hier.", "en": "Please wait here."}
+  ],
+  "P12": [
+   {"t": "gap", "q": "Ich ___ dich morgen an.", "a": "rufe", "o": ["rufe", "anrufe", "rufen"], "en": "I'll call you tomorrow."},
+   {"t": "gap", "q": "Wann fängt der Kurs ___?", "a": "an", "o": ["an", "auf", "mit"], "en": "When does the course start?"},
+   {"t": "tr", "q": "Make a sentence: wir / einkaufen / heute", "a": "Wir kaufen heute ein.", "alt": ["Heute kaufen wir ein."], "en": "We're doing the shopping today."},
+   {"t": "tr", "q": "Add müssen: Ich stehe früh auf.", "a": "Ich muss früh aufstehen.", "en": "I have to get up early."},
+   {"t": "order", "a": "Machst du bitte das Fenster zu?", "en": "Can you close the window, please?"}
+  ],
+  "P34": [
+   {"t": "gap", "q": "Ich habe ___ Wochenende Zeit.", "a": "am", "o": ["am", "um", "im"], "en": "I have time at the weekend."},
+   {"t": "gap", "q": "Das Konzert beginnt ___ halb acht.", "a": "um", "o": ["am", "um", "im"], "en": "The concert starts at half past seven."},
+   {"t": "gap", "q": "___ Sommer ist es in Wien heiß.", "a": "Im", "o": ["Im", "Am", "Um"], "en": "In summer it's hot in Vienna."},
+   {"t": "gap", "q": "Ich arbeite ___ Montag bis Freitag.", "a": "von", "o": ["von", "am", "im"], "en": "I work from Monday to Friday."},
+   {"t": "gap", "q": "Wir treffen uns ___ Nachmittag.", "a": "am", "o": ["am", "um", "im"], "en": "We're meeting in the afternoon."}
+  ],
+  "P13": [
+   {"t": "gap", "q": "Ich wohne bei ___ Eltern. (my)", "a": "meinen", "o": ["meinen", "meine", "meiner"], "en": "I live with my parents."},
+   {"t": "gap", "q": "Wir fahren mit ___ Zug.", "a": "dem", "o": ["dem", "der", "den"], "en": "We're going by train."},
+   {"t": "gap", "q": "Er geht ___ Arzt.", "a": "zum", "o": ["zum", "zur", "zu"], "en": "He's going to the doctor's."},
+   {"t": "gap", "q": "Nach ___ Kurs gehen wir essen.", "a": "dem", "o": ["dem", "den", "der"], "en": "After the course we're going to eat."},
+   {"t": "gap", "q": "Ich komme gerade ___ Supermarkt.", "a": "vom", "o": ["vom", "von der", "von"], "en": "I'm just coming from the supermarket."}
+  ],
+  "P32": [
+   {"t": "tr", "q": "Make it negative: Ich verstehe das.", "a": "Ich verstehe das nicht.", "en": "I don't understand that."},
+   {"t": "tr", "q": "Make it negative: Das ist mein Handy.", "a": "Das ist nicht mein Handy.", "en": "That's not my phone."},
+   {"t": "gap", "q": "Ich wohne ___ in Graz.", "a": "nicht", "o": ["nicht", "kein", "keine"], "en": "I don't live in Graz."},
+   {"t": "gap", "q": "Ich habe ___ Auto.", "a": "kein", "o": ["kein", "nicht", "keine"], "en": "I don't have a car."},
+   {"t": "order", "a": "Das Essen ist nicht scharf.", "en": "The food isn't spicy."}
+  ],
+  "P31": [
+   {"t": "gap", "q": "Das ist ___ Wohnung. (our)", "a": "unsere", "o": ["unsere", "unser", "unseren"], "en": "That's our flat."},
+   {"t": "gap", "q": "Ist das ___ Handy? (your, du)", "a": "dein", "o": ["dein", "deine", "deinen"], "en": "Is that your phone?"},
+   {"t": "gap", "q": "Wo ist ___ Schlüssel? (my)", "a": "mein", "o": ["mein", "meine", "meinen"], "en": "Where's my key?"},
+   {"t": "gap", "q": "Ich suche ___ Schlüssel. (my)", "a": "meinen", "o": ["meinen", "mein", "meine"], "en": "I'm looking for my key."},
+   {"t": "gap", "q": "Die Kinder spielen mit ___ Hund. (their)", "a": "ihrem", "o": ["ihrem", "ihren", "ihr"], "en": "The children are playing with their dog."}
+  ],
+  "P14": [
+   {"t": "gap", "q": "Wir haben gestern Fußball ___. (spielen)", "a": "gespielt", "o": ["gespielt", "gespielen", "spielte"], "en": "We played football yesterday."},
+   {"t": "gap", "q": "Hast du schon ___? (essen)", "a": "gegessen", "o": ["gegessen", "geessen", "gegesst"], "en": "Have you eaten yet?"},
+   {"t": "gap", "q": "Ich habe Wirtschaft ___. (studieren)", "a": "studiert", "o": ["studiert", "gestudiert", "studieren"], "en": "I studied economics."},
+   {"t": "tr", "q": "Put into the Perfekt: Wir trinken Tee.", "a": "Wir haben Tee getrunken.", "en": "We drank tea."},
+   {"t": "order", "a": "Was habt ihr am Samstag gemacht?", "en": "What did you do on Saturday?"}
+  ],
+  "P15": [
+   {"t": "gap", "q": "Er ___ nach Hause gegangen.", "a": "ist", "o": ["ist", "hat", "war"], "en": "He went home."},
+   {"t": "gap", "q": "Wann ___ ihr angekommen?", "a": "seid", "o": ["seid", "habt", "sind"], "en": "When did you arrive?"},
+   {"t": "gap", "q": "Ich bin gestern zu Hause ___. (bleiben)", "a": "geblieben", "o": ["geblieben", "gebleibt", "bleiben"], "en": "I stayed at home yesterday."},
+   {"t": "tr", "q": "Put into the Perfekt: Wir fliegen nach Wien.", "a": "Wir sind nach Wien geflogen.", "en": "We flew to Vienna."},
+   {"t": "order", "a": "Bist du schon einmal in Salzburg gewesen?", "en": "Have you ever been to Salzburg?"}
+  ],
+  "P16": [
+   {"t": "gap", "q": "Ich trinke Tee ___ meine Freundin trinkt Kaffee.", "a": "und", "o": ["und", "denn", "oder"], "en": "I drink tea and my friend drinks coffee."},
+   {"t": "gap", "q": "Das Essen war gut, ___ zu teuer.", "a": "aber", "o": ["aber", "denn", "oder"], "en": "The food was good, but too expensive."},
+   {"t": "gap", "q": "Ich gehe heute nicht aus, ___ ich muss lernen.", "a": "denn", "o": ["denn", "aber", "oder"], "en": "I'm not going out today because I have to study."},
+   {"t": "order", "a": "Kommst du mit oder bleibst du zu Hause?", "en": "Are you coming along or staying at home?"},
+   {"t": "tr", "q": "Join with aber: Die Wohnung ist schön. Sie ist klein.", "a": "Die Wohnung ist schön, aber sie ist klein.", "en": "The flat is nice, but it's small."}
+  ],
+  "P17": [
+   {"t": "tr", "q": "Join with weil: Ich lerne Deutsch. Ich wohne in Wien.", "a": "Ich lerne Deutsch, weil ich in Wien wohne.", "en": "I'm learning German because I live in Vienna."},
+   {"t": "tr", "q": "Join with dass: Ich hoffe. Du kommst.", "a": "Ich hoffe, dass du kommst.", "en": "I hope that you're coming."},
+   {"t": "gap", "q": "Ruf mich an, ___ du Zeit hast.", "a": "wenn", "o": ["wenn", "weil", "dass"], "en": "Call me when you have time."},
+   {"t": "order", "a": "Ich glaube, dass der Bus gleich kommt.", "en": "I think the bus is coming soon."},
+   {"t": "tr", "q": "Start with weil: Ich bin müde, weil ich wenig geschlafen habe.", "a": "Weil ich wenig geschlafen habe, bin ich müde.", "en": "Because I slept little, I'm tired."}
+  ],
+  "P19": [
+   {"t": "tr", "q": "Make it polite with könnten: Öffnen Sie das Fenster!", "a": "Könnten Sie das Fenster öffnen?", "alt": ["Könnten Sie bitte das Fenster öffnen?", "Könnten Sie das Fenster bitte öffnen?"], "en": "Could you open the window?"},
+   {"t": "gap", "q": "Ich ___ gern ein Zimmer reservieren.", "a": "würde", "o": ["würde", "werde", "wäre"], "en": "I'd like to book a room."},
+   {"t": "gap", "q": "___ Sie mir sagen, wo der Bahnhof ist?", "a": "Könnten", "o": ["Könnten", "Hätten", "Wären"], "en": "Could you tell me where the station is?"},
+   {"t": "order", "a": "Ich würde gern mit der Chefin sprechen.", "en": "I'd like to speak to the manager."},
+   {"t": "tr", "q": "Make it polite with würde gern: Ich will bezahlen.", "a": "Ich würde gern bezahlen.", "alt": ["Ich würde gerne bezahlen."], "en": "I'd like to pay."}
+  ],
+  "P18": [
+   {"t": "tr", "q": "Join with deshalb: Es regnet. Ich nehme einen Schirm.", "a": "Es regnet, deshalb nehme ich einen Schirm.", "en": "It's raining, so I'm taking an umbrella."},
+   {"t": "tr", "q": "Join with trotzdem: Ich bin müde. Ich lerne weiter.", "a": "Ich bin müde, trotzdem lerne ich weiter.", "en": "I'm tired, but I keep studying."},
+   {"t": "gap", "q": "Ich habe kein Auto, ___ fahre ich mit den Öffis.", "a": "deshalb", "o": ["deshalb", "trotzdem", "denn"], "en": "I don't have a car, so I use public transport."},
+   {"t": "order", "a": "Trotzdem gehen wir heute spazieren.", "en": "We're going for a walk today anyway."},
+   {"t": "gap", "q": "Er ist krank. ___ kommt er zur Arbeit.", "a": "Trotzdem", "o": ["Trotzdem", "Deshalb", "Weil"], "en": "He's ill. He's coming to work anyway."}
+  ],
+  "P22": [
+   {"t": "gap", "q": "Zuerst haben wir gegessen, ___ sind wir spazieren gegangen.", "a": "dann", "o": ["dann", "zuerst", "zum Schluss"], "en": "First we ate, then we went for a walk."},
+   {"t": "tr", "q": "Start with danach: Ich war sehr müde.", "a": "Danach war ich sehr müde.", "en": "After that I was very tired."},
+   {"t": "order", "a": "Zuerst habe ich geduscht, dann habe ich gefrühstückt.", "en": "First I showered, then I had breakfast."},
+   {"t": "gap", "q": "___ haben wir noch ein Eis gegessen. (in the end)", "a": "Zum Schluss", "o": ["Zum Schluss", "Zuerst", "Später"], "en": "At the end we had an ice cream."},
+   {"t": "gap", "q": "Später ___ ich nach Hause gefahren.", "a": "bin", "o": ["bin", "habe", "ich bin"], "en": "Later I went home."}
+  ],
+  "P36": [
+   {"t": "gap", "q": "Ich ___ nächstes Jahr in Wien arbeiten.", "a": "werde", "o": ["werde", "wird", "wirst"], "en": "I'll work in Vienna next year."},
+   {"t": "gap", "q": "Ihr ___ das schaffen!", "a": "werdet", "o": ["werdet", "werden", "wird"], "en": "You'll manage it!"},
+   {"t": "tr", "q": "Use werden: Wir besuchen dich.", "a": "Wir werden dich besuchen.", "en": "We'll visit you."},
+   {"t": "order", "a": "Was machst du nach dem Studium?", "en": "What are you doing after your studies?"},
+   {"t": "gap", "q": "Was hast du am Wochenende ___?", "a": "vor", "o": ["vor", "an", "auf"], "en": "What are you planning at the weekend?"}
+  ],
+  "P25": [
+   {"t": "gap", "q": "Heute ist es ___ als gestern. (kalt)", "a": "kälter", "o": ["kälter", "kalter", "mehr kalt"], "en": "Today it's colder than yesterday."},
+   {"t": "gap", "q": "Mein Zimmer ist ___ als deins. (groß)", "a": "größer", "o": ["größer", "großer", "mehr groß"], "en": "My room is bigger than yours."},
+   {"t": "gap", "q": "Am ___ trinke ich Tee. (gern)", "a": "liebsten", "o": ["liebsten", "gernsten", "lieber"], "en": "Most of all I like drinking tea."},
+   {"t": "tr", "q": "Compare with als: Der Zug ist schnell. Das Auto ist langsamer.", "a": "Der Zug ist schneller als das Auto.", "en": "The train is faster than the car."},
+   {"t": "gap", "q": "Graz ist nicht so groß ___ Wien.", "a": "wie", "o": ["wie", "als", "so"], "en": "Graz isn't as big as Vienna."}
+  ],
+  "P27": [
+   {"t": "gap", "q": "Ich muss ___ beeilen.", "a": "mich", "o": ["mich", "mir", "sich"], "en": "I have to hurry."},
+   {"t": "gap", "q": "Wir freuen ___ auf die Ferien.", "a": "uns", "o": ["uns", "euch", "sich"], "en": "We're looking forward to the holidays."},
+   {"t": "gap", "q": "Ruh ___ aus! (du)", "a": "dich", "o": ["dich", "dir", "sich"], "en": "Get some rest!"},
+   {"t": "order", "a": "Interessierst du dich für Fußball?", "en": "Are you interested in football?"},
+   {"t": "tr", "q": "Use sich treffen: wir / morgen / im Park", "a": "Wir treffen uns morgen im Park.", "alt": ["Morgen treffen wir uns im Park."], "en": "We're meeting in the park tomorrow."}
+  ],
+  "P29": [
+   {"t": "gap", "q": "Wie geht es ___? (you, du)", "a": "dir", "o": ["dir", "dich", "du"], "en": "How are you?"},
+   {"t": "gap", "q": "Das Kleid gefällt ___ sehr. (her)", "a": "ihr", "o": ["ihr", "sie", "ihm"], "en": "She likes the dress a lot."},
+   {"t": "gap", "q": "Mir tut ___ Kopf weh.", "a": "der", "o": ["der", "den", "dem"], "en": "My head hurts."},
+   {"t": "tr", "q": "Say that you like the city (gefallen): Die Stadt ...", "a": "Die Stadt gefällt mir.", "alt": ["Die Stadt gefällt mir sehr."], "en": "I like the city."},
+   {"t": "gap", "q": "Kannst du ___ helfen? (us)", "a": "uns", "o": ["uns", "unser", "wir"], "en": "Can you help us?"}
+  ],
+  "P30": [
+   {"t": "gap", "q": "Ich stelle die Flasche ___ Kühlschrank.", "a": "in den", "o": ["in den", "im", "in dem"], "en": "I'm putting the bottle in the fridge."},
+   {"t": "gap", "q": "Die Flasche steht ___ Kühlschrank.", "a": "im", "o": ["im", "in den", "ins"], "en": "The bottle is in the fridge."},
+   {"t": "gap", "q": "Das Bild hängt ___ Wand.", "a": "an der", "o": ["an der", "an die", "am"], "en": "The picture is hanging on the wall."},
+   {"t": "gap", "q": "Leg den Schlüssel ___ Tisch.", "a": "auf den", "o": ["auf den", "auf dem", "am"], "en": "Put the key on the table."},
+   {"t": "gap", "q": "Wir sitzen ___ Garten.", "a": "im", "o": ["im", "in den", "ins"], "en": "We're sitting in the garden."}
+  ],
+  "P21": [
+   {"t": "gap", "q": "Als Kind ___ ich viele Freunde.", "a": "hatte", "o": ["hatte", "war", "habe"], "en": "As a child I had many friends."},
+   {"t": "gap", "q": "Wir ___ gestern im Kino.", "a": "waren", "o": ["waren", "hatten", "sind"], "en": "We were at the cinema yesterday."},
+   {"t": "gap", "q": "Er ___ nicht kommen. (wollen)", "a": "wollte", "o": ["wollte", "will", "wolle"], "en": "He didn't want to come."},
+   {"t": "tr", "q": "Put into the past: Ich muss arbeiten.", "a": "Ich musste arbeiten.", "en": "I had to work."},
+   {"t": "order", "a": "Als ich ankam, war niemand zu Hause.", "en": "When I arrived, nobody was home."}
+  ],
+  "P35": [
+   {"t": "gap", "q": "Das ist ein ___ Auto. (neu)", "a": "neues", "o": ["neues", "neuer", "neue"], "en": "That's a new car."},
+   {"t": "gap", "q": "Die ___ Wohnung ist teuer. (groß)", "a": "große", "o": ["große", "großer", "großes"], "en": "The big flat is expensive."},
+   {"t": "gap", "q": "Er ist ein ___ Kollege. (nett)", "a": "netter", "o": ["netter", "nette", "nettes"], "en": "He's a nice colleague."},
+   {"t": "gap", "q": "Das ___ Zimmer ist frei. (klein)", "a": "kleine", "o": ["kleine", "kleiner", "kleines"], "en": "The small room is free."},
+   {"t": "gap", "q": "Sie hat eine ___ Idee. (gut)", "a": "gute", "o": ["gute", "guter", "gutes"], "en": "She has a good idea."}
+  ],
+  "P28": [
+   {"t": "tr", "q": "Make it indirect with Wissen Sie: Wie viel kostet das?", "a": "Wissen Sie, wie viel das kostet?", "en": "Do you know how much it costs?"},
+   {"t": "tr", "q": "Make it indirect with Ich weiß nicht: Wo wohnt er?", "a": "Ich weiß nicht, wo er wohnt.", "en": "I don't know where he lives."},
+   {"t": "gap", "q": "Kannst du mir sagen, ___ der Kurs beginnt? (when)", "a": "wann", "o": ["wann", "wenn", "ob"], "en": "Can you tell me when the course starts?"},
+   {"t": "order", "a": "Ich frage mich, ob das richtig ist.", "en": "I wonder whether that's right."},
+   {"t": "tr", "q": "Make it indirect with Weißt du: Hat die Mensa heute offen?", "a": "Weißt du, ob die Mensa heute offen hat?", "en": "Do you know whether the canteen is open today?"}
+  ],
+  "P24": [
+   {"t": "gap", "q": "Ich lerne jeden Tag, ___ die Prüfung zu bestehen.", "a": "um", "o": ["um", "für", "zu"], "en": "I study every day to pass the exam."},
+   {"t": "gap", "q": "Hast du Lust, ins Kino ___ gehen?", "a": "zu", "o": ["zu", "um", "für"], "en": "Do you fancy going to the cinema?"},
+   {"t": "gap", "q": "Vergiss nicht, die Tür ___. (zumachen)", "a": "zuzumachen", "o": ["zuzumachen", "zu zumachen", "zumachen"], "en": "Don't forget to close the door."},
+   {"t": "tr", "q": "Join with um ... zu: Ich spare. Ich reise nach Japan.", "a": "Ich spare, um nach Japan zu reisen.", "en": "I'm saving to travel to Japan."},
+   {"t": "order", "a": "Es ist wichtig, regelmäßig zu üben.", "en": "It's important to practise regularly."}
+  ],
+  "P38": [
+   {"t": "gap", "q": "Ich habe meine Hausübung ___. (vergessen)", "a": "vergessen", "o": ["vergessen", "gevergessen", "vergesst"], "en": "I forgot my homework."},
+   {"t": "gap", "q": "Er ist um sieben ___. (aufstehen)", "a": "aufgestanden", "o": ["aufgestanden", "geaufstanden", "aufgestehen"], "en": "He got up at seven."},
+   {"t": "gap", "q": "Wir haben das Problem ___. (besprechen)", "a": "besprochen", "o": ["besprochen", "gebesprochen", "besprecht"], "en": "We discussed the problem."},
+   {"t": "tr", "q": "Put into the Perfekt: Sie kauft im Supermarkt ein.", "a": "Sie hat im Supermarkt eingekauft.", "en": "She did the shopping at the supermarket."},
+   {"t": "tr", "q": "Put into the Perfekt: Ich verstehe die Frage nicht.", "a": "Ich habe die Frage nicht verstanden.", "en": "I didn't understand the question."}
+  ],
+  "P39": [
+   {"t": "gap", "q": "Er ___ das Fenster. (öffnen)", "a": "öffnete", "o": ["öffnete", "öffnte", "öffent"], "en": "He opened the window."},
+   {"t": "gap", "q": "Wir ___ einen alten Freund. (treffen)", "a": "trafen", "o": ["trafen", "trefften", "treffen"], "en": "We met an old friend."},
+   {"t": "gap", "q": "Sie ___ einen Brief. (schreiben)", "a": "schrieb", "o": ["schrieb", "schreibte", "schrob"], "en": "She wrote a letter."},
+   {"t": "tr", "q": "Say it in the Perfekt: Sie kam spät nach Hause.", "a": "Sie ist spät nach Hause gekommen.", "en": "She came home late."},
+   {"t": "gap", "q": "Plötzlich ___ das Telefon. (klingeln)", "a": "klingelte", "o": ["klingelte", "klang", "klingt"], "en": "Suddenly the phone rang."}
+  ],
+  "P23": [
+   {"t": "gap", "q": "Da hast du ___.", "a": "recht", "o": ["recht", "richtig", "wahr"], "en": "You're right there."},
+   {"t": "tr", "q": "Start with Meiner Meinung nach: Die Öffis sind zu teuer.", "a": "Meiner Meinung nach sind die Öffis zu teuer.", "en": "In my opinion public transport is too expensive."},
+   {"t": "tr", "q": "Join with obwohl: Ich bin müde. Ich komme mit.", "a": "Obwohl ich müde bin, komme ich mit.", "alt": ["Ich komme mit, obwohl ich müde bin."], "en": "Although I'm tired, I'll come along."},
+   {"t": "order", "a": "Ich glaube, dass du recht hast.", "en": "I think you're right."},
+   {"t": "gap", "q": "Das ___ nicht ganz.", "a": "stimmt", "o": ["stimmt", "richtig", "wahr"], "en": "That's not quite right."}
+  ],
+  "P26": [
+   {"t": "gap", "q": "Wenn ich mehr Zeit ___, würde ich Sport machen.", "a": "hätte", "o": ["hätte", "habe", "hatte"], "en": "If I had more time, I'd do sport."},
+   {"t": "gap", "q": "Ich ___ gern in Wien bleiben.", "a": "würde", "o": ["würde", "werde", "wäre"], "en": "I'd like to stay in Vienna."},
+   {"t": "gap", "q": "Wenn das Wetter schön ___, würden wir wandern.", "a": "wäre", "o": ["wäre", "war", "ist"], "en": "If the weather were nice, we'd go hiking."},
+   {"t": "tr", "q": "Give advice with solltest: Du gehst zum Arzt.", "a": "Du solltest zum Arzt gehen.", "en": "You should go to the doctor."},
+   {"t": "order", "a": "An deiner Stelle würde ich mehr schlafen.", "en": "If I were you, I'd sleep more."}
+  ],
+  "P20": [
+   {"t": "gap", "q": "Das ist der Bus, ___ zum Bahnhof fährt.", "a": "der", "o": ["der", "den", "dem"], "en": "That's the bus that goes to the station."},
+   {"t": "gap", "q": "Wo ist das Buch, ___ du mir geliehen hast?", "a": "das", "o": ["das", "dass", "der"], "en": "Where's the book you lent me?"},
+   {"t": "gap", "q": "Die Leute, ___ hier wohnen, sind nett.", "a": "die", "o": ["die", "denen", "der"], "en": "The people who live here are nice."},
+   {"t": "gap", "q": "Der Freund, mit ___ ich wohne, kommt aus Graz.", "a": "dem", "o": ["dem", "den", "der"], "en": "The friend I live with is from Graz."},
+   {"t": "tr", "q": "Join with a relative clause: Das ist die Frau. Sie wohnt neben mir.", "a": "Das ist die Frau, die neben mir wohnt.", "en": "That's the woman who lives next to me."}
+  ],
+  "P40": [
+   {"t": "gap", "q": "Wegen ___ Arbeit habe ich keine Zeit.", "a": "der", "o": ["der", "die", "des"], "en": "Because of work I don't have time."},
+   {"t": "gap", "q": "Trotz ___ Verspätung sind wir pünktlich angekommen.", "a": "der", "o": ["der", "die", "des"], "en": "Despite the delay we arrived on time."},
+   {"t": "gap", "q": "Das ist das Auto ___ Nachbarn. (my)", "a": "meines", "o": ["meines", "meinem", "mein"], "en": "That's my neighbour's car."},
+   {"t": "tr", "q": "Say it the written way, with the genitive: wegen dem Wetter", "a": "wegen des Wetters", "en": "because of the weather"},
+   {"t": "gap", "q": "___ der Ferien ist die Uni geschlossen.", "a": "Während", "o": ["Während", "Wegen", "Trotz"], "en": "During the holidays the university is closed."}
+  ],
+  "P41": [
+   {"t": "gap", "q": "___ ich in Wien wohne, fahre ich nicht mehr Auto.", "a": "Seit", "o": ["Seit", "Bevor", "Bis"], "en": "Since I've lived in Vienna, I don't drive any more."},
+   {"t": "gap", "q": "Wasch dir die Hände, ___ du isst.", "a": "bevor", "o": ["bevor", "nachdem", "während"], "en": "Wash your hands before you eat."},
+   {"t": "gap", "q": "___ er gegessen hatte, ging er schlafen.", "a": "Nachdem", "o": ["Nachdem", "Bevor", "Seit"], "en": "After he had eaten, he went to sleep."},
+   {"t": "tr", "q": "Join with bevor: Ich gehe aus dem Haus. Ich schaue aufs Handy.", "a": "Bevor ich aus dem Haus gehe, schaue ich aufs Handy.", "alt": ["Ich schaue aufs Handy, bevor ich aus dem Haus gehe."], "en": "Before I leave the house, I check my phone."},
+   {"t": "order", "a": "Während du kochst, decke ich den Tisch.", "en": "While you cook, I'll set the table."}
+  ],
+  "P37": [
+   {"t": "gap", "q": "Die Post ___ jeden Tag gebracht.", "a": "wird", "o": ["wird", "ist", "hat"], "en": "The post is delivered every day."},
+   {"t": "gap", "q": "Das Haus ___ vor hundert Jahren gebaut.", "a": "wurde", "o": ["wurde", "wird", "war"], "en": "The house was built a hundred years ago."},
+   {"t": "tr", "q": "Make it passive: Man putzt das Zimmer.", "a": "Das Zimmer wird geputzt.", "en": "The room is being cleaned."},
+   {"t": "tr", "q": "Make it passive in the past: Man reparierte das Auto.", "a": "Das Auto wurde repariert.", "en": "The car was repaired."},
+   {"t": "order", "a": "Die Fahrkarten werden am Automaten verkauft.", "en": "The tickets are sold at the machine."}
+  ],
+  "P42": [
+   {"t": "gap", "q": "Ich warte ___ dich.", "a": "auf", "o": ["auf", "für", "an"], "en": "I'm waiting for you."},
+   {"t": "gap", "q": "Wir sprechen ___ das Wetter.", "a": "über", "o": ["über", "von", "an"], "en": "We're talking about the weather."},
+   {"t": "gap", "q": "Ich ärgere mich ___ den Lärm.", "a": "über", "o": ["über", "auf", "für"], "en": "I'm annoyed about the noise."},
+   {"t": "gap", "q": "___ denkst du? – An meine Familie.", "a": "Woran", "o": ["Woran", "Worauf", "Wofür"], "en": "What are you thinking about? – About my family."},
+   {"t": "tr", "q": "Answer with darauf: Freust du dich auf den Urlaub?", "a": "Ja, ich freue mich darauf.", "en": "Yes, I'm looking forward to it."}
+  ]
+ }
+}

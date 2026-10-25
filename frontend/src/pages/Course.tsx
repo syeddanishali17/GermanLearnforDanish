@@ -5,7 +5,7 @@ import { Loading } from '../components/Loading'
 import { Badge, Button, Card, German, PageHeader, Progress, SpeakButton } from '../components/ui'
 import { useActivityMode } from '../lib/activity'
 import { api } from '../lib/api'
-import { drillSentence, same, tilesFor } from '../lib/drills'
+import { drillSentence, same, shuffled, tilesFor } from '../lib/drills'
 import { send } from '../lib/outbox'
 import { speak } from '../lib/speech'
 import type { Cefr, Drill, Level, PatternDetail, PatternSummary, WeekDetail, WeekSummary } from '../lib/types'
@@ -39,6 +39,14 @@ export function CourseOverview() {
       <PageHeader title="Kurs" sub={`36 weeks from A1 to B1. You are in week ${level.week}.`} back={null} />
 
       <div className="grid grid-cols-2 gap-2.5">
+        <Link to="/workout/grammar" className="rounded-2xl border border-ustad bg-ustad-soft p-3.5">
+          <p className="text-xs font-semibold uppercase tracking-wide text-ustad">Grammar mix</p>
+          <p className="mt-1 font-semibold">10 drills from your lessons ›</p>
+        </Link>
+        <Link to="/workout/words/0" className="rounded-2xl border border-ustad bg-ustad-soft p-3.5">
+          <p className="text-xs font-semibold uppercase tracking-wide text-ustad">Word workout</p>
+          <p className="mt-1 font-semibold">12 words up to week {level.week} ›</p>
+        </Link>
         <Link to="/talk" className="rounded-2xl border border-line bg-card p-3.5">
           <p className="text-xs font-semibold uppercase tracking-wide text-muted">Conversations</p>
           <p className="mt-1 font-semibold">{totals.conversations} to roleplay ›</p>
@@ -180,6 +188,13 @@ export function WeekPage() {
       {w.words.length > 0 && (
         <section className="space-y-2">
           <h2 className="text-sm font-semibold uppercase tracking-wide text-muted">Words · {w.words.length}</h2>
+          <Link to={`/workout/words/${w.week}`} className="flex items-center gap-3 rounded-2xl border border-ustad bg-ustad-soft px-4 py-3">
+            <div className="min-w-0 flex-1">
+              <p className="font-semibold text-ustad">Word workout</p>
+              <p className="text-sm text-muted">der/die/das, plurals, meanings, typing</p>
+            </div>
+            {w.word_accuracy !== null ? <Badge tone={w.word_accuracy >= 85 ? 'ustad' : 'saffron'}>{w.word_accuracy}%</Badge> : <Badge>new</Badge>}
+          </Link>
           <ul className="grid grid-cols-1 gap-2">
             {words.map((i) => (
               <li key={i.id} className="flex items-center gap-2 rounded-2xl border border-line bg-card px-4 py-2.5">
@@ -207,7 +222,7 @@ export function WeekPage() {
 
 // ---------------- grammar lesson + drills ----------------
 
-function DrillCard({ d, n, total, onResult }: { d: Drill; n: number; total: number; onResult: (ok: boolean) => void }) {
+export function DrillCard({ d, n, total, onResult, label }: { d: Drill; n: number; total: number; onResult: (ok: boolean) => void; label?: string }) {
   const [typed, setTyped] = useState('')
   const [picked, setPicked] = useState<string[]>([])
   const [checked, setChecked] = useState<null | boolean>(null)
@@ -225,7 +240,7 @@ function DrillCard({ d, n, total, onResult }: { d: Drill; n: number; total: numb
     void speak(drillSentence(d))
   }
 
-  const prompt = d.t === 'gap' ? 'Fill the gap' : d.t === 'order' ? 'Build the sentence' : 'Change the sentence'
+  const prompt = d.t === 'gap' ? 'Fill the gap' : d.t === 'order' ? 'Build the sentence' : d.t === 'pick' ? 'Choose' : 'Change the sentence'
 
   return (
     <Card className="space-y-4">
@@ -235,6 +250,24 @@ function DrillCard({ d, n, total, onResult }: { d: Drill; n: number; total: numb
           {n}/{total}
         </span>
       </div>
+      {label && <p className="-mt-2 text-xs font-semibold uppercase tracking-wide text-muted">{label}</p>}
+
+      {d.t === 'pick' && (
+        <>
+          <p className={`${d.ask === 'de' ? 'de' : ''} text-xl font-semibold leading-snug`} lang={d.ask}>
+            {d.q}
+          </p>
+          {checked === null && (
+            <div className="grid grid-cols-1 gap-2">
+              {d.o.map((o) => (
+                <Button key={o} variant="secondary" className={`${d.ask === 'en' ? 'de' : ''} text-lg`} onClick={() => check(o)} lang={d.ask === 'en' ? 'de' : 'en'}>
+                  {o}
+                </Button>
+              ))}
+            </div>
+          )}
+        </>
+      )}
 
       {d.t === 'gap' && (
         <>
@@ -366,6 +399,7 @@ export function GrammarPage() {
   const [i, setI] = useState(0)
   const [correct, setCorrect] = useState(0)
   const [round, setRound] = useState(0)
+  const [drills, setDrills] = useState<Drill[]>([])
   useActivityMode(mode === 'drill' ? 'speaking' : null)
   const p = q.data
   if (!p) return <Loading />
@@ -373,7 +407,7 @@ export function GrammarPage() {
   function result(ok: boolean) {
     const c = correct + (ok ? 1 : 0)
     setCorrect(c)
-    if (i + 1 < p!.drills.length) setI(i + 1)
+    if (i + 1 < drills.length) setI(i + 1)
     else {
       setMode('done')
       void send(`/api/grammar/${p!.code}/practice`, { correct: c, total: p!.drills.length })
@@ -383,6 +417,7 @@ export function GrammarPage() {
   }
 
   function start() {
+    setDrills(shuffled(p!.drills))
     setMode('drill')
     setI(0)
     setCorrect(0)
@@ -467,8 +502,8 @@ export function GrammarPage() {
 
       {mode === 'drill' && (
         <>
-          <Progress value={i} max={p.drills.length} />
-          <DrillCard key={`${round}-${i}`} d={p.drills[i]} n={i + 1} total={p.drills.length} onResult={result} />
+          <Progress value={i} max={drills.length} />
+          <DrillCard key={`${round}-${i}`} d={drills[i]} n={i + 1} total={drills.length} onResult={result} />
           <Button variant="ghost" className="w-full" onClick={() => setMode('learn')}>
             Back to the explanation
           </Button>

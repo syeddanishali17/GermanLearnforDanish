@@ -89,10 +89,15 @@ Realistic pace: the Goethe-Institut estimates 260 to 490 hours of instruction fr
 The curriculum above is now data, not only this document:
 
 - `data/curriculum.json`: 36 weeks with title, can-do goals and grammar codes. Shown in the **Kurs** tab.
-- `data/grammar/{a1,a2,b1}.json`: 42 grammar lessons (P01–P42). Each has an explanation, a slot diagram or table, examples (with audio), a common mistake and 5 drills (fill the gap, build the sentence from tiles, transform). Mastery = 85 % over the last 4 practice rounds. The daily **Qaida** step picks the earliest unmastered pattern up to the current week.
+- `data/grammar/{a1,a1b,a2,a2b,b1,b1b}.json`: 55 grammar lessons (P01–P55). Each has an explanation, a slot diagram or table, examples (with audio), a common mistake and 8 to 10 drills (fill the gap, build the sentence from tiles, transform). `extra_drills.json` adds 5 drills to each of P01–P42 by code. Drill order is shuffled every round. Mastery = 85 % over the last 4 practice rounds. The daily **Qaida** step picks the earliest unmastered pattern up to the current week.
 - `data/seed/7_words.json`: about 460 core words in 26 topics (gender, plural or key verb forms), introduced through the daily Sabaq by week.
 - `data/conversations/`: 46 conversations (A1 16, A2 18, B1 12).
 
-Extra patterns added beyond the table above: P29 dative pronouns · P30 two-way prepositions · P31 possessives · P32 nicht · P33 imperative · P34 um/am/im · P35 adjective endings · P36 future plans · P37 passive · P38 Perfekt of separable/inseparable verbs · P39 Präteritum in stories · P40 genitive, wegen, trotz · P41 bevor/nachdem/während/seit · P42 verbs with prepositions.
+Extra patterns added beyond the table above: P29 dative pronouns · P30 two-way prepositions · P31 possessives · P32 nicht · P33 imperative · P34 um/am/im · P35 adjective endings · P36 future plans · P37 passive · P38 Perfekt of separable/inseparable verbs · P39 Präteritum in stories · P40 genitive, wegen, trotz · P41 bevor/nachdem/während/seit · P42 verbs with prepositions · P43 plurals · P44 es gibt · P45 gern/lieber/mögen · P46 für/ohne/durch/gegen/um · P47 telling the time · P48 numbers and prices · P49 object pronouns · P50 TeKaMoLo word order · P51 welcher / was für ein · P52 seit/vor/für · P53 Plusquamperfekt · P54 je … desto · P55 lassen.
 
 `worker/course.test.ts` checks that every week has content, every grammar code in the curriculum exists, and every drill answer is valid.
+
+Generated practice (`worker/workout.ts`), same drill screen:
+
+- **Word workout** (`/workout/words/:week`, week 0 = all words so far): 12 words, each once, as der/die/das, plural choice, meaning both ways, Perfekt with hat/ist, or typing the German. Wrong options come from the same week. Stored as `W<week>` in grammar_practice. Shown on the week page and as the daily **Lughat** step.
+- **Grammar mix** (`/workout/grammar`): 10 drills from lessons up to the current week: shaky lessons first, then mastered ones practised longest ago, then untried ones. Results are stored per lesson, so they count toward each lesson's mastery.

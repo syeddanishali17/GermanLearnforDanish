@@ -16,6 +16,7 @@ import { Bolna, Sabqi } from './pages/Practice'
 import Sabaq from './pages/Sabaq'
 import { ConversationPage, TalkList } from './pages/Talk'
 import Today from './pages/Today'
+import { GrammarWorkout, WordWorkout } from './pages/Workout'
 
 const queryClient = new QueryClient({
   defaultOptions: { queries: { retry: (n, e) => !(e instanceof ApiError && e.status < 500) && n < 2, refetchOnWindowFocus: true } },
@@ -30,7 +31,7 @@ const NAV: { to: string; label: string; icon: ReactNode }[] = [
 ]
 
 /** Lesson screens hide the tab bar: fewer accidental taps, more room, clear "you are in a session" feeling. */
-const FOCUS = [/^\/manzil/, /^\/sabaq/, /^\/sabqi/, /^\/bolna/, /^\/talk\/.+/, /^\/grammar\/.+/]
+const FOCUS = [/^\/manzil/, /^\/sabaq/, /^\/sabqi/, /^\/bolna/, /^\/talk\/.+/, /^\/grammar\/.+/, /^\/workout\//]
 const isFocusRoute = (path: string) => FOCUS.some((r) => r.test(path))
 
 function Shell({ children }: { children: ReactNode }) {
@@ -102,6 +103,8 @@ function Authed() {
         <Route path="/kurs" element={<CourseOverview />} />
         <Route path="/kurs/:week" element={<WeekPage />} />
         <Route path="/grammar/:code" element={<GrammarPage />} />
+        <Route path="/workout/words/:week" element={<WordWorkout />} />
+        <Route path="/workout/grammar" element={<GrammarWorkout />} />
         <Route path="/talk" element={<TalkList />} />
         <Route path="/talk/:slug" element={<ConversationPage />} />
         <Route path="/culture" element={<Culture />} />

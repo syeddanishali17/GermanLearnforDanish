@@ -3,7 +3,7 @@ import { normalize as normaliseAnswer } from './grade'
 import type { Drill } from './types'
 
 /** Same full-sentence form the audio generator uses for drill answers. */
-export const drillSentence = (d: Drill) => (d.t === 'gap' ? d.q.replace('___', d.a).replace(/\s*\([^)]*\)\s*$/, '') : d.a)
+export const drillSentence = (d: Drill) => (d.t === 'gap' ? d.q.replace('___', d.a).replace(/\s*\([^)]*\)\s*$/, '') : d.t === 'pick' ? d.de : d.a)
 
 function seededShuffle<T>(arr: T[], seed: string): T[] {
   let h = 0
@@ -26,3 +26,13 @@ export function tilesFor(answer: string): string[] {
 }
 
 export const same = (a: string, b: string) => normaliseAnswer(a) === normaliseAnswer(b)
+
+/** New random order for each practice round, so answers aren't remembered by position. */
+export function shuffled<T>(arr: T[]): T[] {
+  const out = [...arr]
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[out[i], out[j]] = [out[j], out[i]]
+  }
+  return out
+}

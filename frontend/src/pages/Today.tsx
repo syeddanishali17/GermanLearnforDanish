@@ -62,6 +62,7 @@ function nextStep(d: Daily): Step | null {
   if (d.manzil.due_now > 0 && !d.manzil.unlocked) return { to: '/manzil', label: 'Start with review', sub: `${d.manzil.due_now} cards due` }
   if (d.manzil.unlocked && sabaqCount > 0 && !d.sabaq.done) return { to: '/sabaq', label: 'Learn new phrases', sub: `${sabaqCount} new today` }
   if (d.grammar && !d.grammar.practised_today) return { to: `/grammar/${d.grammar.code}`, label: 'Practise grammar', sub: d.grammar.title }
+  if (!d.words.practised_today) return { to: `/workout/words/${d.words.week}`, label: 'Word workout', sub: d.words.week ? `Week ${d.words.week} words` : 'Mixed word revision' }
   if (!d.bolna.done && (d.sabaq.introduced_today.length > 0 || d.sabqi.length > 0)) return { to: '/bolna', label: 'Speak out loud', sub: 'Say today’s phrases from memory' }
   if (d.conversation && d.conversation.practised < 2) return { to: `/talk/${d.conversation.slug}`, label: 'Roleplay a conversation', sub: d.conversation.title_de }
   if (!d.missions.length) return { to: '/bahar', label: 'Plan a real-world mission', sub: 'One phrase with a real person' }
@@ -208,6 +209,13 @@ export default function Today() {
             detail={`${d.grammar.title}${d.grammar.accuracy !== null ? ` · ${d.grammar.accuracy}% recently` : ''}`}
           />
         )}
+        <Block
+          to={`/workout/words/${d.words.week}`}
+          urdu="Lughat"
+          title="Words"
+          status={d.words.practised_today ? 'done' : 'open'}
+          detail={`${d.words.week ? `Week ${d.words.week} words` : 'Mixed revision'}: der/die/das, plurals, meanings${d.words.accuracy !== null ? ` · ${d.words.accuracy}%` : ''}`}
+        />
         <Block to="/bolna" urdu="Bolna" title="Speak" status={d.bolna.done ? 'done' : 'open'} detail="Repeat, reply, roleplay out loud" />
         {d.conversation && (
           <Block

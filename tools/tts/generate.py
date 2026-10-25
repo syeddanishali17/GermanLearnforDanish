@@ -80,7 +80,11 @@ def collect(with_overlay: bool = False) -> list[str]:
     decks, convs = _decks_and_convs(with_overlay)
     decks = [_expand_words(d) for d in decks]
     for f in sorted((ROOT / "data" / "grammar").glob("*.json")):
-        for p in json.loads(f.read_text(encoding="utf-8"))["patterns"]:
+        raw = json.loads(f.read_text(encoding="utf-8"))
+        # extra_drills.json: {"drills": {code: [drill, ...]}}, merged into lessons by worker/content.ts
+        for drills in raw.get("drills", {}).values():
+            texts.update(drill_sentence(d) for d in drills)
+        for p in raw.get("patterns", []):
             texts.update(de for de, _ in p["examples"])
             texts.update(drill_sentence(d) for d in p["drills"])
     for d in decks:

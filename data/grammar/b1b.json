@@ -1,0 +1,49 @@
+{
+ "cefr": "B1",
+ "patterns": [
+  {"code": "P55", "week": 33, "title": "lassen: have something done", "title_de": "lassen",
+   "explain": ["lassen + infinitive = have something done by someone else: Ich lasse meine Haare schneiden.", "It also means let: Lass mich das machen! / Lassen Sie mich kurz überlegen.", "In the Perfekt it stays lassen (not gelassen) when another infinitive is there: Ich habe mein Handy reparieren lassen."],
+   "table": [["ich", "lasse"], ["du", "lässt"], ["er / sie / es", "lässt"], ["wir", "lassen"], ["ihr", "lasst"], ["sie / Sie", "lassen"]],
+   "examples": [["Ich lasse mir die Haare schneiden.", "I'm getting my hair cut."], ["Wir lassen uns das Essen liefern.", "We're having the food delivered."], ["Lassen Sie mich bitte kurz überlegen.", "Let me think for a moment, please."]],
+   "mistake": {"wrong": "Ich habe mein Handy reparieren gelassen.", "right": "Ich habe mein Handy reparieren lassen.", "why": "With another infinitive, the participle of lassen is lassen."},
+   "drills": [
+    {"t": "gap", "q": "Ich ___ mir die Haare schneiden.", "a": "lasse", "o": ["lasse", "lässt", "lassen"], "en": "I'm getting my hair cut."},
+    {"t": "gap", "q": "Er ___ sein Fahrrad reparieren.", "a": "lässt", "o": ["lässt", "lasst", "lasse"], "en": "He's having his bike repaired."},
+    {"t": "gap", "q": "___ mich das machen! (du)", "a": "Lass", "o": ["Lass", "Lässt", "Lassen"], "en": "Let me do that!"},
+    {"t": "gap", "q": "Ich habe mein Handy reparieren ___.", "a": "lassen", "o": ["lassen", "gelassen", "lässt"], "en": "I had my phone repaired."},
+    {"t": "gap", "q": "Kannst du mich bitte in Ruhe ___?", "a": "lassen", "o": ["lassen", "lässt", "gelassen"], "en": "Can you leave me alone, please?"},
+    {"t": "tr", "q": "Use lassen: A technician repairs my heating. (Ich ...)", "a": "Ich lasse meine Heizung reparieren.", "en": "I'm having my heating repaired."},
+    {"t": "order", "a": "Wir lassen uns das Essen liefern.", "en": "We're having the food delivered."},
+    {"t": "order", "a": "Lassen Sie mich bitte kurz überlegen.", "en": "Let me think for a moment, please."}
+   ]},
+  {"code": "P53", "week": 34, "title": "Plusquamperfekt: had done", "title_de": "Das Plusquamperfekt",
+   "explain": ["For something that happened before another past event: hatte or war + past participle.", "It often comes with nachdem (after) and schon (already): Als ich ankam, war der Zug schon abgefahren."],
+   "examples": [["Als ich ankam, war der Zug schon abgefahren.", "When I arrived, the train had already left."], ["Nachdem wir gegessen hatten, gingen wir spazieren.", "After we had eaten, we went for a walk."], ["Ich hatte den Schlüssel vergessen.", "I had forgotten the key."]],
+   "mistake": {"wrong": "Nachdem ich gegessen habe, ging ich.", "right": "Nachdem ich gegessen hatte, ging ich.", "why": "The earlier action takes the Plusquamperfekt when the story is in the past."},
+   "drills": [
+    {"t": "gap", "q": "Als ich ankam, ___ der Zug schon abgefahren.", "a": "war", "o": ["war", "hatte", "ist"], "en": "When I arrived, the train had already left."},
+    {"t": "gap", "q": "Ich ___ den Film schon vorher gesehen.", "a": "hatte", "o": ["hatte", "war", "habe"], "en": "I had already seen the film before."},
+    {"t": "gap", "q": "Nachdem wir gegessen ___, gingen wir spazieren.", "a": "hatten", "o": ["hatten", "waren", "haben"], "en": "After we had eaten, we went for a walk."},
+    {"t": "gap", "q": "Nachdem sie angekommen ___, rief sie an.", "a": "war", "o": ["war", "hatte", "ist"], "en": "After she had arrived, she called."},
+    {"t": "tr", "q": "Put into the Plusquamperfekt: Ich vergesse den Schlüssel.", "a": "Ich hatte den Schlüssel vergessen.", "en": "I had forgotten the key."},
+    {"t": "tr", "q": "Put into the Plusquamperfekt: Er geht nach Hause.", "a": "Er war nach Hause gegangen.", "en": "He had gone home."},
+    {"t": "order", "a": "Nachdem ich gefrühstückt hatte, fuhr ich zur Uni.", "en": "After I had had breakfast, I went to uni."},
+    {"t": "order", "a": "Der Kurs hatte schon begonnen, als ich kam.", "en": "The course had already started when I came."}
+   ]},
+  {"code": "P54", "week": 34, "title": "je ... desto: the more, the better", "title_de": "je ... desto",
+   "explain": ["je + comparative ... verb at the end, desto + comparative + verb + subject.", "Je mehr ich übe, desto besser spreche ich. (The more I practise, the better I speak.)"],
+   "slots": [["je + comparative", "Je mehr"], ["side clause · verb last", "ich übe,"], ["desto + comparative", "desto besser"], ["verb + rest", "spreche ich."]],
+   "examples": [["Je mehr ich übe, desto besser spreche ich.", "The more I practise, the better I speak."], ["Je früher wir fahren, desto weniger Verkehr gibt es.", "The earlier we leave, the less traffic there is."], ["Je länger ich in Wien wohne, desto besser gefällt es mir.", "The longer I live in Vienna, the more I like it."]],
+   "mistake": {"wrong": "Je mehr ich übe, desto ich spreche besser.", "right": "Je mehr ich übe, desto besser spreche ich.", "why": "After desto + comparative comes the verb, then the subject."},
+   "drills": [
+    {"t": "gap", "q": "Je mehr ich lese, ___ besser verstehe ich.", "a": "desto", "o": ["desto", "je", "als"], "en": "The more I read, the better I understand."},
+    {"t": "gap", "q": "___ älter ich werde, desto ruhiger werde ich.", "a": "Je", "o": ["Je", "Desto", "Als"], "en": "The older I get, the calmer I become."},
+    {"t": "gap", "q": "Je länger ich in Wien wohne, desto ___ gefällt es mir.", "a": "besser", "o": ["besser", "gut", "am besten"], "en": "The longer I live in Vienna, the more I like it."},
+    {"t": "gap", "q": "Je teurer die Wohnung ist, desto ___ ist sie oft.", "a": "größer", "o": ["größer", "groß", "am größten"], "en": "The more expensive the flat, the bigger it often is."},
+    {"t": "gap", "q": "Je früher wir fahren, desto weniger Verkehr ___ es.", "a": "gibt", "o": ["gibt", "ist", "hat"], "en": "The earlier we leave, the less traffic there is."},
+    {"t": "tr", "q": "Make a je ... desto sentence: Ich schlafe viel. Ich bin entspannt.", "a": "Je mehr ich schlafe, desto entspannter bin ich.", "en": "The more I sleep, the more relaxed I am."},
+    {"t": "order", "a": "Je öfter ich spreche, desto sicherer werde ich.", "en": "The more often I speak, the more confident I become."},
+    {"t": "order", "a": "Je schneller du sprichst, desto weniger verstehe ich.", "en": "The faster you speak, the less I understand."}
+   ]}
+ ]
+}

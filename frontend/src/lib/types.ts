@@ -70,6 +70,7 @@ export interface Daily {
   level: Level
   conversation: ConversationSummary | null
   grammar: { code: string; title: string; accuracy: number | null; practised_today: boolean } | null
+  words: { week: number; accuracy: number | null; practised_today: boolean }
 }
 
 export interface Dashboard {
@@ -137,6 +138,18 @@ export type Drill =
   | { t: 'gap'; q: string; a: string; o?: string[]; en?: string }
   | { t: 'order'; a: string; en?: string }
   | { t: 'tr'; q: string; a: string; alt?: string[]; en?: string }
+  | { t: 'pick'; q: string; a: string; o: string[]; de: string; ask: 'de' | 'en'; en?: string }
+
+/** A drill in a generated round: code = the grammar lesson it came from (mixed rounds), label = what it practises. */
+export type WorkoutDrill = Drill & { code?: string; label?: string }
+
+export interface Workout {
+  week: number
+  title: string
+  sub: string
+  drills: WorkoutDrill[]
+  accuracy: number | null
+}
 
 export interface PatternDetail extends PatternSummary {
   explain: string[]
@@ -155,6 +168,7 @@ export interface WeekSummary {
   goals: string[]
   patterns: PatternSummary[]
   items: { total: number; started: number; words: number }
+  word_accuracy: number | null
   conversations: { total: number; practised: number }
 }
 

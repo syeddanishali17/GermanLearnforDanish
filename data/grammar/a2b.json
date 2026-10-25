@@ -1,0 +1,63 @@
+{
+ "cefr": "A2",
+ "patterns": [
+  {"code": "P52", "week": 14, "title": "seit, vor, für: time spans", "title_de": "seit, vor, für",
+   "explain": ["seit + dative = since / for, when it is still true now. German uses the present tense: Ich wohne seit zwei Jahren hier.", "vor + dative = ago: Ich bin vor zwei Jahren gekommen.", "für + accusative = for a planned period: Ich fahre für eine Woche nach Graz."],
+   "examples": [["Ich lerne seit einem Jahr Deutsch.", "I've been learning German for a year."], ["Vor einer Woche habe ich die Prüfung bestanden.", "A week ago I passed the exam."], ["Ich fahre für drei Tage nach Salzburg.", "I'm going to Salzburg for three days."]],
+   "mistake": {"wrong": "Ich wohne hier für zwei Jahre.", "right": "Ich wohne seit zwei Jahren hier.", "why": "Something that started in the past and is still true takes seit + present tense."},
+   "drills": [
+    {"t": "gap", "q": "Ich wohne ___ zwei Jahren in Wien.", "a": "seit", "o": ["seit", "vor", "für"], "en": "I've lived in Vienna for two years."},
+    {"t": "gap", "q": "Ich bin ___ zwei Jahren nach Wien gekommen.", "a": "vor", "o": ["vor", "seit", "für"], "en": "I came to Vienna two years ago."},
+    {"t": "gap", "q": "Ich fahre ___ eine Woche nach Graz.", "a": "für", "o": ["für", "seit", "vor"], "en": "I'm going to Graz for a week."},
+    {"t": "gap", "q": "Wir haben uns ___ drei Tagen getroffen.", "a": "vor", "o": ["vor", "seit", "für"], "en": "We met three days ago."},
+    {"t": "gap", "q": "Seit wann ___ du in Wien?", "a": "bist", "o": ["bist", "warst", "wohnst"], "en": "Since when have you been in Vienna?"},
+    {"t": "gap", "q": "Ich lerne seit ___ Monat Deutsch.", "a": "einem", "o": ["einem", "einen", "ein"], "en": "I've been learning German for a month."},
+    {"t": "tr", "q": "Use seit: Ich lerne Deutsch. (ein Jahr)", "a": "Ich lerne seit einem Jahr Deutsch.", "en": "I've been learning German for a year."},
+    {"t": "order", "a": "Vor einer Woche habe ich meine Prüfung bestanden.", "en": "A week ago I passed my exam."}
+   ]},
+  {"code": "P49", "week": 16, "title": "mich, dich, ihn: object pronouns", "title_de": "Personalpronomen im Akkusativ",
+   "explain": ["Object pronouns (accusative): mich, dich, ihn, sie, es, uns, euch, sie/Sie.", "They replace nouns, including things: der Film → ihn, die Jacke → sie, das Buch → es."],
+   "table": [["ich", "mich"], ["du", "dich"], ["er", "ihn"], ["sie / es", "sie / es"], ["wir", "uns"], ["ihr", "euch"], ["sie / Sie", "sie / Sie"]],
+   "examples": [["Kannst du mich abholen?", "Can you pick me up?"], ["Der Film? Ich habe ihn schon gesehen.", "The film? I've already seen it."], ["Ich rufe dich morgen an.", "I'll call you tomorrow."]],
+   "mistake": {"wrong": "Der Kaffee? Ich trinke es jeden Tag.", "right": "Der Kaffee? Ich trinke ihn jeden Tag.", "why": "der Kaffee is masculine, so the object pronoun is ihn."},
+   "drills": [
+    {"t": "gap", "q": "Kannst du ___ abholen? (me)", "a": "mich", "o": ["mich", "mir", "ich"], "en": "Can you pick me up?"},
+    {"t": "gap", "q": "Der Kaffee ist gut. Ich trinke ___ jeden Tag.", "a": "ihn", "o": ["ihn", "es", "sie"], "en": "The coffee is good. I drink it every day."},
+    {"t": "gap", "q": "Die Jacke ist schön. Ich kaufe ___.", "a": "sie", "o": ["sie", "ihn", "es"], "en": "The jacket is nice. I'll buy it."},
+    {"t": "gap", "q": "Ich rufe ___ morgen an. (you, du)", "a": "dich", "o": ["dich", "dir", "du"], "en": "I'll call you tomorrow."},
+    {"t": "gap", "q": "Das Buch? Ich habe ___ schon gelesen.", "a": "es", "o": ["es", "ihn", "sie"], "en": "The book? I've already read it."},
+    {"t": "gap", "q": "Wir besuchen ___ am Sonntag. (you, plural)", "a": "euch", "o": ["euch", "uns", "sie"], "en": "We'll visit you on Sunday."},
+    {"t": "tr", "q": "Replace the noun with a pronoun: Ich sehe den Bus.", "a": "Ich sehe ihn.", "en": "I see it."},
+    {"t": "tr", "q": "Replace the noun with a pronoun: Ich kenne die Lehrerin.", "a": "Ich kenne sie.", "en": "I know her."}
+   ]},
+  {"code": "P50", "week": 19, "title": "Word order: when, why, how, where", "title_de": "Satzstellung: TeKaMoLo",
+   "explain": ["In the middle of a sentence, extra information usually goes in this order: time (wann?) – reason (warum?) – manner (wie?) – place (wo/wohin?). Learners remember it as TeKaMoLo.", "Ich fahre morgen wegen der Arbeit mit dem Zug nach Linz. Time can also go to position 1: Morgen fahre ich ..."],
+   "slots": [["time", "morgen"], ["reason", "wegen der Arbeit"], ["manner", "mit dem Zug"], ["place", "nach Linz."]],
+   "examples": [["Ich fahre morgen mit dem Zug nach Linz.", "I'm going to Linz by train tomorrow."], ["Wir treffen uns heute um sieben im Café.", "We're meeting in the café at seven today."], ["Sie geht jeden Tag zu Fuß zur Arbeit.", "She walks to work every day."]],
+   "mistake": {"wrong": "Ich fahre nach Linz morgen.", "right": "Ich fahre morgen nach Linz.", "why": "Time comes before place."},
+   "drills": [
+    {"t": "order", "a": "Ich fahre morgen mit dem Zug nach Linz.", "en": "I'm going to Linz by train tomorrow."},
+    {"t": "order", "a": "Wir treffen uns heute um sieben im Café.", "en": "We're meeting in the café at seven today."},
+    {"t": "order", "a": "Sie geht jeden Tag zu Fuß zur Arbeit.", "en": "She walks to work every day."},
+    {"t": "order", "a": "Er kommt morgen um acht mit dem Auto.", "en": "He's coming by car tomorrow at eight."},
+    {"t": "order", "a": "Am Wochenende fahren wir mit Freunden in die Berge.", "en": "At the weekend we're going to the mountains with friends."},
+    {"t": "tr", "q": "Put in order: ich / nach Graz / am Samstag / fahre", "a": "Ich fahre am Samstag nach Graz.", "alt": ["Am Samstag fahre ich nach Graz."], "en": "I'm going to Graz on Saturday."},
+    {"t": "tr", "q": "Put in order: er / mit dem Rad / zur Uni / fährt / jeden Tag", "a": "Er fährt jeden Tag mit dem Rad zur Uni.", "alt": ["Jeden Tag fährt er mit dem Rad zur Uni."], "en": "He cycles to uni every day."},
+    {"t": "order", "a": "Ich bin gestern wegen des Regens zu Hause geblieben.", "en": "I stayed at home yesterday because of the rain."}
+   ]},
+  {"code": "P51", "week": 20, "title": "welcher? and was für ein?", "title_de": "welcher und was für ein",
+   "explain": ["welcher / welche / welches = which (choosing from known options). It takes the same endings as der/die/das: welcher Bus, welche Linie, welches Zimmer, in welchem Stock.", "was für ein = what kind of: Was für ein Auto hast du? In the plural: Was für Musik hörst du?"],
+   "examples": [["Welcher Bus fährt zum Bahnhof?", "Which bus goes to the station?"], ["In welchem Stock wohnst du?", "Which floor do you live on?"], ["Was für Musik hörst du gern?", "What kind of music do you like?"]],
+   "mistake": {"wrong": "Welche Bus fährt zum Bahnhof?", "right": "Welcher Bus fährt zum Bahnhof?", "why": "der Bus is masculine: welcher."},
+   "drills": [
+    {"t": "gap", "q": "___ Bus fährt zum Bahnhof?", "a": "Welcher", "o": ["Welcher", "Welche", "Welches"], "en": "Which bus goes to the station?"},
+    {"t": "gap", "q": "___ Linie muss ich nehmen?", "a": "Welche", "o": ["Welche", "Welcher", "Welches"], "en": "Which line do I have to take?"},
+    {"t": "gap", "q": "In ___ Stock wohnst du?", "a": "welchem", "o": ["welchem", "welcher", "welchen"], "en": "Which floor do you live on?"},
+    {"t": "gap", "q": "___ Zimmer ist frei?", "a": "Welches", "o": ["Welches", "Welcher", "Welche"], "en": "Which room is free?"},
+    {"t": "gap", "q": "Was für ___ Auto hast du?", "a": "ein", "o": ["ein", "einen", "eine"], "en": "What kind of car do you have?"},
+    {"t": "gap", "q": "Was für eine Wohnung suchst du? – ___ kleine.", "a": "Eine", "o": ["Eine", "Ein", "Einen"], "en": "What kind of flat are you looking for? – A small one."},
+    {"t": "tr", "q": "Ask which jacket (du): Ich nehme die rote Jacke.", "a": "Welche Jacke nimmst du?", "en": "Which jacket are you taking?"},
+    {"t": "order", "a": "Was für Musik hörst du gern?", "en": "What kind of music do you like?"}
+   ]}
+ ]
+}

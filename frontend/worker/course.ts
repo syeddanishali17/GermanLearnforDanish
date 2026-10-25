@@ -55,7 +55,7 @@ export const patternSummary = (p: Pattern, s?: PatternStat) => ({
 export async function dailyGrammar(db: D1Database, content: Content, week: number, now: number) {
   const stats = await patternStats(db)
   const start = dayStart(localDay(now))
-  const today = (await all<{ code: string }>(db, 'SELECT code FROM grammar_practice WHERE ts >= ? ORDER BY ts DESC LIMIT 1', start))[0]
+  const today = (await all<{ code: string }>(db, "SELECT code FROM grammar_practice WHERE ts >= ? AND code LIKE 'P%' ORDER BY ts DESC LIMIT 1", start))[0]
   const pick = (p: Pattern | undefined, practised_today: boolean) =>
     p ? { code: p.code, title: p.title, accuracy: stats.get(p.code)?.accuracy ?? null, practised_today } : null
   if (today) return pick(content.patternByCode.get(today.code), true)
@@ -73,6 +73,7 @@ export function weekSummary(w: Week, content: Content, stats: Map<string, Patter
     ...w,
     patterns: w.patterns.map((code) => patternSummary(content.patternByCode.get(code)!, stats.get(code))),
     items: { total: items.length, started: items.filter((i) => introduced.has(i.slug)).length, words: items.filter((i) => i.kind === 'word').length },
+    word_accuracy: stats.get(`W${w.week}`)?.accuracy ?? null,
     conversations: { total: convs.length, practised: convs.filter((c) => (practisedConvs.get(c.slug) ?? 0) >= 2).length },
   }
 }
