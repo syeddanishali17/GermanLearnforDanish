@@ -1,0 +1,405 @@
+{
+ "deck": "home",
+ "title": "Home & City Life",
+ "status": "reviewed",
+ "items": [
+  {
+   "slug": "ich-wohne-seit-kurzem-hier",
+   "week": 2,
+   "de": "Hallo, ich wohne seit Kurzem hier.",
+   "en": "Hi, I've only just moved in here.",
+   "context": "Meeting a neighbour in the hallway.",
+   "likely_reply_de": "Ah, willkommen! Ich bin Frau Huber.",
+   "likely_reply_en": "Ah, welcome! I'm Mrs Huber.",
+   "mission": "Greet one neighbour in German."
+  },
+  {
+   "slug": "einen-tisch-fuer-zwei",
+   "week": 4,
+   "de": "Einen Tisch für zwei, bitte.",
+   "en": "A table for two, please.",
+   "likely_reply_de": "Gerne, hier bitte.",
+   "likely_reply_en": "Sure, this way please.",
+   "austria_note": "In many Viennese cafés you simply pick a free table. In restaurants, ask."
+  },
+  {
+   "slug": "ich-habe-reserviert",
+   "week": 4,
+   "de": "Ich habe reserviert, auf den Namen Danish.",
+   "en": "I have a reservation under the name Danish.",
+   "likely_reply_de": "Ja, bitte hier entlang.",
+   "likely_reply_en": "Yes, this way please."
+  },
+  {
+   "slug": "wo-ist-das-wc",
+   "week": 2,
+   "de": "Wo ist das WC?",
+   "en": "Where is the toilet?",
+   "alt_de": [
+    "Wo ist die Toilette?"
+   ],
+   "likely_reply_de": "Da hinten rechts.",
+   "likely_reply_en": "Back there on the right.",
+   "austria_note": "WC (say: weh-tseh) is very common in Austria."
+  },
+  {
+   "slug": "ich-schaue-nur",
+   "week": 3,
+   "de": "Ich schaue nur, danke.",
+   "en": "I'm just looking, thanks.",
+   "likely_reply_de": "Gerne, sagen Sie Bescheid.",
+   "likely_reply_en": "Sure, just let me know."
+  },
+  {
+   "slug": "haben-sie-das-in-m",
+   "week": 3,
+   "de": "Haben Sie das in M?",
+   "en": "Do you have this in medium?",
+   "likely_reply_de": "Moment, ich schaue nach.",
+   "likely_reply_en": "One moment, I'll check."
+  },
+  {
+   "slug": "sim-karte",
+   "week": 3,
+   "de": "Ich brauche eine SIM-Karte.",
+   "en": "I need a SIM card.",
+   "likely_reply_de": "Mit Vertrag oder Wertkarte?",
+   "likely_reply_en": "With a contract or prepaid?",
+   "austria_note": "Wertkarte = prepaid (Austria). Germany: Prepaid-Karte."
+  },
+  {
+   "slug": "konto-eroeffnen",
+   "week": 11,
+   "de": "Ich möchte ein Konto eröffnen.",
+   "en": "I'd like to open a bank account.",
+   "likely_reply_de": "Haben Sie einen Termin?",
+   "likely_reply_en": "Do you have an appointment?"
+  },
+  {
+   "slug": "heizung-funktioniert-nicht",
+   "week": 7,
+   "de": "Die Heizung funktioniert nicht.",
+   "en": "The heating isn't working.",
+   "likely_reply_de": "Okay, wir schicken jemanden vorbei.",
+   "likely_reply_en": "Okay, we'll send someone over.",
+   "mission": "Practise reporting a problem in 2 sentences, even to yourself out loud.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Guten Tag, die Heizung in meinem Zimmer funktioniert nicht.",
+     "en": "Hello, the heating in my room isn't working."
+    },
+    {
+     "who": "Hausverwaltung",
+     "de": "Welche Zimmernummer?",
+     "en": "Which room number?"
+    },
+    {
+     "who": "Du",
+     "de": "Zimmer 312.",
+     "en": "Room 312."
+    },
+    {
+     "who": "Hausverwaltung",
+     "de": "Okay, morgen kommt ein Techniker.",
+     "en": "Okay, a technician will come tomorrow."
+    },
+    {
+     "who": "Du",
+     "de": "Danke! Um wie viel Uhr?",
+     "en": "Thanks! At what time?"
+    }
+   ]
+  },
+  {
+   "slug": "licht-ist-kaputt",
+   "week": 7,
+   "de": "Das Licht im Bad ist kaputt.",
+   "en": "The light in the bathroom is broken."
+  },
+  {
+   "slug": "kein-warmes-wasser",
+   "week": 7,
+   "de": "Es gibt kein warmes Wasser.",
+   "en": "There's no hot water."
+  },
+  {
+   "slug": "welche-zimmernummer",
+   "week": 7,
+   "learner_action": "recognise_now",
+   "de": "Welche Zimmernummer?",
+   "en": "Which room number?",
+   "context": "Answer: Zimmer 312. (drei-eins-zwei or dreihundertzwölf)"
+  },
+  {
+   "slug": "wann-kommt-der-techniker",
+   "week": 7,
+   "de": "Wann kommt der Techniker?",
+   "en": "When is the technician coming?",
+   "likely_reply_de": "Morgen zwischen acht und zwölf.",
+   "likely_reply_en": "Tomorrow between eight and twelve."
+  },
+  {
+   "slug": "schluessel-vergessen",
+   "week": 9,
+   "de": "Ich habe meinen Schlüssel vergessen.",
+   "en": "I forgot my key.",
+   "context": "Perfekt: habe ... vergessen."
+  },
+  {
+   "slug": "wo-ist-die-waschkueche",
+   "week": 7,
+   "de": "Wo ist die Waschküche?",
+   "en": "Where is the laundry room?",
+   "likely_reply_de": "Im Keller.",
+   "likely_reply_en": "In the basement."
+  },
+  {
+   "slug": "wohin-mit-dem-papier",
+   "week": 7,
+   "de": "Wo kommt das Papier hin?",
+   "en": "Where does the paper go?",
+   "likely_reply_de": "In die rote Tonne.",
+   "likely_reply_en": "In the red bin.",
+   "austria_note": "Vienna separates waste: paper, plastic bottles and metal, glass, organic, residual. Check the labels on the bins."
+  },
+  {
+   "slug": "musik-zu-laut",
+   "week": 11,
+   "de": "Entschuldigung, die Musik ist ein bisschen laut.",
+   "en": "Excuse me, the music is a bit loud.",
+   "likely_reply_de": "Oh, sorry! Ich mache leiser.",
+   "likely_reply_en": "Oh, sorry! I'll turn it down."
+  },
+  {
+   "slug": "paket-abholen",
+   "week": 7,
+   "de": "Ich möchte ein Paket abholen.",
+   "en": "I'd like to pick up a parcel.",
+   "likely_reply_de": "Haben Sie die Benachrichtigung und einen Ausweis?",
+   "likely_reply_en": "Do you have the notification slip and ID?",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Guten Tag, ich möchte ein Paket abholen.",
+     "en": "Hello, I'd like to pick up a parcel."
+    },
+    {
+     "who": "Mitarbeiterin",
+     "de": "Haben Sie die Benachrichtigung und einen Ausweis?",
+     "en": "Do you have the notification slip and ID?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, hier bitte.",
+     "en": "Yes, here you go."
+    },
+    {
+     "who": "Mitarbeiterin",
+     "de": "Danke. Unterschreiben Sie bitte hier.",
+     "en": "Thanks. Please sign here."
+    }
+   ]
+  },
+  {
+   "slug": "hier-ist-mein-ausweis",
+   "week": 7,
+   "de": "Hier ist mein Ausweis.",
+   "en": "Here is my ID.",
+   "alt_de": [
+    "Hier ist mein Pass."
+   ]
+  },
+  {
+   "slug": "ist-ein-paket-fuer-mich-da",
+   "week": 7,
+   "de": "Ist ein Paket für mich da?",
+   "en": "Is there a parcel for me?",
+   "likely_reply_de": "Wie ist Ihr Name?",
+   "likely_reply_en": "What's your name?"
+  },
+  {
+   "slug": "unterschreiben-sie-hier",
+   "week": 7,
+   "learner_action": "recognise_now",
+   "de": "Unterschreiben Sie bitte hier.",
+   "en": "Please sign here.",
+   "context": "Delivery driver or post office."
+  },
+  {
+   "slug": "etwas-gegen-kopfschmerzen",
+   "week": 7,
+   "de": "Ich brauche etwas gegen Kopfschmerzen.",
+   "en": "I need something for a headache.",
+   "likely_reply_de": "Haben Sie Allergien?",
+   "likely_reply_en": "Do you have any allergies?",
+   "context": "Pharmacy (Apotheke)."
+  },
+  {
+   "slug": "etwas-gegen-halsschmerzen",
+   "week": 7,
+   "de": "Haben Sie etwas gegen Halsschmerzen?",
+   "en": "Do you have something for a sore throat?",
+   "likely_reply_de": "Ja, diese Lutschtabletten.",
+   "likely_reply_en": "Yes, these lozenges."
+  },
+  {
+   "slug": "ich-bin-erkaeltet",
+   "week": 7,
+   "de": "Ich bin erkältet.",
+   "en": "I have a cold."
+  },
+  {
+   "slug": "ich-habe-fieber",
+   "week": 7,
+   "de": "Ich habe Fieber.",
+   "en": "I have a fever."
+  },
+  {
+   "slug": "termin-ausmachen",
+   "week": 11,
+   "de": "Ich möchte einen Termin ausmachen.",
+   "en": "I'd like to make an appointment.",
+   "likely_reply_de": "Wann haben Sie Zeit?",
+   "likely_reply_en": "When are you free?",
+   "austria_note": "Austria: einen Termin ausmachen. Germany more often: vereinbaren.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Guten Tag, ich möchte einen Termin ausmachen.",
+     "en": "Hello, I'd like to make an appointment."
+    },
+    {
+     "who": "Ordination",
+     "de": "Wann haben Sie Zeit?",
+     "en": "When are you free?"
+    },
+    {
+     "who": "Du",
+     "de": "Am Donnerstag am Vormittag.",
+     "en": "On Thursday morning."
+    },
+    {
+     "who": "Ordination",
+     "de": "Donnerstag um neun?",
+     "en": "Thursday at nine?"
+    },
+    {
+     "who": "Du",
+     "de": "Passt, danke!",
+     "en": "That works, thanks!"
+    }
+   ]
+  },
+  {
+   "slug": "haben-sie-einen-termin",
+   "week": 7,
+   "learner_action": "recognise_now",
+   "de": "Haben Sie einen Termin?",
+   "en": "Do you have an appointment?",
+   "context": "Reception. Answer: Ja, um zehn Uhr. / Nein, leider nicht."
+  },
+  {
+   "slug": "hier-ist-meine-e-card",
+   "week": 7,
+   "de": "Hier ist meine e-card.",
+   "en": "Here is my e-card (Austrian health insurance card).",
+   "likely_reply_de": "Danke. Nehmen Sie bitte Platz.",
+   "likely_reply_en": "Thanks. Please take a seat.",
+   "austria_note": "Doctors' receptions in Austria ask for the e-card first."
+  },
+  {
+   "slug": "nehmen-sie-platz",
+   "week": 7,
+   "learner_action": "recognise_now",
+   "de": "Nehmen Sie bitte Platz.",
+   "en": "Please take a seat."
+  },
+  {
+   "slug": "ich-bin-zu-spaet",
+   "week": 5,
+   "de": "Entschuldigung, ich bin zu spät.",
+   "en": "Sorry, I'm late.",
+   "likely_reply_de": "Passt schon.",
+   "likely_reply_en": "It's fine."
+  },
+  {
+   "slug": "termin-absagen",
+   "week": 11,
+   "de": "Ich muss meinen Termin leider absagen.",
+   "en": "Unfortunately I have to cancel my appointment."
+  },
+  {
+   "slug": "termin-verschieben",
+   "week": 11,
+   "de": "Kann ich den Termin verschieben?",
+   "en": "Can I move the appointment?",
+   "likely_reply_de": "Ja. Passt Ihnen Freitag um elf?",
+   "likely_reply_en": "Yes. Does Friday at eleven suit you?"
+  },
+  {
+   "slug": "frage-zu-meinem-termin",
+   "week": 11,
+   "de": "Ich habe eine Frage zu meinem Termin.",
+   "en": "I have a question about my appointment."
+  },
+  {
+   "slug": "kurz-an-den-seiten",
+   "week": 7,
+   "de": "Bitte kurz an den Seiten.",
+   "en": "Short on the sides, please.",
+   "context": "Barber / hairdresser (Friseur).",
+   "likely_reply_de": "Und oben?",
+   "likely_reply_en": "And on top?"
+  },
+  {
+   "slug": "nur-ein-bisschen-kuerzer",
+   "week": 7,
+   "de": "Nur ein bisschen kürzer, bitte.",
+   "en": "Just a little shorter, please."
+  },
+  {
+   "slug": "was-kostet-ein-haarschnitt",
+   "week": 7,
+   "de": "Was kostet ein Haarschnitt?",
+   "en": "How much is a haircut?",
+   "likely_reply_de": "Zwanzig Euro.",
+   "likely_reply_en": "Twenty euros."
+  },
+  {
+   "slug": "meldezettel",
+   "kind": "word",
+   "week": 7,
+   "gender": "der",
+   "region_tag": "austria",
+   "de": "der Meldezettel",
+   "en": "residence registration form",
+   "context": "You register your address at a Meldeservice within 3 days of moving in. You will need it for many offices.",
+   "austria_note": "Austria-specific word and process.",
+   "verify_source": "oesterreich.gv.at: Wohnsitz anmelden"
+  },
+  {
+   "slug": "ich-moechte-mich-anmelden",
+   "week": 11,
+   "de": "Ich möchte meinen Wohnsitz anmelden.",
+   "en": "I'd like to register my address.",
+   "likely_reply_de": "Haben Sie den Meldezettel ausgefüllt?",
+   "likely_reply_en": "Have you filled in the registration form?"
+  },
+  {
+   "slug": "wie-lange-dauert-das",
+   "week": 6,
+   "de": "Wie lange dauert das?",
+   "en": "How long does it take?",
+   "likely_reply_de": "Ungefähr zehn Minuten.",
+   "likely_reply_en": "About ten minutes."
+  },
+  {
+   "slug": "ich-komme-gleich",
+   "week": 6,
+   "de": "Ich komme gleich.",
+   "en": "I'm coming right away.",
+   "context": "On the intercom (Gegensprechanlage) or the phone."
+  }
+ ]
+}

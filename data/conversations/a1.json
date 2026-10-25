@@ -1,0 +1,956 @@
+{
+ "cefr": "A1",
+ "status": "reviewed",
+ "conversations": [
+  {
+   "slug": "a1-neue-nachbarin",
+   "week": 1,
+   "register": "formal",
+   "title": "Meeting a neighbour on the stairs",
+   "title_de": "Die neue Nachbarin",
+   "partner": "Frau Huber, older neighbour",
+   "setting": "Stairwell of your building, morning.",
+   "goal": "Greet politely, say who you are, where you are from and what you do.",
+   "patterns": [
+    "P01",
+    "P02"
+   ],
+   "turns": [
+    {
+     "who": "Frau Huber",
+     "de": "Grüß Gott! Sind Sie neu hier?",
+     "en": "Hello! Are you new here?"
+    },
+    {
+     "who": "Du",
+     "de": "Grüß Gott! Ja, ich wohne seit Kurzem hier.",
+     "en": "Hello! Yes, I've only just moved in.",
+     "alt": [
+      "Guten Morgen! Ja, ich bin neu hier."
+     ]
+    },
+    {
+     "who": "Frau Huber",
+     "de": "Willkommen! Ich bin Frau Huber, von Tür vier.",
+     "en": "Welcome! I'm Mrs Huber, from door four."
+    },
+    {
+     "who": "Du",
+     "de": "Freut mich! Ich heiße Danish.",
+     "en": "Nice to meet you! My name is Danish."
+    },
+    {
+     "who": "Frau Huber",
+     "de": "Freut mich auch. Woher kommen Sie?",
+     "en": "Nice to meet you too. Where are you from?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich komme aus ... und ich studiere hier an der Uni.",
+     "en": "I'm from ... (your country), and I study at the university here."
+    },
+    {
+     "who": "Frau Huber",
+     "de": "Ah, schön! Und Sie sprechen schon Deutsch!",
+     "en": "Oh, nice! And you already speak German!"
+    },
+    {
+     "who": "Du",
+     "de": "Ein bisschen. Ich lerne noch.",
+     "en": "A little. I'm still learning."
+    },
+    {
+     "who": "Frau Huber",
+     "de": "Das ist doch schon sehr gut. Einen schönen Tag noch!",
+     "en": "That's already very good. Have a nice day!"
+    },
+    {
+     "who": "Du",
+     "de": "Danke, gleichfalls! Auf Wiederschauen!",
+     "en": "Thanks, same to you! Goodbye!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ich wohne seit Kurzem hier.",
+     "en": "I've only just moved in here."
+    },
+    {
+     "de": "Ich lerne noch.",
+     "en": "I'm still learning."
+    },
+    {
+     "de": "Danke, gleichfalls!",
+     "en": "Thanks, same to you!"
+    }
+   ],
+   "notes": [
+    "Use Sie with neighbours you don't know, especially older ones. Wait for them to offer du.",
+    "Many Viennese doors are numbered (Tür 4). Neighbours often introduce themselves by surname: Frau Huber, Herr Novak."
+   ]
+  },
+  {
+   "slug": "a1-mensa-platz",
+   "week": 2,
+   "register": "informal",
+   "title": "Sharing a table in the Mensa",
+   "title_de": "Ist hier frei?",
+   "partner": "Paul, a student",
+   "setting": "University canteen at lunchtime. The tables are full.",
+   "goal": "Ask for a seat, return Mahlzeit, say what you study.",
+   "patterns": [
+    "P04",
+    "P05"
+   ],
+   "turns": [
+    {
+     "who": "Du",
+     "de": "Entschuldigung, ist hier frei?",
+     "en": "Excuse me, is this seat free?"
+    },
+    {
+     "who": "Paul",
+     "de": "Ja, klar. Setz dich!",
+     "en": "Yes, sure. Sit down!"
+    },
+    {
+     "who": "Du",
+     "de": "Danke! Mahlzeit!",
+     "en": "Thanks! Enjoy your lunch!"
+    },
+    {
+     "who": "Paul",
+     "de": "Mahlzeit! Bist du auch hier an der Uni?",
+     "en": "Enjoy! Are you at the university here too?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, ich studiere hier.",
+     "en": "Yes, I study here."
+    },
+    {
+     "who": "Paul",
+     "de": "Cool. Was studierst du?",
+     "en": "Cool. What do you study?"
+    },
+    {
+     "who": "Du",
+     "de": "Informatik. Das Studium ist auf Englisch.",
+     "en": "Computer science. The programme is in English."
+    },
+    {
+     "who": "Paul",
+     "de": "Und du lernst trotzdem Deutsch? Super!",
+     "en": "And you're learning German anyway? Great!"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, ich möchte hier mit Leuten Deutsch sprechen.",
+     "en": "Yes, I want to speak German with people here."
+    },
+    {
+     "who": "Paul",
+     "de": "Ich bin übrigens Paul.",
+     "en": "I'm Paul, by the way."
+    },
+    {
+     "who": "Du",
+     "de": "Ich bin Danish. Freut mich!",
+     "en": "I'm Danish. Nice to meet you!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ist hier frei?",
+     "en": "Is this seat free?"
+    },
+    {
+     "de": "Ja, ich studiere hier.",
+     "en": "Yes, I study here."
+    },
+    {
+     "de": "Ich möchte mit Leuten Deutsch sprechen.",
+     "en": "I want to speak German with people."
+    }
+   ],
+   "notes": [
+    "Mahlzeit! is a normal lunchtime greeting in Austrian canteens and offices. Answer with Mahlzeit!",
+    "Students say du to each other straight away."
+   ]
+  },
+  {
+   "slug": "a1-melange-bestellen",
+   "week": 4,
+   "register": "formal",
+   "title": "Ordering in a Viennese café",
+   "title_de": "Im Kaffeehaus",
+   "partner": "Waiter (Herr Ober)",
+   "setting": "A traditional Viennese coffee house. You have chosen a table yourself.",
+   "goal": "Order a drink and a cake, then pay and tip.",
+   "patterns": [
+    "P09",
+    "P10"
+   ],
+   "turns": [
+    {
+     "who": "Kellner",
+     "de": "Grüß Gott, was darf's sein?",
+     "en": "Hello, what can I get you?"
+    },
+    {
+     "who": "Du",
+     "de": "Eine Melange, bitte.",
+     "en": "A Melange, please.",
+     "alt": [
+      "Ich hätte gern eine Melange."
+     ]
+    },
+    {
+     "who": "Kellner",
+     "de": "Gerne. Sonst noch etwas?",
+     "en": "Sure. Anything else?"
+    },
+    {
+     "who": "Du",
+     "de": "Haben Sie Apfelstrudel?",
+     "en": "Do you have apple strudel?"
+    },
+    {
+     "who": "Kellner",
+     "de": "Ja, natürlich. Mit oder ohne Schlagobers?",
+     "en": "Yes, of course. With or without whipped cream?"
+    },
+    {
+     "who": "Du",
+     "de": "Mit Schlagobers, bitte.",
+     "en": "With whipped cream, please."
+    },
+    {
+     "who": "Kellner",
+     "de": "Kommt sofort.",
+     "en": "Coming right up."
+    },
+    {
+     "who": "Du",
+     "de": "Zahlen, bitte!",
+     "en": "The bill, please!"
+    },
+    {
+     "who": "Kellner",
+     "de": "Das macht neun Euro achtzig.",
+     "en": "That's €9.80."
+    },
+    {
+     "who": "Du",
+     "de": "Zehn fünfzig, bitte. Stimmt so.",
+     "en": "Ten fifty, please. Keep the change."
+    },
+    {
+     "who": "Kellner",
+     "de": "Danke schön! Schönen Tag noch.",
+     "en": "Thank you! Have a nice day."
+    },
+    {
+     "who": "Du",
+     "de": "Danke, gleichfalls!",
+     "en": "Thanks, same to you!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Was darf's sein?",
+     "en": "What can I get you?"
+    },
+    {
+     "de": "Mit oder ohne Schlagobers?",
+     "en": "With or without whipped cream?"
+    },
+    {
+     "de": "Zehn fünfzig, bitte. Stimmt so.",
+     "en": "Ten fifty, please. Keep the change."
+    }
+   ],
+   "notes": [
+    "Tipping: say the total you want to pay, including the tip (about 5 to 10 %).",
+    "In a Kaffeehaus nobody rushes you. You call the waiter when you want to pay."
+   ]
+  },
+  {
+   "slug": "a1-supermarkt-kassa",
+   "week": 3,
+   "register": "formal",
+   "title": "At the supermarket checkout",
+   "title_de": "An der Kassa",
+   "partner": "Cashier",
+   "setting": "A Billa or Spar supermarket.",
+   "goal": "Handle the three questions every cashier asks.",
+   "patterns": [
+    "P08"
+   ],
+   "turns": [
+    {
+     "who": "Kassierin",
+     "de": "Hallo! Haben Sie eine Kundenkarte?",
+     "en": "Hello! Do you have a loyalty card?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, leider nicht.",
+     "en": "No, unfortunately not."
+    },
+    {
+     "who": "Kassierin",
+     "de": "Brauchen Sie ein Sackerl?",
+     "en": "Do you need a bag?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, eins, bitte.",
+     "en": "Yes, one please.",
+     "alt": [
+      "Nein, danke. Ich habe eins."
+     ]
+    },
+    {
+     "who": "Kassierin",
+     "de": "Das macht dreizehn Euro zwanzig.",
+     "en": "That's €13.20."
+    },
+    {
+     "who": "Du",
+     "de": "Mit Karte, bitte.",
+     "en": "By card, please."
+    },
+    {
+     "who": "Kassierin",
+     "de": "Bitte. Brauchen Sie die Rechnung?",
+     "en": "There you go. Do you need the receipt?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, danke.",
+     "en": "No, thanks."
+    },
+    {
+     "who": "Kassierin",
+     "de": "Schönen Tag noch!",
+     "en": "Have a nice day!"
+    },
+    {
+     "who": "Du",
+     "de": "Danke, gleichfalls! Auf Wiederschauen!",
+     "en": "Thanks, same to you! Goodbye!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Brauchen Sie ein Sackerl?",
+     "en": "Do you need a bag?"
+    },
+    {
+     "de": "Nein, leider nicht.",
+     "en": "No, unfortunately not."
+    },
+    {
+     "de": "Brauchen Sie die Rechnung?",
+     "en": "Do you need the receipt?"
+    }
+   ],
+   "notes": [
+    "Austrian supermarkets ask about their own loyalty card (at Billa and Penny it's the jö card). Nein, danke is a fine answer.",
+    "Sackerl is the Austrian word for bag."
+   ]
+  },
+  {
+   "slug": "a1-vorstellen-event",
+   "week": 2,
+   "register": "informal",
+   "title": "Introducing yourself at a student event",
+   "title_de": "Sich vorstellen",
+   "partner": "Anna, a student from Vienna",
+   "setting": "Welcome event for new students.",
+   "goal": "Keep a first chat going for about a minute.",
+   "patterns": [
+    "P01",
+    "P05",
+    "P06"
+   ],
+   "turns": [
+    {
+     "who": "Anna",
+     "de": "Hallo! Ich bin Anna. Und du?",
+     "en": "Hi! I'm Anna. And you?"
+    },
+    {
+     "who": "Du",
+     "de": "Hallo, ich heiße Danish.",
+     "en": "Hi, my name is Danish."
+    },
+    {
+     "who": "Anna",
+     "de": "Woher kommst du, Danish?",
+     "en": "Where are you from, Danish?"
+    },
+    {
+     "who": "Du",
+     "de": "Aus ... Und du? Bist du aus Wien?",
+     "en": "From ... (your country). And you? Are you from Vienna?"
+    },
+    {
+     "who": "Anna",
+     "de": "Ja, ich bin eine echte Wienerin. Wie lange bist du schon hier?",
+     "en": "Yes, I'm a real Viennese. How long have you been here?"
+    },
+    {
+     "who": "Du",
+     "de": "Seit ein paar Monaten.",
+     "en": "For a few months.",
+     "alt": [
+      "Seit September."
+     ]
+    },
+    {
+     "who": "Anna",
+     "de": "Und, gefällt's dir in Wien?",
+     "en": "And do you like it in Vienna?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, sehr! Wien ist schön und sehr sicher.",
+     "en": "Yes, a lot! Vienna is beautiful and very safe."
+    },
+    {
+     "who": "Anna",
+     "de": "Was machst du gern in deiner Freizeit?",
+     "en": "What do you like doing in your free time?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich koche gern und ich gehe gern spazieren.",
+     "en": "I like cooking and I like going for walks."
+    },
+    {
+     "who": "Anna",
+     "de": "Wo gehst du am liebsten spazieren?",
+     "en": "Where do you like walking most?"
+    },
+    {
+     "who": "Du",
+     "de": "Am Donaukanal oder im Prater.",
+     "en": "Along the Danube Canal or in the Prater."
+    },
+    {
+     "who": "Anna",
+     "de": "Schön! Wir können ja mal zusammen einen Kaffee trinken.",
+     "en": "Nice! We could have a coffee together some time."
+    },
+    {
+     "who": "Du",
+     "de": "Ja, gerne!",
+     "en": "Yes, I'd like that!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Wie lange bist du schon hier?",
+     "en": "How long have you been here?"
+    },
+    {
+     "de": "Gefällt's dir in Wien?",
+     "en": "Do you like it in Vienna?"
+    },
+    {
+     "de": "Ich koche gern.",
+     "en": "I like cooking."
+    },
+    {
+     "de": "Und du?",
+     "en": "And you? (keeps the conversation going)"
+    }
+   ],
+   "notes": [
+    "Und du? is your best friend: answer, then ask back.",
+    "gern + verb = like doing: Ich lese gern, Ich spiele gern Cricket."
+   ]
+  },
+  {
+   "slug": "a1-weg-fragen",
+   "week": 5,
+   "register": "formal",
+   "title": "Asking the way to the U-Bahn",
+   "title_de": "Nach dem Weg fragen",
+   "partner": "Passer-by",
+   "setting": "Street near Karlsplatz.",
+   "goal": "Ask, understand the key words, check, thank.",
+   "patterns": [
+    "P05",
+    "P11"
+   ],
+   "turns": [
+    {
+     "who": "Du",
+     "de": "Entschuldigung, wie komme ich zur U4?",
+     "en": "Excuse me, how do I get to the U4?"
+    },
+    {
+     "who": "Passant",
+     "de": "Zur U4? Gehen Sie hier geradeaus und dann links.",
+     "en": "To the U4? Go straight on here and then left."
+    },
+    {
+     "who": "Du",
+     "de": "Geradeaus und dann links. Ist das weit?",
+     "en": "Straight on and then left. Is it far?"
+    },
+    {
+     "who": "Passant",
+     "de": "Nein, nur drei Minuten zu Fuß.",
+     "en": "No, only three minutes on foot."
+    },
+    {
+     "who": "Du",
+     "de": "Und welche Richtung muss ich nehmen, nach Hütteldorf?",
+     "en": "And which direction do I take, to Hütteldorf?"
+    },
+    {
+     "who": "Passant",
+     "de": "Das kommt darauf an. Wohin wollen Sie?",
+     "en": "That depends. Where do you want to go?"
+    },
+    {
+     "who": "Du",
+     "de": "Nach Schönbrunn.",
+     "en": "To Schönbrunn."
+    },
+    {
+     "who": "Passant",
+     "de": "Dann Richtung Hütteldorf, ja.",
+     "en": "Then towards Hütteldorf, yes."
+    },
+    {
+     "who": "Du",
+     "de": "Vielen Dank!",
+     "en": "Thank you very much!"
+    },
+    {
+     "who": "Passant",
+     "de": "Gerne!",
+     "en": "You're welcome!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Wie komme ich zur U4?",
+     "en": "How do I get to the U4?"
+    },
+    {
+     "de": "geradeaus, links, rechts",
+     "en": "straight on, left, right"
+    },
+    {
+     "de": "Welche Richtung?",
+     "en": "Which direction?"
+    }
+   ],
+   "notes": [
+    "Repeating the key words back (Geradeaus und dann links?) is a natural way to check you understood.",
+    "Vienna U-Bahn lines are named by their end stations: U4 Richtung Hütteldorf or Richtung Heiligenstadt."
+   ]
+  },
+  {
+   "slug": "a1-wetter-haltestelle",
+   "week": 6,
+   "register": "informal",
+   "title": "Weather chat at the tram stop",
+   "title_de": "Smalltalk über das Wetter",
+   "partner": "Neighbour waiting for the tram",
+   "setting": "A cold morning at the tram stop.",
+   "goal": "Do the classic Austrian weather small talk.",
+   "patterns": [
+    "P01",
+    "P04"
+   ],
+   "turns": [
+    {
+     "who": "Nachbar",
+     "de": "Kalt heute, gell?",
+     "en": "Cold today, isn't it?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, sehr kalt! Bei mir zu Hause ist es jetzt viel wärmer.",
+     "en": "Yes, very cold! Back home it's much warmer now."
+    },
+    {
+     "who": "Nachbar",
+     "de": "Das glaub ich. Gestern war's noch so schön.",
+     "en": "I believe that. Yesterday it was still so nice."
+    },
+    {
+     "who": "Du",
+     "de": "Ja. Wie wird das Wetter morgen?",
+     "en": "Yes. What will the weather be like tomorrow?"
+    },
+    {
+     "who": "Nachbar",
+     "de": "Ich glaub, morgen regnet's.",
+     "en": "I think it'll rain tomorrow."
+    },
+    {
+     "who": "Du",
+     "de": "Oje. Dann nehme ich einen Schirm mit.",
+     "en": "Oh no. Then I'll take an umbrella."
+    },
+    {
+     "who": "Nachbar",
+     "de": "Gute Idee. Ah, da kommt die Bim.",
+     "en": "Good idea. Ah, here comes the tram."
+    },
+    {
+     "who": "Du",
+     "de": "Endlich! Schönen Tag noch!",
+     "en": "Finally! Have a nice day!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Kalt heute, gell?",
+     "en": "Cold today, isn't it?"
+    },
+    {
+     "de": "Wie wird das Wetter morgen?",
+     "en": "What will the weather be like tomorrow?"
+    },
+    {
+     "de": "Ich glaube, morgen regnet es.",
+     "en": "I think it'll rain tomorrow."
+    }
+   ],
+   "notes": [
+    "gell? (or gö?) is the Austrian tag for isn't it? / right?. Recognise it; you can answer with Ja!",
+    "Spoken Austrian often shortens: glaub = glaube, war's = war es, regnet's = regnet es."
+   ]
+  },
+  {
+   "slug": "a1-nicht-verstanden",
+   "week": 1,
+   "register": "formal",
+   "title": "When you don't understand",
+   "title_de": "Ich habe das nicht verstanden",
+   "partner": "A man in the street",
+   "setting": "Someone asks you something quickly.",
+   "goal": "Stay in German with repair phrases instead of switching to English.",
+   "patterns": [
+    "P04"
+   ],
+   "turns": [
+    {
+     "who": "Mann",
+     "de": "Entschuldigung, wissen Sie, wo hier die nächste Trafik ist?",
+     "en": "Excuse me, do you know where the nearest kiosk is?"
+    },
+    {
+     "who": "Du",
+     "de": "Entschuldigung, ich lerne noch Deutsch. Können Sie das bitte wiederholen?",
+     "en": "Sorry, I'm still learning German. Can you repeat that, please?"
+    },
+    {
+     "who": "Mann",
+     "de": "Klar. Die Trafik. Wo ist die nächste Trafik?",
+     "en": "Sure. The kiosk. Where is the nearest kiosk?"
+    },
+    {
+     "who": "Du",
+     "de": "Was bedeutet Trafik?",
+     "en": "What does Trafik mean?"
+    },
+    {
+     "who": "Mann",
+     "de": "Ein kleines Geschäft. Für Zeitungen und Fahrscheine.",
+     "en": "A small shop. For newspapers and tickets."
+    },
+    {
+     "who": "Du",
+     "de": "Ah, ich verstehe. Ich glaube, da vorne links.",
+     "en": "Ah, I understand. I think it's up ahead on the left."
+    },
+    {
+     "who": "Mann",
+     "de": "Super, danke!",
+     "en": "Great, thanks!"
+    },
+    {
+     "who": "Du",
+     "de": "Gern geschehen!",
+     "en": "You're welcome!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Können Sie das bitte wiederholen?",
+     "en": "Can you repeat that, please?"
+    },
+    {
+     "de": "Was bedeutet ...?",
+     "en": "What does ... mean?"
+    },
+    {
+     "de": "Ah, ich verstehe.",
+     "en": "Ah, I understand."
+    }
+   ],
+   "notes": [
+    "Repair phrases count as successful German. Most people slow down happily when you ask."
+   ]
+  },
+  {
+   "slug": "a1-apotheke",
+   "week": 7,
+   "register": "formal",
+   "title": "At the pharmacy",
+   "title_de": "In der Apotheke",
+   "partner": "Pharmacist",
+   "setting": "You have a cold and a sore throat.",
+   "goal": "Describe a simple health problem and understand the advice.",
+   "patterns": [
+    "P03",
+    "P13"
+   ],
+   "turns": [
+    {
+     "who": "Apothekerin",
+     "de": "Grüß Gott, was kann ich für Sie tun?",
+     "en": "Hello, what can I do for you?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich bin erkältet und ich habe Halsschmerzen.",
+     "en": "I have a cold and a sore throat."
+    },
+    {
+     "who": "Apothekerin",
+     "de": "Seit wann haben Sie die Halsschmerzen?",
+     "en": "Since when have you had the sore throat?"
+    },
+    {
+     "who": "Du",
+     "de": "Seit zwei Tagen.",
+     "en": "For two days."
+    },
+    {
+     "who": "Apothekerin",
+     "de": "Haben Sie auch Fieber?",
+     "en": "Do you have a fever too?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, kein Fieber.",
+     "en": "No, no fever."
+    },
+    {
+     "who": "Apothekerin",
+     "de": "Dann empfehle ich diese Lutschtabletten. Dreimal am Tag.",
+     "en": "Then I recommend these lozenges. Three times a day."
+    },
+    {
+     "who": "Du",
+     "de": "Dreimal am Tag. Was kostet das?",
+     "en": "Three times a day. How much is it?"
+    },
+    {
+     "who": "Apothekerin",
+     "de": "Acht Euro neunzig. Gute Besserung!",
+     "en": "€8.90. Get well soon!"
+    },
+    {
+     "who": "Du",
+     "de": "Danke schön!",
+     "en": "Thank you!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ich bin erkältet.",
+     "en": "I have a cold."
+    },
+    {
+     "de": "Seit zwei Tagen.",
+     "en": "For two days."
+    },
+    {
+     "de": "Gute Besserung!",
+     "en": "Get well soon!"
+    }
+   ],
+   "notes": [
+    "seit + time = for/since: seit zwei Tagen, seit Montag. German uses the present tense here."
+   ]
+  },
+  {
+   "slug": "a1-heizung-melden",
+   "week": 7,
+   "register": "formal",
+   "title": "Reporting a broken heater",
+   "title_de": "Die Heizung ist kaputt",
+   "partner": "Student residence office",
+   "setting": "Phone call to the office of your Studentenheim.",
+   "goal": "Report a problem and agree a time.",
+   "patterns": [
+    "P01",
+    "P12"
+   ],
+   "turns": [
+    {
+     "who": "Büro",
+     "de": "Studentenheim, Grüß Gott?",
+     "en": "Student residence, hello?"
+    },
+    {
+     "who": "Du",
+     "de": "Guten Tag, hier ist Danish aus Zimmer 312.",
+     "en": "Hello, this is Danish from room 312."
+    },
+    {
+     "who": "Büro",
+     "de": "Ja, was gibt's?",
+     "en": "Yes, what's up?"
+    },
+    {
+     "who": "Du",
+     "de": "Die Heizung in meinem Zimmer funktioniert nicht.",
+     "en": "The heating in my room isn't working."
+    },
+    {
+     "who": "Büro",
+     "de": "Seit wann?",
+     "en": "Since when?"
+    },
+    {
+     "who": "Du",
+     "de": "Seit gestern Abend. Es ist sehr kalt.",
+     "en": "Since last night. It's very cold."
+    },
+    {
+     "who": "Büro",
+     "de": "Okay. Der Techniker kann morgen um neun kommen. Passt das?",
+     "en": "Okay. The technician can come tomorrow at nine. Does that work?"
+    },
+    {
+     "who": "Du",
+     "de": "Um neun habe ich Vorlesung. Geht es auch am Nachmittag?",
+     "en": "At nine I have a lecture. Is the afternoon possible too?"
+    },
+    {
+     "who": "Büro",
+     "de": "Ja, um zwei.",
+     "en": "Yes, at two."
+    },
+    {
+     "who": "Du",
+     "de": "Passt, danke! Auf Wiederhören!",
+     "en": "That works, thanks! Goodbye (on the phone)!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Hier ist Danish aus Zimmer 312.",
+     "en": "This is Danish from room 312."
+    },
+    {
+     "de": "... funktioniert nicht.",
+     "en": "... isn't working."
+    },
+    {
+     "de": "Geht es auch am Nachmittag?",
+     "en": "Is the afternoon possible too?"
+    }
+   ],
+   "notes": [
+    "On the phone say Auf Wiederhören (literally: until we hear again).",
+    "Passt das? / Passt! is the everyday Austrian way to agree on a time."
+   ]
+  },
+  {
+   "slug": "a1-friseur",
+   "week": 8,
+   "register": "formal",
+   "title": "At the barber",
+   "title_de": "Beim Friseur",
+   "partner": "Barber",
+   "setting": "Walk-in barber shop.",
+   "goal": "Say what you want and handle the small talk.",
+   "patterns": [
+    "P10"
+   ],
+   "turns": [
+    {
+     "who": "Friseur",
+     "de": "Servus! Was machen wir heute?",
+     "en": "Hi! What are we doing today?"
+    },
+    {
+     "who": "Du",
+     "de": "Bitte kurz an den Seiten und oben nur ein bisschen kürzer.",
+     "en": "Short on the sides, please, and just a little shorter on top."
+    },
+    {
+     "who": "Friseur",
+     "de": "Mit der Maschine an den Seiten?",
+     "en": "With the clippers on the sides?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, Stufe drei, bitte.",
+     "en": "Yes, number three, please."
+    },
+    {
+     "who": "Friseur",
+     "de": "Passt. Und den Bart auch?",
+     "en": "Okay. And the beard as well?"
+    },
+    {
+     "who": "Du",
+     "de": "Nur ein bisschen, bitte.",
+     "en": "Just a little, please."
+    },
+    {
+     "who": "Friseur",
+     "de": "Und, was machst du so? Studierst du?",
+     "en": "So, what do you do? Are you a student?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, an der Uni. Und ich lerne Deutsch.",
+     "en": "Yes, at the university. And I'm learning German."
+    },
+    {
+     "who": "Friseur",
+     "de": "Na, das klappt ja schon gut! So, schau mal. Passt das?",
+     "en": "Well, that's already going well! There, have a look. Is that okay?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, super, danke! Was kostet das?",
+     "en": "Yes, great, thanks! How much is it?"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Kurz an den Seiten.",
+     "en": "Short on the sides."
+    },
+    {
+     "de": "Nur ein bisschen kürzer.",
+     "en": "Just a little shorter."
+    },
+    {
+     "de": "Stufe drei",
+     "en": "number three (clipper length)"
+    }
+   ],
+   "notes": [
+    "Many barbers say du and Servus to young customers. You can answer with du as well."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+# This repository is PUBLIC. Only code and safe seed content belong here.
+
+# ---- secrets ----
+.env
+.env.*
+*.env
+!.env.example
+!.dev.vars.example
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+.secrets/
+*.pem
+*.key
+*.p12
+secrets.*
+*-secret*
+*-token*
+
+# ---- databases, exports, backups ----
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.sql.gz
+*backup*
+*.bak
+ustad-export*.json
+exports/
+backups/
+.wrangler/
+
+# ---- personal data: recordings, transcripts, journal, life facts ----
+recordings/
+transcripts/
+journal/
+life_facts/
+user-data/
+*.webm
+*.m4a
+*.mp4
+*.wav
+*.ogg
+*.flac
+*.mp3
+# Generated TTS clips of the public phrase content are intended to ship:
+!frontend/public/audio/*.mp3
+
+# ---- python ----
+__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# ---- node / build ----
+node_modules/
+dist/
+dev-dist/
+playwright-report/
+test-results/
+*.log
+
+# ---- os / editors ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- personal learning content (merged in at deploy from this PC only) ----
+data/private/
+frontend/public/audio-private/

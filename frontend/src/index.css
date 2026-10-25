@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-paper: #f7f2e7;
+  --color-card: #fffdf8;
+  --color-ink: #1d2420;
+  --color-muted: #5f675f;
+  --color-line: #e3dccb;
+  --color-ustad: #1f4a35;
+  --color-ustad-soft: #e4efe7;
+  --color-saffron: #c8891c;
+  --color-saffron-soft: #f8ecd2;
+  --color-again: #b4432f;
+  --color-hard: #a96b12;
+  --color-good: #1f6a45;
+  --color-easy: #2b5f8a;
+  --font-sans: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-paper: #141a17;
+    --color-card: #1c2420;
+    --color-ink: #ece7dc;
+    --color-muted: #a3aba4;
+    --color-line: #2f3a34;
+    --color-ustad: #8fcfa9;
+    --color-ustad-soft: #23352b;
+    --color-saffron: #e6b05a;
+    --color-saffron-soft: #3a3020;
+    --color-again: #ef8a76;
+    --color-hard: #e2ab5a;
+    --color-good: #7fd0a2;
+    --color-easy: #8dbde6;
+  }
+}
+
+html,
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+}
+
+body {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* iOS: no text-selection callout on long-press buttons (hold-to-talk later, spec §5.4). */
+button {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  touch-action: manipulation;
+}
+
+.de {
+  font-feature-settings: 'kern';
+  letter-spacing: -0.01em;
+}

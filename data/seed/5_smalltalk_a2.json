@@ -1,0 +1,507 @@
+{
+ "deck": "smalltalk",
+ "title": "Small talk A2: full sentences",
+ "cefr": "A2",
+ "status": "reviewed",
+ "items": [
+  {
+   "slug": "a2-wie-lange-schon-in-wien",
+   "week": 13,
+   "de": "Wie lange bist du schon in Wien?",
+   "en": "How long have you been in Vienna?",
+   "register": "informal",
+   "likely_reply_de": "Seit drei Jahren. Und du?",
+   "likely_reply_en": "For three years. And you?"
+  },
+  {
+   "slug": "a2-seit-ein-paar-monaten",
+   "week": 13,
+   "de": "Ich bin seit ein paar Monaten in Wien.",
+   "en": "I've been in Vienna for a few months.",
+   "context": "German uses the present tense with seit."
+  },
+  {
+   "slug": "a2-gefaellt-dir-wien",
+   "week": 13,
+   "de": "Gefällt dir Wien?",
+   "en": "Do you like Vienna?",
+   "register": "informal",
+   "likely_reply_de": "Ja, sehr! Ich bin hier aufgewachsen.",
+   "likely_reply_en": "Yes, a lot! I grew up here."
+  },
+  {
+   "slug": "a2-vor-allem-die-oeffis",
+   "week": 13,
+   "de": "Ja, sehr. Vor allem die Öffis und die Parks.",
+   "en": "Yes, a lot. Especially the public transport and the parks."
+  },
+  {
+   "slug": "a2-was-gibts-neues",
+   "week": 13,
+   "de": "Was gibt's Neues?",
+   "en": "What's new?",
+   "register": "informal",
+   "likely_reply_de": "Nicht viel. Und bei dir?",
+   "likely_reply_en": "Not much. And with you?"
+  },
+  {
+   "slug": "a2-nichts-besonderes",
+   "week": 13,
+   "de": "Nichts Besonderes.",
+   "en": "Nothing special."
+  },
+  {
+   "slug": "a2-wie-gehts-dir-so",
+   "week": 13,
+   "de": "Mir geht's gut, nur ein bisschen müde.",
+   "en": "I'm fine, just a bit tired.",
+   "likely_reply_de": "Viel zu tun?",
+   "likely_reply_en": "Lots to do?"
+  },
+  {
+   "slug": "a2-viel-zu-tun",
+   "week": 13,
+   "de": "Ich habe gerade viel zu tun.",
+   "en": "I've got a lot to do at the moment."
+  },
+  {
+   "slug": "a2-was-hast-du-am-we-gemacht",
+   "week": 13,
+   "de": "Was hast du am Wochenende gemacht?",
+   "en": "What did you do at the weekend?",
+   "register": "informal",
+   "likely_reply_de": "Ich war mit Freunden an der Alten Donau.",
+   "likely_reply_en": "I was at the Alte Donau with friends."
+  },
+  {
+   "slug": "a2-ich-war-im-kino",
+   "week": 13,
+   "de": "Am Samstag war ich im Kino.",
+   "en": "On Saturday I was at the cinema.",
+   "context": "war + place: the easiest way to say where you were."
+  },
+  {
+   "slug": "a2-ich-habe-gekocht",
+   "week": 13,
+   "de": "Ich habe gekocht und ein bisschen gelernt.",
+   "en": "I cooked and studied a bit.",
+   "context": "Perfekt with haben: habe ... gekocht, habe ... gelernt."
+  },
+  {
+   "slug": "a2-ich-bin-nach-graz-gefahren",
+   "week": 14,
+   "de": "Ich bin mit dem Zug nach Graz gefahren.",
+   "en": "I went to Graz by train.",
+   "context": "Movement verbs take sein: bin gefahren, bin gegangen."
+  },
+  {
+   "slug": "a2-warst-du-schon-mal",
+   "week": 14,
+   "de": "Warst du schon mal in Salzburg?",
+   "en": "Have you ever been to Salzburg?",
+   "register": "informal",
+   "likely_reply_de": "Ja, letzten Sommer. Es ist wunderschön.",
+   "likely_reply_en": "Yes, last summer. It's beautiful."
+  },
+  {
+   "slug": "a2-ich-war-noch-nie",
+   "week": 14,
+   "de": "Ich war noch nie in Tirol.",
+   "en": "I've never been to Tyrol."
+  },
+  {
+   "slug": "a2-wie-wars",
+   "week": 14,
+   "de": "Wie war's?",
+   "en": "How was it?",
+   "register": "informal",
+   "likely_reply_de": "Super, aber ein bisschen anstrengend.",
+   "likely_reply_en": "Great, but a bit tiring."
+  },
+  {
+   "slug": "a2-das-klingt-interessant",
+   "week": 14,
+   "de": "Das klingt interessant!",
+   "en": "That sounds interesting!",
+   "context": "Keeps the other person talking."
+  },
+  {
+   "slug": "a2-echt",
+   "week": 14,
+   "de": "Echt? Erzähl mal!",
+   "en": "Really? Tell me!",
+   "register": "informal"
+  },
+  {
+   "slug": "a2-ach-so",
+   "week": 14,
+   "de": "Ach so, jetzt verstehe ich.",
+   "en": "Oh, I see, now I understand."
+  },
+  {
+   "slug": "a2-ich-lerne-deutsch-weil",
+   "week": 14,
+   "de": "Ich lerne Deutsch, weil ich hier arbeiten möchte.",
+   "en": "I'm learning German because I'd like to work here.",
+   "context": "weil sends the verb to the end."
+  },
+  {
+   "slug": "a2-ich-finde",
+   "week": 14,
+   "de": "Ich finde Wien sehr gemütlich.",
+   "en": "I find Vienna very cosy / relaxed."
+  },
+  {
+   "slug": "a2-ich-glaube",
+   "week": 14,
+   "de": "Ich glaube, das stimmt nicht ganz.",
+   "en": "I don't think that's quite right."
+  },
+  {
+   "slug": "a2-was-machst-du-beruflich",
+   "week": 15,
+   "de": "Was machst du beruflich?",
+   "en": "What do you do for work?",
+   "register": "informal",
+   "likely_reply_de": "Ich bin Krankenpflegerin im AKH.",
+   "likely_reply_en": "I'm a nurse at the AKH (General Hospital)."
+  },
+  {
+   "slug": "a2-ich-habe-in-der-logistik-gearbeitet",
+   "week": 15,
+   "de": "Vorher habe ich in der Logistik gearbeitet.",
+   "en": "Before that I worked in logistics."
+  },
+  {
+   "slug": "a2-ich-interessiere-mich-fuer",
+   "week": 15,
+   "de": "Ich interessiere mich für Technik und KI.",
+   "en": "I'm interested in technology and AI."
+  },
+  {
+   "slug": "a2-was-ist-dein-lieblingsessen",
+   "week": 15,
+   "de": "Was ist dein Lieblingsessen?",
+   "en": "What's your favourite food?",
+   "register": "informal",
+   "likely_reply_de": "Schnitzel mit Erdäpfelsalat!",
+   "likely_reply_en": "Schnitzel with potato salad!"
+  },
+  {
+   "slug": "a2-bei-uns-isst-man",
+   "week": 15,
+   "de": "Bei uns isst man viel Reis und Curry.",
+   "en": "At home we eat a lot of rice and curry."
+  },
+  {
+   "slug": "a2-das-schmeckt-sehr-gut",
+   "week": 15,
+   "de": "Das schmeckt wirklich gut!",
+   "en": "That tastes really good!"
+  },
+  {
+   "slug": "a2-kennst-du-ein-restaurant",
+   "week": 15,
+   "de": "Kennst du ein gutes Restaurant hier in der Nähe?",
+   "en": "Do you know a good restaurant near here?",
+   "likely_reply_de": "Ja, ums Eck gibt's ein super Beisl.",
+   "likely_reply_en": "Yes, round the corner there's a great pub restaurant.",
+   "austria_note": "Beisl = a simple Viennese pub-restaurant. ums Eck = round the corner."
+  },
+  {
+   "slug": "a2-hast-du-lust",
+   "week": 16,
+   "de": "Hast du Lust, am Samstag wandern zu gehen?",
+   "en": "Do you fancy going hiking on Saturday?",
+   "register": "informal",
+   "likely_reply_de": "Ja, voll gern! Wohin?",
+   "likely_reply_en": "Yes, I'd love to! Where?"
+  },
+  {
+   "slug": "a2-wann-hast-du-zeit",
+   "week": 16,
+   "de": "Wann hast du Zeit?",
+   "en": "When are you free?",
+   "register": "informal"
+  },
+  {
+   "slug": "a2-treffen-wir-uns-beim-eingang",
+   "week": 16,
+   "de": "Treffen wir uns um sieben beim Eingang?",
+   "en": "Shall we meet at seven at the entrance?",
+   "likely_reply_de": "Passt, bis dann!",
+   "likely_reply_en": "Works, see you then!"
+  },
+  {
+   "slug": "a2-ich-komme-etwas-spaeter",
+   "week": 16,
+   "de": "Ich komme ein bisschen später, tut mir leid.",
+   "en": "I'll be a bit late, sorry.",
+   "likely_reply_de": "Kein Stress, wir warten.",
+   "likely_reply_en": "No stress, we'll wait."
+  },
+  {
+   "slug": "a2-halb-drei",
+   "week": 16,
+   "de": "Um halb drei.",
+   "en": "At half past two.",
+   "context": "halb drei = halfway to three = 2:30."
+  },
+  {
+   "slug": "a2-viertel-nach",
+   "week": 16,
+   "de": "Um Viertel nach vier.",
+   "en": "At quarter past four.",
+   "austria_note": "Some Austrians say viertel fünf for 4:15 and dreiviertel fünf for 4:45. Recognise it."
+  },
+  {
+   "slug": "a2-das-wetter-ist-schoen-oder",
+   "week": 16,
+   "de": "Das Wetter ist heute echt schön, oder?",
+   "en": "The weather is really nice today, isn't it?",
+   "likely_reply_de": "Ja, endlich wieder Sonne!",
+   "likely_reply_en": "Yes, finally sun again!"
+  },
+  {
+   "slug": "a2-es-soll-regnen",
+   "week": 16,
+   "de": "Morgen soll es regnen.",
+   "en": "It's supposed to rain tomorrow."
+  },
+  {
+   "slug": "a2-mir-ist-kalt",
+   "week": 16,
+   "de": "Mir ist kalt.",
+   "en": "I'm cold.",
+   "context": "Not Ich bin kalt (that means you are a cold person)."
+  },
+  {
+   "slug": "a2-ich-verstehe-den-dialekt-nicht",
+   "week": 17,
+   "de": "Den Dialekt verstehe ich noch nicht so gut.",
+   "en": "I don't understand the dialect very well yet."
+  },
+  {
+   "slug": "a2-auf-hochdeutsch",
+   "week": 17,
+   "de": "Kannst du das auf Hochdeutsch sagen?",
+   "en": "Can you say that in standard German?",
+   "register": "informal"
+  },
+  {
+   "slug": "a2-wie-sagt-man-auf-oesterreichisch",
+   "week": 17,
+   "de": "Wie sagt man das auf Österreichisch?",
+   "en": "How do you say that in Austrian German?",
+   "likely_reply_de": "Bei uns sagt man Paradeiser, nicht Tomate.",
+   "likely_reply_en": "Here we say Paradeiser, not Tomate."
+  },
+  {
+   "slug": "a2-seit-wann-beschwerden",
+   "week": 17,
+   "learner_action": "recognise_now",
+   "de": "Seit wann haben Sie die Beschwerden?",
+   "en": "Since when have you had the symptoms?",
+   "context": "Doctor's question. Answer: Seit drei Tagen."
+  },
+  {
+   "slug": "a2-mir-tut-der-ruecken-weh",
+   "week": 17,
+   "de": "Mir tut der Rücken weh.",
+   "en": "My back hurts."
+  },
+  {
+   "slug": "a2-wie-hoch-ist-die-miete",
+   "week": 18,
+   "de": "Wie hoch ist die Miete?",
+   "en": "How much is the rent?",
+   "likely_reply_de": "Vierhundertfünfzig warm.",
+   "likely_reply_en": "€450 including heating."
+  },
+  {
+   "slug": "a2-sind-die-betriebskosten-dabei",
+   "week": 18,
+   "de": "Sind die Betriebskosten dabei?",
+   "en": "Are the service charges included?"
+  },
+  {
+   "slug": "a2-ab-wann-frei",
+   "week": 18,
+   "de": "Ab wann ist das Zimmer frei?",
+   "en": "From when is the room available?"
+  },
+  {
+   "slug": "a2-wir-melden-uns",
+   "week": 18,
+   "learner_action": "recognise_now",
+   "de": "Wir melden uns bei dir.",
+   "en": "We'll get back to you."
+  },
+  {
+   "slug": "a2-gib-mir-deine-nummer",
+   "week": 19,
+   "de": "Gibst du mir deine Nummer?",
+   "en": "Can I have your number?",
+   "register": "informal",
+   "likely_reply_de": "Klar, hast du WhatsApp?",
+   "likely_reply_en": "Sure, do you have WhatsApp?"
+  },
+  {
+   "slug": "a2-schreib-mir",
+   "week": 19,
+   "de": "Schreib mir einfach!",
+   "en": "Just text me!",
+   "register": "informal"
+  },
+  {
+   "slug": "a2-ich-muss-jetzt-los",
+   "week": 19,
+   "de": "Ich muss jetzt leider los.",
+   "en": "I'm afraid I have to go now.",
+   "likely_reply_de": "Schade! War schön, dich zu sehen.",
+   "likely_reply_en": "Shame! Nice to see you."
+  },
+  {
+   "slug": "a2-schoen-dich-kennenzulernen",
+   "week": 19,
+   "de": "Schön, dich kennenzulernen!",
+   "en": "Nice to have met you!",
+   "register": "informal"
+  },
+  {
+   "slug": "a2-bis-bald",
+   "week": 19,
+   "de": "Bis bald!",
+   "en": "See you soon!"
+  },
+  {
+   "slug": "a2-ich-freue-mich-darauf",
+   "week": 20,
+   "de": "Ich freue mich schon darauf!",
+   "en": "I'm looking forward to it!"
+  },
+  {
+   "slug": "a2-gute-besserung",
+   "week": 20,
+   "de": "Gute Besserung!",
+   "en": "Get well soon!"
+  },
+  {
+   "slug": "a2-alles-gute-zum-geburtstag",
+   "week": 20,
+   "de": "Alles Gute zum Geburtstag!",
+   "en": "Happy birthday!",
+   "likely_reply_de": "Danke dir!",
+   "likely_reply_en": "Thank you!"
+  },
+  {
+   "slug": "a2-schoenes-wochenende",
+   "week": 20,
+   "de": "Schönes Wochenende!",
+   "en": "Have a nice weekend!",
+   "likely_reply_de": "Danke, dir auch!",
+   "likely_reply_en": "Thanks, you too!"
+  },
+  {
+   "slug": "a2-etwas-ohne-alkohol",
+   "week": 20,
+   "de": "Gibt es auch etwas ohne Alkohol?",
+   "en": "Is there something without alcohol?",
+   "likely_reply_de": "Ja, Kinderpunsch oder Soda Zitron.",
+   "likely_reply_en": "Yes, children's punch or soda with lemon."
+  },
+  {
+   "slug": "a2-was-haben-die-gesagt",
+   "week": 21,
+   "de": "Was haben die gerade gesagt?",
+   "en": "What did they just say?",
+   "context": "After an announcement you didn't catch."
+  },
+  {
+   "slug": "a2-wissen-sie-wie-lange",
+   "week": 21,
+   "de": "Wissen Sie, wie lange das dauert?",
+   "en": "Do you know how long it will take?",
+   "register": "formal",
+   "context": "Indirect question: the verb goes to the end."
+  },
+  {
+   "slug": "a2-keine-ahnung",
+   "week": 21,
+   "de": "Keine Ahnung.",
+   "en": "No idea.",
+   "register": "informal"
+  },
+  {
+   "slug": "a2-wie-teilen-wir-auf",
+   "week": 22,
+   "de": "Wie teilen wir die Arbeit auf?",
+   "en": "How do we split the work?"
+  },
+  {
+   "slug": "a2-ich-kann-das-machen",
+   "week": 22,
+   "de": "Ich kann die Folien machen.",
+   "en": "I can do the slides."
+  },
+  {
+   "slug": "a2-bis-wann",
+   "week": 22,
+   "de": "Bis wann brauchen wir das?",
+   "en": "By when do we need it?"
+  },
+  {
+   "slug": "a2-koennen-wir-deutsch-reden",
+   "week": 22,
+   "de": "Können wir Deutsch reden? Ich möchte üben.",
+   "en": "Can we speak German? I'd like to practise.",
+   "likely_reply_de": "Klar, gerne!",
+   "likely_reply_en": "Sure, gladly!",
+   "mission": "Ask one person who switches to English to continue in German."
+  },
+  {
+   "slug": "a2-ich-war-den-ganzen-tag-zu-hause",
+   "week": 23,
+   "de": "Ich war den ganzen Tag zu Hause.",
+   "en": "I was at home all day."
+  },
+  {
+   "slug": "a2-wie-lange-geoeffnet",
+   "week": 23,
+   "de": "Wie lange haben Sie heute geöffnet?",
+   "en": "How long are you open today?",
+   "register": "formal",
+   "likely_reply_de": "Bis halb sieben.",
+   "likely_reply_en": "Until half past six."
+  },
+  {
+   "slug": "a2-ehrlich-gesagt",
+   "week": 24,
+   "de": "Ehrlich gesagt mag ich Fußball nicht so.",
+   "en": "To be honest, I'm not that into football."
+  },
+  {
+   "slug": "a2-so-beliebt-wie",
+   "week": 24,
+   "de": "Bei uns ist Cricket so beliebt wie Fußball hier.",
+   "en": "Where I'm from, cricket is as popular as football here."
+  },
+  {
+   "slug": "a2-komm-doch-mit",
+   "week": 24,
+   "de": "Komm doch mal mit!",
+   "en": "Come along some time!",
+   "register": "informal"
+  },
+  {
+   "slug": "a2-bist-du-fuer-rapid",
+   "week": 24,
+   "de": "Bist du für Rapid oder für die Austria?",
+   "en": "Do you support Rapid or Austria?",
+   "register": "informal",
+   "austria_note": "Vienna's two big football clubs. A safe, fun small-talk question.",
+   "likely_reply_de": "Rapid, natürlich!",
+   "likely_reply_en": "Rapid, of course!"
+  }
+ ]
+}

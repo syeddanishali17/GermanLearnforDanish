@@ -1,0 +1,777 @@
+{
+ "cefr": "B1",
+ "status": "reviewed",
+ "conversations": [
+  {
+   "slug": "b1-missverstaendnis",
+   "week": 25,
+   "register": "informal",
+   "title": "Telling a funny misunderstanding",
+   "title_de": "Eine lustige Geschichte",
+   "partner": "Lena and Paul",
+   "setting": "Coffee after class.",
+   "goal": "Tell a short story with als, dann, plötzlich and react to listeners.",
+   "patterns": [
+    "P14",
+    "P21",
+    "P22"
+   ],
+   "turns": [
+    {
+     "who": "Paul",
+     "de": "Hattest du am Anfang Probleme mit dem österreichischen Deutsch?",
+     "en": "Did you have problems with Austrian German at the beginning?"
+    },
+    {
+     "who": "Du",
+     "de": "Oh ja! Als ich neu in Wien war, wollte ich beim Bäcker Brötchen kaufen.",
+     "en": "Oh yes! When I was new in Vienna, I wanted to buy bread rolls at the bakery."
+    },
+    {
+     "who": "Lena",
+     "de": "Lass mich raten ...",
+     "en": "Let me guess ..."
+    },
+    {
+     "who": "Du",
+     "de": "Ich habe gesagt: Zwei Brötchen, bitte. Die Verkäuferin hat mich angeschaut und gefragt: Meinen Sie Semmeln?",
+     "en": "I said: Two Brötchen, please. The shop assistant looked at me and asked: Do you mean Semmeln?"
+    },
+    {
+     "who": "Paul",
+     "de": "Typisch Wien!",
+     "en": "Typical Vienna!"
+    },
+    {
+     "who": "Du",
+     "de": "Ich wusste nicht, was eine Semmel ist. Dann hat sie mir eine gezeigt, und plötzlich war alles klar.",
+     "en": "I didn't know what a Semmel was. Then she showed me one, and suddenly it was all clear."
+    },
+    {
+     "who": "Lena",
+     "de": "Und seitdem sagst du Semmel?",
+     "en": "And since then you say Semmel?"
+    },
+    {
+     "who": "Du",
+     "de": "Natürlich! Und Sackerl statt Tüte. Ich lerne jeden Tag ein neues Wort.",
+     "en": "Of course! And Sackerl instead of Tüte. I learn a new word every day."
+    },
+    {
+     "who": "Paul",
+     "de": "Bald redest du besser Wienerisch als wir.",
+     "en": "Soon you'll speak better Viennese than us."
+    },
+    {
+     "who": "Du",
+     "de": "Das bezweifle ich, aber ich gebe mir Mühe!",
+     "en": "I doubt it, but I'm making an effort!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Als ich neu in Wien war, ...",
+     "en": "When I was new in Vienna, ..."
+    },
+    {
+     "de": "Dann ... und plötzlich ...",
+     "en": "Then ... and suddenly ..."
+    },
+    {
+     "de": "Ich wusste nicht, was ... ist.",
+     "en": "I didn't know what ... is."
+    },
+    {
+     "de": "Ich gebe mir Mühe.",
+     "en": "I'm making an effort."
+    }
+   ],
+   "notes": [
+    "als for a single past event (Als ich neu war), wenn for repeated or future events.",
+    "In stories, war, hatte, wollte, wusste are used in the Präteritum even in speech; other verbs mostly in the Perfekt."
+   ]
+  },
+  {
+   "slug": "b1-meinung-wien",
+   "week": 26,
+   "register": "informal",
+   "title": "What do you think of living in Vienna?",
+   "title_de": "Wie findest du das Leben in Wien?",
+   "partner": "Stefan, a Viennese colleague",
+   "setting": "Lunch break.",
+   "goal": "Give a balanced opinion with reasons, agree and disagree politely.",
+   "patterns": [
+    "P17",
+    "P18",
+    "P23"
+   ],
+   "turns": [
+    {
+     "who": "Stefan",
+     "de": "Jetzt bist du schon eine Weile hier. Wie findest du das Leben in Wien wirklich?",
+     "en": "You've been here a while now. What do you really think of life in Vienna?"
+    },
+    {
+     "who": "Du",
+     "de": "Im Großen und Ganzen sehr positiv. Die Öffis sind super, und man fühlt sich sicher.",
+     "en": "On the whole very positive. Public transport is great and you feel safe."
+    },
+    {
+     "who": "Stefan",
+     "de": "Und was gefällt dir nicht so?",
+     "en": "And what don't you like so much?"
+    },
+    {
+     "who": "Du",
+     "de": "Ehrlich gesagt finde ich es schwierig, Österreicher kennenzulernen. Am Anfang wirken viele etwas distanziert.",
+     "en": "To be honest, I find it hard to get to know Austrians. At first many seem a bit distant."
+    },
+    {
+     "who": "Stefan",
+     "de": "Da hast du recht. Wir brauchen ein bisschen Zeit. Aber wenn man einmal befreundet ist, dann richtig.",
+     "en": "You're right there. We need a bit of time. But once you're friends, it's for real."
+    },
+    {
+     "who": "Du",
+     "de": "Das habe ich auch gemerkt. Einerseits ist es am Anfang schwer, andererseits sind die Freundschaften dann sehr ehrlich.",
+     "en": "I've noticed that too. On the one hand it's hard at first, on the other hand the friendships are then very honest."
+    },
+    {
+     "who": "Stefan",
+     "de": "Und der berühmte Wiener Grant? Hast du den schon erlebt?",
+     "en": "And the famous Viennese grumpiness? Have you experienced it yet?"
+    },
+    {
+     "who": "Du",
+     "de": "Oh ja, vor allem bei Kellnern! Aber meiner Meinung nach ist das oft nur Schmäh.",
+     "en": "Oh yes, especially with waiters! But in my opinion it's often just a kind of joking."
+    },
+    {
+     "who": "Stefan",
+     "de": "Genau, man darf das nicht zu ernst nehmen.",
+     "en": "Exactly, you mustn't take it too seriously."
+    },
+    {
+     "who": "Du",
+     "de": "Nur die Mieten finde ich zu hoch. Obwohl Wien billiger ist als München, ist es für Studenten teuer.",
+     "en": "Only the rents I find too high. Although Vienna is cheaper than Munich, it's expensive for students."
+    },
+    {
+     "who": "Stefan",
+     "de": "Da bin ich ganz deiner Meinung.",
+     "en": "I completely agree with you there."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Im Großen und Ganzen ...",
+     "en": "On the whole ..."
+    },
+    {
+     "de": "Einerseits ..., andererseits ...",
+     "en": "On the one hand ..., on the other hand ..."
+    },
+    {
+     "de": "Meiner Meinung nach ...",
+     "en": "In my opinion ..."
+    },
+    {
+     "de": "Obwohl ..., ...",
+     "en": "Although ..., ..."
+    },
+    {
+     "de": "Da bin ich ganz deiner Meinung.",
+     "en": "I completely agree with you there."
+    }
+   ],
+   "notes": [
+    "Grant = Viennese grumpiness, a famous cliché. Schmäh = Viennese humour and banter. Both are good small-talk topics with Viennese people.",
+    "Meiner Meinung nach is followed by the verb: Meiner Meinung nach ist das ..."
+   ]
+  },
+  {
+   "slug": "b1-vorstellungsgespraech",
+   "week": 28,
+   "register": "formal",
+   "title": "Working-student job interview",
+   "title_de": "Vorstellungsgespräch als Werkstudent",
+   "partner": "Ms Wagner, HR at a logistics company",
+   "setting": "Interview for a 20-hour working-student position.",
+   "goal": "Present yourself, your experience and availability in formal German.",
+   "patterns": [
+    "P19",
+    "P20",
+    "P24"
+   ],
+   "turns": [
+    {
+     "who": "Frau Wagner",
+     "de": "Erzählen Sie doch kurz etwas über sich.",
+     "en": "Tell us a little about yourself."
+    },
+    {
+     "who": "Du",
+     "de": "Gern. Ich heiße Danish und studiere hier in Wien.",
+     "en": "Gladly. My name is Danish and I'm studying here in Vienna."
+    },
+    {
+     "who": "Du",
+     "de": "Vorher habe ich mehrere Jahre in der Logistik gearbeitet, vor allem im Supply-Chain-Management.",
+     "en": "Before that I worked in logistics for several years, mainly in supply chain management."
+    },
+    {
+     "who": "Frau Wagner",
+     "de": "Warum interessieren Sie sich für diese Stelle?",
+     "en": "Why are you interested in this position?"
+    },
+    {
+     "who": "Du",
+     "de": "Weil ich meine Erfahrung in der Logistik mit dem verbinden möchte, was ich im Studium lerne, zum Beispiel Datenanalyse und KI.",
+     "en": "Because I want to combine my logistics experience with what I'm learning in my studies, for example data analysis and AI."
+    },
+    {
+     "who": "Frau Wagner",
+     "de": "Was sind Ihre Stärken?",
+     "en": "What are your strengths?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich arbeite strukturiert und löse gern praktische Probleme. Außerdem arbeite ich gern im Team.",
+     "en": "I work in a structured way and like solving practical problems. I also like working in a team."
+    },
+    {
+     "who": "Frau Wagner",
+     "de": "Unser Team spricht Deutsch. Wie schätzen Sie Ihre Deutschkenntnisse ein?",
+     "en": "Our team speaks German. How would you rate your German?"
+    },
+    {
+     "who": "Du",
+     "de": "Im Alltag komme ich gut zurecht. Fachsprache muss ich noch lernen, aber ich lerne jeden Tag und mache schnell Fortschritte.",
+     "en": "I manage well in everyday life. I still need to learn technical language, but I study every day and make quick progress."
+    },
+    {
+     "who": "Frau Wagner",
+     "de": "Ab wann könnten Sie anfangen, und wie viele Stunden?",
+     "en": "When could you start, and how many hours?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich könnte ab März anfangen, zwanzig Stunden pro Woche. Darf ich auch eine Frage stellen?",
+     "en": "I could start from March, twenty hours a week. May I ask a question too?"
+    },
+    {
+     "who": "Frau Wagner",
+     "de": "Natürlich.",
+     "en": "Of course."
+    },
+    {
+     "who": "Du",
+     "de": "Wie sieht ein typischer Arbeitstag in Ihrem Team aus?",
+     "en": "What does a typical working day in your team look like?"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Vorher habe ich ... gearbeitet.",
+     "en": "Before that I worked ..."
+    },
+    {
+     "de": "Ich möchte meine Erfahrung mit ... verbinden.",
+     "en": "I want to combine my experience with ..."
+    },
+    {
+     "de": "Im Alltag komme ich gut zurecht.",
+     "en": "I manage well in everyday life."
+    },
+    {
+     "de": "Ich könnte ab März anfangen.",
+     "en": "I could start from March."
+    },
+    {
+     "de": "Wie sieht ein typischer Arbeitstag aus?",
+     "en": "What does a typical working day look like?"
+    }
+   ],
+   "notes": [
+    "Always use Sie in interviews until they offer du. Many Austrian start-ups switch to du quickly.",
+    "Check your current work-hour limit as a student before you name a number."
+   ]
+  },
+  {
+   "slug": "b1-vergleich-heimat",
+   "week": 29,
+   "register": "informal",
+   "title": "Comparing home and Austria",
+   "title_de": "Heimat und Österreich im Vergleich",
+   "partner": "Sophie, flatmate",
+   "setting": "Evening in the WG kitchen.",
+   "goal": "Compare with comparatives and superlatives, talk about differences without stereotypes.",
+   "patterns": [
+    "P25",
+    "P17"
+   ],
+   "turns": [
+    {
+     "who": "Sophie",
+     "de": "Was ist für dich der größte Unterschied zwischen deiner Heimat und Österreich?",
+     "en": "What's the biggest difference between your home country and Austria for you?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich glaube, die Pünktlichkeit. Hier ist sie viel wichtiger als bei uns.",
+     "en": "I think punctuality. Here it's much more important than at home."
+    },
+    {
+     "who": "Sophie",
+     "de": "Echt? Kommt man bei euch oft zu spät?",
+     "en": "Really? Do people often come late where you're from?"
+    },
+    {
+     "who": "Du",
+     "de": "Bei privaten Treffen schon. Wenn man um sieben sagt, kommen viele erst um acht. Hier ist sieben wirklich sieben.",
+     "en": "For private meetings, yes. If you say seven, many only come at eight. Here seven really means seven."
+    },
+    {
+     "who": "Sophie",
+     "de": "Und was gefällt dir bei euch besser?",
+     "en": "And what do you like better back home?"
+    },
+    {
+     "who": "Du",
+     "de": "Die Gastfreundschaft. Bei uns wird man sofort zum Essen eingeladen, auch wenn man sich kaum kennt.",
+     "en": "The hospitality. At home you get invited to eat straight away, even if you barely know each other."
+    },
+    {
+     "who": "Sophie",
+     "de": "Das klingt schön. Und das Essen?",
+     "en": "That sounds lovely. And the food?"
+    },
+    {
+     "who": "Du",
+     "de": "Das Essen von zu Hause ist natürlich am besten! Aber die österreichischen Mehlspeisen sind auch nicht schlecht.",
+     "en": "Food from home is of course the best! But Austrian pastries and desserts aren't bad either."
+    },
+    {
+     "who": "Sophie",
+     "de": "Haha, das ist diplomatisch. Und das Wetter?",
+     "en": "Haha, that's diplomatic. And the weather?"
+    },
+    {
+     "who": "Du",
+     "de": "Im Sommer ist es bei uns viel heißer, manchmal über vierzig Grad. Aber der Winter hier ist dunkler und länger, als ich gedacht habe.",
+     "en": "In summer it's much hotter back home, sometimes over forty degrees. But winter here is darker and longer than I thought."
+    },
+    {
+     "who": "Sophie",
+     "de": "Ja, der November ist der schlimmste Monat. Da hilft nur Kaffeehaus.",
+     "en": "Yes, November is the worst month. Only the coffee house helps then."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Der größte Unterschied ist ...",
+     "en": "The biggest difference is ..."
+    },
+    {
+     "de": "... ist viel wichtiger als bei uns.",
+     "en": "... is much more important than at home."
+    },
+    {
+     "de": "... gefällt mir zu Hause besser.",
+     "en": "I like ... better back home."
+    },
+    {
+     "de": "... länger, als ich gedacht habe.",
+     "en": "... longer than I thought."
+    }
+   ],
+   "notes": [
+    "Comparative + als: wichtiger als, heißer als. Superlative: am besten, der größte, der schlimmste.",
+    "Mehlspeise is the Austrian word for cakes, pastries and sweet dishes."
+   ]
+  },
+  {
+   "slug": "b1-vermieter-bitte",
+   "week": 30,
+   "register": "formal",
+   "title": "A polite request to the landlord",
+   "title_de": "Eine höfliche Bitte an die Vermieterin",
+   "partner": "Mrs Steiner, landlady",
+   "setting": "Phone call about mould in the bathroom.",
+   "goal": "Describe a problem and negotiate politely with Konjunktiv II.",
+   "patterns": [
+    "P19",
+    "P26"
+   ],
+   "turns": [
+    {
+     "who": "Frau Steiner",
+     "de": "Steiner?",
+     "en": "Steiner speaking?"
+    },
+    {
+     "who": "Du",
+     "de": "Guten Tag, Frau Steiner, hier spricht Danish aus der Wohnung in der Margaretenstraße. Hätten Sie kurz Zeit?",
+     "en": "Hello Mrs Steiner, this is Danish from the flat on Margaretenstraße. Would you have a moment?"
+    },
+    {
+     "who": "Frau Steiner",
+     "de": "Ja, worum geht es?",
+     "en": "Yes, what is it about?"
+    },
+    {
+     "who": "Du",
+     "de": "Im Badezimmer gibt es seit ein paar Wochen Schimmel an der Wand. Obwohl ich regelmäßig lüfte, wird es immer schlimmer.",
+     "en": "There's been mould on the bathroom wall for a few weeks. Although I air the room regularly, it's getting worse and worse."
+    },
+    {
+     "who": "Frau Steiner",
+     "de": "Oje. Das muss sich jemand anschauen.",
+     "en": "Oh dear. Someone needs to look at that."
+    },
+    {
+     "who": "Du",
+     "de": "Wäre es möglich, dass nächste Woche jemand vorbeikommt?",
+     "en": "Would it be possible for someone to come by next week?"
+    },
+    {
+     "who": "Frau Steiner",
+     "de": "Ich rufe den Installateur an. Wann wären Sie zu Hause?",
+     "en": "I'll call the plumber. When would you be at home?"
+    },
+    {
+     "who": "Du",
+     "de": "Am besten Dienstag oder Donnerstag ab drei. Könnten Sie mir vorher Bescheid geben?",
+     "en": "Ideally Tuesday or Thursday from three. Could you let me know beforehand?"
+    },
+    {
+     "who": "Frau Steiner",
+     "de": "Ja, ich schicke Ihnen eine SMS.",
+     "en": "Yes, I'll send you a text."
+    },
+    {
+     "who": "Du",
+     "de": "Vielen Dank. Ich würde Ihnen gern auch Fotos schicken, damit Sie sehen, wie es aussieht.",
+     "en": "Thank you very much. I'd also like to send you photos so you can see what it looks like."
+    },
+    {
+     "who": "Frau Steiner",
+     "de": "Ja, das wäre gut. Danke, dass Sie sich gemeldet haben.",
+     "en": "Yes, that would be good. Thank you for getting in touch."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Hätten Sie kurz Zeit?",
+     "en": "Would you have a moment?"
+    },
+    {
+     "de": "Wäre es möglich, dass ...?",
+     "en": "Would it be possible that ...?"
+    },
+    {
+     "de": "Könnten Sie mir vorher Bescheid geben?",
+     "en": "Could you let me know beforehand?"
+    },
+    {
+     "de": "..., damit Sie sehen, ...",
+     "en": "..., so that you can see ..."
+    }
+   ],
+   "notes": [
+    "Konjunktiv II (hätten, wäre, könnten, würde) makes requests polite. It's the most useful B1 grammar for real life.",
+    "Installateur = plumber in Austria (Germany: Klempner)."
+   ]
+  },
+  {
+   "slug": "b1-ki-diskussion",
+   "week": 32,
+   "register": "informal",
+   "title": "Discussing AI and jobs",
+   "title_de": "Diskussion: KI und Arbeit",
+   "partner": "Jonas, classmate",
+   "setting": "After a lecture about automation.",
+   "goal": "Discuss a topic, disagree politely, give examples.",
+   "patterns": [
+    "P23",
+    "P20"
+   ],
+   "turns": [
+    {
+     "who": "Jonas",
+     "de": "Was hältst du davon? Nimmt uns die KI bald alle Jobs weg?",
+     "en": "What do you think? Will AI soon take all our jobs?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich sehe das ein bisschen anders. Ich glaube, dass KI viele Aufgaben verändert, aber nicht alle Jobs ersetzt.",
+     "en": "I see it a bit differently. I think AI changes many tasks but doesn't replace all jobs."
+    },
+    {
+     "who": "Jonas",
+     "de": "Aber in der Logistik wird doch schon viel automatisiert, oder?",
+     "en": "But in logistics a lot is already being automated, isn't it?"
+    },
+    {
+     "who": "Du",
+     "de": "Das stimmt. Zum Beispiel planen Programme heute die Routen. Trotzdem braucht man Menschen, die Probleme lösen, wenn etwas schiefgeht.",
+     "en": "That's true. For example, software plans the routes today. Still, you need people who solve problems when something goes wrong."
+    },
+    {
+     "who": "Jonas",
+     "de": "Hm, das ist ein gutes Argument.",
+     "en": "Hm, that's a good argument."
+    },
+    {
+     "who": "Du",
+     "de": "Das Problem ist eher, dass sich die Leute schnell weiterbilden müssen. Nicht jeder hat dafür Zeit oder Geld.",
+     "en": "The problem is rather that people have to retrain quickly. Not everyone has the time or money for that."
+    },
+    {
+     "who": "Jonas",
+     "de": "Da hast du recht. Was sollte die Politik machen?",
+     "en": "You're right there. What should politics do?"
+    },
+    {
+     "who": "Du",
+     "de": "Meiner Meinung nach sollte es mehr kostenlose Kurse geben, zum Beispiel über das AMS.",
+     "en": "In my opinion there should be more free courses, for example through the AMS."
+    },
+    {
+     "who": "Jonas",
+     "de": "Interessant, dass du das AMS kennst!",
+     "en": "Interesting that you know the AMS!"
+    },
+    {
+     "who": "Du",
+     "de": "Ich lese viel darüber, weil mich das Thema interessiert.",
+     "en": "I read a lot about it because the topic interests me."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Was hältst du davon?",
+     "en": "What do you think of it?"
+    },
+    {
+     "de": "Ich sehe das ein bisschen anders.",
+     "en": "I see it a bit differently."
+    },
+    {
+     "de": "Das ist ein gutes Argument.",
+     "en": "That's a good argument."
+    },
+    {
+     "de": "Das Problem ist eher, dass ...",
+     "en": "The problem is rather that ..."
+    },
+    {
+     "de": "Es sollte mehr ... geben.",
+     "en": "There should be more ..."
+    }
+   ],
+   "notes": [
+    "AMS (Arbeitsmarktservice) is Austria's public employment service.",
+    "Disagreeing softly (Ich sehe das ein bisschen anders) is more common in Austria than a direct Nein, das stimmt nicht."
+   ]
+  },
+  {
+   "slug": "b1-heuriger",
+   "week": 33,
+   "register": "informal",
+   "title": "An evening at the Heuriger",
+   "title_de": "Ein Abend beim Heurigen",
+   "partner": "Stefan and his friends",
+   "setting": "A wine tavern in Grinzing in summer. Lots of dialect.",
+   "goal": "Follow fast, informal speech and join in the conversation.",
+   "patterns": [
+    "P21"
+   ],
+   "turns": [
+    {
+     "who": "Stefan",
+     "de": "Servus, setz di her! Was trinkst?",
+     "en": "Hi, sit down here! What are you drinking?"
+    },
+    {
+     "who": "Du",
+     "de": "Servus! Ein Soda Zitron, bitte.",
+     "en": "Hi! A soda with lemon, please.",
+     "alt": [
+      "Einen Gspritzten, bitte."
+     ]
+    },
+    {
+     "who": "Freundin",
+     "de": "Und, gefällt's dir beim Heurigen?",
+     "en": "So, do you like it at the Heuriger?"
+    },
+    {
+     "who": "Du",
+     "de": "Sehr! Die Stimmung ist super gemütlich. Und man sieht die Weinberge.",
+     "en": "A lot! The atmosphere is really cosy. And you can see the vineyards."
+    },
+    {
+     "who": "Stefan",
+     "de": "Hol da wos vom Buffet, des Liptauerbrot is leiwand.",
+     "en": "Get yourself something from the buffet, the Liptauer bread is great."
+    },
+    {
+     "who": "Du",
+     "de": "Entschuldige, kannst du das auf Hochdeutsch sagen? Der Dialekt ist für mich noch schwer.",
+     "en": "Sorry, can you say that in standard German? The dialect is still hard for me."
+    },
+    {
+     "who": "Stefan",
+     "de": "Haha, klar! Hol dir etwas vom Buffet. Das Liptauerbrot ist sehr gut.",
+     "en": "Haha, sure! Get yourself something from the buffet. The Liptauer bread is very good."
+    },
+    {
+     "who": "Du",
+     "de": "Ah, jetzt verstehe ich! Was ist Liptauer?",
+     "en": "Ah, now I understand! What's Liptauer?"
+    },
+    {
+     "who": "Freundin",
+     "de": "Ein Aufstrich aus Topfen mit Paprika. Typisch für den Heurigen.",
+     "en": "A spread made of quark with paprika. Typical for the Heuriger."
+    },
+    {
+     "who": "Du",
+     "de": "Das probiere ich. Soll ich euch auch etwas mitbringen?",
+     "en": "I'll try that. Shall I bring you something too?"
+    },
+    {
+     "who": "Stefan",
+     "de": "Gern, a paar Semmeln. Danke dir!",
+     "en": "Yes please, a few rolls. Thanks!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Kannst du das auf Hochdeutsch sagen?",
+     "en": "Can you say that in standard German?"
+    },
+    {
+     "de": "Der Dialekt ist für mich noch schwer.",
+     "en": "The dialect is still hard for me."
+    },
+    {
+     "de": "Soll ich euch etwas mitbringen?",
+     "en": "Shall I bring you something?"
+    }
+   ],
+   "notes": [
+    "Recognise only: di = dich, da = dir, wos = was, des = das, is = ist, a = ein/eine. You don't need to speak dialect.",
+    "Soda Zitron (soda water with lemon) is the classic Austrian non-alcoholic order. A Gspritzter is wine with soda water."
+   ]
+  },
+  {
+   "slug": "b1-gemeinsam-planen",
+   "week": 35,
+   "register": "informal",
+   "title": "Exam-style task: plan a farewell party together",
+   "title_de": "Gemeinsam etwas planen",
+   "partner": "Exam partner",
+   "setting": "B1 speaking exam task: a classmate is leaving Vienna. Plan a party together.",
+   "goal": "Make suggestions, react, compromise and agree, like in the B1 speaking test.",
+   "patterns": [
+    "P19",
+    "P23"
+   ],
+   "turns": [
+    {
+     "who": "Partnerin",
+     "de": "Also, unsere Kollegin Maria geht zurück nach Spanien. Wir wollen eine kleine Abschiedsfeier organisieren. Wann sollen wir sie machen?",
+     "en": "So, our classmate Maria is going back to Spain. We want to organise a small farewell party. When shall we have it?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich schlage vor, dass wir sie am Freitagabend machen. Da haben die meisten Zeit.",
+     "en": "I suggest we have it on Friday evening. Most people are free then."
+    },
+    {
+     "who": "Partnerin",
+     "de": "Freitag ist gut, aber Maria hat am Samstag früh ihren Flug.",
+     "en": "Friday is good, but Maria has her flight early on Saturday."
+    },
+    {
+     "who": "Du",
+     "de": "Stimmt, daran habe ich nicht gedacht. Wie wäre es dann mit Donnerstag?",
+     "en": "True, I didn't think of that. How about Thursday then?"
+    },
+    {
+     "who": "Partnerin",
+     "de": "Donnerstag passt. Und wo? Bei mir ist die Wohnung leider zu klein.",
+     "en": "Thursday works. And where? Unfortunately my flat is too small."
+    },
+    {
+     "who": "Du",
+     "de": "Wir könnten einen Tisch in einem Lokal reservieren. Oder, wenn das Wetter schön ist, ein Picknick im Augarten machen.",
+     "en": "We could book a table in a restaurant. Or, if the weather is nice, have a picnic in the Augarten."
+    },
+    {
+     "who": "Partnerin",
+     "de": "Ein Picknick finde ich schön, aber was machen wir, wenn es regnet?",
+     "en": "I like the picnic idea, but what do we do if it rains?"
+    },
+    {
+     "who": "Du",
+     "de": "Gute Frage. Dann reservieren wir zur Sicherheit auch einen Tisch, und wir entscheiden am Mittwoch.",
+     "en": "Good question. Then we'll also book a table to be safe, and decide on Wednesday."
+    },
+    {
+     "who": "Partnerin",
+     "de": "Einverstanden. Und ein Geschenk?",
+     "en": "Agreed. And a present?"
+    },
+    {
+     "who": "Du",
+     "de": "Vielleicht ein Fotobuch mit Bildern aus Wien? Jeder könnte ein Foto und ein paar Worte beitragen.",
+     "en": "Maybe a photo book with pictures from Vienna? Everyone could contribute a photo and a few words."
+    },
+    {
+     "who": "Partnerin",
+     "de": "Super Idee! Wer kümmert sich darum?",
+     "en": "Great idea! Who'll take care of it?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich kümmere mich um das Fotobuch, und du schreibst den anderen wegen Donnerstag. Passt das?",
+     "en": "I'll take care of the photo book, and you write to the others about Thursday. Okay?"
+    },
+    {
+     "who": "Partnerin",
+     "de": "Passt perfekt. Dann haben wir alles.",
+     "en": "Perfect. Then we've got everything."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ich schlage vor, dass ...",
+     "en": "I suggest that ..."
+    },
+    {
+     "de": "Wie wäre es mit ...?",
+     "en": "How about ...?"
+    },
+    {
+     "de": "Daran habe ich nicht gedacht.",
+     "en": "I didn't think of that."
+    },
+    {
+     "de": "Einverstanden.",
+     "en": "Agreed."
+    },
+    {
+     "de": "Ich kümmere mich um ...",
+     "en": "I'll take care of ..."
+    }
+   ],
+   "notes": [
+    "This is the format of the B1 speaking test (Goethe and ÖIF): plan something together, make suggestions, react to your partner, agree at the end.",
+    "Examiners reward reacting to your partner (Gute Frage, Stimmt, daran habe ich nicht gedacht), not only your own ideas."
+   ]
+  }
+ ]
+}

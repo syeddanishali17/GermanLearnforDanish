@@ -1,0 +1,5 @@
+# Copy to frontend/.dev.vars for local dev. Never commit .dev.vars.
+# npm run password  -> paste the hash here
+PASSWORD_HASH=""
+GATE_TOKEN=""
+COOKIE_SECURE="false"

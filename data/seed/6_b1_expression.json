@@ -1,0 +1,389 @@
+{
+ "deck": "b1",
+ "title": "B1: opinions, stories, polite requests",
+ "cefr": "B1",
+ "status": "reviewed",
+ "items": [
+  {
+   "slug": "b1-als-ich-nach-wien-kam",
+   "week": 25,
+   "de": "Als ich nach Wien gekommen bin, habe ich kaum Deutsch gesprochen.",
+   "en": "When I came to Vienna, I hardly spoke any German.",
+   "context": "als + single past event, verb at the end of the als-clause."
+  },
+  {
+   "slug": "b1-ich-wusste-nicht",
+   "week": 25,
+   "de": "Ich wusste nicht, was das bedeutet.",
+   "en": "I didn't know what that meant."
+  },
+  {
+   "slug": "b1-dann-ploetzlich",
+   "week": 25,
+   "de": "Und plötzlich war alles klar.",
+   "en": "And suddenly everything was clear."
+  },
+  {
+   "slug": "b1-damals",
+   "week": 25,
+   "de": "Damals hatte ich noch keine Freunde hier.",
+   "en": "Back then I didn't have any friends here yet."
+  },
+  {
+   "slug": "b1-zuerst-dann-zum-schluss",
+   "week": 25,
+   "de": "Zuerst war ich nervös, dann ging es besser, und zum Schluss hat es Spaß gemacht.",
+   "en": "First I was nervous, then it went better, and in the end it was fun."
+  },
+  {
+   "slug": "b1-ich-gebe-mir-muehe",
+   "week": 25,
+   "de": "Ich gebe mir Mühe.",
+   "en": "I'm making an effort."
+  },
+  {
+   "slug": "b1-meiner-meinung-nach",
+   "week": 26,
+   "de": "Meiner Meinung nach ist Wien eine sehr lebenswerte Stadt.",
+   "en": "In my opinion Vienna is a very liveable city.",
+   "context": "Meiner Meinung nach + verb."
+  },
+  {
+   "slug": "b1-ich-bin-der-meinung-dass",
+   "week": 26,
+   "de": "Ich bin der Meinung, dass die Mieten zu hoch sind.",
+   "en": "I'm of the opinion that rents are too high."
+  },
+  {
+   "slug": "b1-einerseits-andererseits",
+   "week": 26,
+   "de": "Einerseits ist es teuer, andererseits ist die Lebensqualität hoch.",
+   "en": "On the one hand it's expensive, on the other hand the quality of life is high."
+  },
+  {
+   "slug": "b1-da-hast-du-recht",
+   "week": 26,
+   "de": "Da hast du recht.",
+   "en": "You're right there.",
+   "register": "informal"
+  },
+  {
+   "slug": "b1-ich-sehe-das-anders",
+   "week": 26,
+   "de": "Ich sehe das ein bisschen anders.",
+   "en": "I see it a bit differently.",
+   "context": "Soft disagreement. More common in Austria than a direct no."
+  },
+  {
+   "slug": "b1-da-bin-ich-deiner-meinung",
+   "week": 26,
+   "de": "Da bin ich ganz deiner Meinung.",
+   "en": "I completely agree with you there.",
+   "register": "informal"
+  },
+  {
+   "slug": "b1-obwohl",
+   "week": 26,
+   "de": "Obwohl es teuer ist, wohne ich gern hier.",
+   "en": "Although it's expensive, I like living here.",
+   "context": "obwohl sends the verb to the end; the main clause then starts with the verb."
+  },
+  {
+   "slug": "b1-im-grossen-und-ganzen",
+   "week": 26,
+   "de": "Im Großen und Ganzen bin ich sehr zufrieden.",
+   "en": "On the whole I'm very satisfied."
+  },
+  {
+   "slug": "b1-das-kommt-darauf-an",
+   "week": 27,
+   "de": "Das kommt darauf an.",
+   "en": "That depends."
+  },
+  {
+   "slug": "b1-was-haeltst-du-davon",
+   "week": 27,
+   "de": "Was hältst du davon?",
+   "en": "What do you think of it?",
+   "register": "informal"
+  },
+  {
+   "slug": "b1-wie-siehst-du-das",
+   "week": 27,
+   "de": "Wie siehst du das?",
+   "en": "How do you see it?",
+   "register": "informal"
+  },
+  {
+   "slug": "b1-das-problem-ist-dass",
+   "week": 27,
+   "de": "Das Problem ist, dass nicht jeder Zeit dafür hat.",
+   "en": "The problem is that not everyone has time for it."
+  },
+  {
+   "slug": "b1-zum-beispiel",
+   "week": 27,
+   "de": "Zum Beispiel planen heute Programme die Routen.",
+   "en": "For example, software plans the routes today.",
+   "context": "Zum Beispiel + verb (position 2)."
+  },
+  {
+   "slug": "b1-trotzdem",
+   "week": 27,
+   "de": "Trotzdem braucht man Menschen.",
+   "en": "Still, you need people.",
+   "context": "trotzdem + verb."
+  },
+  {
+   "slug": "b1-ich-habe-gehoert-dass",
+   "week": 27,
+   "de": "Ich habe gehört, dass das Konzert ausverkauft ist.",
+   "en": "I've heard that the concert is sold out."
+  },
+  {
+   "slug": "b1-erzaehlen-sie-etwas",
+   "week": 28,
+   "learner_action": "recognise_now",
+   "de": "Erzählen Sie doch kurz etwas über sich.",
+   "en": "Tell us a little about yourself.",
+   "context": "First question in most interviews."
+  },
+  {
+   "slug": "b1-ich-habe-erfahrung-in",
+   "week": 28,
+   "de": "Ich habe mehrere Jahre Erfahrung im Supply-Chain-Management.",
+   "en": "I have several years of experience in supply chain management."
+  },
+  {
+   "slug": "b1-zu-meinen-staerken",
+   "week": 28,
+   "de": "Zu meinen Stärken gehört, dass ich strukturiert arbeite.",
+   "en": "One of my strengths is that I work in a structured way."
+  },
+  {
+   "slug": "b1-ich-arbeite-gern-im-team",
+   "week": 28,
+   "de": "Ich arbeite gern im Team.",
+   "en": "I like working in a team."
+  },
+  {
+   "slug": "b1-ich-komme-gut-zurecht",
+   "week": 28,
+   "de": "Im Alltag komme ich auf Deutsch gut zurecht.",
+   "en": "I manage well in German in everyday life."
+  },
+  {
+   "slug": "b1-ich-koennte-ab-maerz",
+   "week": 28,
+   "de": "Ich könnte ab März anfangen.",
+   "en": "I could start from March."
+  },
+  {
+   "slug": "b1-wie-sieht-ein-arbeitstag-aus",
+   "week": 28,
+   "de": "Wie sieht ein typischer Arbeitstag bei Ihnen aus?",
+   "en": "What does a typical working day look like with you?",
+   "register": "formal"
+  },
+  {
+   "slug": "b1-um-zu",
+   "week": 29,
+   "de": "Ich lerne Deutsch, um hier arbeiten zu können.",
+   "en": "I'm learning German so that I can work here.",
+   "context": "um ... zu + infinitive = in order to."
+  },
+  {
+   "slug": "b1-ich-habe-vor",
+   "week": 29,
+   "de": "Ich habe vor, nächstes Jahr ein Praktikum zu machen.",
+   "en": "I'm planning to do an internship next year."
+  },
+  {
+   "slug": "b1-es-faellt-mir-schwer",
+   "week": 29,
+   "de": "Es fällt mir noch schwer, schnell zu sprechen.",
+   "en": "I still find it hard to speak fast."
+  },
+  {
+   "slug": "b1-es-macht-mir-spass",
+   "week": 29,
+   "de": "Es macht mir Spaß, neue Leute kennenzulernen.",
+   "en": "I enjoy meeting new people."
+  },
+  {
+   "slug": "b1-der-groesste-unterschied",
+   "week": 29,
+   "de": "Der größte Unterschied ist die Pünktlichkeit.",
+   "en": "The biggest difference is punctuality."
+  },
+  {
+   "slug": "b1-viel-wichtiger-als",
+   "week": 29,
+   "de": "Hier ist Pünktlichkeit viel wichtiger als bei uns.",
+   "en": "Punctuality is much more important here than at home."
+  },
+  {
+   "slug": "b1-laenger-als-gedacht",
+   "week": 29,
+   "de": "Der Winter ist länger, als ich gedacht habe.",
+   "en": "Winter is longer than I thought."
+  },
+  {
+   "slug": "b1-haetten-sie-kurz-zeit",
+   "week": 30,
+   "de": "Hätten Sie kurz Zeit?",
+   "en": "Would you have a moment?",
+   "register": "formal"
+  },
+  {
+   "slug": "b1-waere-es-moeglich",
+   "week": 30,
+   "de": "Wäre es möglich, den Termin zu verschieben?",
+   "en": "Would it be possible to move the appointment?",
+   "register": "formal",
+   "likely_reply_de": "Ja, kein Problem. Wann passt es Ihnen?",
+   "likely_reply_en": "Yes, no problem. When suits you?"
+  },
+  {
+   "slug": "b1-koennten-sie-mir-bescheid-geben",
+   "week": 30,
+   "de": "Könnten Sie mir bitte vorher Bescheid geben?",
+   "en": "Could you please let me know beforehand?",
+   "register": "formal"
+  },
+  {
+   "slug": "b1-ich-haette-eine-bitte",
+   "week": 30,
+   "de": "Ich hätte eine Bitte.",
+   "en": "I'd like to ask a favour."
+  },
+  {
+   "slug": "b1-ich-wuerde-gern",
+   "week": 30,
+   "de": "Ich würde gern mehr über die Stelle erfahren.",
+   "en": "I'd like to find out more about the position."
+  },
+  {
+   "slug": "b1-wenn-ich-mehr-zeit-haette",
+   "week": 31,
+   "de": "Wenn ich mehr Zeit hätte, würde ich mehr reisen.",
+   "en": "If I had more time, I would travel more."
+  },
+  {
+   "slug": "b1-es-waere-schoen-wenn",
+   "week": 31,
+   "de": "Es wäre schön, wenn wir uns öfter treffen könnten.",
+   "en": "It would be nice if we could meet more often."
+  },
+  {
+   "slug": "b1-weisst-du-ob",
+   "week": 31,
+   "de": "Weißt du, ob die Bibliothek am Sonntag offen hat?",
+   "en": "Do you know whether the library is open on Sunday?",
+   "register": "informal",
+   "context": "ob = whether. Verb at the end."
+  },
+  {
+   "slug": "b1-kannst-du-mir-sagen-wo",
+   "week": 31,
+   "de": "Kannst du mir sagen, wo der Seminarraum ist?",
+   "en": "Can you tell me where the seminar room is?",
+   "register": "informal"
+  },
+  {
+   "slug": "b1-der-kurs-den-ich-besuche",
+   "week": 32,
+   "de": "Der Kurs, den ich besuche, ist sehr praktisch.",
+   "en": "The course I'm taking is very practical.",
+   "context": "Relative clause: den refers to der Kurs (Akkusativ). Verb at the end."
+  },
+  {
+   "slug": "b1-die-firma-bei-der",
+   "week": 32,
+   "de": "Das ist die Firma, bei der ich mich beworben habe.",
+   "en": "That's the company I applied to."
+  },
+  {
+   "slug": "b1-ich-habe-mich-daran-gewoehnt",
+   "week": 32,
+   "de": "Ich habe mich daran gewöhnt, dass alles pünktlich ist.",
+   "en": "I've got used to everything being on time."
+  },
+  {
+   "slug": "b1-ich-freue-mich-auf-ueber",
+   "week": 32,
+   "de": "Ich freue mich über die Einladung.",
+   "en": "I'm happy about the invitation.",
+   "context": "sich freuen über = happy about something now; sich freuen auf = looking forward to."
+  },
+  {
+   "slug": "b1-je-mehr-desto",
+   "week": 33,
+   "de": "Je mehr ich spreche, desto besser wird mein Deutsch.",
+   "en": "The more I speak, the better my German gets."
+  },
+  {
+   "slug": "b1-ich-gebe-zu",
+   "week": 33,
+   "de": "Ich gebe zu, am Anfang war es schwer.",
+   "en": "I admit, at the beginning it was hard."
+  },
+  {
+   "slug": "b1-kein-wunder",
+   "week": 33,
+   "de": "Kein Wunder!",
+   "en": "No wonder!",
+   "register": "informal"
+  },
+  {
+   "slug": "b1-na-ja",
+   "week": 33,
+   "de": "Na ja, es geht so.",
+   "en": "Well, it's so-so."
+  },
+  {
+   "slug": "b1-sag-bescheid",
+   "week": 33,
+   "de": "Sag Bescheid, wenn du Hilfe brauchst.",
+   "en": "Let me know if you need help.",
+   "register": "informal"
+  },
+  {
+   "slug": "b1-ich-schlage-vor",
+   "week": 35,
+   "de": "Ich schlage vor, dass wir uns am Freitag treffen.",
+   "en": "I suggest we meet on Friday."
+  },
+  {
+   "slug": "b1-wie-waere-es-mit",
+   "week": 35,
+   "de": "Wie wäre es mit Donnerstag?",
+   "en": "How about Thursday?"
+  },
+  {
+   "slug": "b1-daran-habe-ich-nicht-gedacht",
+   "week": 35,
+   "de": "Stimmt, daran habe ich nicht gedacht.",
+   "en": "True, I didn't think of that."
+  },
+  {
+   "slug": "b1-einverstanden",
+   "week": 35,
+   "de": "Einverstanden.",
+   "en": "Agreed."
+  },
+  {
+   "slug": "b1-ich-kuemmere-mich-darum",
+   "week": 35,
+   "de": "Ich kümmere mich darum.",
+   "en": "I'll take care of it."
+  },
+  {
+   "slug": "b1-gute-frage",
+   "week": 35,
+   "de": "Gute Frage. Was meinst du?",
+   "en": "Good question. What do you think?",
+   "context": "Turning a question back to your partner: exam gold."
+  }
+ ]
+}

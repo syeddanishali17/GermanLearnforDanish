@@ -1,0 +1,607 @@
+{
+ "deck": "vienna",
+ "title": "Vienna / Austria Culture",
+ "status": "reviewed",
+ "items": [
+  {
+   "slug": "guten-appetit",
+   "kind": "culture",
+   "week": 1,
+   "region_tag": "dach",
+   "de": "Guten Appetit!",
+   "en": "Enjoy your meal!",
+   "context": "Before eating, to people at your table, or to someone you pass who is eating.",
+   "likely_reply_de": "Danke, gleichfalls!",
+   "likely_reply_en": "Thanks, same to you!",
+   "mission": "Say Guten Appetit to someone at your table.",
+   "verify_source": "Standard across DACH.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Guten Appetit!",
+     "en": "Enjoy your meal!"
+    },
+    {
+     "who": "Kollege",
+     "de": "Danke, gleichfalls!",
+     "en": "Thanks, same to you!"
+    }
+   ]
+  },
+  {
+   "slug": "mahlzeit",
+   "kind": "culture",
+   "week": 2,
+   "region_tag": "austria",
+   "learner_action": "recognise_now",
+   "de": "Mahlzeit!",
+   "en": "Lunchtime greeting (roughly: enjoy your lunch / hello at lunchtime)",
+   "context": "Around lunchtime, especially at work and in canteens. If someone says it to you, say Mahlzeit! back.",
+   "austria_note": "Common in Austrian workplaces and canteens around noon. Learn to recognise and return it first; use it actively once you hear it used around you.",
+   "verify_source": "Duden: Mahlzeit (Gruß um die Mittagszeit, besonders unter Kollegen) https://www.duden.de/rechtschreibung/Mahlzeit"
+  },
+  {
+   "slug": "danke-gleichfalls",
+   "kind": "culture",
+   "week": 1,
+   "region_tag": "dach",
+   "de": "Danke, gleichfalls!",
+   "en": "Thanks, same to you!",
+   "context": "Answer to wishes: Schönen Tag noch, Guten Appetit, Schönes Wochenende.",
+   "mission": "Answer one wish with Danke, gleichfalls today.",
+   "verify_source": "Standard across DACH."
+  },
+  {
+   "slug": "gleichfalls",
+   "kind": "culture",
+   "week": 1,
+   "region_tag": "dach",
+   "de": "Gleichfalls!",
+   "en": "Same to you!",
+   "context": "Short form. Fine in shops and with peers.",
+   "verify_source": "Standard across DACH."
+  },
+  {
+   "slug": "servus",
+   "kind": "culture",
+   "week": 1,
+   "region_tag": "austria",
+   "register": "informal",
+   "de": "Servus!",
+   "en": "Hi! / Bye! (informal)",
+   "context": "With peers when the setting is clearly informal. Works for hello and goodbye.",
+   "likely_reply_de": "Servus!",
+   "likely_reply_en": "Hi!",
+   "austria_note": "Very common in Austria and Bavaria among friends and colleagues. Not for an official appointment.",
+   "verify_source": "Universität Wien, Kleiner Wiener Sprachführer https://pundp2018.univie.ac.at/kleiner-wiener-sprachfuehrer/"
+  },
+  {
+   "slug": "gruess-gott",
+   "kind": "culture",
+   "week": 1,
+   "region_tag": "austria",
+   "register": "formal",
+   "learner_action": "recognise_now",
+   "de": "Grüß Gott!",
+   "en": "Hello! (traditional polite Austrian greeting)",
+   "context": "Shops, offices, older people. If you hear it, answer Grüß Gott! or Guten Tag!",
+   "austria_note": "Important to recognise. Using it yourself is fine in polite settings; Hallo or Guten Tag also work.",
+   "verify_source": "ÖAW on greeting/register variation https://www.oeaw.ac.at/news/was-grussformeln-ueber-soziale-beziehungen-am-land-verraten-1"
+  },
+  {
+   "slug": "gruess-dich",
+   "kind": "culture",
+   "week": 2,
+   "region_tag": "austria",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "Grüß dich!",
+   "en": "Hi! (informal, to one person)",
+   "context": "Friendly hello to someone you say du to. Answer: Hallo! or Servus!",
+   "verify_source": "Universität Wien, Kleiner Wiener Sprachführer"
+  },
+  {
+   "slug": "baba",
+   "kind": "culture",
+   "week": 2,
+   "region_tag": "vienna",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "Baba!",
+   "en": "Bye! (Viennese, informal)",
+   "context": "Friends saying goodbye. Answer: Baba! or Tschüss!",
+   "austria_note": "Very Viennese and friendly. Only with friends.",
+   "verify_source": "Universität Wien, Kleiner Wiener Sprachführer"
+  },
+  {
+   "slug": "ciao",
+   "kind": "culture",
+   "week": 2,
+   "region_tag": "dach",
+   "register": "informal",
+   "de": "Ciao!",
+   "en": "Bye!",
+   "context": "Friends and classmates.",
+   "verify_source": "Common across DACH."
+  },
+  {
+   "slug": "auf-wiederschauen",
+   "kind": "culture",
+   "week": 1,
+   "region_tag": "austria",
+   "register": "formal",
+   "de": "Auf Wiederschauen!",
+   "en": "Goodbye! (Austrian form)",
+   "context": "Leaving a shop, office or doctor's reception.",
+   "likely_reply_de": "Auf Wiederschauen!",
+   "likely_reply_en": "Goodbye!",
+   "austria_note": "The usual Austrian form of Auf Wiedersehen.",
+   "verify_source": "Österreichisches Wörterbuch."
+  },
+  {
+   "slug": "passt",
+   "kind": "culture",
+   "week": 2,
+   "region_tag": "austria",
+   "de": "Passt.",
+   "en": "Okay. / That works. / Fine.",
+   "context": "Agreeing to a time, a price, a plan. Very common in conversation.",
+   "austria_note": "You will hear it constantly in Vienna. Safe to use with almost anyone.",
+   "mission": "Answer one question today with Passt.",
+   "verify_source": "Universität Wien, Kleiner Wiener Sprachführer",
+   "dialogue": [
+    {
+     "who": "Friseur",
+     "de": "Morgen um drei?",
+     "en": "Tomorrow at three?"
+    },
+    {
+     "who": "Du",
+     "de": "Passt!",
+     "en": "Works for me!"
+    }
+   ]
+  },
+  {
+   "slug": "passt-schon",
+   "kind": "culture",
+   "week": 3,
+   "region_tag": "austria",
+   "de": "Passt schon.",
+   "en": "It's fine. / No worries.",
+   "context": "When someone apologises for something small.",
+   "verify_source": "Common Austrian usage."
+  },
+  {
+   "slug": "eh",
+   "kind": "culture",
+   "week": 6,
+   "region_tag": "austria",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "Das weiß ich eh.",
+   "en": "I know that anyway.",
+   "context": "eh = anyway / of course. Very frequent filler in Austrian speech.",
+   "verify_source": "Österreichisches Wörterbuch: eh."
+  },
+  {
+   "slug": "na-geh",
+   "kind": "culture",
+   "week": 6,
+   "region_tag": "vienna",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "Na geh!",
+   "en": "Oh come on! / No way!",
+   "context": "Surprise or mild disbelief among friends.",
+   "verify_source": "Universität Wien, Kleiner Wiener Sprachführer"
+  },
+  {
+   "slug": "oida",
+   "kind": "culture",
+   "week": 8,
+   "region_tag": "vienna",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "Oida!",
+   "en": "Dude! / Wow! (slang)",
+   "context": "Young people, friends. Recognise only. Do not use with strangers, staff or older people.",
+   "verify_source": "Common Viennese slang."
+  },
+  {
+   "slug": "sackerl",
+   "kind": "word",
+   "week": 3,
+   "region_tag": "austria",
+   "gender": "das",
+   "de": "das Sackerl",
+   "en": "bag (shopping bag)",
+   "context": "At the Kassa: Brauchen Sie ein Sackerl? Answer: Nein, danke. / Ja, eins, bitte.",
+   "austria_note": "Germany says Tüte. In Austria you will hear Sackerl.",
+   "mission": "Answer the Sackerl question in German at the supermarket.",
+   "verify_source": "Österreichisches Wörterbuch: Sackerl.",
+   "dialogue": [
+    {
+     "who": "Kassierin",
+     "de": "Brauchen Sie ein Sackerl?",
+     "en": "Do you need a bag?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, danke.",
+     "en": "No, thanks."
+    },
+    {
+     "who": "Kassierin",
+     "de": "Das macht acht Euro zwanzig.",
+     "en": "That's €8.20."
+    },
+    {
+     "who": "Du",
+     "de": "Mit Karte, bitte.",
+     "en": "By card, please."
+    }
+   ]
+  },
+  {
+   "slug": "semmel",
+   "kind": "word",
+   "week": 3,
+   "region_tag": "austria",
+   "gender": "die",
+   "plural": "die Semmeln",
+   "de": "die Semmel",
+   "en": "bread roll",
+   "context": "Bakery: Zwei Semmeln, bitte.",
+   "austria_note": "Germany: Brötchen.",
+   "verify_source": "Österreichisches Wörterbuch: Semmel."
+  },
+  {
+   "slug": "stiege",
+   "kind": "word",
+   "week": 7,
+   "region_tag": "austria",
+   "gender": "die",
+   "plural": "die Stiegen",
+   "de": "die Stiege",
+   "en": "staircase (also a block in an address)",
+   "context": "Addresses: Stiege 2, Tür 14 = staircase 2, door 14.",
+   "austria_note": "Vienna addresses often include Stiege and Tür. Germany: Treppe.",
+   "verify_source": "Österreichisches Wörterbuch: Stiege."
+  },
+  {
+   "slug": "jause",
+   "kind": "word",
+   "week": 6,
+   "region_tag": "austria",
+   "gender": "die",
+   "de": "die Jause",
+   "en": "snack / light meal",
+   "context": "Afternoon snack or a cold snack break.",
+   "verify_source": "Österreichisches Wörterbuch: Jause."
+  },
+  {
+   "slug": "paradeiser",
+   "kind": "word",
+   "week": 4,
+   "region_tag": "austria",
+   "gender": "der",
+   "plural": "die Paradeiser",
+   "learner_action": "recognise_now",
+   "de": "der Paradeiser",
+   "en": "tomato",
+   "austria_note": "Tomate is understood everywhere too.",
+   "verify_source": "Österreichisches Wörterbuch: Paradeiser."
+  },
+  {
+   "slug": "erdaepfel",
+   "kind": "word",
+   "week": 4,
+   "region_tag": "austria",
+   "gender": "der",
+   "plural": "die Erdäpfel",
+   "learner_action": "recognise_now",
+   "de": "der Erdapfel",
+   "en": "potato",
+   "context": "Usually plural: Erdäpfel. On menus: Erdäpfelsalat.",
+   "austria_note": "Kartoffel is understood too.",
+   "verify_source": "Österreichisches Wörterbuch: Erdapfel."
+  },
+  {
+   "slug": "obers",
+   "kind": "word",
+   "week": 4,
+   "region_tag": "austria",
+   "gender": "das",
+   "learner_action": "recognise_now",
+   "de": "das Obers",
+   "en": "cream",
+   "context": "Schlagobers = whipped cream. Kaffee mit Obers.",
+   "austria_note": "Germany: Sahne.",
+   "verify_source": "Österreichisches Wörterbuch: Obers."
+  },
+  {
+   "slug": "topfen",
+   "kind": "word",
+   "week": 4,
+   "region_tag": "austria",
+   "gender": "der",
+   "learner_action": "recognise_now",
+   "de": "der Topfen",
+   "en": "quark (fresh cheese)",
+   "context": "Topfenstrudel, Topfengolatsche.",
+   "austria_note": "Germany: Quark.",
+   "verify_source": "Österreichisches Wörterbuch: Topfen."
+  },
+  {
+   "slug": "marille",
+   "kind": "word",
+   "week": 4,
+   "region_tag": "austria",
+   "gender": "die",
+   "plural": "die Marillen",
+   "learner_action": "recognise_now",
+   "de": "die Marille",
+   "en": "apricot",
+   "context": "Marillenmarmelade, Marillenknödel.",
+   "austria_note": "Germany: Aprikose.",
+   "verify_source": "Österreichisches Wörterbuch: Marille."
+  },
+  {
+   "slug": "melange",
+   "kind": "culture",
+   "week": 4,
+   "region_tag": "vienna",
+   "gender": "die",
+   "de": "Eine Melange, bitte.",
+   "en": "A Melange, please (Viennese milky coffee).",
+   "context": "Classic Viennese coffee house order, similar to a cappuccino.",
+   "likely_reply_de": "Gerne, kommt sofort.",
+   "likely_reply_en": "Sure, coming right up.",
+   "mission": "Order a Melange in a Viennese café.",
+   "verify_source": "Viennese coffee house menus."
+  },
+  {
+   "slug": "verlaengerter",
+   "kind": "culture",
+   "week": 4,
+   "region_tag": "vienna",
+   "gender": "der",
+   "de": "Einen Verlängerten, bitte.",
+   "en": "A Verlängerter, please (espresso with extra hot water).",
+   "context": "der Verlängerte → einen Verlängerten.",
+   "verify_source": "Viennese coffee house menus."
+  },
+  {
+   "slug": "kassa",
+   "kind": "word",
+   "week": 3,
+   "region_tag": "austria",
+   "gender": "die",
+   "de": "die Kassa",
+   "en": "checkout / till",
+   "context": "Wo ist die Kassa? / Bitte zur Kassa.",
+   "austria_note": "Germany: Kasse.",
+   "verify_source": "Österreichisches Wörterbuch: Kassa."
+  },
+  {
+   "slug": "zahlen-bitte",
+   "kind": "culture",
+   "week": 4,
+   "region_tag": "austria",
+   "de": "Zahlen, bitte!",
+   "en": "The bill, please!",
+   "context": "In a café or restaurant, catch the waiter's eye and say it.",
+   "likely_reply_de": "Gerne, zusammen oder getrennt?",
+   "likely_reply_en": "Sure, together or separately?",
+   "austria_note": "More common in Austria than Die Rechnung, bitte. Both work.",
+   "verify_source": "Common Austrian usage.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Zahlen, bitte!",
+     "en": "The bill, please!"
+    },
+    {
+     "who": "Kellner",
+     "de": "Gerne. Zusammen oder getrennt?",
+     "en": "Sure. Together or separately?"
+    },
+    {
+     "who": "Du",
+     "de": "Zusammen, bitte.",
+     "en": "Together, please."
+    },
+    {
+     "who": "Kellner",
+     "de": "Das macht vierzehn Euro achtzig.",
+     "en": "That's €14.80."
+    },
+    {
+     "who": "Du",
+     "de": "Sechzehn, bitte. Stimmt so.",
+     "en": "Sixteen, please. Keep the change."
+    }
+   ]
+  },
+  {
+   "slug": "bankomat",
+   "kind": "word",
+   "week": 3,
+   "region_tag": "austria",
+   "gender": "der",
+   "de": "der Bankomat",
+   "en": "ATM / cash machine",
+   "context": "Wo ist der nächste Bankomat? Bankomatkarte = debit card.",
+   "austria_note": "Germany: Geldautomat.",
+   "verify_source": "Österreichisches Wörterbuch: Bankomat."
+  },
+  {
+   "slug": "oeffis",
+   "kind": "word",
+   "week": 5,
+   "region_tag": "austria",
+   "gender": "die",
+   "de": "die Öffis",
+   "en": "public transport",
+   "context": "Ich fahre mit den Öffis. = I take public transport.",
+   "austria_note": "Short for öffentliche Verkehrsmittel. Everyday word in Vienna.",
+   "verify_source": "Common Austrian usage."
+  },
+  {
+   "slug": "bim",
+   "kind": "word",
+   "week": 5,
+   "region_tag": "vienna",
+   "gender": "die",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "die Bim",
+   "en": "tram (Viennese colloquial)",
+   "context": "Ich nehme die Bim. Official word: Straßenbahn.",
+   "verify_source": "Universität Wien, Kleiner Wiener Sprachführer"
+  },
+  {
+   "slug": "jaenner",
+   "kind": "word",
+   "week": 5,
+   "region_tag": "austria",
+   "gender": "der",
+   "de": "der Jänner",
+   "en": "January",
+   "context": "Used in official Austrian dates too.",
+   "austria_note": "Germany: Januar. Both are understood.",
+   "verify_source": "Österreichisches Wörterbuch: Jänner."
+  },
+  {
+   "slug": "heuer",
+   "kind": "word",
+   "week": 9,
+   "region_tag": "austria",
+   "learner_action": "recognise_now",
+   "de": "heuer",
+   "en": "this year",
+   "context": "Heuer fahre ich nach Hause.",
+   "verify_source": "Österreichisches Wörterbuch: heuer."
+  },
+  {
+   "slug": "trafik",
+   "kind": "word",
+   "week": 5,
+   "region_tag": "austria",
+   "gender": "die",
+   "learner_action": "recognise_now",
+   "de": "die Trafik",
+   "en": "kiosk (newspapers, tobacco, tickets)",
+   "context": "You can buy Wiener Linien tickets and newspapers there.",
+   "verify_source": "Österreichisches Wörterbuch: Trafik."
+  },
+  {
+   "slug": "gesundheit",
+   "kind": "culture",
+   "week": 2,
+   "region_tag": "dach",
+   "de": "Gesundheit!",
+   "en": "Bless you!",
+   "context": "When someone sneezes.",
+   "likely_reply_de": "Danke!",
+   "likely_reply_en": "Thanks!",
+   "verify_source": "Standard across DACH."
+  },
+  {
+   "slug": "schau-ma-mal",
+   "kind": "culture",
+   "week": 10,
+   "region_tag": "austria",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "Schau ma mal.",
+   "en": "We'll see.",
+   "context": "Non-committal answer to a plan. Standard: Schauen wir mal.",
+   "verify_source": "Common Austrian usage."
+  },
+  {
+   "slug": "wurscht",
+   "kind": "culture",
+   "week": 10,
+   "region_tag": "austria",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "Das ist mir wurscht.",
+   "en": "I don't care. / It doesn't matter to me.",
+   "context": "Casual. Standard: Das ist mir egal.",
+   "verify_source": "Österreichisches Wörterbuch: wurscht."
+  },
+  {
+   "slug": "leiwand",
+   "kind": "culture",
+   "week": 10,
+   "region_tag": "vienna",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "Leiwand!",
+   "en": "Great! / Cool! (Viennese slang)",
+   "context": "Friends. Recognise only for now.",
+   "verify_source": "Universität Wien, Kleiner Wiener Sprachführer"
+  },
+  {
+   "slug": "hackeln",
+   "kind": "culture",
+   "week": 10,
+   "region_tag": "austria",
+   "register": "informal",
+   "learner_action": "recognise_now",
+   "de": "Ich muss morgen hackeln.",
+   "en": "I have to work tomorrow (colloquial).",
+   "context": "hackeln = to work. Standard: arbeiten.",
+   "verify_source": "Österreichisches Wörterbuch: hackeln."
+  },
+  {
+   "slug": "heuriger",
+   "kind": "culture",
+   "week": 10,
+   "region_tag": "vienna",
+   "gender": "der",
+   "learner_action": "recognise_now",
+   "de": "der Heurige",
+   "en": "wine tavern (Viennese outskirts)",
+   "context": "Gehen wir zum Heurigen? = Shall we go to a Heuriger? Food and soft drinks are served too.",
+   "verify_source": "Common Viennese usage."
+  },
+  {
+   "slug": "almdudler",
+   "kind": "culture",
+   "week": 4,
+   "region_tag": "austria",
+   "gender": "der",
+   "de": "Einen Almdudler, bitte.",
+   "en": "An Almdudler, please (Austrian herbal lemonade).",
+   "context": "Popular Austrian soft drink.",
+   "verify_source": "Austrian brand."
+  },
+  {
+   "slug": "du-oder-sie",
+   "kind": "culture",
+   "week": 2,
+   "region_tag": "dach",
+   "de": "Sollen wir du sagen?",
+   "en": "Shall we use du (informal you)?",
+   "context": "Students at Austrian universities use du at once. Use Sie with staff, shop workers, officials and older people until they offer du.",
+   "likely_reply_de": "Ja, klar! Ich bin Anna.",
+   "likely_reply_en": "Yes, sure! I'm Anna.",
+   "verify_source": "Standard DACH politeness norms."
+  },
+  {
+   "slug": "habe-die-ehre",
+   "kind": "culture",
+   "week": 12,
+   "region_tag": "vienna",
+   "register": "formal",
+   "learner_action": "later",
+   "de": "Habe die Ehre!",
+   "en": "Old-fashioned Viennese greeting (literally: I have the honour)",
+   "context": "Mostly older Viennese. Recognise when you meet it; do not use yet.",
+   "verify_source": "Universität Wien, Kleiner Wiener Sprachführer"
+  }
+ ]
+}

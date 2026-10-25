@@ -1,0 +1,1081 @@
+{
+ "cefr": "A2",
+ "status": "reviewed",
+ "conversations": [
+  {
+   "slug": "a2-wochenende",
+   "week": 13,
+   "register": "informal",
+   "title": "Monday: how was your weekend?",
+   "title_de": "Wie war dein Wochenende?",
+   "partner": "Lena, classmate from Linz",
+   "setting": "Before a lecture on Monday.",
+   "goal": "Tell a short story about your weekend in the Perfekt and ask back.",
+   "patterns": [
+    "P14",
+    "P15"
+   ],
+   "turns": [
+    {
+     "who": "Lena",
+     "de": "Na, wie war dein Wochenende?",
+     "en": "So, how was your weekend?"
+    },
+    {
+     "who": "Du",
+     "de": "Sehr gut! Am Samstag war ich am Kahlenberg wandern.",
+     "en": "Very good! On Saturday I went hiking on the Kahlenberg."
+    },
+    {
+     "who": "Lena",
+     "de": "Oh, schön! War das Wetter gut?",
+     "en": "Oh, nice! Was the weather good?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, es war sonnig, aber ein bisschen windig. Von oben sieht man ganz Wien.",
+     "en": "Yes, it was sunny but a bit windy. From the top you can see all of Vienna."
+    },
+    {
+     "who": "Lena",
+     "de": "Bist du mit dem Bus hinaufgefahren?",
+     "en": "Did you take the bus up?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, ich bin zu Fuß gegangen. Das hat fast zwei Stunden gedauert.",
+     "en": "No, I walked. It took almost two hours."
+    },
+    {
+     "who": "Lena",
+     "de": "Respekt! Und am Sonntag?",
+     "en": "Respect! And on Sunday?"
+    },
+    {
+     "who": "Du",
+     "de": "Am Sonntag habe ich nicht viel gemacht. Ich habe gekocht und ein bisschen gelernt. Und du?",
+     "en": "On Sunday I didn't do much. I cooked and studied a bit. And you?"
+    },
+    {
+     "who": "Lena",
+     "de": "Ich war bei meinen Eltern in Linz. Wir haben gegessen und viel geredet.",
+     "en": "I was at my parents' in Linz. We ate and talked a lot."
+    },
+    {
+     "who": "Du",
+     "de": "Das klingt gemütlich! Wie bist du nach Linz gefahren?",
+     "en": "That sounds cosy! How did you get to Linz?"
+    },
+    {
+     "who": "Lena",
+     "de": "Mit dem Zug. Das geht schnell, nur eineinhalb Stunden.",
+     "en": "By train. It's quick, only an hour and a half."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Am Samstag war ich ... wandern.",
+     "en": "On Saturday I went hiking ..."
+    },
+    {
+     "de": "Ich bin zu Fuß gegangen.",
+     "en": "I walked."
+    },
+    {
+     "de": "Ich habe nicht viel gemacht.",
+     "en": "I didn't do much."
+    },
+    {
+     "de": "Das klingt gemütlich!",
+     "en": "That sounds cosy!"
+    }
+   ],
+   "notes": [
+    "Movement verbs take sein in the Perfekt: ich bin gegangen, ich bin gefahren. Most others take haben.",
+    "Na, ... at the start of a question is a friendly Austrian opener, like So, ..."
+   ]
+  },
+  {
+   "slug": "a2-warum-wien",
+   "week": 14,
+   "register": "informal",
+   "title": "Why did you come to Vienna?",
+   "title_de": "Warum Wien?",
+   "partner": "Markus, a friend of a friend",
+   "setting": "At a birthday party.",
+   "goal": "Explain reasons with weil and talk about plans.",
+   "patterns": [
+    "P17",
+    "P11"
+   ],
+   "turns": [
+    {
+     "who": "Markus",
+     "de": "Warum bist du eigentlich nach Wien gekommen?",
+     "en": "Why did you actually come to Vienna?"
+    },
+    {
+     "who": "Du",
+     "de": "Weil meine Uni einen sehr guten Ruf hat. Und Wien ist eine sehr lebenswerte Stadt.",
+     "en": "Because my university has a very good reputation. And Vienna is a very liveable city."
+    },
+    {
+     "who": "Markus",
+     "de": "Stimmt, das sagen alle. Wie lange bleibst du?",
+     "en": "True, everyone says that. How long are you staying?"
+    },
+    {
+     "who": "Du",
+     "de": "Mein Studium dauert zwei Jahre. Danach möchte ich gern hier arbeiten.",
+     "en": "My degree takes two years. After that I'd like to work here."
+    },
+    {
+     "who": "Markus",
+     "de": "In welchem Bereich?",
+     "en": "In which field?"
+    },
+    {
+     "who": "Du",
+     "de": "Vielleicht in der Logistik oder bei einer Tech-Firma.",
+     "en": "Maybe in logistics or at a tech company."
+    },
+    {
+     "who": "Markus",
+     "de": "Da gibt's in Wien einiges. Sprichst du im Alltag schon viel Deutsch?",
+     "en": "There's quite a lot of that in Vienna. Do you already speak a lot of German day to day?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich versuche es. Beim Einkaufen klappt es schon gut, aber lange Gespräche sind noch schwer.",
+     "en": "I try. Shopping already works well, but long conversations are still hard."
+    },
+    {
+     "who": "Markus",
+     "de": "Das wird schon! Wir reden ja gerade auch.",
+     "en": "You'll get there! We're talking right now, after all."
+    },
+    {
+     "who": "Du",
+     "de": "Stimmt! Danke, das motiviert mich.",
+     "en": "True! Thanks, that motivates me."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Weil ... einen guten Ruf hat.",
+     "en": "Because ... has a good reputation."
+    },
+    {
+     "de": "Danach möchte ich gern hier arbeiten.",
+     "en": "After that I'd like to work here."
+    },
+    {
+     "de": "Beim Einkaufen klappt es schon gut.",
+     "en": "Shopping already works well."
+    },
+    {
+     "de": "Das wird schon!",
+     "en": "You'll get there! (encouraging)"
+    }
+   ],
+   "notes": [
+    "After weil the verb goes to the end: weil meine Uni einen guten Ruf hat.",
+    "eigentlich softens a question, like actually or by the way."
+   ]
+  },
+  {
+   "slug": "a2-essen-heimat",
+   "week": 15,
+   "register": "informal",
+   "title": "Food from home and Austrian food",
+   "title_de": "Essen aus der Heimat und aus Österreich",
+   "partner": "Sophie, flatmate",
+   "setting": "In the shared kitchen while you cook.",
+   "goal": "Describe a dish, give opinions, compare.",
+   "patterns": [
+    "P06",
+    "P16"
+   ],
+   "turns": [
+    {
+     "who": "Sophie",
+     "de": "Mmh, das riecht super! Was kochst du?",
+     "en": "Mmm, that smells great! What are you cooking?"
+    },
+    {
+     "who": "Du",
+     "de": "Daal, das ist ein Linsengericht aus meiner Heimat.",
+     "en": "Daal, it's a lentil dish from back home."
+    },
+    {
+     "who": "Sophie",
+     "de": "Ist das scharf?",
+     "en": "Is it spicy?"
+    },
+    {
+     "who": "Du",
+     "de": "Ein bisschen. Bei uns isst man sehr gern scharf. Willst du probieren?",
+     "en": "A bit. At home people really like spicy food. Do you want to try?"
+    },
+    {
+     "who": "Sophie",
+     "de": "Ja, gerne! ... Wow, das ist echt gut. Ein bisschen scharf, aber gut.",
+     "en": "Yes, please! ... Wow, that's really good. A bit spicy, but good."
+    },
+    {
+     "who": "Du",
+     "de": "Danke! Und was ist dein Lieblingsessen?",
+     "en": "Thanks! And what's your favourite food?"
+    },
+    {
+     "who": "Sophie",
+     "de": "Kaiserschmarrn. Hast du das schon probiert?",
+     "en": "Kaiserschmarrn. Have you tried it yet?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, noch nicht. Was ist das?",
+     "en": "No, not yet. What is it?"
+    },
+    {
+     "who": "Sophie",
+     "de": "Ein süßer Pfannkuchen, in Stücke gerissen, mit Zwetschkenröster.",
+     "en": "A sweet pancake torn into pieces, with plum compote."
+    },
+    {
+     "who": "Du",
+     "de": "Das klingt lecker. Kannst du mir das mal zeigen?",
+     "en": "That sounds tasty. Could you show me how sometime?"
+    },
+    {
+     "who": "Sophie",
+     "de": "Klar! Am Sonntag kochen wir zusammen, und du machst Daal.",
+     "en": "Sure! On Sunday we'll cook together and you make daal."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Das ist ein ... aus meiner Heimat.",
+     "en": "It's a ... from back home."
+    },
+    {
+     "de": "Bei uns isst man ...",
+     "en": "At home (in my country) people eat ..."
+    },
+    {
+     "de": "Willst du probieren?",
+     "en": "Do you want to try?"
+    },
+    {
+     "de": "Hast du das schon probiert?",
+     "en": "Have you tried that yet?"
+    }
+   ],
+   "notes": [
+    "Zwetschke is the Austrian word for plum (Germany: Pflaume).",
+    "bei uns = in my country / at home. A very useful phrase for cultural small talk."
+   ]
+  },
+  {
+   "slug": "a2-plaene-samstag",
+   "week": 16,
+   "register": "informal",
+   "title": "Making plans for Saturday",
+   "title_de": "Pläne für Samstag",
+   "partner": "Jakob, classmate",
+   "setting": "Text or chat after class.",
+   "goal": "Suggest, accept, change and fix a time and a place.",
+   "patterns": [
+    "P11",
+    "P19"
+   ],
+   "turns": [
+    {
+     "who": "Du",
+     "de": "Hast du am Samstag Zeit?",
+     "en": "Are you free on Saturday?"
+    },
+    {
+     "who": "Jakob",
+     "de": "Am Vormittag nicht, aber am Nachmittag schon. Was hast du vor?",
+     "en": "Not in the morning, but in the afternoon yes. What are you planning?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich möchte gern auf den Naschmarkt gehen. Kommst du mit?",
+     "en": "I'd like to go to the Naschmarkt. Are you coming along?"
+    },
+    {
+     "who": "Jakob",
+     "de": "Gute Idee! Danach können wir noch einen Kaffee trinken.",
+     "en": "Good idea! After that we can have a coffee too."
+    },
+    {
+     "who": "Du",
+     "de": "Super. Um wie viel Uhr treffen wir uns?",
+     "en": "Great. What time shall we meet?"
+    },
+    {
+     "who": "Jakob",
+     "de": "Um zwei? Bei der U4-Station Kettenbrückengasse.",
+     "en": "At two? At the U4 station Kettenbrückengasse."
+    },
+    {
+     "who": "Du",
+     "de": "Um zwei ist ein bisschen früh für mich. Geht auch halb drei?",
+     "en": "Two is a bit early for me. Does half past two work too?"
+    },
+    {
+     "who": "Jakob",
+     "de": "Ja, passt. Halb drei bei der Kettenbrückengasse.",
+     "en": "Yes, fine. Half past two at Kettenbrückengasse."
+    },
+    {
+     "who": "Du",
+     "de": "Perfekt. Ich schreibe dir, wenn ich unterwegs bin.",
+     "en": "Perfect. I'll text you when I'm on my way."
+    },
+    {
+     "who": "Jakob",
+     "de": "Alles klar. Bis Samstag!",
+     "en": "Got it. See you Saturday!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Hast du am Samstag Zeit?",
+     "en": "Are you free on Saturday?"
+    },
+    {
+     "de": "Kommst du mit?",
+     "en": "Are you coming along?"
+    },
+    {
+     "de": "Um wie viel Uhr treffen wir uns?",
+     "en": "What time shall we meet?"
+    },
+    {
+     "de": "Geht auch halb drei?",
+     "en": "Does half past two work too?"
+    }
+   ],
+   "notes": [
+    "halb drei = 2:30 (half way to three), not 3:30.",
+    "Was hast du vor? = What are you planning? (vorhaben, separable)."
+   ]
+  },
+  {
+   "slug": "a2-arzttermin",
+   "week": 17,
+   "register": "formal",
+   "title": "Booking a doctor's appointment by phone",
+   "title_de": "Termin beim Arzt",
+   "partner": "Receptionist at a GP practice (Ordination)",
+   "setting": "Phone call.",
+   "goal": "Explain symptoms, agree on a time, understand what to bring.",
+   "patterns": [
+    "P13",
+    "P19"
+   ],
+   "turns": [
+    {
+     "who": "Ordination",
+     "de": "Ordination Dr. Berger, Grüß Gott.",
+     "en": "Dr Berger's practice, hello."
+    },
+    {
+     "who": "Du",
+     "de": "Grüß Gott, ich hätte gern einen Termin, bitte.",
+     "en": "Hello, I'd like an appointment, please."
+    },
+    {
+     "who": "Ordination",
+     "de": "Waren Sie schon einmal bei uns?",
+     "en": "Have you been to us before?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, das ist das erste Mal.",
+     "en": "No, it's the first time."
+    },
+    {
+     "who": "Ordination",
+     "de": "Was fehlt Ihnen denn?",
+     "en": "What seems to be the problem?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich habe seit einer Woche Rückenschmerzen.",
+     "en": "I've had back pain for a week."
+    },
+    {
+     "who": "Ordination",
+     "de": "Können Sie morgen um zehn nach acht kommen?",
+     "en": "Can you come tomorrow at ten past eight?"
+    },
+    {
+     "who": "Du",
+     "de": "Entschuldigung, um zehn nach acht oder um acht Uhr zehn?",
+     "en": "Sorry, at ten past eight or at 8:10?"
+    },
+    {
+     "who": "Ordination",
+     "de": "Das ist dasselbe, acht Uhr zehn.",
+     "en": "That's the same, 8:10."
+    },
+    {
+     "who": "Du",
+     "de": "Ah, okay. Ja, das passt. Muss ich etwas mitbringen?",
+     "en": "Ah, okay. Yes, that works. Do I need to bring anything?"
+    },
+    {
+     "who": "Ordination",
+     "de": "Ihre e-card und einen Ausweis. Wie ist Ihr Name, bitte?",
+     "en": "Your e-card and an ID. What's your name, please?"
+    },
+    {
+     "who": "Du",
+     "de": "Danish, ich buchstabiere: D wie Dora, A wie Anton ...",
+     "en": "Danish, I'll spell it: D as in Dora, A as in Anton ..."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ich hätte gern einen Termin.",
+     "en": "I'd like an appointment."
+    },
+    {
+     "de": "Was fehlt Ihnen?",
+     "en": "What's wrong? (doctor's question)"
+    },
+    {
+     "de": "Ich habe seit einer Woche ...schmerzen.",
+     "en": "I've had ... pain for a week."
+    },
+    {
+     "de": "Muss ich etwas mitbringen?",
+     "en": "Do I need to bring anything?"
+    }
+   ],
+   "notes": [
+    "Austrian GP practices are called Ordination. Bring your e-card.",
+    "Spelling names on the phone uses words: A wie Anton, D wie Dora. Learn the ones for your name."
+   ]
+  },
+  {
+   "slug": "a2-wg-zimmer",
+   "week": 18,
+   "register": "informal",
+   "title": "Viewing a room in a shared flat",
+   "title_de": "WG-Zimmer besichtigen",
+   "partner": "Clara, WG member",
+   "setting": "Viewing a room in a flat share in the 5th district.",
+   "goal": "Ask about rent, costs, move-in date and house rules.",
+   "patterns": [
+    "P05",
+    "P13"
+   ],
+   "turns": [
+    {
+     "who": "Clara",
+     "de": "Hallo, komm rein! Das ist das Zimmer.",
+     "en": "Hi, come in! This is the room."
+    },
+    {
+     "who": "Du",
+     "de": "Schön hell! Wie groß ist es?",
+     "en": "Nice and bright! How big is it?"
+    },
+    {
+     "who": "Clara",
+     "de": "Ungefähr vierzehn Quadratmeter.",
+     "en": "About fourteen square metres."
+    },
+    {
+     "who": "Du",
+     "de": "Und wie hoch ist die Miete?",
+     "en": "And how much is the rent?"
+    },
+    {
+     "who": "Clara",
+     "de": "Vierhundertfünfzig Euro im Monat, alles inklusive.",
+     "en": "€450 a month, everything included."
+    },
+    {
+     "who": "Du",
+     "de": "Sind die Betriebskosten und das Internet dabei?",
+     "en": "Are the service charges and internet included?"
+    },
+    {
+     "who": "Clara",
+     "de": "Ja, alles. Dazu kommt eine Kaution von zwei Monatsmieten.",
+     "en": "Yes, everything. On top there's a deposit of two months' rent."
+    },
+    {
+     "who": "Du",
+     "de": "Ab wann ist das Zimmer frei?",
+     "en": "From when is the room available?"
+    },
+    {
+     "who": "Clara",
+     "de": "Ab erstem März. Wie wohnst du denn jetzt?",
+     "en": "From the first of March. Where do you live now?"
+    },
+    {
+     "who": "Du",
+     "de": "Im Studentenheim, aber ich möchte mehr Kontakt mit Leuten haben und mehr Deutsch sprechen.",
+     "en": "In a student residence, but I want more contact with people and to speak more German."
+    },
+    {
+     "who": "Clara",
+     "de": "Bei uns redet man fast nur Deutsch. Wir kochen auch oft zusammen.",
+     "en": "With us we speak almost only German. We often cook together too."
+    },
+    {
+     "who": "Du",
+     "de": "Das klingt perfekt. Wann entscheidet ihr?",
+     "en": "That sounds perfect. When will you decide?"
+    },
+    {
+     "who": "Clara",
+     "de": "Bis Freitag. Wir melden uns!",
+     "en": "By Friday. We'll be in touch!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Wie hoch ist die Miete?",
+     "en": "How much is the rent?"
+    },
+    {
+     "de": "Sind die Betriebskosten dabei?",
+     "en": "Are the service charges included?"
+    },
+    {
+     "de": "Ab wann ist das Zimmer frei?",
+     "en": "From when is the room available?"
+    },
+    {
+     "de": "Wir melden uns.",
+     "en": "We'll be in touch."
+    }
+   ],
+   "notes": [
+    "WG = Wohngemeinschaft (flat share). Betriebskosten = building service charges, often listed separately in Austria.",
+    "Kaution = deposit. Ask for a written contract (Mietvertrag)."
+   ]
+  },
+  {
+   "slug": "a2-beruf-erfahrung",
+   "week": 19,
+   "register": "informal",
+   "title": "What did you do before?",
+   "title_de": "Was hast du vorher gemacht?",
+   "partner": "Thomas, a working student you meet at a meetup",
+   "setting": "Tech meetup, during the break.",
+   "goal": "Talk about your background in supply chain and your interests.",
+   "patterns": [
+    "P14",
+    "P17"
+   ],
+   "turns": [
+    {
+     "who": "Thomas",
+     "de": "Und was hast du vor dem Studium gemacht?",
+     "en": "And what did you do before your studies?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich habe in der Logistik gearbeitet, im Bereich Supply Chain.",
+     "en": "I worked in logistics, in supply chain."
+    },
+    {
+     "who": "Thomas",
+     "de": "Spannend! Was genau hast du da gemacht?",
+     "en": "Exciting! What exactly did you do there?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich habe Prozesse geplant und verbessert. Zum Beispiel Lieferzeiten und Lagerbestände.",
+     "en": "I planned and improved processes. For example delivery times and stock levels."
+    },
+    {
+     "who": "Thomas",
+     "de": "Und jetzt studierst du etwas Technisches?",
+     "en": "And now you're studying something technical?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, weil ich mich sehr für Technik und KI interessiere.",
+     "en": "Yes, because I'm very interested in technology and AI."
+    },
+    {
+     "who": "Thomas",
+     "de": "Das passt ja gut zusammen. KI in der Logistik ist gerade ein großes Thema.",
+     "en": "That fits together well. AI in logistics is a big topic right now."
+    },
+    {
+     "who": "Du",
+     "de": "Genau, deshalb finde ich es so interessant. Und was machst du?",
+     "en": "Exactly, that's why I find it so interesting. And what do you do?"
+    },
+    {
+     "who": "Thomas",
+     "de": "Ich arbeite zwanzig Stunden pro Woche bei einem Start-up, als Werkstudent.",
+     "en": "I work twenty hours a week at a start-up, as a working student."
+    },
+    {
+     "who": "Du",
+     "de": "Cool! Wie hast du die Stelle gefunden?",
+     "en": "Cool! How did you find the job?"
+    },
+    {
+     "who": "Thomas",
+     "de": "Über LinkedIn. Ich kann dir gern ein paar Firmen zeigen.",
+     "en": "Through LinkedIn. I can show you a few companies if you like."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ich habe in der Logistik gearbeitet.",
+     "en": "I worked in logistics."
+    },
+    {
+     "de": "Ich interessiere mich für Technik und KI.",
+     "en": "I'm interested in technology and AI."
+    },
+    {
+     "de": "Wie hast du die Stelle gefunden?",
+     "en": "How did you find the job?"
+    }
+   ],
+   "notes": [
+    "sich interessieren für + Akkusativ: Ich interessiere mich für KI.",
+    "deshalb pushes the verb right after it: Deshalb finde ich es interessant."
+   ]
+  },
+  {
+   "slug": "a2-weihnachtsmarkt",
+   "week": 20,
+   "register": "informal",
+   "title": "At the Christmas market",
+   "title_de": "Am Christkindlmarkt",
+   "partner": "Classmates Lena and Paul",
+   "setting": "Christkindlmarkt at the Rathausplatz, a cold evening.",
+   "goal": "Order at a stand and chat about traditions.",
+   "patterns": [
+    "P10",
+    "P17"
+   ],
+   "turns": [
+    {
+     "who": "Lena",
+     "de": "Was trinkst du? Punsch oder Glühwein?",
+     "en": "What are you drinking? Punch or mulled wine?"
+    },
+    {
+     "who": "Du",
+     "de": "Gibt es auch etwas ohne Alkohol?",
+     "en": "Is there something without alcohol?",
+     "alt": [
+      "Ich trinke keinen Alkohol. Gibt es auch etwas ohne?"
+     ]
+    },
+    {
+     "who": "Lena",
+     "de": "Ja, Kinderpunsch, der ist ohne Alkohol. Und richtig gut.",
+     "en": "Yes, children's punch, it's alcohol-free. And really good."
+    },
+    {
+     "who": "Du",
+     "de": "Einen Kinderpunsch, bitte.",
+     "en": "A children's punch, please."
+    },
+    {
+     "who": "Verkäufer",
+     "de": "Fünf Euro, plus vier Euro Häferlpfand.",
+     "en": "Five euros, plus a four-euro mug deposit."
+    },
+    {
+     "who": "Du",
+     "de": "Was ist Häferlpfand?",
+     "en": "What's Häferlpfand?"
+    },
+    {
+     "who": "Paul",
+     "de": "Pfand für die Tasse. Du bekommst das Geld zurück, wenn du sie zurückgibst. Oder du behältst sie als Souvenir.",
+     "en": "A deposit for the mug. You get the money back when you return it. Or you keep it as a souvenir."
+    },
+    {
+     "who": "Du",
+     "de": "Ah, praktisch! So etwas gibt es bei uns nicht.",
+     "en": "Ah, handy! There's nothing like that where I'm from."
+    },
+    {
+     "who": "Lena",
+     "de": "Was feiert man bei euch im Winter?",
+     "en": "What do people celebrate where you're from in winter?"
+    },
+    {
+     "who": "Du",
+     "de": "Das hängt von der Familie ab. Aber Hochzeiten sind bei uns im Winter sehr beliebt, weil das Wetter angenehm ist.",
+     "en": "It depends on the family. But weddings are very popular in winter at home, because the weather is pleasant."
+    },
+    {
+     "who": "Paul",
+     "de": "Echt? Bei uns heiratet man eher im Sommer.",
+     "en": "Really? Here people usually marry in summer."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Gibt es auch etwas ohne Alkohol?",
+     "en": "Is there something without alcohol?"
+    },
+    {
+     "de": "Was ist ...?",
+     "en": "What is ...?"
+    },
+    {
+     "de": "Das hängt von ... ab.",
+     "en": "It depends on ..."
+    }
+   ],
+   "notes": [
+    "Kinderpunsch is the alcohol-free option at every stand. Asking for etwas ohne Alkohol, or saying Ich trinke keinen Alkohol, is completely normal.",
+    "Häferl = mug (Austrian). Pfand = deposit."
+   ]
+  },
+  {
+   "slug": "a2-ubahn-stoerung",
+   "week": 21,
+   "register": "formal",
+   "title": "The U-Bahn is not running",
+   "title_de": "Störung bei der U-Bahn",
+   "partner": "Another passenger",
+   "setting": "An announcement you only half understood. The train is not moving.",
+   "goal": "Ask what was announced and find an alternative.",
+   "patterns": [
+    "P05",
+    "P17"
+   ],
+   "turns": [
+    {
+     "who": "Durchsage",
+     "de": "Wegen einer Störung ist der Verkehr auf der U6 unterbrochen. Bitte benützen Sie die Ersatzbusse.",
+     "en": "Due to a disruption, service on the U6 is interrupted. Please use the replacement buses."
+    },
+    {
+     "who": "Du",
+     "de": "Entschuldigung, was haben die gerade gesagt? Ich habe es nicht ganz verstanden.",
+     "en": "Excuse me, what did they just say? I didn't quite understand."
+    },
+    {
+     "who": "Fahrgast",
+     "de": "Die U6 fährt im Moment nicht. Es gibt eine Störung.",
+     "en": "The U6 isn't running at the moment. There's a disruption."
+    },
+    {
+     "who": "Du",
+     "de": "Oh nein. Wie komme ich jetzt zur Längenfeldgasse?",
+     "en": "Oh no. How do I get to Längenfeldgasse now?"
+    },
+    {
+     "who": "Fahrgast",
+     "de": "Es gibt Ersatzbusse, gleich draußen. Oder Sie nehmen die Straßenbahn.",
+     "en": "There are replacement buses just outside. Or you take the tram."
+    },
+    {
+     "who": "Du",
+     "de": "Wissen Sie, wie lange die Störung dauert?",
+     "en": "Do you know how long the disruption will last?"
+    },
+    {
+     "who": "Fahrgast",
+     "de": "Keine Ahnung. Das kann dauern. Ich nehme den Bus.",
+     "en": "No idea. It could take a while. I'm taking the bus."
+    },
+    {
+     "who": "Du",
+     "de": "Dann komme ich mit. Danke für die Hilfe!",
+     "en": "Then I'll come too. Thanks for the help!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Was haben die gerade gesagt?",
+     "en": "What did they just say?"
+    },
+    {
+     "de": "Wegen einer Störung ...",
+     "en": "Due to a disruption ..."
+    },
+    {
+     "de": "Wissen Sie, wie lange ...?",
+     "en": "Do you know how long ...?"
+    }
+   ],
+   "notes": [
+    "Announcements use formal words: benützen (Austrian for benutzen), Ersatzbus, unterbrochen. Recognise them; you don't need to say them.",
+    "The WienMobil app also shows Störungen."
+   ]
+  },
+  {
+   "slug": "a2-gruppenarbeit",
+   "week": 22,
+   "register": "informal",
+   "title": "Planning a group project",
+   "title_de": "Gruppenarbeit planen",
+   "partner": "Marie and Jonas, project group",
+   "setting": "First group meeting in the library.",
+   "goal": "Split tasks, agree deadlines, say what you can do.",
+   "patterns": [
+    "P11",
+    "P12"
+   ],
+   "turns": [
+    {
+     "who": "Marie",
+     "de": "Okay, wie teilen wir die Arbeit auf?",
+     "en": "Okay, how do we split the work?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich kann die Analyse machen. Das habe ich schon oft gemacht.",
+     "en": "I can do the analysis. I've done that a lot before."
+    },
+    {
+     "who": "Jonas",
+     "de": "Super. Dann schreibe ich die Einleitung und Marie macht die Folien?",
+     "en": "Great. Then I'll write the introduction and Marie does the slides?"
+    },
+    {
+     "who": "Marie",
+     "de": "Passt. Bis wann brauchen wir alles?",
+     "en": "Okay. By when do we need everything?"
+    },
+    {
+     "who": "Du",
+     "de": "Die Präsentation ist am zwölften. Sollen wir bis zum fünften fertig sein?",
+     "en": "The presentation is on the twelfth. Shall we be finished by the fifth?"
+    },
+    {
+     "who": "Jonas",
+     "de": "Gute Idee, dann haben wir noch eine Woche zum Üben.",
+     "en": "Good idea, then we still have a week to practise."
+    },
+    {
+     "who": "Du",
+     "de": "Eine Frage: Die Präsentation ist auf Deutsch, oder?",
+     "en": "One question: the presentation is in German, right?"
+    },
+    {
+     "who": "Marie",
+     "de": "Nein, auf Englisch. Aber wir können in der Gruppe Deutsch reden, wenn du willst.",
+     "en": "No, in English. But we can speak German in the group if you want."
+    },
+    {
+     "who": "Du",
+     "de": "Ja, sehr gerne! Wenn ich etwas nicht verstehe, frage ich nach.",
+     "en": "Yes, I'd love that! If I don't understand something, I'll ask."
+    },
+    {
+     "who": "Jonas",
+     "de": "Perfekt. Ich mache eine WhatsApp-Gruppe.",
+     "en": "Perfect. I'll make a WhatsApp group."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Wie teilen wir die Arbeit auf?",
+     "en": "How do we split the work?"
+    },
+    {
+     "de": "Ich kann ... machen.",
+     "en": "I can do ..."
+    },
+    {
+     "de": "Bis wann brauchen wir das?",
+     "en": "By when do we need it?"
+    },
+    {
+     "de": "Wenn ich etwas nicht verstehe, frage ich nach.",
+     "en": "If I don't understand something, I'll ask."
+    }
+   ],
+   "notes": [
+    "Asking to speak German in a mixed group is very welcome. Most Austrians switch to English to be polite, so say it out loud."
+   ]
+  },
+  {
+   "slug": "a2-paket-reklamation",
+   "week": 23,
+   "register": "formal",
+   "title": "A missing parcel",
+   "title_de": "Mein Paket ist nicht angekommen",
+   "partner": "Post office counter",
+   "setting": "You got a slip but you were at home.",
+   "goal": "Explain what happened in the past and ask for a solution.",
+   "patterns": [
+    "P14",
+    "P16"
+   ],
+   "turns": [
+    {
+     "who": "Mitarbeiter",
+     "de": "Grüß Gott, bitte?",
+     "en": "Hello, yes?"
+    },
+    {
+     "who": "Du",
+     "de": "Grüß Gott. Ich habe diesen Zettel bekommen, aber ich war den ganzen Tag zu Hause.",
+     "en": "Hello. I got this slip, but I was at home all day."
+    },
+    {
+     "who": "Mitarbeiter",
+     "de": "Da hat der Zusteller wohl nicht geläutet. Das tut mir leid.",
+     "en": "The delivery person probably didn't ring. I'm sorry."
+    },
+    {
+     "who": "Du",
+     "de": "Kann ich das Paket jetzt abholen?",
+     "en": "Can I pick up the parcel now?"
+    },
+    {
+     "who": "Mitarbeiter",
+     "de": "Ja, ab morgen. Heute ist es noch nicht da.",
+     "en": "Yes, from tomorrow. It isn't here yet today."
+    },
+    {
+     "who": "Du",
+     "de": "Morgen arbeite ich bis sechs. Wie lange haben Sie geöffnet?",
+     "en": "Tomorrow I work until six. How long are you open?"
+    },
+    {
+     "who": "Mitarbeiter",
+     "de": "Bis halb sieben. Oder Sie lassen es an eine Abholstation schicken.",
+     "en": "Until half past six. Or you have it sent to a pick-up station."
+    },
+    {
+     "who": "Du",
+     "de": "Gut, dann komme ich morgen nach der Arbeit. Was muss ich mitbringen?",
+     "en": "Okay, then I'll come tomorrow after work. What do I need to bring?"
+    },
+    {
+     "who": "Mitarbeiter",
+     "de": "Den Zettel und einen Ausweis.",
+     "en": "The slip and an ID."
+    },
+    {
+     "who": "Du",
+     "de": "Alles klar, danke!",
+     "en": "Got it, thanks!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ich war den ganzen Tag zu Hause.",
+     "en": "I was at home all day."
+    },
+    {
+     "de": "Kann ich das Paket abholen?",
+     "en": "Can I pick up the parcel?"
+    },
+    {
+     "de": "Wie lange haben Sie geöffnet?",
+     "en": "How long are you open?"
+    }
+   ],
+   "notes": [
+    "läuten = to ring (the doorbell) in Austria. Germany: klingeln."
+   ]
+  },
+  {
+   "slug": "a2-cricket-erklaeren",
+   "week": 24,
+   "register": "informal",
+   "title": "Explaining cricket",
+   "title_de": "Was ist Cricket?",
+   "partner": "Felix, football fan",
+   "setting": "Sports talk in the kitchen.",
+   "goal": "Explain something from your culture simply and compare.",
+   "patterns": [
+    "P16",
+    "P17"
+   ],
+   "turns": [
+    {
+     "who": "Felix",
+     "de": "Schaust du am Wochenende Fußball? Rapid spielt gegen die Austria.",
+     "en": "Are you watching football at the weekend? Rapid are playing Austria."
+    },
+    {
+     "who": "Du",
+     "de": "Ehrlich gesagt interessiere ich mich mehr für Cricket.",
+     "en": "To be honest, I'm more interested in cricket."
+    },
+    {
+     "who": "Felix",
+     "de": "Cricket? Davon habe ich keine Ahnung. Wie funktioniert das?",
+     "en": "Cricket? I have no idea about that. How does it work?"
+    },
+    {
+     "who": "Du",
+     "de": "Es gibt zwei Teams mit elf Spielern. Ein Spieler wirft den Ball, ein anderer schlägt ihn mit einem Schläger.",
+     "en": "There are two teams of eleven players. One player throws the ball, another hits it with a bat."
+    },
+    {
+     "who": "Felix",
+     "de": "Ein bisschen wie Baseball?",
+     "en": "A bit like baseball?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, ein bisschen. Aber ein Spiel kann sehr lange dauern, manchmal fünf Tage.",
+     "en": "Yes, a bit. But a match can last very long, sometimes five days."
+    },
+    {
+     "who": "Felix",
+     "de": "Fünf Tage?! Das ist ja verrückt!",
+     "en": "Five days?! That's crazy!"
+    },
+    {
+     "who": "Du",
+     "de": "Es gibt auch kurze Spiele, nur drei Stunden. Bei uns ist Cricket so beliebt wie Fußball hier.",
+     "en": "There are short matches too, only three hours. Where I'm from, cricket is as popular as football here."
+    },
+    {
+     "who": "Felix",
+     "de": "Gibt's in Wien Cricket?",
+     "en": "Is there cricket in Vienna?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, es gibt ein paar Vereine. Komm doch mal mit!",
+     "en": "Yes, there are a few clubs. Come along some time!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ehrlich gesagt ...",
+     "en": "To be honest ..."
+    },
+    {
+     "de": "Wie funktioniert das?",
+     "en": "How does it work?"
+    },
+    {
+     "de": "... ist so beliebt wie ...",
+     "en": "... is as popular as ..."
+    },
+    {
+     "de": "Komm doch mal mit!",
+     "en": "Come along some time!"
+    }
+   ],
+   "notes": [
+    "Rapid and Austria are Vienna's two big football clubs. Their derby is a big deal. Picking a side is a good small-talk question: Bist du für Rapid oder für die Austria?"
+   ]
+  }
+ ]
+}

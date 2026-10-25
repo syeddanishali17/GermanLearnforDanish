@@ -1,0 +1,8 @@
+# Vendor prices in EUR, used by cost_ledger from Phase 2. Re-check before wiring paid APIs (docs/vendors.md).
+# Example shape:
+# azure_speech:
+#   tts_per_million_chars: 0.0
+#   stt_per_hour: 0.0
+caps:
+  daily_soft_eur: 1.00
+  monthly_hard_eur: 15.00

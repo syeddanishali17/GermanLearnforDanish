@@ -1,0 +1,385 @@
+{
+ "deck": "uni",
+ "title": "University / Student Life",
+ "status": "reviewed",
+ "items": [
+  {
+   "slug": "ich-studiere-an-der-uni",
+   "week": 1,
+   "de": "Ich studiere an der Uni.",
+   "en": "I study at the university.",
+   "likely_reply_de": "Cool! Was studierst du?",
+   "likely_reply_en": "Cool! What do you study?",
+   "mission": "Tell one person where you study."
+  },
+  {
+   "slug": "ich-studiere-hier",
+   "week": 1,
+   "de": "Ich studiere hier in Wien.",
+   "en": "I'm studying here in Vienna.",
+   "likely_reply_de": "Ah, in welchem Bereich?",
+   "likely_reply_en": "Ah, in which field?"
+  },
+  {
+   "slug": "mein-studium-ist-auf-englisch",
+   "week": 1,
+   "de": "Mein Studium ist auf Englisch.",
+   "en": "My degree is taught in English.",
+   "likely_reply_de": "Und du lernst trotzdem Deutsch? Super!",
+   "likely_reply_en": "And you're learning German anyway? Great!"
+  },
+  {
+   "slug": "was-studierst-du",
+   "week": 2,
+   "de": "Was studierst du?",
+   "en": "What do you study?",
+   "register": "informal",
+   "likely_reply_de": "Informatik, im dritten Semester.",
+   "likely_reply_en": "Computer science, third semester."
+  },
+  {
+   "slug": "in-welchem-semester",
+   "week": 2,
+   "learner_action": "recognise_now",
+   "de": "In welchem Semester bist du?",
+   "en": "Which semester are you in?",
+   "context": "Answer: Im ersten Semester. (zweiten, dritten ...)"
+  },
+  {
+   "slug": "woher-kommst-du",
+   "week": 2,
+   "de": "Woher kommst du?",
+   "en": "Where are you from?",
+   "register": "informal",
+   "likely_reply_de": "Aus Tirol. Und du?",
+   "likely_reply_en": "From Tyrol. And you?"
+  },
+  {
+   "slug": "wo-wohnst-du",
+   "week": 2,
+   "de": "Wo wohnst du?",
+   "en": "Where do you live?",
+   "register": "informal",
+   "likely_reply_de": "Im vierten Bezirk, nicht weit von der Uni.",
+   "likely_reply_en": "In the 4th district, not far from the university.",
+   "austria_note": "Vienna has 23 numbered districts (Bezirke). People often answer with the number."
+  },
+  {
+   "slug": "ich-wohne-im-studentenheim",
+   "week": 2,
+   "de": "Ich wohne im Studentenheim.",
+   "en": "I live in a student residence.",
+   "austria_note": "Austria: Studentenheim. Germany: Studentenwohnheim."
+  },
+  {
+   "slug": "der-hoersaal",
+   "kind": "word",
+   "week": 2,
+   "gender": "der",
+   "plural": "die Hörsäle",
+   "de": "der Hörsaal",
+   "en": "lecture hall"
+  },
+  {
+   "slug": "die-vorlesung",
+   "kind": "word",
+   "week": 2,
+   "gender": "die",
+   "plural": "die Vorlesungen",
+   "de": "die Vorlesung",
+   "en": "lecture"
+  },
+  {
+   "slug": "die-uebung",
+   "kind": "word",
+   "week": 2,
+   "gender": "die",
+   "plural": "die Übungen",
+   "de": "die Übung",
+   "en": "exercise class / tutorial"
+  },
+  {
+   "slug": "die-pruefung",
+   "kind": "word",
+   "week": 2,
+   "gender": "die",
+   "plural": "die Prüfungen",
+   "de": "die Prüfung",
+   "en": "exam"
+  },
+  {
+   "slug": "die-mensa",
+   "kind": "word",
+   "week": 2,
+   "gender": "die",
+   "de": "die Mensa",
+   "en": "university canteen"
+  },
+  {
+   "slug": "die-bibliothek",
+   "kind": "word",
+   "week": 2,
+   "gender": "die",
+   "de": "die Bibliothek",
+   "en": "library"
+  },
+  {
+   "slug": "wo-ist-der-hoersaal",
+   "week": 2,
+   "de": "Wo ist der Hörsaal?",
+   "en": "Where is the lecture hall?",
+   "likely_reply_de": "Im zweiten Stock, links.",
+   "likely_reply_en": "On the second floor, on the left.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Entschuldigung, wo ist der Hörsaal 8?",
+     "en": "Excuse me, where is lecture hall 8?"
+    },
+    {
+     "who": "Student",
+     "de": "Im zweiten Stock, links.",
+     "en": "Second floor, on the left."
+    },
+    {
+     "who": "Du",
+     "de": "Danke!",
+     "en": "Thanks!"
+    }
+   ]
+  },
+  {
+   "slug": "wann-beginnt-die-vorlesung",
+   "week": 2,
+   "de": "Wann beginnt die Vorlesung?",
+   "en": "When does the lecture start?",
+   "likely_reply_de": "Um Viertel nach zehn.",
+   "likely_reply_en": "At quarter past ten.",
+   "austria_note": "Some courses start 15 minutes late (written c.t., akademisches Viertel). Check the time in your course system."
+  },
+  {
+   "slug": "hast-du-die-folien",
+   "week": 2,
+   "de": "Hast du die Folien?",
+   "en": "Do you have the slides?",
+   "register": "informal",
+   "likely_reply_de": "Ja, die sind auf der Lernplattform.",
+   "likely_reply_en": "Yes, they're on the learning platform.",
+   "context": "Most universities have an online learning platform and a separate admin system."
+  },
+  {
+   "slug": "ich-habe-eine-frage",
+   "week": 2,
+   "de": "Entschuldigung, ich habe eine Frage.",
+   "en": "Excuse me, I have a question.",
+   "likely_reply_de": "Ja, bitte?",
+   "likely_reply_en": "Yes, go ahead?",
+   "mission": "Ask one question in German at the university."
+  },
+  {
+   "slug": "nochmal-erklaeren",
+   "week": 2,
+   "de": "Können Sie das bitte noch einmal erklären?",
+   "en": "Could you explain that again, please?",
+   "register": "formal",
+   "likely_reply_de": "Natürlich. Also ...",
+   "likely_reply_en": "Of course. So ..."
+  },
+  {
+   "slug": "gehen-wir-in-die-mensa",
+   "week": 2,
+   "de": "Gehen wir in die Mensa?",
+   "en": "Shall we go to the canteen?",
+   "register": "informal",
+   "likely_reply_de": "Ja, gute Idee!",
+   "likely_reply_en": "Yes, good idea!"
+  },
+  {
+   "slug": "hast-du-zeit-fuer-kaffee",
+   "week": 4,
+   "de": "Hast du Zeit für einen Kaffee?",
+   "en": "Do you have time for a coffee?",
+   "register": "informal",
+   "likely_reply_de": "Jetzt leider nicht, aber morgen?",
+   "likely_reply_en": "Not right now, unfortunately, but tomorrow?"
+  },
+  {
+   "slug": "kannst-du-mir-helfen",
+   "week": 5,
+   "de": "Kannst du mir kurz helfen?",
+   "en": "Can you help me for a moment?",
+   "register": "informal",
+   "likely_reply_de": "Klar, was brauchst du?",
+   "likely_reply_en": "Sure, what do you need?"
+  },
+  {
+   "slug": "ich-muss-heute-lernen",
+   "week": 5,
+   "de": "Ich muss heute lernen.",
+   "en": "I have to study today.",
+   "context": "Modal: muss ... lernen at the end."
+  },
+  {
+   "slug": "heute-kann-ich-nicht",
+   "week": 5,
+   "de": "Heute kann ich leider nicht.",
+   "en": "Unfortunately I can't today.",
+   "likely_reply_de": "Kein Problem, ein anderes Mal.",
+   "likely_reply_en": "No problem, another time."
+  },
+  {
+   "slug": "wollen-wir-zusammenarbeiten",
+   "week": 6,
+   "de": "Wollen wir zusammenarbeiten?",
+   "en": "Shall we work together?",
+   "register": "informal",
+   "context": "Group work, projects.",
+   "likely_reply_de": "Ja, gerne! Hast du schon eine Gruppe?",
+   "likely_reply_en": "Yes, gladly! Do you already have a group?"
+  },
+  {
+   "slug": "wann-treffen-wir-uns",
+   "week": 6,
+   "de": "Wann treffen wir uns?",
+   "en": "When shall we meet?",
+   "likely_reply_de": "Morgen um zwei in der Bibliothek?",
+   "likely_reply_en": "Tomorrow at two in the library?",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Wann treffen wir uns?",
+     "en": "When shall we meet?"
+    },
+    {
+     "who": "Marie",
+     "de": "Morgen um zwei in der Bibliothek?",
+     "en": "Tomorrow at two in the library?"
+    },
+    {
+     "who": "Du",
+     "de": "Passt! Bis morgen.",
+     "en": "Works! See you tomorrow."
+    },
+    {
+     "who": "Marie",
+     "de": "Bis morgen!",
+     "en": "See you tomorrow!"
+    }
+   ]
+  },
+  {
+   "slug": "das-passt-mir",
+   "week": 6,
+   "de": "Das passt mir gut.",
+   "en": "That works well for me."
+  },
+  {
+   "slug": "ich-stehe-um-sieben-auf",
+   "week": 6,
+   "de": "Ich stehe um sieben Uhr auf.",
+   "en": "I get up at seven.",
+   "context": "Separable verb: aufstehen → stehe ... auf."
+  },
+  {
+   "slug": "die-vorlesung-faengt-an",
+   "week": 6,
+   "de": "Die Vorlesung fängt um zehn an.",
+   "en": "The lecture starts at ten.",
+   "context": "Separable verb: anfangen → fängt ... an."
+  },
+  {
+   "slug": "bis-morgen",
+   "week": 1,
+   "de": "Bis morgen!",
+   "en": "See you tomorrow!",
+   "likely_reply_de": "Bis morgen!",
+   "likely_reply_en": "See you tomorrow!"
+  },
+  {
+   "slug": "bis-spaeter",
+   "week": 1,
+   "de": "Bis später!",
+   "en": "See you later!"
+  },
+  {
+   "slug": "bis-dann",
+   "week": 1,
+   "de": "Bis dann!",
+   "en": "See you then!"
+  },
+  {
+   "slug": "kein-stress",
+   "week": 6,
+   "register": "informal",
+   "de": "Kein Stress.",
+   "en": "No rush. / Take your time."
+  },
+  {
+   "slug": "wie-funktioniert-das",
+   "week": 6,
+   "de": "Wie funktioniert das?",
+   "en": "How does this work?",
+   "likely_reply_de": "Warte, ich zeig's dir.",
+   "likely_reply_en": "Wait, I'll show you."
+  },
+  {
+   "slug": "studienbestaetigung",
+   "week": 7,
+   "de": "Ich brauche eine Studienbestätigung.",
+   "en": "I need a confirmation of enrolment.",
+   "context": "You can usually download it from your university's online system.",
+   "likely_reply_de": "Die können Sie online herunterladen.",
+   "likely_reply_en": "You can download it online."
+  },
+  {
+   "slug": "wo-ist-die-studienabteilung",
+   "week": 7,
+   "de": "Wo ist die Studienabteilung?",
+   "en": "Where is the admissions/student office?",
+   "likely_reply_de": "Im Erdgeschoss, gleich rechts.",
+   "likely_reply_en": "On the ground floor, just to the right.",
+   "context": "Example reply only; check the real location on your university's website."
+  },
+  {
+   "slug": "wie-war-dein-wochenende",
+   "week": 9,
+   "de": "Wie war dein Wochenende?",
+   "en": "How was your weekend?",
+   "register": "informal",
+   "likely_reply_de": "Gut! Ich war im Prater. Und deins?",
+   "likely_reply_en": "Good! I was at the Prater. And yours?"
+  },
+  {
+   "slug": "ich-habe-viel-gelernt",
+   "week": 9,
+   "de": "Ich habe am Wochenende viel gelernt.",
+   "en": "I studied a lot at the weekend.",
+   "context": "Perfekt: habe ... gelernt (participle at the end)."
+  },
+  {
+   "slug": "was-machst-du-am-wochenende",
+   "week": 10,
+   "de": "Was machst du am Wochenende?",
+   "en": "What are you doing at the weekend?",
+   "register": "informal",
+   "likely_reply_de": "Ich weiß noch nicht. Vielleicht wandern.",
+   "likely_reply_en": "I don't know yet. Maybe hiking."
+  },
+  {
+   "slug": "die-pruefung-war-schwer",
+   "week": 9,
+   "de": "Die Prüfung war schwer.",
+   "en": "The exam was hard.",
+   "likely_reply_de": "Ja, finde ich auch.",
+   "likely_reply_en": "Yes, I think so too."
+  },
+  {
+   "slug": "viel-glueck",
+   "week": 2,
+   "de": "Viel Glück bei der Prüfung!",
+   "en": "Good luck in the exam!",
+   "likely_reply_de": "Danke, dir auch!",
+   "likely_reply_en": "Thanks, you too!"
+  }
+ ]
+}

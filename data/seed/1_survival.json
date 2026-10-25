@@ -1,0 +1,923 @@
+{
+ "deck": "survival",
+ "title": "Survival German",
+ "status": "reviewed",
+ "items": [
+  {
+   "slug": "hallo",
+   "week": 1,
+   "de": "Hallo!",
+   "en": "Hello!",
+   "context": "Any time of day, peers, shops, neighbours.",
+   "likely_reply_de": "Hallo!",
+   "likely_reply_en": "Hello!",
+   "austria_note": "A safe neutral default in Vienna. You will also hear Servus (informal) and Grüß Gott (polite).",
+   "mission": "Say Hallo to one shop worker today.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Hallo!",
+     "en": "Hello!"
+    },
+    {
+     "who": "Kassierin",
+     "de": "Hallo! Ist das alles?",
+     "en": "Hello! Is that everything?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, danke.",
+     "en": "Yes, thanks."
+    }
+   ]
+  },
+  {
+   "slug": "guten-morgen",
+   "week": 1,
+   "de": "Guten Morgen!",
+   "en": "Good morning!",
+   "context": "Until about 10 or 11 in the morning.",
+   "likely_reply_de": "Morgen!",
+   "likely_reply_en": "Morning!",
+   "mission": "Say Guten Morgen to a neighbour or classmate."
+  },
+  {
+   "slug": "guten-tag",
+   "week": 1,
+   "de": "Guten Tag!",
+   "en": "Good day / Hello (polite)",
+   "register": "formal",
+   "context": "Offices, appointments, older people.",
+   "likely_reply_de": "Grüß Gott!",
+   "likely_reply_en": "Hello! (Austrian polite greeting)",
+   "austria_note": "In Austria the answer is often Grüß Gott. Both are correct."
+  },
+  {
+   "slug": "guten-abend",
+   "week": 1,
+   "de": "Guten Abend!",
+   "en": "Good evening!",
+   "context": "From about 6 pm.",
+   "likely_reply_de": "Guten Abend!",
+   "likely_reply_en": "Good evening!"
+  },
+  {
+   "slug": "gute-nacht",
+   "week": 1,
+   "de": "Gute Nacht!",
+   "en": "Good night!",
+   "context": "Only when leaving late or going to bed. Not a greeting.",
+   "likely_reply_de": "Gute Nacht, schlaf gut!",
+   "likely_reply_en": "Good night, sleep well!"
+  },
+  {
+   "slug": "tschuess",
+   "week": 1,
+   "de": "Tschüss!",
+   "en": "Bye!",
+   "register": "informal",
+   "context": "Friends, classmates, relaxed shops.",
+   "likely_reply_de": "Tschüss!",
+   "likely_reply_en": "Bye!",
+   "austria_note": "Common in Vienna too. Friends also say Baba, Ciao or Servus."
+  },
+  {
+   "slug": "auf-wiedersehen",
+   "week": 1,
+   "de": "Auf Wiedersehen!",
+   "en": "Goodbye!",
+   "register": "formal",
+   "context": "Offices, appointments, shops.",
+   "likely_reply_de": "Auf Wiederschauen!",
+   "likely_reply_en": "Goodbye! (Austrian form)",
+   "austria_note": "In Austrian shops you will often hear Auf Wiederschauen."
+  },
+  {
+   "slug": "schoenen-tag-noch",
+   "week": 1,
+   "de": "Schönen Tag noch!",
+   "en": "Have a nice day!",
+   "context": "When leaving a shop or ending a short chat.",
+   "likely_reply_de": "Danke, gleichfalls!",
+   "likely_reply_en": "Thanks, same to you!",
+   "mission": "Say Schönen Tag noch when you leave a shop.",
+   "dialogue": [
+    {
+     "who": "Verkäufer",
+     "de": "Bitte schön. Schönen Tag noch!",
+     "en": "Here you go. Have a nice day!"
+    },
+    {
+     "who": "Du",
+     "de": "Danke, gleichfalls!",
+     "en": "Thanks, same to you!"
+    }
+   ]
+  },
+  {
+   "slug": "wie-gehts",
+   "week": 1,
+   "de": "Wie geht's?",
+   "en": "How are you?",
+   "register": "informal",
+   "context": "With people you say du to.",
+   "likely_reply_de": "Gut, danke. Und dir?",
+   "likely_reply_en": "Good, thanks. And you?"
+  },
+  {
+   "slug": "wie-geht-es-ihnen",
+   "week": 1,
+   "de": "Wie geht es Ihnen?",
+   "en": "How are you? (polite)",
+   "register": "formal",
+   "context": "With people you say Sie to.",
+   "likely_reply_de": "Gut, danke. Und Ihnen?",
+   "likely_reply_en": "Good, thanks. And you?"
+  },
+  {
+   "slug": "gut-danke-und-dir",
+   "week": 1,
+   "de": "Gut, danke. Und dir?",
+   "en": "Good, thanks. And you?",
+   "register": "informal",
+   "alt_de": [
+    "Gut, danke, und dir?"
+   ],
+   "context": "Answer to Wie geht's?",
+   "likely_reply_de": "Auch gut, danke.",
+   "likely_reply_en": "Also good, thanks."
+  },
+  {
+   "slug": "es-geht",
+   "week": 1,
+   "de": "Es geht.",
+   "en": "So-so. / I'm okay.",
+   "context": "Honest answer when you are not great.",
+   "likely_reply_de": "Oje, was ist los?",
+   "likely_reply_en": "Oh no, what's up?"
+  },
+  {
+   "slug": "ich-heisse",
+   "week": 1,
+   "de": "Ich heiße Danish.",
+   "en": "My name is Danish.",
+   "alt_de": [
+    "Ich bin Danish."
+   ],
+   "context": "Introducing yourself.",
+   "likely_reply_de": "Freut mich! Ich bin Lena.",
+   "likely_reply_en": "Nice to meet you! I'm Lena.",
+   "mission": "Introduce yourself with your name to one person.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Hallo, ich heiße Danish.",
+     "en": "Hi, my name is Danish."
+    },
+    {
+     "who": "Lena",
+     "de": "Freut mich! Ich bin Lena.",
+     "en": "Nice to meet you! I'm Lena."
+    },
+    {
+     "who": "Du",
+     "de": "Freut mich auch!",
+     "en": "Nice to meet you too!"
+    }
+   ]
+  },
+  {
+   "slug": "wie-heisst-du",
+   "week": 1,
+   "de": "Wie heißt du?",
+   "en": "What's your name?",
+   "register": "informal",
+   "likely_reply_de": "Ich heiße Jakob. Und du?",
+   "likely_reply_en": "My name is Jakob. And you?"
+  },
+  {
+   "slug": "freut-mich",
+   "week": 1,
+   "de": "Freut mich!",
+   "en": "Nice to meet you!",
+   "likely_reply_de": "Mich auch!",
+   "likely_reply_en": "Me too!"
+  },
+  {
+   "slug": "ich-komme-aus",
+   "week": 1,
+   "de": "Ich komme aus ...",
+   "en": "I'm from ... (your country).",
+   "likely_reply_de": "Oh, schön! Aus welcher Stadt?",
+   "likely_reply_en": "Oh, nice! Which city?",
+   "context": "Say your country in the gap."
+  },
+  {
+   "slug": "ich-wohne-in-wien",
+   "week": 1,
+   "de": "Ich wohne in Wien.",
+   "en": "I live in Vienna.",
+   "likely_reply_de": "Seit wann?",
+   "likely_reply_en": "Since when?"
+  },
+  {
+   "slug": "bitte",
+   "week": 1,
+   "de": "Bitte.",
+   "en": "Please. / You're welcome. / Here you go.",
+   "context": "One word, three jobs. Tone and situation decide."
+  },
+  {
+   "slug": "danke",
+   "week": 1,
+   "de": "Danke!",
+   "en": "Thanks!",
+   "likely_reply_de": "Bitte!",
+   "likely_reply_en": "You're welcome!"
+  },
+  {
+   "slug": "danke-schoen",
+   "week": 1,
+   "de": "Danke schön!",
+   "en": "Thank you very much!",
+   "likely_reply_de": "Bitte schön!",
+   "likely_reply_en": "You're very welcome!"
+  },
+  {
+   "slug": "vielen-dank",
+   "week": 1,
+   "de": "Vielen Dank!",
+   "en": "Many thanks!",
+   "likely_reply_de": "Gerne!",
+   "likely_reply_en": "My pleasure!"
+  },
+  {
+   "slug": "gern-geschehen",
+   "week": 1,
+   "de": "Gern geschehen.",
+   "en": "You're welcome.",
+   "alt_de": [
+    "Gerne."
+   ],
+   "context": "Answer when someone thanks you."
+  },
+  {
+   "slug": "entschuldigung",
+   "week": 1,
+   "de": "Entschuldigung!",
+   "en": "Excuse me! / Sorry!",
+   "context": "To get attention, to pass someone, or for a small mistake.",
+   "likely_reply_de": "Ja, bitte?",
+   "likely_reply_en": "Yes?"
+  },
+  {
+   "slug": "tut-mir-leid",
+   "week": 1,
+   "de": "Tut mir leid.",
+   "en": "I'm sorry.",
+   "context": "Real apology, or bad news.",
+   "likely_reply_de": "Kein Problem.",
+   "likely_reply_en": "No problem."
+  },
+  {
+   "slug": "kein-problem",
+   "week": 1,
+   "de": "Kein Problem.",
+   "en": "No problem."
+  },
+  {
+   "slug": "ja-gerne",
+   "week": 1,
+   "de": "Ja, gerne.",
+   "en": "Yes, please. / Yes, gladly.",
+   "context": "Accepting an offer."
+  },
+  {
+   "slug": "nein-danke",
+   "week": 1,
+   "de": "Nein, danke.",
+   "en": "No, thanks."
+  },
+  {
+   "slug": "ich-weiss-nicht",
+   "week": 1,
+   "de": "Ich weiß nicht.",
+   "en": "I don't know."
+  },
+  {
+   "slug": "alles-klar",
+   "week": 1,
+   "de": "Alles klar.",
+   "en": "Got it. / All good.",
+   "context": "Confirms you understood. Very common."
+  },
+  {
+   "slug": "ich-lerne-noch-deutsch",
+   "week": 1,
+   "de": "Entschuldigung, ich lerne noch Deutsch.",
+   "en": "Sorry, I'm still learning German.",
+   "context": "Recovery phrase. Counts as successful German use.",
+   "likely_reply_de": "Kein Problem! Sie sprechen schon gut.",
+   "likely_reply_en": "No problem! You already speak well.",
+   "mission": "Use this once instead of switching to English.",
+   "dialogue": [
+    {
+     "who": "Kellner",
+     "de": "Möchten Sie noch etwas zum Trinken?",
+     "en": "Would you like something else to drink?"
+    },
+    {
+     "who": "Du",
+     "de": "Entschuldigung, ich lerne noch Deutsch.",
+     "en": "Sorry, I'm still learning German."
+    },
+    {
+     "who": "Kellner",
+     "de": "Kein Problem! Noch etwas trinken?",
+     "en": "No problem! Something more to drink?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, danke.",
+     "en": "No, thanks."
+    }
+   ]
+  },
+  {
+   "slug": "langsamer-bitte",
+   "week": 1,
+   "de": "Können Sie bitte langsamer sprechen?",
+   "en": "Can you speak more slowly, please?",
+   "register": "formal",
+   "alt_de": [
+    "Kannst du bitte langsamer sprechen?"
+   ],
+   "context": "Recovery phrase.",
+   "likely_reply_de": "Ja, natürlich.",
+   "likely_reply_en": "Yes, of course."
+  },
+  {
+   "slug": "wiederholen-bitte",
+   "week": 1,
+   "de": "Können Sie das bitte wiederholen?",
+   "en": "Can you repeat that, please?",
+   "register": "formal",
+   "alt_de": [
+    "Kannst du das bitte wiederholen?"
+   ],
+   "context": "Recovery phrase.",
+   "likely_reply_de": "Klar. Ich habe gesagt ...",
+   "likely_reply_en": "Sure. I said ..."
+  },
+  {
+   "slug": "nicht-ganz-verstanden",
+   "week": 1,
+   "de": "Ich habe das nicht ganz verstanden.",
+   "en": "I didn't quite understand that.",
+   "context": "Recovery phrase.",
+   "likely_reply_de": "Kein Problem, ich sage es noch einmal.",
+   "likely_reply_en": "No problem, I'll say it again."
+  },
+  {
+   "slug": "was-bedeutet",
+   "week": 1,
+   "de": "Was bedeutet ...?",
+   "en": "What does ... mean?",
+   "alt_de": [
+    "Was bedeutet das?"
+   ],
+   "context": "Recovery phrase. Put the word you did not understand at the end.",
+   "likely_reply_de": "Das bedeutet ...",
+   "likely_reply_en": "That means ..."
+  },
+  {
+   "slug": "wie-sagt-man",
+   "week": 1,
+   "de": "Wie sagt man ... auf Deutsch?",
+   "en": "How do you say ... in German?",
+   "context": "Recovery phrase. Say the English word in the gap.",
+   "likely_reply_de": "Das heißt ...",
+   "likely_reply_en": "That's called ..."
+  },
+  {
+   "slug": "noch-einmal-bitte",
+   "week": 1,
+   "de": "Noch einmal, bitte.",
+   "en": "Once more, please.",
+   "alt_de": [
+    "Nochmal, bitte."
+   ]
+  },
+  {
+   "slug": "wie-bitte",
+   "week": 1,
+   "de": "Wie bitte?",
+   "en": "Pardon? / Sorry, what?",
+   "context": "Short and polite when you did not hear."
+  },
+  {
+   "slug": "ein-bisschen-deutsch",
+   "week": 1,
+   "de": "Ich spreche ein bisschen Deutsch.",
+   "en": "I speak a little German.",
+   "likely_reply_de": "Das ist doch super!",
+   "likely_reply_en": "That's great!"
+  },
+  {
+   "slug": "sprechen-sie-englisch",
+   "week": 1,
+   "de": "Sprechen Sie Englisch?",
+   "en": "Do you speak English?",
+   "register": "formal",
+   "context": "Last resort, after one recovery phrase in German.",
+   "likely_reply_de": "Ja, ein bisschen.",
+   "likely_reply_en": "Yes, a little."
+  },
+  {
+   "slug": "ist-hier-frei",
+   "week": 2,
+   "de": "Ist hier frei?",
+   "en": "Is this seat free?",
+   "context": "Canteen, lecture hall, tram.",
+   "likely_reply_de": "Ja, klar!",
+   "likely_reply_en": "Yes, sure!",
+   "mission": "Ask Ist hier frei? before you sit down today.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Entschuldigung, ist hier frei?",
+     "en": "Excuse me, is this seat free?"
+    },
+    {
+     "who": "Studentin",
+     "de": "Ja, klar!",
+     "en": "Yes, sure!"
+    },
+    {
+     "who": "Du",
+     "de": "Danke!",
+     "en": "Thanks!"
+    }
+   ]
+  },
+  {
+   "slug": "leider-besetzt",
+   "week": 2,
+   "learner_action": "recognise_now",
+   "de": "Nein, leider besetzt.",
+   "en": "No, sorry, it's taken.",
+   "context": "A reply you may hear to Ist hier frei? Answer: Ah, okay, danke."
+  },
+  {
+   "slug": "was-ist-das",
+   "week": 2,
+   "de": "Was ist das?",
+   "en": "What is that?",
+   "context": "Pointing at food in the canteen or café.",
+   "likely_reply_de": "Das ist Gemüsecurry.",
+   "likely_reply_en": "That's vegetable curry."
+  },
+  {
+   "slug": "ich-nehme-das",
+   "week": 2,
+   "de": "Ich nehme das, bitte.",
+   "en": "I'll take this one, please.",
+   "context": "Pointing at food.",
+   "likely_reply_de": "Gerne. Noch etwas?",
+   "likely_reply_en": "Sure. Anything else?"
+  },
+  {
+   "slug": "ist-das-vegetarisch",
+   "week": 2,
+   "de": "Ist das vegetarisch?",
+   "en": "Is this vegetarian?",
+   "likely_reply_de": "Nein, da ist Huhn drin.",
+   "likely_reply_en": "No, there's chicken in it."
+  },
+  {
+   "slug": "ist-da-schwein-drin",
+   "week": 2,
+   "de": "Ist da Schweinefleisch drin?",
+   "en": "Is there pork in it?",
+   "likely_reply_de": "Nein, das ist Rindfleisch.",
+   "likely_reply_en": "No, that's beef.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Entschuldigung, ist da Schweinefleisch drin?",
+     "en": "Excuse me, is there pork in it?"
+    },
+    {
+     "who": "Mitarbeiterin",
+     "de": "Ja, leider. Das hier ist vegetarisch.",
+     "en": "Yes, unfortunately. This one is vegetarian."
+    },
+    {
+     "who": "Du",
+     "de": "Gut, dann das, bitte.",
+     "en": "Okay, then that one, please."
+    }
+   ]
+  },
+  {
+   "slug": "ohne-fleisch",
+   "week": 2,
+   "de": "Ohne Fleisch, bitte.",
+   "en": "Without meat, please."
+  },
+  {
+   "slug": "fuer-hier-oder-mitnehmen",
+   "week": 2,
+   "learner_action": "recognise_now",
+   "de": "Für hier oder zum Mitnehmen?",
+   "en": "For here or to take away?",
+   "context": "Café or takeaway counter. Answer: Für hier, bitte. / Zum Mitnehmen, bitte."
+  },
+  {
+   "slug": "zum-mitnehmen",
+   "week": 2,
+   "de": "Zum Mitnehmen, bitte.",
+   "en": "To take away, please."
+  },
+  {
+   "slug": "fuer-hier",
+   "week": 2,
+   "de": "Für hier, bitte.",
+   "en": "For here, please."
+  },
+  {
+   "slug": "leitungswasser",
+   "week": 2,
+   "de": "Ein Glas Leitungswasser, bitte.",
+   "en": "A glass of tap water, please.",
+   "likely_reply_de": "Gerne.",
+   "likely_reply_en": "Sure.",
+   "austria_note": "Vienna tap water is excellent. Cafés often bring a glass of water with coffee."
+  },
+  {
+   "slug": "wie-viel-kostet-das",
+   "week": 3,
+   "de": "Wie viel kostet das?",
+   "en": "How much is this?",
+   "alt_de": [
+    "Was kostet das?"
+   ],
+   "likely_reply_de": "Drei Euro fünfzig.",
+   "likely_reply_en": "Three euros fifty.",
+   "mission": "Ask the price of one thing today and catch the number."
+  },
+  {
+   "slug": "das-macht",
+   "week": 3,
+   "learner_action": "recognise_now",
+   "de": "Das macht zwölf Euro vierzig.",
+   "en": "That comes to €12.40.",
+   "context": "Cashier telling you the total. Prices are said: Euro first, then cents."
+  },
+  {
+   "slug": "zahlen-1-10",
+   "week": 3,
+   "kind": "word",
+   "de": "eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn",
+   "en": "1 to 10",
+   "context": "Pahara: recite, then use with prices.",
+   "tags": [
+    "pahara"
+   ]
+  },
+  {
+   "slug": "zahlen-11-20",
+   "week": 3,
+   "kind": "word",
+   "de": "elf, zwölf, dreizehn, vierzehn, fünfzehn, sechzehn, siebzehn, achtzehn, neunzehn, zwanzig",
+   "en": "11 to 20",
+   "context": "Pahara. Note sechzehn and siebzehn drop letters.",
+   "tags": [
+    "pahara"
+   ]
+  },
+  {
+   "slug": "zahlen-zehner",
+   "week": 3,
+   "kind": "word",
+   "de": "zwanzig, dreißig, vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig, hundert",
+   "en": "20, 30 ... 100",
+   "context": "Pahara. 25 = fünfundzwanzig: the small number comes first.",
+   "tags": [
+    "pahara"
+   ]
+  },
+  {
+   "slug": "mit-karte",
+   "week": 3,
+   "de": "Mit Karte, bitte.",
+   "en": "By card, please.",
+   "likely_reply_de": "Gerne, bitte hier.",
+   "likely_reply_en": "Sure, here please.",
+   "mission": "Say Mit Karte, bitte at the checkout."
+  },
+  {
+   "slug": "bar-bitte",
+   "week": 3,
+   "de": "Bar, bitte.",
+   "en": "Cash, please."
+  },
+  {
+   "slug": "kann-ich-mit-karte-zahlen",
+   "week": 3,
+   "de": "Kann ich mit Karte zahlen?",
+   "en": "Can I pay by card?",
+   "likely_reply_de": "Ja, natürlich.",
+   "likely_reply_en": "Yes, of course."
+  },
+  {
+   "slug": "haben-sie-hafermilch",
+   "week": 3,
+   "de": "Haben Sie Hafermilch?",
+   "en": "Do you have oat milk?",
+   "register": "formal",
+   "likely_reply_de": "Ja, im Kühlregal.",
+   "likely_reply_en": "Yes, in the fridge section."
+  },
+  {
+   "slug": "wo-finde-ich",
+   "week": 3,
+   "de": "Wo finde ich Reis?",
+   "en": "Where can I find rice?",
+   "context": "Swap Reis for what you need.",
+   "likely_reply_de": "Gang drei, ganz hinten.",
+   "likely_reply_en": "Aisle three, right at the back.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Entschuldigung, wo finde ich Reis?",
+     "en": "Excuse me, where can I find rice?"
+    },
+    {
+     "who": "Mitarbeiter",
+     "de": "Gang drei, ganz hinten.",
+     "en": "Aisle three, right at the back."
+    },
+    {
+     "who": "Du",
+     "de": "Danke!",
+     "en": "Thanks!"
+    }
+   ]
+  },
+  {
+   "slug": "sonst-noch-etwas",
+   "week": 3,
+   "learner_action": "recognise_now",
+   "de": "Sonst noch etwas?",
+   "en": "Anything else?",
+   "austria_note": "In Austria also: Darf's noch was sein?",
+   "context": "Answer: Nein, danke. Das war's."
+  },
+  {
+   "slug": "das-wars",
+   "week": 3,
+   "de": "Das war's, danke.",
+   "en": "That's all, thanks.",
+   "alt_de": [
+    "Das wars, danke."
+   ]
+  },
+  {
+   "slug": "ich-haette-gern",
+   "week": 4,
+   "de": "Ich hätte gern einen Kaffee.",
+   "en": "I'd like a coffee.",
+   "alt_de": [
+    "Ich hätte gerne einen Kaffee."
+   ],
+   "context": "Polite ordering. der Kaffee → einen Kaffee (Akkusativ).",
+   "likely_reply_de": "Gerne. Sonst noch etwas?",
+   "likely_reply_en": "Sure. Anything else?",
+   "mission": "Order one drink starting with Ich hätte gern.",
+   "dialogue": [
+    {
+     "who": "Kellnerin",
+     "de": "Grüß Gott, was darf's sein?",
+     "en": "Hello, what can I get you?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich hätte gern einen Kaffee, bitte.",
+     "en": "I'd like a coffee, please."
+    },
+    {
+     "who": "Kellnerin",
+     "de": "Gerne. Sonst noch etwas?",
+     "en": "Sure. Anything else?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, danke. Das war's.",
+     "en": "No, thanks. That's all."
+    }
+   ]
+  },
+  {
+   "slug": "was-darfs-sein",
+   "week": 4,
+   "learner_action": "recognise_now",
+   "de": "Was darf's sein?",
+   "en": "What can I get you?",
+   "context": "Waiter or shop staff. Answer with Ich hätte gern ..."
+  },
+  {
+   "slug": "ich-moechte-einen-tee",
+   "week": 4,
+   "de": "Ich möchte einen Tee, bitte.",
+   "en": "I'd like a tea, please."
+  },
+  {
+   "slug": "kaffee-und-croissant",
+   "week": 4,
+   "de": "Einen Kaffee und ein Croissant, bitte.",
+   "en": "A coffee and a croissant, please.",
+   "context": "der Kaffee → einen; das Croissant → ein."
+  },
+  {
+   "slug": "die-karte-bitte",
+   "week": 4,
+   "de": "Die Karte, bitte.",
+   "en": "The menu, please.",
+   "alt_de": [
+    "Die Speisekarte, bitte."
+   ],
+   "likely_reply_de": "Natürlich, bitte schön.",
+   "likely_reply_en": "Of course, here you go."
+  },
+  {
+   "slug": "was-empfehlen-sie",
+   "week": 4,
+   "de": "Was empfehlen Sie?",
+   "en": "What do you recommend?",
+   "register": "formal",
+   "likely_reply_de": "Das Schnitzel ist sehr gut.",
+   "likely_reply_en": "The schnitzel is very good."
+  },
+  {
+   "slug": "ist-das-scharf",
+   "week": 4,
+   "de": "Ist das scharf?",
+   "en": "Is it spicy?",
+   "likely_reply_de": "Nein, gar nicht.",
+   "likely_reply_en": "No, not at all."
+  },
+  {
+   "slug": "noch-ein-wasser",
+   "week": 4,
+   "de": "Noch ein Wasser, bitte.",
+   "en": "Another water, please."
+  },
+  {
+   "slug": "zusammen-oder-getrennt",
+   "week": 4,
+   "learner_action": "recognise_now",
+   "de": "Zusammen oder getrennt?",
+   "en": "Together or separate (bills)?",
+   "context": "Waiter when paying. Answer: Getrennt, bitte. / Zusammen, bitte."
+  },
+  {
+   "slug": "getrennt-bitte",
+   "week": 4,
+   "de": "Getrennt, bitte.",
+   "en": "Separately, please."
+  },
+  {
+   "slug": "stimmt-so",
+   "week": 4,
+   "de": "Stimmt so.",
+   "en": "Keep the change.",
+   "context": "Said when you hand over money and want to leave a tip.",
+   "austria_note": "In Austria you round up or add about 5 to 10 % and say the total, e.g. bill 18,50: Zwanzig, bitte. / Stimmt so."
+  },
+  {
+   "slug": "das-war-sehr-gut",
+   "week": 4,
+   "de": "Das war sehr gut, danke.",
+   "en": "That was very good, thanks.",
+   "likely_reply_de": "Freut mich!",
+   "likely_reply_en": "Glad to hear it!"
+  },
+  {
+   "slug": "wo-ist-die-u-bahn",
+   "week": 5,
+   "de": "Entschuldigung, wo ist die U-Bahn?",
+   "en": "Excuse me, where is the underground?",
+   "likely_reply_de": "Gleich da vorne, rechts.",
+   "likely_reply_en": "Just up ahead, on the right."
+  },
+  {
+   "slug": "links-rechts-geradeaus",
+   "week": 5,
+   "learner_action": "recognise_now",
+   "kind": "word",
+   "de": "links, rechts, geradeaus",
+   "en": "left, right, straight on",
+   "context": "Key words in any directions reply."
+  },
+  {
+   "slug": "wie-komme-ich-zum",
+   "week": 5,
+   "de": "Wie komme ich zum Stephansplatz?",
+   "en": "How do I get to Stephansplatz?",
+   "likely_reply_de": "Mit der U1 Richtung Leopoldau.",
+   "likely_reply_en": "With the U1 towards Leopoldau.",
+   "mission": "Ask one person for directions, even if you know the way.",
+   "dialogue": [
+    {
+     "who": "Du",
+     "de": "Entschuldigung, wie komme ich zum Stephansplatz?",
+     "en": "Excuse me, how do I get to Stephansplatz?"
+    },
+    {
+     "who": "Passant",
+     "de": "Mit der U1 Richtung Leopoldau.",
+     "en": "With the U1 towards Leopoldau."
+    },
+    {
+     "who": "Du",
+     "de": "Können Sie das bitte wiederholen?",
+     "en": "Can you repeat that, please?"
+    },
+    {
+     "who": "Passant",
+     "de": "U1, Richtung Leopoldau.",
+     "en": "U1, towards Leopoldau."
+    },
+    {
+     "who": "Du",
+     "de": "Danke schön!",
+     "en": "Thank you!"
+    }
+   ]
+  },
+  {
+   "slug": "ist-das-weit",
+   "week": 5,
+   "de": "Ist das weit?",
+   "en": "Is it far?",
+   "likely_reply_de": "Nein, nur fünf Minuten zu Fuß.",
+   "likely_reply_en": "No, only five minutes on foot."
+  },
+  {
+   "slug": "faehrt-die-u1",
+   "week": 5,
+   "de": "Fährt die U1 zum Praterstern?",
+   "en": "Does the U1 go to Praterstern?",
+   "likely_reply_de": "Ja, in diese Richtung.",
+   "likely_reply_en": "Yes, in this direction."
+  },
+  {
+   "slug": "naechste-station",
+   "week": 5,
+   "learner_action": "recognise_now",
+   "de": "Nächste Station: Karlsplatz.",
+   "en": "Next stop: Karlsplatz.",
+   "context": "Announcement on Vienna's U-Bahn."
+  },
+  {
+   "slug": "darf-ich-vorbei",
+   "week": 5,
+   "de": "Darf ich bitte vorbei?",
+   "en": "Can I get past, please?",
+   "likely_reply_de": "Ja, klar.",
+   "likely_reply_en": "Yes, sure."
+  },
+  {
+   "slug": "steigen-sie-aus",
+   "week": 5,
+   "learner_action": "recognise_now",
+   "de": "Steigen Sie aus?",
+   "en": "Are you getting off?",
+   "context": "Someone behind you in a crowded U-Bahn. Answer: Ja. / Nein, Sie können vorbei."
+  },
+  {
+   "slug": "ich-muss-hier-aussteigen",
+   "week": 5,
+   "de": "Ich muss hier aussteigen.",
+   "en": "I have to get off here.",
+   "context": "Modal verb: muss ... aussteigen at the end."
+  },
+  {
+   "slug": "wann-faehrt-der-naechste-zug",
+   "week": 5,
+   "de": "Wann fährt der nächste Zug nach Graz?",
+   "en": "When does the next train to Graz leave?",
+   "likely_reply_de": "Um zehn nach drei, von Gleis sieben.",
+   "likely_reply_en": "At ten past three, from platform seven."
+  },
+  {
+   "slug": "ein-ticket-nach",
+   "week": 5,
+   "de": "Ein Ticket nach Salzburg, bitte.",
+   "en": "A ticket to Salzburg, please.",
+   "likely_reply_de": "Hin und zurück?",
+   "likely_reply_en": "Return?"
+  }
+ ]
+}
