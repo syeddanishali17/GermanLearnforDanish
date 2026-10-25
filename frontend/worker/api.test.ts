@@ -31,7 +31,7 @@ describe('content', () => {
         ],
       },
     ])
-    const c = { items, bySlug: new Map(items.map((i) => [i.slug, i])), conversations: [], conversationBySlug: new Map() }
+    const c = { items, bySlug: new Map(items.map((i) => [i.slug, i])), conversations: [], conversationBySlug: new Map(), patterns: [], patternByCode: new Map(), weeks: [] }
     const states = new Map([['d', { slug: 'd', introduced_at: null, flagged: 1 }]])
     expect(newItems(c, states, 10).map((i) => i.slug)).toEqual(['a'])
   })

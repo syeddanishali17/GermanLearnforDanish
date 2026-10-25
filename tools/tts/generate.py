@@ -54,15 +54,35 @@ def _decks_and_convs(with_overlay: bool):
     if with_overlay and OVERLAY.exists():
         ov = json.loads(OVERLAY.read_text(encoding="utf-8"))
         for d in decks:
-            d["items"] = [{**i, **ov.get("items", {}).get(i["slug"], {})} for i in d["items"]]
+            if "items" in d:
+                d["items"] = [{**i, **ov.get("items", {}).get(i["slug"], {})} for i in d["items"]]
         for f in convs:
             f["conversations"] = [{**c, **ov.get("conversations", {}).get(c["slug"], {})} for c in f["conversations"]]
     return decks, convs
 
 
+def _expand_words(deck: dict) -> dict:
+    """Mirror of expandWordDeck in frontend/worker/content.ts: groups of [German, English, extra] -> items."""
+    if "groups" not in deck:
+        return deck
+    return {**deck, "items": [{"de": w[0]} for g in deck["groups"] for w in g["words"]]}
+
+
+def drill_sentence(d: dict) -> str:
+    """Mirror of drillSentence in frontend/src/lib/drills.ts."""
+    if d["t"] == "gap":
+        return re.sub(r"\s*\([^)]*\)\s*$", "", d["q"].replace("___", d["a"]))
+    return d["a"]
+
+
 def collect(with_overlay: bool = False) -> list[str]:
     texts: set[str] = set()
     decks, convs = _decks_and_convs(with_overlay)
+    decks = [_expand_words(d) for d in decks]
+    for f in sorted((ROOT / "data" / "grammar").glob("*.json")):
+        for p in json.loads(f.read_text(encoding="utf-8"))["patterns"]:
+            texts.update(de for de, _ in p["examples"])
+            texts.update(drill_sentence(d) for d in p["drills"])
     for d in decks:
         for i in d["items"]:
             texts.add(i["de"])

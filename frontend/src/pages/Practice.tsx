@@ -7,6 +7,7 @@ import { Button, Card, PageHeader } from '../components/ui'
 import { flushActivity, useActivityMode } from '../lib/activity'
 import { api } from '../lib/api'
 import type { Daily, Item } from '../lib/types'
+import { Loading } from '../components/Loading'
 
 function uniq(items: Item[]): Item[] {
   const seen = new Set<string>()
@@ -39,7 +40,7 @@ export function Sabqi() {
     <div>
       <PageHeader title="Sabqi" sub="Recent phrases and recent misses. Say each one aloud." />
       {!daily.data ? (
-        <p className="text-muted">Loading…</p>
+        <Loading />
       ) : result || items.length === 0 ? (
         <Finished text={items.length ? `${result!.got} of ${result!.total} recalled.` : 'Nothing recent to revise yet.'} next={{ to: '/sabaq', label: 'Go to Sabaq' }} />
       ) : (
@@ -57,7 +58,7 @@ export function Bolna() {
   const [stage, setStage] = useState<'say' | 'reply' | 'roleplay' | 'done'>('say')
   const [dlg, setDlg] = useState(0)
 
-  if (!daily.data) return <p className="pt-10 text-center text-muted">Loading…</p>
+  if (!daily.data) return <Loading />
   const d = daily.data
   const pool = uniq([...d.sabaq.introduced_today, ...d.sabqi]).filter((i) => i.learner_action === 'use_now').slice(0, 8)
   const withReply = pool.filter((i) => i.likely_reply_de)

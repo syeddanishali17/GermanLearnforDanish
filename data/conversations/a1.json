@@ -90,6 +90,78 @@
    ]
   },
   {
+   "slug": "a1-nicht-verstanden",
+   "week": 1,
+   "register": "formal",
+   "title": "When you don't understand",
+   "title_de": "Ich habe das nicht verstanden",
+   "partner": "A man in the street",
+   "setting": "Someone asks you something quickly.",
+   "goal": "Stay in German with repair phrases instead of switching to English.",
+   "patterns": [
+    "P04"
+   ],
+   "turns": [
+    {
+     "who": "Mann",
+     "de": "Entschuldigung, wissen Sie, wo hier die nächste Trafik ist?",
+     "en": "Excuse me, do you know where the nearest kiosk is?"
+    },
+    {
+     "who": "Du",
+     "de": "Entschuldigung, ich lerne noch Deutsch. Können Sie das bitte wiederholen?",
+     "en": "Sorry, I'm still learning German. Can you repeat that, please?"
+    },
+    {
+     "who": "Mann",
+     "de": "Klar. Die Trafik. Wo ist die nächste Trafik?",
+     "en": "Sure. The kiosk. Where is the nearest kiosk?"
+    },
+    {
+     "who": "Du",
+     "de": "Was bedeutet Trafik?",
+     "en": "What does Trafik mean?"
+    },
+    {
+     "who": "Mann",
+     "de": "Ein kleines Geschäft. Für Zeitungen und Fahrscheine.",
+     "en": "A small shop. For newspapers and tickets."
+    },
+    {
+     "who": "Du",
+     "de": "Ah, ich verstehe. Ich glaube, da vorne links.",
+     "en": "Ah, I understand. I think it's up ahead on the left."
+    },
+    {
+     "who": "Mann",
+     "de": "Super, danke!",
+     "en": "Great, thanks!"
+    },
+    {
+     "who": "Du",
+     "de": "Gern geschehen!",
+     "en": "You're welcome!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Können Sie das bitte wiederholen?",
+     "en": "Can you repeat that, please?"
+    },
+    {
+     "de": "Was bedeutet ...?",
+     "en": "What does ... mean?"
+    },
+    {
+     "de": "Ah, ich verstehe.",
+     "en": "Ah, I understand."
+    }
+   ],
+   "notes": [
+    "Repair phrases count as successful German. Most people slow down happily when you ask."
+   ]
+  },
+  {
    "slug": "a1-mensa-platz",
    "week": 2,
    "register": "informal",
@@ -176,189 +248,6 @@
    "notes": [
     "Mahlzeit! is a normal lunchtime greeting in Austrian canteens and offices. Answer with Mahlzeit!",
     "Students say du to each other straight away."
-   ]
-  },
-  {
-   "slug": "a1-melange-bestellen",
-   "week": 4,
-   "register": "formal",
-   "title": "Ordering in a Viennese café",
-   "title_de": "Im Kaffeehaus",
-   "partner": "Waiter (Herr Ober)",
-   "setting": "A traditional Viennese coffee house. You have chosen a table yourself.",
-   "goal": "Order a drink and a cake, then pay and tip.",
-   "patterns": [
-    "P09",
-    "P10"
-   ],
-   "turns": [
-    {
-     "who": "Kellner",
-     "de": "Grüß Gott, was darf's sein?",
-     "en": "Hello, what can I get you?"
-    },
-    {
-     "who": "Du",
-     "de": "Eine Melange, bitte.",
-     "en": "A Melange, please.",
-     "alt": [
-      "Ich hätte gern eine Melange."
-     ]
-    },
-    {
-     "who": "Kellner",
-     "de": "Gerne. Sonst noch etwas?",
-     "en": "Sure. Anything else?"
-    },
-    {
-     "who": "Du",
-     "de": "Haben Sie Apfelstrudel?",
-     "en": "Do you have apple strudel?"
-    },
-    {
-     "who": "Kellner",
-     "de": "Ja, natürlich. Mit oder ohne Schlagobers?",
-     "en": "Yes, of course. With or without whipped cream?"
-    },
-    {
-     "who": "Du",
-     "de": "Mit Schlagobers, bitte.",
-     "en": "With whipped cream, please."
-    },
-    {
-     "who": "Kellner",
-     "de": "Kommt sofort.",
-     "en": "Coming right up."
-    },
-    {
-     "who": "Du",
-     "de": "Zahlen, bitte!",
-     "en": "The bill, please!"
-    },
-    {
-     "who": "Kellner",
-     "de": "Das macht neun Euro achtzig.",
-     "en": "That's €9.80."
-    },
-    {
-     "who": "Du",
-     "de": "Zehn fünfzig, bitte. Stimmt so.",
-     "en": "Ten fifty, please. Keep the change."
-    },
-    {
-     "who": "Kellner",
-     "de": "Danke schön! Schönen Tag noch.",
-     "en": "Thank you! Have a nice day."
-    },
-    {
-     "who": "Du",
-     "de": "Danke, gleichfalls!",
-     "en": "Thanks, same to you!"
-    }
-   ],
-   "key_phrases": [
-    {
-     "de": "Was darf's sein?",
-     "en": "What can I get you?"
-    },
-    {
-     "de": "Mit oder ohne Schlagobers?",
-     "en": "With or without whipped cream?"
-    },
-    {
-     "de": "Zehn fünfzig, bitte. Stimmt so.",
-     "en": "Ten fifty, please. Keep the change."
-    }
-   ],
-   "notes": [
-    "Tipping: say the total you want to pay, including the tip (about 5 to 10 %).",
-    "In a Kaffeehaus nobody rushes you. You call the waiter when you want to pay."
-   ]
-  },
-  {
-   "slug": "a1-supermarkt-kassa",
-   "week": 3,
-   "register": "formal",
-   "title": "At the supermarket checkout",
-   "title_de": "An der Kassa",
-   "partner": "Cashier",
-   "setting": "A Billa or Spar supermarket.",
-   "goal": "Handle the three questions every cashier asks.",
-   "patterns": [
-    "P08"
-   ],
-   "turns": [
-    {
-     "who": "Kassierin",
-     "de": "Hallo! Haben Sie eine Kundenkarte?",
-     "en": "Hello! Do you have a loyalty card?"
-    },
-    {
-     "who": "Du",
-     "de": "Nein, leider nicht.",
-     "en": "No, unfortunately not."
-    },
-    {
-     "who": "Kassierin",
-     "de": "Brauchen Sie ein Sackerl?",
-     "en": "Do you need a bag?"
-    },
-    {
-     "who": "Du",
-     "de": "Ja, eins, bitte.",
-     "en": "Yes, one please.",
-     "alt": [
-      "Nein, danke. Ich habe eins."
-     ]
-    },
-    {
-     "who": "Kassierin",
-     "de": "Das macht dreizehn Euro zwanzig.",
-     "en": "That's €13.20."
-    },
-    {
-     "who": "Du",
-     "de": "Mit Karte, bitte.",
-     "en": "By card, please."
-    },
-    {
-     "who": "Kassierin",
-     "de": "Bitte. Brauchen Sie die Rechnung?",
-     "en": "There you go. Do you need the receipt?"
-    },
-    {
-     "who": "Du",
-     "de": "Nein, danke.",
-     "en": "No, thanks."
-    },
-    {
-     "who": "Kassierin",
-     "de": "Schönen Tag noch!",
-     "en": "Have a nice day!"
-    },
-    {
-     "who": "Du",
-     "de": "Danke, gleichfalls! Auf Wiederschauen!",
-     "en": "Thanks, same to you! Goodbye!"
-    }
-   ],
-   "key_phrases": [
-    {
-     "de": "Brauchen Sie ein Sackerl?",
-     "en": "Do you need a bag?"
-    },
-    {
-     "de": "Nein, leider nicht.",
-     "en": "No, unfortunately not."
-    },
-    {
-     "de": "Brauchen Sie die Rechnung?",
-     "en": "Do you need the receipt?"
-    }
-   ],
-   "notes": [
-    "Austrian supermarkets ask about their own loyalty card (at Billa and Penny it's the jö card). Nein, danke is a fine answer.",
-    "Sackerl is the Austrian word for bag."
    ]
   },
   {
@@ -474,6 +363,286 @@
    ]
   },
   {
+   "slug": "a1-supermarkt-kassa",
+   "week": 3,
+   "register": "formal",
+   "title": "At the supermarket checkout",
+   "title_de": "An der Kassa",
+   "partner": "Cashier",
+   "setting": "A Billa or Spar supermarket.",
+   "goal": "Handle the three questions every cashier asks.",
+   "patterns": [
+    "P08"
+   ],
+   "turns": [
+    {
+     "who": "Kassierin",
+     "de": "Hallo! Haben Sie eine Kundenkarte?",
+     "en": "Hello! Do you have a loyalty card?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, leider nicht.",
+     "en": "No, unfortunately not."
+    },
+    {
+     "who": "Kassierin",
+     "de": "Brauchen Sie ein Sackerl?",
+     "en": "Do you need a bag?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, eins, bitte.",
+     "en": "Yes, one please.",
+     "alt": [
+      "Nein, danke. Ich habe eins."
+     ]
+    },
+    {
+     "who": "Kassierin",
+     "de": "Das macht dreizehn Euro zwanzig.",
+     "en": "That's €13.20."
+    },
+    {
+     "who": "Du",
+     "de": "Mit Karte, bitte.",
+     "en": "By card, please."
+    },
+    {
+     "who": "Kassierin",
+     "de": "Bitte. Brauchen Sie die Rechnung?",
+     "en": "There you go. Do you need the receipt?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, danke.",
+     "en": "No, thanks."
+    },
+    {
+     "who": "Kassierin",
+     "de": "Schönen Tag noch!",
+     "en": "Have a nice day!"
+    },
+    {
+     "who": "Du",
+     "de": "Danke, gleichfalls! Auf Wiederschauen!",
+     "en": "Thanks, same to you! Goodbye!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Brauchen Sie ein Sackerl?",
+     "en": "Do you need a bag?"
+    },
+    {
+     "de": "Nein, leider nicht.",
+     "en": "No, unfortunately not."
+    },
+    {
+     "de": "Brauchen Sie die Rechnung?",
+     "en": "Do you need the receipt?"
+    }
+   ],
+   "notes": [
+    "Austrian supermarkets ask about their own loyalty card (at Billa and Penny it's the jö card). Nein, danke is a fine answer.",
+    "Sackerl is the Austrian word for bag."
+   ]
+  },
+  {
+   "slug": "a1-baeckerei",
+   "week": 3,
+   "register": "formal",
+   "title": "At the bakery",
+   "title_de": "In der Bäckerei",
+   "partner": "Baker",
+   "setting": "A small bakery in the morning. There is a queue.",
+   "goal": "Order bread rolls and pastries, understand the price, pay.",
+   "patterns": [
+    "P08",
+    "P09"
+   ],
+   "turns": [
+    {
+     "who": "Verkäuferin",
+     "de": "Guten Morgen! Was darf's sein?",
+     "en": "Good morning! What can I get you?"
+    },
+    {
+     "who": "Du",
+     "de": "Guten Morgen! Zwei Semmeln, bitte.",
+     "en": "Good morning! Two bread rolls, please."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Gerne. Sonst noch etwas?",
+     "en": "Sure. Anything else?"
+    },
+    {
+     "who": "Du",
+     "de": "Was ist das da, bitte?",
+     "en": "What is that there, please?"
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Das ist ein Mohnkipferl. Sehr gut zum Frühstück.",
+     "en": "That's a poppy-seed croissant. Very good for breakfast."
+    },
+    {
+     "who": "Du",
+     "de": "Dann nehme ich ein Mohnkipferl.",
+     "en": "Then I'll take a poppy-seed croissant."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Brauchen Sie ein Sackerl?",
+     "en": "Do you need a bag?"
+    },
+    {
+     "who": "Du",
+     "de": "Nein, danke. Ich habe eins.",
+     "en": "No, thanks. I have one."
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Das macht zwei Euro vierzig.",
+     "en": "That's €2.40."
+    },
+    {
+     "who": "Du",
+     "de": "Mit Karte, bitte.",
+     "en": "By card, please.",
+     "alt": [
+      "Bar, bitte."
+     ]
+    },
+    {
+     "who": "Verkäuferin",
+     "de": "Danke. Einen schönen Tag noch!",
+     "en": "Thanks. Have a nice day!"
+    },
+    {
+     "who": "Du",
+     "de": "Danke, gleichfalls!",
+     "en": "Thanks, same to you!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Zwei Semmeln, bitte.",
+     "en": "Two bread rolls, please."
+    },
+    {
+     "de": "Was ist das da?",
+     "en": "What is that there?"
+    },
+    {
+     "de": "Dann nehme ich ...",
+     "en": "Then I'll take ..."
+    }
+   ],
+   "notes": [
+    "Kipferl is the Austrian word for a crescent-shaped pastry. Semmel = bread roll.",
+    "Pointing and saying Das da, bitte (That one, please) always works."
+   ]
+  },
+  {
+   "slug": "a1-melange-bestellen",
+   "week": 4,
+   "register": "formal",
+   "title": "Ordering in a Viennese café",
+   "title_de": "Im Kaffeehaus",
+   "partner": "Waiter (Herr Ober)",
+   "setting": "A traditional Viennese coffee house. You have chosen a table yourself.",
+   "goal": "Order a drink and a cake, then pay and tip.",
+   "patterns": [
+    "P09",
+    "P10"
+   ],
+   "turns": [
+    {
+     "who": "Kellner",
+     "de": "Grüß Gott, was darf's sein?",
+     "en": "Hello, what can I get you?"
+    },
+    {
+     "who": "Du",
+     "de": "Eine Melange, bitte.",
+     "en": "A Melange, please.",
+     "alt": [
+      "Ich hätte gern eine Melange."
+     ]
+    },
+    {
+     "who": "Kellner",
+     "de": "Gerne. Sonst noch etwas?",
+     "en": "Sure. Anything else?"
+    },
+    {
+     "who": "Du",
+     "de": "Haben Sie Apfelstrudel?",
+     "en": "Do you have apple strudel?"
+    },
+    {
+     "who": "Kellner",
+     "de": "Ja, natürlich. Mit oder ohne Schlagobers?",
+     "en": "Yes, of course. With or without whipped cream?"
+    },
+    {
+     "who": "Du",
+     "de": "Mit Schlagobers, bitte.",
+     "en": "With whipped cream, please."
+    },
+    {
+     "who": "Kellner",
+     "de": "Kommt sofort.",
+     "en": "Coming right up."
+    },
+    {
+     "who": "Du",
+     "de": "Zahlen, bitte!",
+     "en": "The bill, please!"
+    },
+    {
+     "who": "Kellner",
+     "de": "Das macht neun Euro achtzig.",
+     "en": "That's €9.80."
+    },
+    {
+     "who": "Du",
+     "de": "Zehn fünfzig, bitte. Stimmt so.",
+     "en": "Ten fifty, please. Keep the change."
+    },
+    {
+     "who": "Kellner",
+     "de": "Danke schön! Schönen Tag noch.",
+     "en": "Thank you! Have a nice day."
+    },
+    {
+     "who": "Du",
+     "de": "Danke, gleichfalls!",
+     "en": "Thanks, same to you!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Was darf's sein?",
+     "en": "What can I get you?"
+    },
+    {
+     "de": "Mit oder ohne Schlagobers?",
+     "en": "With or without whipped cream?"
+    },
+    {
+     "de": "Zehn fünfzig, bitte. Stimmt so.",
+     "en": "Ten fifty, please. Keep the change."
+    }
+   ],
+   "notes": [
+    "Tipping: say the total you want to pay, including the tip (about 5 to 10 %).",
+    "In a Kaffeehaus nobody rushes you. You call the waiter when you want to pay."
+   ]
+  },
+  {
    "slug": "a1-weg-fragen",
    "week": 5,
    "register": "formal",
@@ -558,6 +727,90 @@
    ]
   },
   {
+   "slug": "a1-fahrkartenautomat",
+   "week": 5,
+   "register": "formal",
+   "title": "Help at the ticket machine",
+   "title_de": "Am Fahrkartenautomaten",
+   "partner": "Another passenger",
+   "setting": "A Wiener Linien ticket machine in an U-Bahn station.",
+   "goal": "Ask for help, understand the answer, say thank you.",
+   "patterns": [
+    "P11",
+    "P33"
+   ],
+   "turns": [
+    {
+     "who": "Du",
+     "de": "Entschuldigung, können Sie mir kurz helfen?",
+     "en": "Excuse me, could you help me for a moment?"
+    },
+    {
+     "who": "Fahrgast",
+     "de": "Ja, natürlich. Was brauchen Sie?",
+     "en": "Yes, of course. What do you need?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich möchte eine Fahrkarte für eine Fahrt.",
+     "en": "I'd like a ticket for one journey."
+    },
+    {
+     "who": "Fahrgast",
+     "de": "Drücken Sie hier auf Einzelfahrschein.",
+     "en": "Press 'single ticket' here."
+    },
+    {
+     "who": "Du",
+     "de": "Muss ich die Karte entwerten?",
+     "en": "Do I have to validate the ticket?"
+    },
+    {
+     "who": "Fahrgast",
+     "de": "Ja, bei den blauen Kästen vor der Rolltreppe. Oder Sie kaufen das Ticket in der App.",
+     "en": "Yes, at the blue boxes before the escalator. Or you buy the ticket in the app."
+    },
+    {
+     "who": "Du",
+     "de": "Ah, verstehe. Gilt das Ticket auch für die Straßenbahn?",
+     "en": "Ah, I see. Is the ticket also valid for the tram?"
+    },
+    {
+     "who": "Fahrgast",
+     "de": "Ja, in ganz Wien. Sie können auch umsteigen.",
+     "en": "Yes, all over Vienna. You can change too."
+    },
+    {
+     "who": "Du",
+     "de": "Super, vielen Dank für die Hilfe!",
+     "en": "Great, thanks a lot for the help!"
+    },
+    {
+     "who": "Fahrgast",
+     "de": "Gern geschehen. Gute Fahrt!",
+     "en": "You're welcome. Have a good trip!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Können Sie mir kurz helfen?",
+     "en": "Could you help me for a moment?"
+    },
+    {
+     "de": "Muss ich ...?",
+     "en": "Do I have to ...?"
+    },
+    {
+     "de": "Gilt das Ticket auch für ...?",
+     "en": "Is the ticket also valid for ...?"
+    }
+   ],
+   "notes": [
+    "Paper tickets bought at a machine must be validated (entwerten) before the trip. App tickets don't need it.",
+    "If you study in Vienna, ask about the semester ticket: Semesterticket."
+   ]
+  },
+  {
    "slug": "a1-wetter-haltestelle",
    "week": 6,
    "register": "informal",
@@ -632,75 +885,87 @@
    ]
   },
   {
-   "slug": "a1-nicht-verstanden",
-   "week": 1,
-   "register": "formal",
-   "title": "When you don't understand",
-   "title_de": "Ich habe das nicht verstanden",
-   "partner": "A man in the street",
-   "setting": "Someone asks you something quickly.",
-   "goal": "Stay in German with repair phrases instead of switching to English.",
+   "slug": "a1-zeit-ausmachen",
+   "week": 6,
+   "register": "informal",
+   "title": "Finding a time to meet",
+   "title_de": "Eine Zeit ausmachen",
+   "partner": "Marie, classmate",
+   "setting": "After a lecture.",
+   "goal": "Suggest a day and time, react, agree.",
    "patterns": [
-    "P04"
+    "P12",
+    "P34"
    ],
    "turns": [
     {
-     "who": "Mann",
-     "de": "Entschuldigung, wissen Sie, wo hier die nächste Trafik ist?",
-     "en": "Excuse me, do you know where the nearest kiosk is?"
+     "who": "Marie",
+     "de": "Wollen wir zusammen für die Prüfung lernen?",
+     "en": "Shall we study for the exam together?"
     },
     {
      "who": "Du",
-     "de": "Entschuldigung, ich lerne noch Deutsch. Können Sie das bitte wiederholen?",
-     "en": "Sorry, I'm still learning German. Can you repeat that, please?"
+     "de": "Ja, gute Idee! Wann hast du Zeit?",
+     "en": "Yes, good idea! When are you free?"
     },
     {
-     "who": "Mann",
-     "de": "Klar. Die Trafik. Wo ist die nächste Trafik?",
-     "en": "Sure. The kiosk. Where is the nearest kiosk?"
-    },
-    {
-     "who": "Du",
-     "de": "Was bedeutet Trafik?",
-     "en": "What does Trafik mean?"
-    },
-    {
-     "who": "Mann",
-     "de": "Ein kleines Geschäft. Für Zeitungen und Fahrscheine.",
-     "en": "A small shop. For newspapers and tickets."
+     "who": "Marie",
+     "de": "Am Mittwoch am Nachmittag?",
+     "en": "On Wednesday afternoon?"
     },
     {
      "who": "Du",
-     "de": "Ah, ich verstehe. Ich glaube, da vorne links.",
-     "en": "Ah, I understand. I think it's up ahead on the left."
+     "de": "Am Mittwoch habe ich bis drei Uhr Vorlesung. Geht es um vier?",
+     "en": "On Wednesday I have lectures until three. Is four okay?"
     },
     {
-     "who": "Mann",
-     "de": "Super, danke!",
-     "en": "Great, thanks!"
+     "who": "Marie",
+     "de": "Um vier passt. Wo treffen wir uns?",
+     "en": "Four works. Where shall we meet?"
     },
     {
      "who": "Du",
-     "de": "Gern geschehen!",
-     "en": "You're welcome!"
+     "de": "In der Bibliothek, im ersten Stock?",
+     "en": "In the library, on the first floor?"
+    },
+    {
+     "who": "Marie",
+     "de": "Okay. Wie lange haben wir Zeit?",
+     "en": "Okay. How long do we have?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich kann bis sieben. Dann fange ich mit der Arbeit an.",
+     "en": "I can stay until seven. Then I start work."
+    },
+    {
+     "who": "Marie",
+     "de": "Perfekt. Bis Mittwoch!",
+     "en": "Perfect. See you Wednesday!"
+    },
+    {
+     "who": "Du",
+     "de": "Bis Mittwoch!",
+     "en": "See you Wednesday!"
     }
    ],
    "key_phrases": [
     {
-     "de": "Können Sie das bitte wiederholen?",
-     "en": "Can you repeat that, please?"
+     "de": "Wann hast du Zeit?",
+     "en": "When are you free?"
     },
     {
-     "de": "Was bedeutet ...?",
-     "en": "What does ... mean?"
+     "de": "Geht es um vier?",
+     "en": "Does four work?"
     },
     {
-     "de": "Ah, ich verstehe.",
-     "en": "Ah, I understand."
+     "de": "Wo treffen wir uns?",
+     "en": "Where shall we meet?"
     }
    ],
    "notes": [
-    "Repair phrases count as successful German. Most people slow down happily when you ask."
+    "um + clock time, am + day: am Mittwoch um vier.",
+    "In Austria the ground floor is the Erdgeschoss; the first floor (erster Stock) is one floor up."
    ]
   },
   {
@@ -950,6 +1215,175 @@
    ],
    "notes": [
     "Many barbers say du and Servus to young customers. You can answer with du as well."
+   ]
+  },
+  {
+   "slug": "a1-familienfotos",
+   "week": 8,
+   "register": "informal",
+   "title": "Family photos",
+   "title_de": "Familienfotos",
+   "partner": "Sophie, flatmate",
+   "setting": "Sophie sees a photo on your phone.",
+   "goal": "Talk about your family with simple sentences.",
+   "patterns": [
+    "P31",
+    "P02"
+   ],
+   "turns": [
+    {
+     "who": "Sophie",
+     "de": "Ist das deine Familie?",
+     "en": "Is that your family?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, das sind meine Eltern und meine Geschwister.",
+     "en": "Yes, those are my parents and my siblings."
+    },
+    {
+     "who": "Sophie",
+     "de": "Wie viele Geschwister hast du?",
+     "en": "How many siblings do you have?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich habe zwei Brüder und eine Schwester.",
+     "en": "I have two brothers and a sister.",
+     "alt": [
+      "Ich habe einen Bruder.",
+      "Ich habe keine Geschwister."
+     ]
+    },
+    {
+     "who": "Sophie",
+     "de": "Und wer ist das hier?",
+     "en": "And who is this here?"
+    },
+    {
+     "who": "Du",
+     "de": "Das ist meine Schwester. Sie ist Ärztin.",
+     "en": "That's my sister. She's a doctor."
+    },
+    {
+     "who": "Sophie",
+     "de": "Wow! Und dein Bruder?",
+     "en": "Wow! And your brother?"
+    },
+    {
+     "who": "Du",
+     "de": "Mein Bruder studiert noch. Er ist erst zwanzig.",
+     "en": "My brother is still studying. He's only twenty."
+    },
+    {
+     "who": "Sophie",
+     "de": "Vermisst du deine Familie?",
+     "en": "Do you miss your family?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, manchmal. Aber wir telefonieren jeden Sonntag.",
+     "en": "Yes, sometimes. But we talk on the phone every Sunday."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Das sind meine Eltern.",
+     "en": "Those are my parents."
+    },
+    {
+     "de": "Ich habe zwei Brüder und eine Schwester.",
+     "en": "I have two brothers and a sister."
+    },
+    {
+     "de": "Wir telefonieren jeden Sonntag.",
+     "en": "We talk on the phone every Sunday."
+    }
+   ],
+   "notes": [
+    "Change the numbers and people to fit your real family. Practise it until it's automatic: family is one of the first small-talk topics."
+   ]
+  },
+  {
+   "slug": "a1-was-hast-du-gestern-gemacht",
+   "week": 9,
+   "register": "informal",
+   "title": "What did you do yesterday?",
+   "title_de": "Was hast du gestern gemacht?",
+   "partner": "Jakob, classmate",
+   "setting": "Coffee break.",
+   "goal": "Describe yesterday in three or four Perfekt sentences.",
+   "patterns": [
+    "P14"
+   ],
+   "turns": [
+    {
+     "who": "Jakob",
+     "de": "Was hast du gestern gemacht?",
+     "en": "What did you do yesterday?"
+    },
+    {
+     "who": "Du",
+     "de": "Am Vormittag habe ich gelernt.",
+     "en": "In the morning I studied."
+    },
+    {
+     "who": "Jakob",
+     "de": "Und am Nachmittag?",
+     "en": "And in the afternoon?"
+    },
+    {
+     "who": "Du",
+     "de": "Am Nachmittag habe ich eingekauft und gekocht.",
+     "en": "In the afternoon I went shopping and cooked."
+    },
+    {
+     "who": "Jakob",
+     "de": "Was hast du gekocht?",
+     "en": "What did you cook?"
+    },
+    {
+     "who": "Du",
+     "de": "Reis mit Gemüse. Es hat sehr gut geschmeckt!",
+     "en": "Rice with vegetables. It tasted very good!"
+    },
+    {
+     "who": "Jakob",
+     "de": "Klingt gut. Hast du am Abend etwas gemacht?",
+     "en": "Sounds good. Did you do anything in the evening?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich habe einen Film gesehen und dann habe ich geschlafen.",
+     "en": "I watched a film and then I slept."
+    },
+    {
+     "who": "Jakob",
+     "de": "Ein ruhiger Tag also.",
+     "en": "A quiet day, then."
+    },
+    {
+     "who": "Du",
+     "de": "Genau. Und du?",
+     "en": "Exactly. And you?"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Am Vormittag habe ich gelernt.",
+     "en": "In the morning I studied."
+    },
+    {
+     "de": "Es hat sehr gut geschmeckt.",
+     "en": "It tasted very good."
+    },
+    {
+     "de": "Und du?",
+     "en": "And you?"
+    }
+   ],
+   "notes": [
+    "Most verbs use haben in the Perfekt. Only movement (gehen, fahren) and change (aufstehen) use sein."
    ]
   }
  ]

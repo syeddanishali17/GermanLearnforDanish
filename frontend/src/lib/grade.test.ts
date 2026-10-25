@@ -27,8 +27,10 @@ describe('gradeTyped', () => {
   it('rejects wrong answers', () => {
     expect(gradeTyped('Danke', ['Ist hier frei?']).suggested).toBe(1)
   })
-  it('lets word cards drop the article', () => {
-    expect(gradeTyped('Sackerl', ['das Sackerl']).verdict).toBe('exact')
+  it('treats a missing or wrong article as close, not exact', () => {
+    expect(gradeTyped('Sackerl', ['das Sackerl']).verdict).toBe('close')
+    expect(gradeTyped('der Sackerl', ['das Sackerl']).verdict).toBe('close')
+    expect(gradeTyped('das Sackerl', ['das Sackerl']).verdict).toBe('exact')
   })
   it('treats empty input as wrong', () => {
     expect(gradeTyped('  ', ['Hallo!']).verdict).toBe('wrong')

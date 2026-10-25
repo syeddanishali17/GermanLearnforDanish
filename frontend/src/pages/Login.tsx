@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { InstallHint } from '../components/InstallHint'
 import { Button } from '../components/ui'
 import { ApiError, post } from '../lib/api'
 
@@ -44,6 +45,9 @@ export default function Login({ onLogin }: { onLogin: () => void }) {
           {busy ? 'Checking…' : 'Log in'}
         </Button>
       </form>
+      <div className="mt-8">
+        <InstallHint beforeLogin />
+      </div>
     </main>
   )
 }

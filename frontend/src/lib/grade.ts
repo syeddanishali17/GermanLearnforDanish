@@ -44,7 +44,9 @@ export function gradeTyped(answer: string, accepted: string[]): GradeResult {
   let best = Infinity
   for (const target of accepted) {
     const t = normalize(target)
-    best = Math.min(best, levenshtein(a, t), levenshtein(stripArticle(a), stripArticle(t)))
+    best = Math.min(best, levenshtein(a, t))
+    // Right word, missing or wrong article: close, because the article is part of learning a noun.
+    if (stripArticle(t) !== t && levenshtein(stripArticle(a), stripArticle(t)) === 0 && a !== t) best = Math.min(best, 1)
   }
   const longest = Math.max(...accepted.map((t) => normalize(t).length), 1)
   if (best === 0) return { verdict: 'exact', suggested: 3, distance: 0 }

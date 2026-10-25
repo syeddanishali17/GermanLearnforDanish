@@ -7,6 +7,7 @@ import { api } from '../lib/api'
 import { send } from '../lib/outbox'
 import { speak, stopSpeaking } from '../lib/speech'
 import type { Cefr, ConversationDetail, ConversationSummary, ConversationTurn, Level } from '../lib/types'
+import { Loading } from '../components/Loading'
 
 const LEVELS: { cefr: Cefr; label: string; sub: string }[] = [
   { cefr: 'A1', label: 'A1 · Basics', sub: 'Greetings, ordering, asking, first small talk' },
@@ -53,7 +54,7 @@ export function TalkList() {
     queryFn: () => api<{ level: Level; recommended_id: string | null; conversations: ConversationSummary[] }>('/api/conversations'),
   })
   const [open, setOpen] = useState<Cefr | null>(null)
-  if (!q.data) return <p className="pt-10 text-center text-muted">Loading…</p>
+  if (!q.data) return <Loading />
   const { level, recommended_id, conversations } = q.data
   const shown = open ?? level.cefr
 
@@ -97,6 +98,20 @@ const MODES: { m: Mode; label: string; hint: string }[] = [
   { m: 'own', label: 'Your words', hint: 'You only see the English idea. Say it your way, then compare.' },
 ]
 
+function HiddenLine({ t, cue }: { t: ConversationTurn; cue: boolean }) {
+  const [hint, setHint] = useState(cue)
+  return hint ? (
+    <p className="text-sm italic text-muted">Say: “{t.en}”</p>
+  ) : (
+    <div className="space-y-1">
+      <p className="text-sm italic text-muted">Your turn. Say your line aloud.</p>
+      <button className="text-sm font-semibold text-ustad underline underline-offset-2" onClick={() => setHint(true)}>
+        Hint (English)
+      </button>
+    </div>
+  )
+}
+
 function Turn({ id, t, hidden, cue, showEn }: { id?: string; t: ConversationTurn; hidden: boolean; cue: boolean; showEn: boolean }) {
   const mine = isLearner(t)
   return (
@@ -104,7 +119,7 @@ function Turn({ id, t, hidden, cue, showEn }: { id?: string; t: ConversationTurn
       <div className={`max-w-[88%] rounded-2xl px-4 py-2.5 ${mine ? 'bg-ustad-soft' : 'border border-line bg-card'}`}>
         <p className="text-[11px] font-semibold uppercase tracking-wide text-muted">{mine ? 'Du' : t.who}</p>
         {hidden ? (
-          <p className="text-sm italic text-muted">{cue ? `Say: “${t.en}”` : 'Your turn. Say your line aloud.'}</p>
+          <HiddenLine t={t} cue={cue} />
         ) : (
           <>
             <p className="de font-medium" lang="de">
@@ -149,7 +164,7 @@ export function ConversationPage() {
   }, [pos])
 
   const c = q.data
-  if (!c) return <p className="pt-10 text-center text-muted">Loading…</p>
+  if (!c) return <Loading />
   const turns = c.turns_list
 
   function choose(m: Mode) {
@@ -234,7 +249,7 @@ export function ConversationPage() {
         ))}
       </ol>
 
-      <div className="sticky bottom-[calc(3.75rem+env(safe-area-inset-bottom))] z-[5] -mx-4 flex flex-wrap items-center gap-2 border-t border-line bg-paper/95 px-4 py-2.5 backdrop-blur">
+      <div className="sticky bottom-0 z-[5] pb-[max(env(safe-area-inset-bottom),10px)] -mx-4 flex flex-wrap items-center gap-2 border-t border-line bg-paper/95 px-4 pt-2.5 backdrop-blur">
         <button className="text-sm text-ustad underline underline-offset-2" onClick={() => setShowEn((v) => !v)}>
           {showEn ? 'Hide English' : 'Show English'}
         </button>

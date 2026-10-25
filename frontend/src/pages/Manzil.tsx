@@ -6,7 +6,9 @@ import { useActivityMode } from '../lib/activity'
 import { api } from '../lib/api'
 import { gradeTyped, type GradeResult } from '../lib/grade'
 import { flush, send } from '../lib/outbox'
+import { speak } from '../lib/speech'
 import type { Daily, Rating, ReviewCard } from '../lib/types'
+import { Loading } from '../components/Loading'
 
 const MAX_SHOWS = 3 // P4: no cramming loops
 
@@ -57,6 +59,14 @@ export default function Manzil() {
   function reveal() {
     if (card && card.card_type === 'produce' && typed.trim()) setGrade(gradeTyped(typed, [card.item.de, ...card.item.alt_de]))
     setRevealed(true)
+    // Hear the model answer right when it is revealed (inside the tap, so iOS plays it).
+    if (card?.card_type === 'produce') void speak(card.item.de)
+  }
+
+  /** Cards whose prompt is audio start playing as soon as they appear. */
+  function playPrompt(c: ReviewCard | undefined) {
+    if (c?.card_type === 'recognise') void speak(c.item.de)
+    if (c?.card_type === 'reply' && c.item.likely_reply_de) void speak(c.item.likely_reply_de)
   }
 
   async function rate(r: Rating) {
@@ -80,15 +90,17 @@ export default function Manzil() {
       setQueue(next)
     }
     reset()
-    if (i + 1 < next.length) setI(i + 1)
-    else {
+    if (i + 1 < next.length) {
+      setI(i + 1)
+      playPrompt(next[i + 1])
+    } else {
       setQueue(null)
       await load()
       void qc.invalidateQueries({ queryKey: ['daily'] })
     }
   }
 
-  if (queue === null) return <p className="pt-10 text-center text-muted">Loading reviews…</p>
+  if (queue === null) return <Loading label="Loading reviews" />
 
   if (!card)
     return (

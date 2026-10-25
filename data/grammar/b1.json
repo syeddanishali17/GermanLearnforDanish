@@ -1,0 +1,97 @@
+{
+ "cefr": "B1",
+ "patterns": [
+  {"code": "P39", "week": 25, "title": "Präteritum in stories", "title_de": "Präteritum beim Erzählen und Lesen",
+   "explain": ["Written stories, news and books use the Präteritum. You mainly need to recognise it.", "Regular verbs add -te: sagte, machte, wohnte. Irregular verbs change the vowel: gehen → ging, kommen → kam, sehen → sah, finden → fand, geben → gab, sprechen → sprach, fahren → fuhr."],
+   "table": [["gehen", "ging"], ["kommen", "kam"], ["sehen", "sah"], ["fahren", "fuhr"], ["sprechen", "sprach"], ["sagen", "sagte"]],
+   "examples": [["Sie ging nach Hause und rief ihre Freundin an.", "She went home and called her friend."], ["Plötzlich kam ein Mann zu uns.", "Suddenly a man came up to us."], ["Er sagte nichts.", "He said nothing."]],
+   "mistake": {"wrong": "Gestern ich ging ins Kino.", "right": "Gestern ging ich ins Kino.", "why": "The Präteritum follows the same position-2 rule."},
+   "drills": [
+    {"t": "gap", "q": "Gestern ___ ich in den Park. (gehen)", "a": "ging", "o": ["ging", "gang", "gehte"], "en": "Yesterday I went to the park."},
+    {"t": "gap", "q": "Plötzlich ___ der Bus. (kommen)", "a": "kam", "o": ["kam", "kommte", "komm"], "en": "Suddenly the bus came."},
+    {"t": "gap", "q": "Sie ___: „Kein Problem!“ (sagen)", "a": "sagte", "o": ["sagte", "sag", "sagen"], "en": "She said: “No problem!”"},
+    {"t": "tr", "q": "Say it in the Perfekt: Er fuhr nach Graz.", "a": "Er ist nach Graz gefahren.", "en": "He went to Graz."},
+    {"t": "tr", "q": "Say it in the Perfekt: Wir sahen einen Film.", "a": "Wir haben einen Film gesehen.", "en": "We watched a film."}
+   ]},
+  {"code": "P23", "week": 26, "title": "Giving opinions", "title_de": "Die eigene Meinung sagen",
+   "explain": ["Give an opinion: Ich finde, dass ... · Ich glaube, dass ... · Meiner Meinung nach + verb ...", "Agree: Da hast du recht. Das stimmt. Disagree softly: Ich sehe das ein bisschen anders.", "Balance: Einerseits ..., andererseits ... Concede: Obwohl ..., ... (verb to the end)."],
+   "examples": [["Meiner Meinung nach ist Wien sehr sicher.", "In my opinion Vienna is very safe."], ["Ich finde, dass die Mieten zu hoch sind.", "I think rents are too high."], ["Obwohl es teuer ist, wohne ich gern hier.", "Although it's expensive, I like living here."]],
+   "mistake": {"wrong": "Meiner Meinung nach Wien ist schön.", "right": "Meiner Meinung nach ist Wien schön.", "why": "Meiner Meinung nach is in position 1, so the verb follows."},
+   "drills": [
+    {"t": "order", "a": "Meiner Meinung nach sind die Öffis sehr gut.", "en": "In my opinion public transport is very good."},
+    {"t": "tr", "q": "Use Ich finde, dass: Das Essen ist zu teuer.", "a": "Ich finde, dass das Essen zu teuer ist.", "en": "I think the food is too expensive."},
+    {"t": "tr", "q": "Join with obwohl: Es regnet. Wir gehen spazieren.", "a": "Obwohl es regnet, gehen wir spazieren.", "alt": ["Wir gehen spazieren, obwohl es regnet."], "en": "Although it's raining, we're going for a walk."},
+    {"t": "gap", "q": "___ ist es teuer, andererseits ist die Qualität gut.", "a": "Einerseits", "o": ["Einerseits", "Obwohl", "Deshalb"], "en": "On the one hand it's expensive, on the other the quality is good."},
+    {"t": "gap", "q": "Ich sehe das ein bisschen ___.", "a": "anders", "o": ["anders", "andere", "anderes"], "en": "I see it a bit differently."}
+   ]},
+  {"code": "P26", "week": 27, "title": "Konjunktiv II: wishes and if", "title_de": "Konjunktiv II",
+   "explain": ["Konjunktiv II expresses wishes, unreal situations and advice.", "Common forms: wäre (would be), hätte (would have), könnte, müsste, sollte, and würde + infinitive for most other verbs.", "Unreal if: Wenn ich mehr Zeit hätte, würde ich mehr reisen. Advice: Du solltest mehr schlafen."],
+   "table": [["sein", "ich wäre"], ["haben", "ich hätte"], ["können", "ich könnte"], ["sollen", "du solltest"], ["other verbs", "ich würde + infinitive"]],
+   "examples": [["Wenn ich reich wäre, würde ich eine Weltreise machen.", "If I were rich, I'd travel around the world."], ["Ich hätte gern mehr Freizeit.", "I'd like more free time."], ["Du solltest einen Arzt anrufen.", "You should call a doctor."]],
+   "mistake": {"wrong": "Wenn ich Zeit habe, würde ich kommen.", "right": "Wenn ich Zeit hätte, würde ich kommen.", "why": "Both parts of an unreal condition use Konjunktiv II."},
+   "drills": [
+    {"t": "gap", "q": "Wenn ich Zeit ___, würde ich mitkommen.", "a": "hätte", "o": ["hätte", "habe", "hatte"], "en": "If I had time, I'd come along."},
+    {"t": "gap", "q": "Es ___ schön, wenn du kommen könntest.", "a": "wäre", "o": ["wäre", "war", "ist"], "en": "It would be nice if you could come."},
+    {"t": "gap", "q": "Du ___ mehr schlafen. (advice)", "a": "solltest", "o": ["solltest", "sollst", "solltet"], "en": "You should sleep more."},
+    {"t": "tr", "q": "Make it a wish with würde: Ich reise mehr.", "a": "Ich würde mehr reisen.", "alt": ["Ich würde gern mehr reisen.", "Ich würde gerne mehr reisen."], "en": "I would travel more."},
+    {"t": "order", "a": "Wenn ich mehr Geld hätte, würde ich ein Auto kaufen.", "en": "If I had more money, I'd buy a car."}
+   ]},
+  {"code": "P20", "week": 28, "title": "Relative clauses", "title_de": "Relativsätze",
+   "explain": ["A relative clause describes a noun: der Kurs, der ... · die Firma, die ... · das Buch, das ...", "The pronoun matches the noun's gender and its role in the clause: den for a masculine object, dem/der after mit or bei. The verb goes to the end."],
+   "table": [["der (m.)", "der · den · dem"], ["die (f.)", "die · die · der"], ["das (n.)", "das · das · dem"], ["plural", "die · die · denen"]],
+   "examples": [["Das ist der Kollege, der mir geholfen hat.", "That's the colleague who helped me."], ["Der Kurs, den ich besuche, ist sehr praktisch.", "The course I'm taking is very practical."], ["Das ist die Firma, bei der ich arbeite.", "That's the company I work for."]],
+   "mistake": {"wrong": "Das ist der Mann, der ich gesehen habe.", "right": "Das ist der Mann, den ich gesehen habe.", "why": "He is the object of sehen, so der becomes den."},
+   "drills": [
+    {"t": "gap", "q": "Das ist die Wohnung, ___ ich mieten möchte.", "a": "die", "o": ["die", "der", "das"], "en": "That's the flat I'd like to rent."},
+    {"t": "gap", "q": "Wie heißt der Film, ___ wir gestern gesehen haben?", "a": "den", "o": ["den", "der", "dem"], "en": "What's the film we saw yesterday called?"},
+    {"t": "gap", "q": "Das ist das Café, ___ immer so voll ist.", "a": "das", "o": ["das", "dass", "der"], "en": "That's the café that's always so full."},
+    {"t": "gap", "q": "Die Kollegin, mit ___ ich arbeite, kommt aus Linz.", "a": "der", "o": ["der", "die", "dem"], "en": "The colleague I work with is from Linz."},
+    {"t": "tr", "q": "Join with a relative clause: Das ist der Professor. Er unterrichtet Statistik.", "a": "Das ist der Professor, der Statistik unterrichtet.", "en": "That's the professor who teaches statistics."}
+   ]},
+  {"code": "P40", "week": 29, "title": "Genitive, wegen, trotz", "title_de": "Genitiv, wegen, trotz",
+   "explain": ["The genitive shows belonging: das Auto meines Bruders (my brother's car). Masculine and neuter nouns add -s or -es.", "In speech, von + dative is more common: das Auto von meinem Bruder.", "In writing you meet the genitive after wegen (because of), trotz (despite) and während (during): wegen des Wetters."],
+   "examples": [["Wegen des Streiks fährt die U-Bahn nicht.", "Because of the strike the underground isn't running."], ["Trotz des Regens sind wir spazieren gegangen.", "Despite the rain we went for a walk."], ["Das ist das Büro meiner Chefin.", "That's my boss's office."]],
+   "mistake": {"wrong": "wegen den Regen", "right": "wegen des Regens", "why": "In writing, wegen takes the genitive. In speech you will also hear wegen dem Regen."},
+   "drills": [
+    {"t": "gap", "q": "Wegen ___ Wetters bleiben wir zu Hause.", "a": "des", "o": ["des", "dem", "der"], "en": "Because of the weather we're staying at home."},
+    {"t": "gap", "q": "Trotz ___ Kälte gehen wir raus.", "a": "der", "o": ["der", "die", "des"], "en": "Despite the cold we're going out."},
+    {"t": "gap", "q": "Das ist das Fahrrad ___ Freundes. (my)", "a": "meines", "o": ["meines", "meinem", "mein"], "en": "That's my friend's bike."},
+    {"t": "tr", "q": "Say it the spoken way with von: das Zimmer meiner Schwester", "a": "das Zimmer von meiner Schwester", "en": "my sister's room"},
+    {"t": "gap", "q": "___ des Kurses darf man nicht telefonieren.", "a": "Während", "o": ["Während", "Wegen", "Trotz"], "en": "During the course you're not allowed to make calls."}
+   ]},
+  {"code": "P41", "week": 30, "title": "bevor, nachdem, während, seit", "title_de": "Mehr Nebensätze",
+   "explain": ["More connectors that send the verb to the end: bevor (before), nachdem (after), während (while), seit (since), bis (until), sobald (as soon as).", "If the side clause comes first, the main clause starts with its verb."],
+   "examples": [["Bevor ich ins Büro gehe, trinke ich einen Kaffee.", "Before I go to the office, I have a coffee."], ["Während ich koche, höre ich Musik.", "While I cook, I listen to music."], ["Seit ich in Wien wohne, fahre ich nur mit den Öffis.", "Since I've lived in Vienna, I only use public transport."]],
+   "mistake": {"wrong": "Bevor ich gehe ins Büro, ...", "right": "Bevor ich ins Büro gehe, ...", "why": "The verb goes to the end of the side clause."},
+   "drills": [
+    {"t": "gap", "q": "___ ich schlafen gehe, lese ich ein bisschen.", "a": "Bevor", "o": ["Bevor", "Nachdem", "Seit"], "en": "Before I go to sleep, I read a little."},
+    {"t": "gap", "q": "Ruf mich an, ___ du angekommen bist.", "a": "sobald", "o": ["sobald", "während", "bevor"], "en": "Call me as soon as you've arrived."},
+    {"t": "tr", "q": "Join with während: Ich fahre mit der U-Bahn. Ich lerne Vokabeln.", "a": "Während ich mit der U-Bahn fahre, lerne ich Vokabeln.", "alt": ["Ich lerne Vokabeln, während ich mit der U-Bahn fahre."], "en": "While I'm on the underground, I learn vocabulary."},
+    {"t": "order", "a": "Seit ich hier wohne, spreche ich mehr Deutsch.", "en": "Since I've lived here, I speak more German."},
+    {"t": "gap", "q": "Warte bitte, ___ ich zurück bin.", "a": "bis", "o": ["bis", "seit", "bevor"], "en": "Please wait until I'm back."}
+   ]},
+  {"code": "P37", "week": 31, "title": "The passive", "title_de": "Das Passiv",
+   "explain": ["The passive focuses on what happens, not who does it: werden + past participle at the end.", "Present: Das Paket wird morgen geliefert. Past: Die Wohnung wurde renoviert.", "You will see it in news, instructions and announcements."],
+   "examples": [["Der Müll wird am Montag abgeholt.", "The rubbish is collected on Monday."], ["Die U6 wurde wegen einer Störung gesperrt.", "The U6 was closed because of a disruption."], ["Hier wird Deutsch gesprochen.", "German is spoken here."]],
+   "mistake": {"wrong": "Das Paket wird geliefert morgen.", "right": "Das Paket wird morgen geliefert.", "why": "The participle goes to the end."},
+   "drills": [
+    {"t": "gap", "q": "Das Paket ___ morgen geliefert.", "a": "wird", "o": ["wird", "ist", "hat"], "en": "The parcel will be delivered tomorrow."},
+    {"t": "gap", "q": "Die Brücke ___ letztes Jahr gebaut.", "a": "wurde", "o": ["wurde", "wird", "war"], "en": "The bridge was built last year."},
+    {"t": "tr", "q": "Make it passive: Man repariert die Heizung.", "a": "Die Heizung wird repariert.", "en": "The heating is being repaired."},
+    {"t": "tr", "q": "Make it passive in the past: Man öffnete das Fenster.", "a": "Das Fenster wurde geöffnet.", "en": "The window was opened."},
+    {"t": "order", "a": "Im Kaffeehaus wird viel Zeitung gelesen.", "en": "People read a lot of newspapers in the coffee house."}
+   ]},
+  {"code": "P42", "week": 32, "title": "Verbs with prepositions", "title_de": "Verben mit Präpositionen",
+   "explain": ["Many verbs have a fixed preposition: warten auf, denken an, sich freuen auf/über, sich interessieren für, sich ärgern über, Angst haben vor, sprechen über.", "Ask about things with wo(r)- + preposition: Worauf wartest du? About people: Auf wen wartest du?", "Refer back to things with da(r)-: Ich warte darauf."],
+   "table": [["warten auf", "Worauf? · darauf"], ["denken an", "Woran? · daran"], ["sprechen über", "Worüber? · darüber"], ["Angst haben vor", "Wovor? · davor"]],
+   "examples": [["Ich warte auf den Bus.", "I'm waiting for the bus."], ["Woran denkst du?", "What are you thinking about?"], ["Wir haben lange über das Thema gesprochen.", "We talked about the topic for a long time."]],
+   "mistake": {"wrong": "Ich warte für den Bus.", "right": "Ich warte auf den Bus.", "why": "warten always goes with auf, not für."},
+   "drills": [
+    {"t": "gap", "q": "Ich interessiere mich ___ Politik.", "a": "für", "o": ["für", "an", "auf"], "en": "I'm interested in politics."},
+    {"t": "gap", "q": "Denk bitte ___ den Termin!", "a": "an", "o": ["an", "auf", "über"], "en": "Please remember the appointment!"},
+    {"t": "gap", "q": "___ wartest du? – Auf die Antwort.", "a": "Worauf", "o": ["Worauf", "Wofür", "Wo"], "en": "What are you waiting for? – For the answer."},
+    {"t": "gap", "q": "Ich habe Angst ___ der Prüfung.", "a": "vor", "o": ["vor", "von", "für"], "en": "I'm afraid of the exam."},
+    {"t": "tr", "q": "Answer with darüber: Sprechen wir über das Problem?", "a": "Ja, wir sprechen darüber.", "alt": ["Ja, sprechen wir darüber."], "en": "Yes, let's talk about it."}
+   ]}
+ ]
+}

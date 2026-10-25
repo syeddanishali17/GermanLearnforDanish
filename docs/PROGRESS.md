@@ -10,6 +10,7 @@
 | Content A1 → B1 | Done (see below) |
 | v2.3 all-Cloudflare + natural voice | Done (see below) |
 | Privacy & security hardening | Done (see below, docs/PRIVACY.md) |
+| v2.4 Course, grammar, vocabulary, UI review | Done (see below) |
 | 1b. iPhone deploy | Deployed; iPhone acceptance test is Danish's |
 | 2. Speaking MVP | Not started. Start in plan mode. Fill docs/vendors.md first |
 
@@ -57,6 +58,14 @@
 - Bug found and fixed: Cloudflare's `/index.html` → `/` redirect stopped the service worker from installing (offline mode never worked on the deployed site). `html_handling: "none"` fixes it; verified in Edge: SW active, app opens offline, audio plays, no CSP violations.
 - `scripts/check_live.py <url>`: 35-point checklist (headers, noindex, robots, sitemap, auth, CORS, bundle secrets). `scripts/secret_scan.py`: history + staged + untracked scan.
 - Tests: 54 (18 API, 26 security, 10 UI).
+
+## v2.4: full course structure, more content, UI/UX review
+- Kurs tab: 36 weeks A1 → B1 with goals, grammar, phrases, words and conversations per week, progress per week.
+- 42 grammar lessons (P01–P42) with 210 drills (gap, tiles, transform), tracked accuracy (grammar_practice table, migration 0002), daily Qaida step.
+- Core vocabulary: ~460 words in 26 topics. Total learnable items ~770. Conversations: 46.
+- UI/UX review fixes: Continue button with the next best step; path-to-B1 progress; focus mode (no tab bar in lessons); audio plays on reveal and when moving to the next phrase; roleplay hint; Mission suggestions per place with meanings; More shows all decks, steppers, new-phrase limit up to 20; iPhone install guide (Login, Today, More); centred loading; theme-color for dark mode; 16 px inputs (no iOS zoom); article-aware grading (missing der/die/das = close, not correct).
+- Bug fixed: newer Chrome returns a promise from window.scrollTo; returning it from a React effect blanked the app.
+- Tests: 75+ (worker API, security, course content, drills, UI).
 
 ## Open items
 - **Content check:** a native speaker (ideally Austrian) should skim data/seed/*.json and data/conversations/*.json and set good items to `approved`. Claude wrote and cross-checked them; that is not the same as a native review.

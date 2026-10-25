@@ -92,7 +92,7 @@ export function SpeakPair({ text }: { text: string }) {
 
 const RATINGS: { r: Rating; label: string; hint: string; cls: string }[] = [
   { r: 1, label: 'Again', hint: 'missed', cls: 'text-again' },
-  { r: 2, label: 'Hard', hint: 'slow / small error', cls: 'text-hard' },
+  { r: 2, label: 'Hard', hint: 'with effort', cls: 'text-hard' },
   { r: 3, label: 'Good', hint: 'got it', cls: 'text-good' },
   { r: 4, label: 'Easy', hint: 'instant', cls: 'text-easy' },
 ]
@@ -127,7 +127,7 @@ export function ReportButton({ itemId }: { itemId: string }) {
   return (
     <div className="space-y-2">
       <textarea
-        className="w-full rounded-xl border border-line bg-paper p-2 text-sm"
+        className="w-full rounded-xl border border-line bg-paper p-2 text-base"
         rows={2}
         placeholder="What looks wrong?"
         value={note}
@@ -172,6 +172,14 @@ export function PageHeader({ title, sub, back = '/' }: { title: string; sub?: st
 export function ItemNotes({ item }: { item: Item }) {
   return (
     <div className="space-y-2 text-sm">
+      {item.plural && (
+        <p>
+          <span className="text-muted">Plural: </span>
+          <span className="de font-semibold" lang="de">
+            {item.plural}
+          </span>
+        </p>
+      )}
       {item.context && <p className="text-muted">{item.context}</p>}
       {item.austria_note && (
         <p className="rounded-xl bg-saffron-soft px-3 py-2 text-ink">

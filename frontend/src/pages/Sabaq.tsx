@@ -8,7 +8,9 @@ import { flushActivity, useActivityMode } from '../lib/activity'
 import { api } from '../lib/api'
 import { gradeTyped, type GradeResult } from '../lib/grade'
 import { send } from '../lib/outbox'
+import { speak } from '../lib/speech'
 import type { Daily, Item, Rating } from '../lib/types'
+import { Loading } from '../components/Loading'
 
 type Step = 'meet' | 'repeat' | 'reply' | 'recall'
 
@@ -31,7 +33,7 @@ export default function Sabaq() {
 
   const dialogues = useMemo(() => (items ?? []).filter((i) => i.mini_dialogue.length > 0), [items])
 
-  if (!daily.data || items === null) return <p className="pt-10 text-center text-muted">Loading…</p>
+  if (!daily.data || items === null) return <Loading />
 
   if (!daily.data.manzil.unlocked)
     return (
@@ -94,9 +96,13 @@ export default function Sabaq() {
   const steps: Step[] = item.likely_reply_de ? ['meet', 'repeat', 'reply', 'recall'] : ['meet', 'repeat', 'recall']
   const recognitionOnly = item.learner_action !== 'use_now'
 
+  // Audio plays on the tap that moves forward, so iOS allows it.
   function nextStep() {
-    const k = steps.indexOf(step)
-    setStep(steps[k + 1])
+    const next = steps[steps.indexOf(step) + 1]
+    setStep(next)
+    if (next === 'repeat') void speak(item.de)
+    if (next === 'reply' && item.likely_reply_de) void speak(item.likely_reply_de)
+    if (next === 'recall' && recognitionOnly) void speak(item.de)
   }
 
   function rate(r: Rating) {
@@ -105,14 +111,16 @@ export default function Sabaq() {
     setGrade(null)
     setRevealed(false)
     setStep('meet')
-    if (idx + 1 < items!.length) setIdx(idx + 1)
-    else if (dialogues.length) setPhase('dialogue')
+    if (idx + 1 < items!.length) {
+      setIdx(idx + 1)
+      void speak(items![idx + 1].de)
+    } else if (dialogues.length) setPhase('dialogue')
     else finish()
   }
 
   return (
     <div className="space-y-4">
-      <PageHeader title="Sabaq" sub={`Chunk ${idx + 1} of ${items.length}`} />
+      <PageHeader title="Sabaq" sub={`Phrase ${idx + 1} of ${items.length}`} />
       <Progress value={idx * steps.length + steps.indexOf(step)} max={items.length * steps.length} />
 
       <Card className="space-y-4">
@@ -182,14 +190,16 @@ export default function Sabaq() {
                 onClick={() => {
                   if (typed.trim()) setGrade(gradeTyped(typed, [item.de, ...item.alt_de]))
                   setRevealed(true)
+                  void speak(item.de)
                 }}
               >
                 {typed ? 'Check' : recognitionOnly ? 'Show answer' : 'I said it. Show answer'}
               </Button>
             ) : (
-              <div className="space-y-2 border-t border-line pt-3">
-                <German item={item} />
-                <p>{item.en}</p>
+              <div className="space-y-3 border-t border-line pt-3">
+                <German item={item} size="2xl" />
+                {recognitionOnly && <p>{item.en}</p>}
+                <SpeakPair text={item.de} />
                 {grade && (
                   <p className={`text-sm font-semibold ${grade.verdict === 'exact' ? 'text-good' : grade.verdict === 'close' ? 'text-hard' : 'text-again'}`}>
                     {grade.verdict === 'exact' ? 'Correct.' : grade.verdict === 'close' ? 'Close. Check the difference.' : 'Not yet. It will come back soon.'}

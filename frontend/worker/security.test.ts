@@ -26,6 +26,10 @@ const PRIVATE: [string, string][] = [
   ['GET', '/api/settings'],
   ['PUT', '/api/settings'],
   ['GET', '/api/export'],
+  ['GET', '/api/course'],
+  ['GET', '/api/course/1'],
+  ['GET', '/api/grammar/P01'],
+  ['POST', '/api/grammar/P01/practice'],
 ]
 
 describe('security', () => {

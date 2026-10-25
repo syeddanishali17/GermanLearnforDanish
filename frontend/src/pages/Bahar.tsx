@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Button, Card, PageHeader } from '../components/ui'
 import { api, post } from '../lib/api'
 import type { Daily, Mission } from '../lib/types'
+import { Loading } from '../components/Loading'
 
 const SITUATIONS = ['university', 'supermarket', 'canteen/café', 'transport', 'dorm', 'appointment', 'social', 'other']
 
@@ -13,7 +14,55 @@ const OUTCOMES: { v: NonNullable<Mission['outcome']>; label: string }[] = [
   { v: 'conversation', label: 'Conversation' },
 ]
 
-const FALLBACK = ['Guten Morgen!', 'Ist hier frei?', 'Mit Karte, bitte.', 'Danke, gleichfalls!', 'Schönen Tag noch!', 'Entschuldigung, ich lerne noch Deutsch.']
+type Phrase = [de: string, en: string]
+
+/** Ready-made mission phrases per place. All of them are in the phrase decks, so they have audio and practice. */
+const BY_SITUATION: Record<string, Phrase[]> = {
+  university: [
+    ['Ist hier frei?', 'Is this seat free?'],
+    ['Hast du die Folien?', 'Do you have the slides?'],
+    ['Entschuldigung, ich habe eine Frage.', 'Excuse me, I have a question.'],
+    ['Bis morgen!', 'See you tomorrow!'],
+  ],
+  supermarket: [
+    ['Mit Karte, bitte.', 'By card, please.'],
+    ['Wo finde ich Reis?', 'Where can I find rice?'],
+    ["Das war's, danke.", 'That’s all, thanks.'],
+    ['Schönen Tag noch!', 'Have a nice day!'],
+  ],
+  'canteen/café': [
+    ['Guten Appetit!', 'Enjoy your meal!'],
+    ['Eine Melange, bitte.', 'A Melange, please.'],
+    ['Ist da Schweinefleisch drin?', 'Is there pork in it?'],
+    ['Zahlen, bitte!', 'The bill, please!'],
+  ],
+  transport: [
+    ['Darf ich bitte vorbei?', 'Can I get past, please?'],
+    ['Entschuldigung, wo ist die U-Bahn?', 'Excuse me, where is the U-Bahn?'],
+    ['Ist das weit?', 'Is it far?'],
+  ],
+  dorm: [
+    ['Hallo, ich wohne seit Kurzem hier.', 'Hi, I’ve only just moved in.'],
+    ['Die Heizung funktioniert nicht.', 'The heating isn’t working.'],
+    ['Wo ist die Waschküche?', 'Where is the laundry room?'],
+  ],
+  appointment: [
+    ['Ich möchte einen Termin ausmachen.', 'I’d like to make an appointment.'],
+    ['Hier ist meine e-card.', 'Here is my e-card.'],
+    ['Können Sie bitte langsamer sprechen?', 'Can you speak more slowly, please?'],
+  ],
+  social: [
+    ['Wie war dein Wochenende?', 'How was your weekend?'],
+    ['Woher kommst du?', 'Where are you from?'],
+    ['Hast du Zeit für einen Kaffee?', 'Do you have time for a coffee?'],
+  ],
+  other: [
+    ['Guten Morgen!', 'Good morning!'],
+    ['Danke, gleichfalls!', 'Thanks, same to you!'],
+    ['Schönen Tag noch!', 'Have a nice day!'],
+    ['Entschuldigung, ich lerne noch Deutsch.', 'Sorry, I’m still learning German.'],
+  ],
+}
 
 function Chips<T extends string>({ options, value, onChange }: { options: { v: T; label: string }[]; value: T | null; onChange: (v: T) => void }) {
   return (
@@ -111,14 +160,17 @@ export default function Bahar() {
   }
   const create = useMutation({ mutationFn: (body: { text: string; item_id?: string; situation: string }) => post<Mission>('/api/missions', body), onSuccess: refresh })
 
-  if (!daily.data) return <p className="pt-10 text-center text-muted">Loading…</p>
+  if (!daily.data) return <Loading />
   const planned = daily.data.missions.filter((m) => m.status === 'planned')
   const fromToday = [...daily.data.sabaq.introduced_today, ...daily.data.sabqi].filter((i) => i.learner_action === 'use_now').slice(0, 6)
-  const suggestions = fromToday.length ? fromToday.map((i) => ({ text: i.de, id: i.id as string | undefined, hint: i.mission })) : FALLBACK.map((t) => ({ text: t, id: undefined, hint: null }))
+  const learned = fromToday.map((i) => ({ text: i.de, id: i.id as string | undefined, hint: i.en }))
+  const forPlace = (BY_SITUATION[situation] ?? BY_SITUATION.other)
+    .filter(([de]) => !learned.some((l) => l.text === de))
+    .map(([de, en]) => ({ text: de, id: undefined, hint: en }))
 
   return (
     <div className="space-y-5">
-      <PageHeader title="Bahar Mission" sub="One small piece of German with a real person today." />
+      <PageHeader title="Bahar Mission" sub="One small piece of German with a real person today." back={null} />
 
       {planned.map((m) => (
         <Card key={m.id} className="space-y-4">
@@ -136,9 +188,13 @@ export default function Bahar() {
         <Card className="space-y-4">
           <p className="font-semibold">Where will you speak German today?</p>
           <Chips options={SITUATIONS.map((s) => ({ v: s, label: s }))} value={situation} onChange={setSituation} />
-          <p className="font-semibold">Pick a phrase</p>
+          <div>
+            <p className="font-semibold">Pick a phrase</p>
+            <p className="text-sm text-muted">Tap one to make it today’s mission. Small is fine: one phrase counts.</p>
+          </div>
+          {learned.length > 0 && <p className="text-xs font-semibold uppercase tracking-wide text-muted">Learned today</p>}
           <div className="space-y-2">
-            {suggestions.map((s) => (
+            {[...learned, ...forPlace].map((s, n) => (
               <button
                 key={s.text}
                 onClick={() => create.mutate({ text: s.text, item_id: s.id, situation })}
@@ -148,6 +204,7 @@ export default function Bahar() {
                   {s.text}
                 </span>
                 {s.hint && <span className="block text-sm text-muted">{s.hint}</span>}
+                {n === learned.length - 1 && learned.length > 0 && <span className="sr-only">End of today’s phrases</span>}
               </button>
             ))}
           </div>

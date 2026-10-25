@@ -83,3 +83,16 @@ Phrase decks: `5_smalltalk_a2.json` (weeks 13 to 24) and `6_b1_expression.json` 
 Practice order for each conversation: Listen → Roleplay (own lines hidden) → Your words (only the English idea shown) → use one line with a real person (Bahar Mission). Two roleplays mark it as practised.
 
 Realistic pace: the Goethe-Institut estimates 260 to 490 hours of instruction from zero to B1. The week numbers are an order, not a calendar promise; FSRS review load sets the real speed.
+
+## In the app (v2.4)
+
+The curriculum above is now data, not only this document:
+
+- `data/curriculum.json`: 36 weeks with title, can-do goals and grammar codes. Shown in the **Kurs** tab.
+- `data/grammar/{a1,a2,b1}.json`: 42 grammar lessons (P01–P42). Each has an explanation, a slot diagram or table, examples (with audio), a common mistake and 5 drills (fill the gap, build the sentence from tiles, transform). Mastery = 85 % over the last 4 practice rounds. The daily **Qaida** step picks the earliest unmastered pattern up to the current week.
+- `data/seed/7_words.json`: about 460 core words in 26 topics (gender, plural or key verb forms), introduced through the daily Sabaq by week.
+- `data/conversations/`: 46 conversations (A1 16, A2 18, B1 12).
+
+Extra patterns added beyond the table above: P29 dative pronouns · P30 two-way prepositions · P31 possessives · P32 nicht · P33 imperative · P34 um/am/im · P35 adjective endings · P36 future plans · P37 passive · P38 Perfekt of separable/inseparable verbs · P39 Präteritum in stories · P40 genitive, wegen, trotz · P41 bevor/nachdem/während/seit · P42 verbs with prepositions.
+
+`worker/course.test.ts` checks that every week has content, every grammar code in the curriculum exists, and every drill answer is valid.

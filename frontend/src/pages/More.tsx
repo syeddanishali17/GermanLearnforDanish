@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Card, German, PageHeader } from '../components/ui'
 import { api } from '../lib/api'
+import { InstallHint } from '../components/InstallHint'
+import { isStandalone } from '../lib/platform'
 import { pendingCount } from '../lib/outbox'
 import { logoutAndClear } from '../lib/privacy'
 import { loadAudioManifest, voiceLabel } from '../lib/speech'
@@ -16,14 +18,33 @@ interface Settings {
   weekly_target_attempts: number
 }
 
-const DECKS: Record<string, string> = { survival: 'Survival German', vienna: 'Vienna / Austria', uni: 'University / Student life', home: 'Home & City' }
+const DECKS: Record<string, string> = {
+  survival: 'Survival German',
+  words: 'Core words',
+  vienna: 'Vienna / Austria',
+  uni: 'University / Student life',
+  home: 'Home & City',
+  smalltalk: 'Small talk A2',
+  b1: 'B1: opinions and stories',
+}
 
-function NumberField({ label, value, min, max, onChange }: { label: string; value: number; min: number; max: number; onChange: (n: number) => void }) {
+/** Thumb-friendly −/+ stepper instead of a tiny number field. */
+function NumberField({ label, value, min, max, step = 1, onChange }: { label: string; value: number; min: number; max: number; step?: number; onChange: (n: number) => void }) {
+  const set = (n: number) => onChange(Math.max(min, Math.min(max, n)))
+  const btn = 'flex h-11 w-11 items-center justify-center rounded-full border border-line bg-paper text-lg font-bold text-ustad disabled:opacity-30'
   return (
-    <label className="flex items-center justify-between gap-3">
-      <span>{label}</span>
-      <input type="number" inputMode="numeric" min={min} max={max} value={value} onChange={(e) => onChange(Number(e.target.value))} className="min-h-11 w-20 rounded-xl border border-line bg-paper px-3 text-right" />
-    </label>
+    <div className="flex items-center justify-between gap-3">
+      <span className="flex-1">{label}</span>
+      <button type="button" className={btn} onClick={() => set(value - step)} disabled={value <= min} aria-label={`Decrease ${label}`}>
+        −
+      </button>
+      <span className="w-10 text-center text-lg font-semibold tabular-nums" aria-live="polite">
+        {value}
+      </span>
+      <button type="button" className={btn} onClick={() => set(value + step)} disabled={value >= max} aria-label={`Increase ${label}`}>
+        +
+      </button>
+    </div>
   )
 }
 
@@ -50,11 +71,12 @@ export default function More({ onLogout }: { onLogout: () => void }) {
   const counts = Object.keys(DECKS).map((k) => {
     const all = (items.data ?? []).filter((i) => i.deck === k)
     return { k, total: all.length, learned: all.filter((i) => i.introduced).length }
-  })
+  }).filter((c) => c.total > 0)
 
   return (
     <div className="space-y-5">
       <PageHeader title="More" back={null} />
+      <InstallHint />
 
       <section className="space-y-2">
         <h2 className="text-sm font-semibold uppercase tracking-wide text-muted">Decks</h2>
@@ -88,13 +110,13 @@ export default function More({ onLogout }: { onLogout: () => void }) {
       {form && (
         <Card className="space-y-4">
           <h2 className="font-semibold">Settings</h2>
-          <NumberField label="New chunks per day" value={form.new_per_day} min={3} max={10} onChange={(n) => setForm({ ...form, new_per_day: n })} />
-          <NumberField label="Max reviews per day" value={form.max_reviews_per_day} min={20} max={500} onChange={(n) => setForm({ ...form, max_reviews_per_day: n })} />
+          <NumberField label="New phrases per day" value={form.new_per_day} min={3} max={20} onChange={(n) => setForm({ ...form, new_per_day: n })} />
+          <NumberField label="Max reviews per day" value={form.max_reviews_per_day} min={20} max={500} step={10} onChange={(n) => setForm({ ...form, max_reviews_per_day: n })} />
           <NumberField label="Target study days / week" value={form.weekly_target_days} min={1} max={7} onChange={(n) => setForm({ ...form, weekly_target_days: n })} />
           <NumberField label="Target real-world tries / week" value={form.weekly_target_attempts} min={0} max={50} onChange={(n) => setForm({ ...form, weekly_target_attempts: n })} />
           <label className="block space-y-1.5">
             <span>Learner profile (the tutor reads this)</span>
-            <textarea rows={8} className="w-full rounded-2xl border border-line bg-paper p-3 text-sm" value={form.learner_profile_md} onChange={(e) => setForm({ ...form, learner_profile_md: e.target.value })} />
+            <textarea rows={8} className="w-full rounded-2xl border border-line bg-paper p-3 text-base" value={form.learner_profile_md} onChange={(e) => setForm({ ...form, learner_profile_md: e.target.value })} />
           </label>
           <Button className="w-full" disabled={save.isPending} onClick={() => save.mutate(form)}>
             {save.isSuccess ? 'Saved' : 'Save settings'}
@@ -112,7 +134,7 @@ export default function More({ onLogout }: { onLogout: () => void }) {
           <span className="text-muted">Answers waiting to sync: </span>
           {pendingCount()}
         </p>
-        <p className="text-muted">On iPhone: Safari → Share → Add to Home Screen. Log in once inside the installed app.</p>
+        <p className="text-muted">{isStandalone() ? 'Running as an installed app.' : 'Running in the browser. Install it for full-screen use and offline study.'}</p>
       </Card>
 
       <div className="grid grid-cols-2 gap-2">

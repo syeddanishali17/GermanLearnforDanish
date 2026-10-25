@@ -96,6 +96,89 @@
    ]
   },
   {
+   "slug": "a2-sport-freizeit",
+   "week": 13,
+   "register": "informal",
+   "title": "Sport and free time",
+   "title_de": "Sport und Freizeit",
+   "partner": "Felix, flatmate",
+   "setting": "In the WG kitchen on a Sunday.",
+   "goal": "Talk about hobbies, say how often, accept an invitation.",
+   "patterns": [
+    "P22",
+    "P16"
+   ],
+   "turns": [
+    {
+     "who": "Felix",
+     "de": "Machst du eigentlich Sport?",
+     "en": "Do you actually do any sport?"
+    },
+    {
+     "who": "Du",
+     "de": "Ich gehe zweimal pro Woche laufen, meistens an der Donau.",
+     "en": "I go running twice a week, mostly along the Danube."
+    },
+    {
+     "who": "Felix",
+     "de": "Respekt! Ich spiele Fußball, aber nur am Wochenende.",
+     "en": "Respect! I play football, but only at the weekend."
+    },
+    {
+     "who": "Du",
+     "de": "In einem Verein?",
+     "en": "In a club?"
+    },
+    {
+     "who": "Felix",
+     "de": "Nein, mit Freunden im Park. Willst du mal mitspielen?",
+     "en": "No, with friends in the park. Do you want to play with us some time?"
+    },
+    {
+     "who": "Du",
+     "de": "Gern, aber ich spiele nicht besonders gut.",
+     "en": "Gladly, but I don't play particularly well."
+    },
+    {
+     "who": "Felix",
+     "de": "Egal, es geht nur um den Spaß. Nächsten Samstag um zehn?",
+     "en": "Doesn't matter, it's just for fun. Next Saturday at ten?"
+    },
+    {
+     "who": "Du",
+     "de": "Passt. Was soll ich mitbringen?",
+     "en": "Works. What should I bring?"
+    },
+    {
+     "who": "Felix",
+     "de": "Nur Sportschuhe und etwas zu trinken.",
+     "en": "Just trainers and something to drink."
+    },
+    {
+     "who": "Du",
+     "de": "Alles klar. Ich freue mich schon!",
+     "en": "Got it. I'm looking forward to it!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ich gehe zweimal pro Woche laufen.",
+     "en": "I go running twice a week."
+    },
+    {
+     "de": "Willst du mal mitspielen?",
+     "en": "Do you want to play with us some time?"
+    },
+    {
+     "de": "Was soll ich mitbringen?",
+     "en": "What should I bring?"
+    }
+   ],
+   "notes": [
+    "Joining a casual sports group is one of the easiest ways to speak German regularly in Vienna."
+   ]
+  },
+  {
    "slug": "a2-warum-wien",
    "week": 14,
    "register": "informal",
@@ -365,6 +448,90 @@
    ]
   },
   {
+   "slug": "a2-geburtstagseinladung",
+   "week": 16,
+   "register": "informal",
+   "title": "A birthday invitation",
+   "title_de": "Eine Geburtstagseinladung",
+   "partner": "Lena, classmate",
+   "setting": "Lena invites you by voice message, then you talk in person.",
+   "goal": "Accept an invitation, ask the details, offer to bring something.",
+   "patterns": [
+    "P27",
+    "P36"
+   ],
+   "turns": [
+    {
+     "who": "Lena",
+     "de": "Ich feiere am Freitag meinen Geburtstag. Hast du Lust zu kommen?",
+     "en": "I'm celebrating my birthday on Friday. Would you like to come?"
+    },
+    {
+     "who": "Du",
+     "de": "Sehr gern, danke für die Einladung! Wann und wo?",
+     "en": "I'd love to, thanks for the invitation! When and where?"
+    },
+    {
+     "who": "Lena",
+     "de": "Ab acht bei mir in der Wohnung. Ich schicke dir die Adresse.",
+     "en": "From eight at my flat. I'll send you the address."
+    },
+    {
+     "who": "Du",
+     "de": "Super. Soll ich etwas mitbringen?",
+     "en": "Great. Should I bring something?"
+    },
+    {
+     "who": "Lena",
+     "de": "Wenn du willst, einen Salat oder etwas Süßes.",
+     "en": "If you want, a salad or something sweet."
+    },
+    {
+     "who": "Du",
+     "de": "Ich mache einen Nudelsalat. Kommen viele Leute?",
+     "en": "I'll make a pasta salad. Are many people coming?"
+    },
+    {
+     "who": "Lena",
+     "de": "Ungefähr fünfzehn, die meisten aus unserem Kurs.",
+     "en": "About fifteen, most of them from our course."
+    },
+    {
+     "who": "Du",
+     "de": "Schön, dann kenne ich schon ein paar Leute.",
+     "en": "Nice, then I already know a few people."
+    },
+    {
+     "who": "Lena",
+     "de": "Genau. Ich freue mich!",
+     "en": "Exactly. I'm looking forward to it!"
+    },
+    {
+     "who": "Du",
+     "de": "Ich mich auch. Bis Freitag!",
+     "en": "Me too. See you Friday!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Danke für die Einladung!",
+     "en": "Thanks for the invitation!"
+    },
+    {
+     "de": "Soll ich etwas mitbringen?",
+     "en": "Should I bring something?"
+    },
+    {
+     "de": "Ich mich auch.",
+     "en": "Me too (reflexive reply)."
+    }
+   ],
+   "notes": [
+    "Arriving 10 to 20 minutes after the start of a private party is normal. For dinner invitations, be on time.",
+    "On the day you say: Alles Gute zum Geburtstag!"
+   ]
+  },
+  {
    "slug": "a2-arzttermin",
    "week": 17,
    "register": "formal",
@@ -460,6 +627,89 @@
    "notes": [
     "Austrian GP practices are called Ordination. Bring your e-card.",
     "Spelling names on the phone uses words: A wie Anton, D wie Dora. Learn the ones for your name."
+   ]
+  },
+  {
+   "slug": "a2-pruefungsstress",
+   "week": 17,
+   "register": "informal",
+   "title": "Exam stress",
+   "title_de": "Prüfungsstress",
+   "partner": "Jonas, classmate",
+   "setting": "In the canteen, the week before exams.",
+   "goal": "Say how you feel, give and take advice.",
+   "patterns": [
+    "P29",
+    "P19"
+   ],
+   "turns": [
+    {
+     "who": "Jonas",
+     "de": "Du schaust müde aus. Alles okay?",
+     "en": "You look tired. Everything okay?"
+    },
+    {
+     "who": "Du",
+     "de": "Nicht wirklich. Ich habe nächste Woche drei Prüfungen und schlafe sehr wenig.",
+     "en": "Not really. I have three exams next week and I'm sleeping very little."
+    },
+    {
+     "who": "Jonas",
+     "de": "Oje. Tut dir auch der Kopf weh?",
+     "en": "Oh no. Does your head hurt too?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, seit gestern. Mir ist alles zu viel.",
+     "en": "Yes, since yesterday. It's all too much for me."
+    },
+    {
+     "who": "Jonas",
+     "de": "Du solltest Pausen machen. Ich lerne immer fünfzig Minuten und mache dann zehn Minuten Pause.",
+     "en": "You should take breaks. I always study for fifty minutes and then take ten minutes off."
+    },
+    {
+     "who": "Du",
+     "de": "Das ist eine gute Idee. Hilft dir das wirklich?",
+     "en": "That's a good idea. Does it really help you?"
+    },
+    {
+     "who": "Jonas",
+     "de": "Ja, sehr. Und geh am Abend kurz spazieren.",
+     "en": "Yes, a lot. And go for a short walk in the evening."
+    },
+    {
+     "who": "Du",
+     "de": "Mache ich. Kannst du mir vielleicht deine Notizen zeigen?",
+     "en": "I will. Could you maybe show me your notes?"
+    },
+    {
+     "who": "Jonas",
+     "de": "Klar, ich schicke sie dir heute.",
+     "en": "Sure, I'll send them to you today."
+    },
+    {
+     "who": "Du",
+     "de": "Danke, das hilft mir sehr.",
+     "en": "Thanks, that helps me a lot."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Mir ist alles zu viel.",
+     "en": "It's all too much for me."
+    },
+    {
+     "de": "Du solltest Pausen machen.",
+     "en": "You should take breaks."
+    },
+    {
+     "de": "Das hilft mir sehr.",
+     "en": "That helps me a lot."
+    }
+   ],
+   "notes": [
+    "Du schaust müde aus is the Austrian way to say You look tired (Germany: Du siehst müde aus)."
    ]
   },
   {
@@ -563,6 +813,90 @@
    "notes": [
     "WG = Wohngemeinschaft (flat share). Betriebskosten = building service charges, often listed separately in Austria.",
     "Kaution = deposit. Ask for a written contract (Mietvertrag)."
+   ]
+  },
+  {
+   "slug": "a2-putzplan",
+   "week": 18,
+   "register": "informal",
+   "title": "The WG cleaning rota",
+   "title_de": "Der Putzplan in der WG",
+   "partner": "Clara and Felix, flatmates",
+   "setting": "A short WG meeting in the kitchen.",
+   "goal": "Negotiate chores, say what you can and can't do, agree.",
+   "patterns": [
+    "P30",
+    "P11"
+   ],
+   "turns": [
+    {
+     "who": "Clara",
+     "de": "Wir brauchen einen Putzplan. Die Küche ist immer chaotisch.",
+     "en": "We need a cleaning rota. The kitchen is always chaotic."
+    },
+    {
+     "who": "Du",
+     "de": "Stimmt. Wie wollen wir die Arbeit aufteilen?",
+     "en": "True. How do we want to split the work?"
+    },
+    {
+     "who": "Felix",
+     "de": "Jede Woche putzt jemand anderer die Küche, das Bad und den Gang.",
+     "en": "Every week someone different cleans the kitchen, the bathroom and the hallway."
+    },
+    {
+     "who": "Du",
+     "de": "Das finde ich fair. Ich kann diese Woche mit dem Bad anfangen.",
+     "en": "I think that's fair. I can start with the bathroom this week."
+    },
+    {
+     "who": "Clara",
+     "de": "Super. Und der Müll?",
+     "en": "Great. And the rubbish?"
+    },
+    {
+     "who": "Du",
+     "de": "Den kann jeder mitnehmen, wenn er voll ist. Die Tonnen stehen im Hof.",
+     "en": "Whoever sees it's full can take it out. The bins are in the courtyard."
+    },
+    {
+     "who": "Felix",
+     "de": "Und bitte kein Geschirr über Nacht im Waschbecken lassen.",
+     "en": "And please don't leave dishes in the sink overnight."
+    },
+    {
+     "who": "Du",
+     "de": "Einverstanden. Wo hängen wir den Plan auf?",
+     "en": "Agreed. Where shall we hang up the rota?"
+    },
+    {
+     "who": "Clara",
+     "de": "An den Kühlschrank. Dann sieht ihn jeder.",
+     "en": "On the fridge. Then everyone sees it."
+    },
+    {
+     "who": "Du",
+     "de": "Gute Idee. Ich drucke ihn heute aus.",
+     "en": "Good idea. I'll print it out today."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Wie wollen wir die Arbeit aufteilen?",
+     "en": "How do we want to split the work?"
+    },
+    {
+     "de": "Das finde ich fair.",
+     "en": "I think that's fair."
+    },
+    {
+     "de": "Wo hängen wir den Plan auf?",
+     "en": "Where shall we hang up the rota?"
+    }
+   ],
+   "notes": [
+    "Putzplan (cleaning rota) is a classic WG topic. Agreeing early avoids conflicts.",
+    "an den Kühlschrank (where to → accusative) vs. am Kühlschrank (where → dative)."
    ]
   },
   {
@@ -747,6 +1081,90 @@
    ]
   },
   {
+   "slug": "a2-museum-planen",
+   "week": 20,
+   "register": "informal",
+   "title": "Planning a museum visit",
+   "title_de": "Einen Museumsbesuch planen",
+   "partner": "Sophie, flatmate",
+   "setting": "Saturday morning, deciding what to do.",
+   "goal": "Describe options with adjectives, choose, plan the details.",
+   "patterns": [
+    "P35",
+    "P25"
+   ],
+   "turns": [
+    {
+     "who": "Sophie",
+     "de": "Es regnet. Gehen wir heute in ein Museum?",
+     "en": "It's raining. Shall we go to a museum today?"
+    },
+    {
+     "who": "Du",
+     "de": "Gute Idee. Welches Museum ist interessant?",
+     "en": "Good idea. Which museum is interesting?"
+    },
+    {
+     "who": "Sophie",
+     "de": "Das Naturhistorische Museum hat eine neue Ausstellung über Dinosaurier.",
+     "en": "The Natural History Museum has a new exhibition about dinosaurs."
+    },
+    {
+     "who": "Du",
+     "de": "Klingt spannend. Ist es nicht sehr voll am Samstag?",
+     "en": "Sounds exciting. Isn't it very crowded on a Saturday?"
+    },
+    {
+     "who": "Sophie",
+     "de": "Am Vormittag geht es. Oder wir gehen ins Belvedere und schauen uns Klimt an.",
+     "en": "In the morning it's okay. Or we go to the Belvedere and look at Klimt."
+    },
+    {
+     "who": "Du",
+     "de": "Das berühmte Bild „Der Kuss“? Das wollte ich schon lange sehen!",
+     "en": "The famous painting 'The Kiss'? I've wanted to see that for a long time!"
+    },
+    {
+     "who": "Sophie",
+     "de": "Dann Belvedere. Mit Studentenausweis ist es billiger.",
+     "en": "Then the Belvedere. It's cheaper with a student card."
+    },
+    {
+     "who": "Du",
+     "de": "Perfekt. Danach können wir in ein gemütliches Café gehen.",
+     "en": "Perfect. After that we can go to a cosy café."
+    },
+    {
+     "who": "Sophie",
+     "de": "Ja, ich kenne ein kleines Café in der Nähe.",
+     "en": "Yes, I know a small café nearby."
+    },
+    {
+     "who": "Du",
+     "de": "Super, dann los!",
+     "en": "Great, let's go!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Welches Museum ist interessant?",
+     "en": "Which museum is interesting?"
+    },
+    {
+     "de": "Das wollte ich schon lange sehen!",
+     "en": "I've wanted to see that for a long time!"
+    },
+    {
+     "de": "ein gemütliches Café",
+     "en": "a cosy café"
+    }
+   ],
+   "notes": [
+    "Many Viennese museums offer reduced prices with a student card (Studentenausweis). Some are free on certain days.",
+    "Gemütlich has no exact English word: cosy, relaxed, unhurried. Viennese people use it a lot."
+   ]
+  },
+  {
    "slug": "a2-ubahn-stoerung",
    "week": 21,
    "register": "formal",
@@ -818,6 +1236,95 @@
    "notes": [
     "Announcements use formal words: benützen (Austrian for benutzen), Ersatzbus, unterbrochen. Recognise them; you don't need to say them.",
     "The WienMobil app also shows Störungen."
+   ]
+  },
+  {
+   "slug": "a2-zugverspaetung",
+   "week": 21,
+   "register": "formal",
+   "title": "A delayed train",
+   "title_de": "Der Zug hat Verspätung",
+   "partner": "ÖBB staff at the information desk",
+   "setting": "Wien Hauptbahnhof. Your train to Salzburg is not on the board.",
+   "goal": "Ask politely for information, understand the options, decide.",
+   "patterns": [
+    "P28"
+   ],
+   "turns": [
+    {
+     "who": "Du",
+     "de": "Guten Tag. Können Sie mir sagen, wann der Zug nach Salzburg fährt?",
+     "en": "Hello. Can you tell me when the train to Salzburg leaves?"
+    },
+    {
+     "who": "Mitarbeiterin",
+     "de": "Der Railjet um vierzehn Uhr dreißig hat leider eine halbe Stunde Verspätung.",
+     "en": "Unfortunately the Railjet at 14:30 is half an hour late."
+    },
+    {
+     "who": "Du",
+     "de": "Wissen Sie, warum?",
+     "en": "Do you know why?"
+    },
+    {
+     "who": "Mitarbeiterin",
+     "de": "Es gibt eine technische Störung in Linz.",
+     "en": "There's a technical fault in Linz."
+    },
+    {
+     "who": "Du",
+     "de": "Ich habe in Salzburg einen Anschluss. Gibt es eine andere Verbindung?",
+     "en": "I have a connection in Salzburg. Is there another connection?"
+    },
+    {
+     "who": "Mitarbeiterin",
+     "de": "Sie können um vierzehn Uhr zweiundvierzig mit dem Westbahn-Zug fahren, aber Ihr Ticket gilt dort nicht.",
+     "en": "You could take the WESTbahn train at 14:42, but your ticket isn't valid there."
+    },
+    {
+     "who": "Du",
+     "de": "Dann warte ich lieber. Bekomme ich eine Entschädigung?",
+     "en": "Then I'd rather wait. Do I get compensation?"
+    },
+    {
+     "who": "Mitarbeiterin",
+     "de": "Ab sechzig Minuten Verspätung, ja. Das können Sie online beantragen.",
+     "en": "From sixty minutes' delay, yes. You can apply for it online."
+    },
+    {
+     "who": "Du",
+     "de": "Gut zu wissen. Von welchem Bahnsteig fährt der Zug?",
+     "en": "Good to know. Which platform does the train leave from?"
+    },
+    {
+     "who": "Mitarbeiterin",
+     "de": "Von Bahnsteig acht. Achten Sie auf die Durchsagen.",
+     "en": "From platform eight. Listen out for the announcements."
+    },
+    {
+     "who": "Du",
+     "de": "Vielen Dank für die Auskunft!",
+     "en": "Thank you very much for the information!"
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Können Sie mir sagen, wann ...?",
+     "en": "Can you tell me when ...?"
+    },
+    {
+     "de": "Gibt es eine andere Verbindung?",
+     "en": "Is there another connection?"
+    },
+    {
+     "de": "Vielen Dank für die Auskunft!",
+     "en": "Thanks for the information!"
+    }
+   ],
+   "notes": [
+    "Austria calls the train platform Bahnsteig; you will also hear Gleis.",
+    "ÖBB and WESTbahn are different companies on the Vienna–Salzburg route; tickets are not interchangeable.",
+    "Compensation rules can change; check the operator's website."
    ]
   },
   {

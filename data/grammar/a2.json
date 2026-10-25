@@ -1,0 +1,135 @@
+{
+ "cefr": "A2",
+ "patterns": [
+  {"code": "P22", "week": 13, "title": "Story order: zuerst, dann, danach", "title_de": "Erzählen: zuerst, dann, danach",
+   "explain": ["Put events in order with zuerst (first), dann (then), danach (after that), später (later), zum Schluss (in the end).", "They take position 1, so the verb comes straight after them."],
+   "slots": [["position 1", "Danach"], ["2 · verb", "sind"], ["rest", "wir nach Hause gefahren."]],
+   "examples": [["Zuerst haben wir gefrühstückt, dann sind wir in den Prater gegangen.", "First we had breakfast, then we went to the Prater."], ["Danach war ich sehr müde.", "After that I was very tired."], ["Zum Schluss haben wir Eis gegessen.", "At the end we had ice cream."]],
+   "mistake": {"wrong": "Dann wir sind nach Hause gefahren.", "right": "Dann sind wir nach Hause gefahren.", "why": "dann is in position 1, so the verb comes next."},
+   "drills": [
+    {"t": "order", "a": "Danach sind wir nach Hause gefahren.", "en": "After that we went home."},
+    {"t": "gap", "q": "___ habe ich gefrühstückt, dann bin ich zur Uni gefahren.", "a": "Zuerst", "o": ["Zuerst", "Danach", "Zum Schluss"], "en": "First I had breakfast, then I went to uni."},
+    {"t": "tr", "q": "Start with dann: Wir haben gekocht.", "a": "Dann haben wir gekocht.", "en": "Then we cooked."},
+    {"t": "gap", "q": "Zum Schluss ___ wir noch einen Kaffee getrunken.", "a": "haben", "o": ["haben", "sind", "wir haben"], "en": "At the end we had another coffee."},
+    {"t": "order", "a": "Später bin ich ins Kino gegangen.", "en": "Later I went to the cinema."}
+   ]},
+  {"code": "P36", "week": 14, "title": "Plans and the future", "title_de": "Pläne und Zukunft",
+   "explain": ["For plans, German mostly uses the present tense + a time word: Morgen fahre ich nach Graz.", "For bigger plans, promises and predictions use werden + infinitive at the end: Ich werde nächstes Jahr ein Praktikum machen.", "Was hast du vor? (vorhaben) = What are you planning?"],
+   "table": [["ich", "werde"], ["du", "wirst"], ["er / sie / es", "wird"], ["wir", "werden"], ["ihr", "werdet"], ["sie / Sie", "werden"]],
+   "examples": [["Nächste Woche fahre ich nach Linz.", "Next week I'm going to Linz."], ["Nach dem Studium werde ich in Wien arbeiten.", "After my studies I'll work in Vienna."], ["Was hast du am Wochenende vor?", "What are you planning at the weekend?"]],
+   "mistake": {"wrong": "Ich werde arbeiten in Wien.", "right": "Ich werde in Wien arbeiten.", "why": "With werden, the infinitive goes to the end."},
+   "drills": [
+    {"t": "gap", "q": "Morgen ___ es regnen.", "a": "wird", "o": ["wird", "wirst", "werde"], "en": "It will rain tomorrow."},
+    {"t": "tr", "q": "Use werden: Ich lerne jeden Tag.", "a": "Ich werde jeden Tag lernen.", "en": "I will study every day."},
+    {"t": "order", "a": "Nächstes Jahr werde ich ein Praktikum machen.", "en": "Next year I'll do an internship."},
+    {"t": "gap", "q": "___ du im Sommer nach Hause fliegen?", "a": "Wirst", "o": ["Wirst", "Wird", "Werdet"], "en": "Will you fly home in the summer?"},
+    {"t": "tr", "q": "Put the time word first: Ich fahre morgen nach Graz.", "a": "Morgen fahre ich nach Graz.", "en": "Tomorrow I'm going to Graz."}
+   ]},
+  {"code": "P25", "week": 15, "title": "Comparing: größer als, am besten", "title_de": "Vergleiche",
+   "explain": ["Comparative: adjective + -er + als (than): schneller als. Short words often get an umlaut: alt → älter, groß → größer, warm → wärmer.", "Superlative: am + -sten: am schnellsten.", "Irregular: gut – besser – am besten, gern – lieber – am liebsten, viel – mehr – am meisten. Equal: so ... wie."],
+   "table": [["gut", "besser · am besten"], ["gern", "lieber · am liebsten"], ["viel", "mehr · am meisten"], ["groß", "größer · am größten"], ["teuer", "teurer · am teuersten"]],
+   "examples": [["Wien ist größer als Graz.", "Vienna is bigger than Graz."], ["Ich trinke lieber Tee als Kaffee.", "I prefer tea to coffee."], ["Im August ist es am heißesten.", "In August it's hottest."]],
+   "mistake": {"wrong": "Wien ist mehr groß als Linz.", "right": "Wien ist größer als Linz.", "why": "German adds -er; it doesn't use mehr with adjectives."},
+   "drills": [
+    {"t": "gap", "q": "Der Zug ist ___ als der Bus. (schnell)", "a": "schneller", "o": ["schneller", "mehr schnell", "am schnellsten"], "en": "The train is faster than the bus."},
+    {"t": "gap", "q": "Ich esse ___ Reis als Nudeln. (gern)", "a": "lieber", "o": ["lieber", "gerner", "mehr gern"], "en": "I prefer rice to pasta."},
+    {"t": "gap", "q": "Hier ist der Kaffee am ___. (gut)", "a": "besten", "o": ["besten", "bessten", "guten"], "en": "The coffee is best here."},
+    {"t": "gap", "q": "Mein Bruder ist so groß ___ ich.", "a": "wie", "o": ["wie", "als", "so"], "en": "My brother is as tall as me."},
+    {"t": "tr", "q": "Compare with als: Salzburg ist klein. Wien ist groß.", "a": "Wien ist größer als Salzburg.", "alt": ["Salzburg ist kleiner als Wien."], "en": "Vienna is bigger than Salzburg."}
+   ]},
+  {"code": "P27", "week": 16, "title": "Reflexive verbs: sich treffen", "title_de": "Reflexive Verben",
+   "explain": ["Some verbs need a reflexive pronoun: sich treffen (meet), sich freuen (be glad, look forward), sich interessieren (be interested), sich ausruhen (rest), sich beeilen (hurry).", "The pronoun changes with the person: mich, dich, sich, uns, euch, sich."],
+   "table": [["ich", "mich"], ["du", "dich"], ["er / sie / es", "sich"], ["wir", "uns"], ["ihr", "euch"], ["sie / Sie", "sich"]],
+   "examples": [["Wir treffen uns um sieben.", "We're meeting at seven."], ["Ich freue mich auf das Wochenende.", "I'm looking forward to the weekend."], ["Beeil dich!", "Hurry up!"]],
+   "mistake": {"wrong": "Ich freue auf das Wochenende.", "right": "Ich freue mich auf das Wochenende.", "why": "freuen needs the reflexive pronoun."},
+   "drills": [
+    {"t": "gap", "q": "Wann treffen wir ___?", "a": "uns", "o": ["uns", "euch", "sich"], "en": "When shall we meet?"},
+    {"t": "gap", "q": "Ich interessiere ___ für Technik.", "a": "mich", "o": ["mich", "mir", "sich"], "en": "I'm interested in technology."},
+    {"t": "gap", "q": "Freust du ___ auf den Urlaub?", "a": "dich", "o": ["dich", "dir", "sich"], "en": "Are you looking forward to the holiday?"},
+    {"t": "gap", "q": "Lena und Paul treffen ___ im Café.", "a": "sich", "o": ["sich", "uns", "euch"], "en": "Lena and Paul are meeting in the café."},
+    {"t": "tr", "q": "Use sich freuen auf: ich / das Konzert", "a": "Ich freue mich auf das Konzert.", "alt": ["Ich freue mich aufs Konzert."], "en": "I'm looking forward to the concert."}
+   ]},
+  {"code": "P29", "week": 17, "title": "mir, dir, ihm: dative pronouns", "title_de": "Dativpronomen",
+   "explain": ["Everyday phrases with dative pronouns: Mir ist kalt. Mir tut der Kopf weh. Das gefällt mir. Das schmeckt mir.", "Verbs like helfen, gefallen, schmecken, gehören and danken take the dative: Kannst du mir helfen?"],
+   "table": [["ich", "mir"], ["du", "dir"], ["er / es", "ihm"], ["sie", "ihr"], ["wir", "uns"], ["sie / Sie", "ihnen / Ihnen"]],
+   "examples": [["Wien gefällt mir sehr.", "I really like Vienna."], ["Mir tut der Rücken weh.", "My back hurts."], ["Wie geht es Ihnen?", "How are you?"]],
+   "mistake": {"wrong": "Ich bin kalt.", "right": "Mir ist kalt.", "why": "Ich bin kalt means you are a cold person. Feeling cold or warm uses mir ist."},
+   "drills": [
+    {"t": "gap", "q": "Kannst du ___ helfen? (me)", "a": "mir", "o": ["mir", "mich", "ich"], "en": "Can you help me?"},
+    {"t": "gap", "q": "Das Essen schmeckt ___ sehr gut. (us)", "a": "uns", "o": ["uns", "unser", "wir"], "en": "We like the food a lot."},
+    {"t": "gap", "q": "Wie gefällt ___ Wien? (you, du)", "a": "dir", "o": ["dir", "dich", "du"], "en": "How do you like Vienna?"},
+    {"t": "gap", "q": "Ich helfe ___ beim Umzug. (him)", "a": "ihm", "o": ["ihm", "ihn", "er"], "en": "I'm helping him move."},
+    {"t": "tr", "q": "Say that you feel warm.", "a": "Mir ist warm.", "alt": ["Mir ist heiß."], "en": "I'm warm."}
+   ]},
+  {"code": "P30", "week": 18, "title": "in, an, auf: where vs. where to", "title_de": "Wechselpräpositionen",
+   "explain": ["in, an, auf, über, unter, vor, hinter, neben and zwischen take the accusative for movement (wohin? where to?) and the dative for location (wo? where?).", "Ich gehe in die Küche (wohin). Ich bin in der Küche (wo). Short forms: in dem → im, in das → ins, an dem → am."],
+   "table": [["wohin? → accusative", "in den · in die · ins"], ["wo? → dative", "im · in der · im"]],
+   "examples": [["Ich lege das Buch auf den Tisch.", "I'm putting the book on the table."], ["Das Buch liegt auf dem Tisch.", "The book is lying on the table."], ["Wir gehen ins Kino.", "We're going to the cinema."]],
+   "mistake": {"wrong": "Ich bin in die Küche.", "right": "Ich bin in der Küche.", "why": "Location (wo?) takes the dative."},
+   "drills": [
+    {"t": "gap", "q": "Ich gehe heute ___ Bibliothek. (where to)", "a": "in die", "o": ["in die", "in der", "im"], "en": "I'm going to the library today."},
+    {"t": "gap", "q": "Ich arbeite ___ Bibliothek. (where)", "a": "in der", "o": ["in der", "in die", "ins"], "en": "I'm working in the library."},
+    {"t": "gap", "q": "Die Waschmaschine steht ___ Keller.", "a": "im", "o": ["im", "in den", "ins"], "en": "The washing machine is in the basement."},
+    {"t": "gap", "q": "Gehen wir heute ___ Kino?", "a": "ins", "o": ["ins", "im", "in"], "en": "Shall we go to the cinema today?"},
+    {"t": "gap", "q": "Häng das Bild bitte ___ Wand.", "a": "an die", "o": ["an die", "an der", "am"], "en": "Please hang the picture on the wall."}
+   ]},
+  {"code": "P21", "week": 19, "title": "war, hatte, konnte and als", "title_de": "Präteritum von sein, haben, Modalverben",
+   "explain": ["For sein, haben and the modal verbs, people use the simple past even when speaking: ich war, ich hatte, ich konnte, ich musste, ich wollte.", "Use als for one event in the past. The verb goes to the end: Als ich neu in Wien war, ..."],
+   "table": [["sein", "ich war · du warst · wir waren"], ["haben", "ich hatte · du hattest · wir hatten"], ["können", "ich konnte"], ["müssen", "ich musste"], ["wollen", "ich wollte"]],
+   "examples": [["Gestern war ich sehr müde.", "Yesterday I was very tired."], ["Ich hatte keine Zeit.", "I didn't have time."], ["Als ich neu in Wien war, konnte ich kein Deutsch.", "When I was new in Vienna, I couldn't speak German."]],
+   "mistake": {"wrong": "Ich habe gestern müde gewesen.", "right": "Gestern war ich müde.", "why": "sein in the past is simply war. (The Perfekt would be ich bin gewesen, never habe.)"},
+   "drills": [
+    {"t": "gap", "q": "Gestern ___ ich krank.", "a": "war", "o": ["war", "hatte", "bin"], "en": "I was ill yesterday."},
+    {"t": "gap", "q": "Wir ___ keinen Schirm dabei.", "a": "hatten", "o": ["hatten", "waren", "haben"], "en": "We didn't have an umbrella with us."},
+    {"t": "gap", "q": "Ich ___ früh aufstehen. (müssen)", "a": "musste", "o": ["musste", "muss", "müsste"], "en": "I had to get up early."},
+    {"t": "tr", "q": "Put into the past: Ich kann nicht kommen.", "a": "Ich konnte nicht kommen.", "en": "I couldn't come."},
+    {"t": "order", "a": "Als ich klein war, wollte ich Pilot werden.", "en": "When I was little, I wanted to become a pilot."}
+   ]},
+  {"code": "P35", "week": 20, "title": "Adjective endings", "title_de": "Adjektivendungen",
+   "explain": ["An adjective in front of a noun needs an ending. After der/die/das it is usually -e: der neue Kollege, die kleine Wohnung.", "After ein it shows the gender: ein guter Kaffee (der), ein großes Zimmer (das), eine nette Nachbarin (die). Plural without article: nette Leute.", "After sein there is no ending: Das Zimmer ist groß."],
+   "table": [["der · ein (m.)", "der gute Kaffee · ein guter Kaffee"], ["die · eine (f.)", "die nette Frau · eine nette Frau"], ["das · ein (n.)", "das große Zimmer · ein großes Zimmer"], ["plural", "die neuen Kollegen · neue Kollegen"]],
+   "examples": [["Das ist ein schönes Zimmer.", "That's a nice room."], ["Ich habe eine nette Nachbarin.", "I have a nice neighbour."], ["Wo ist der nächste Bankomat?", "Where is the nearest ATM?"]],
+   "mistake": {"wrong": "ein gut Kaffee", "right": "ein guter Kaffee", "why": "In front of a noun the adjective needs an ending."},
+   "drills": [
+    {"t": "gap", "q": "Das ist ein ___ Zimmer. (groß)", "a": "großes", "o": ["großes", "großer", "große"], "en": "That's a big room."},
+    {"t": "gap", "q": "Der ___ Kollege heißt Paul. (neu)", "a": "neue", "o": ["neue", "neuer", "neues"], "en": "The new colleague is called Paul."},
+    {"t": "gap", "q": "Sie ist eine ___ Lehrerin. (gut)", "a": "gute", "o": ["gute", "guter", "gutes"], "en": "She's a good teacher."},
+    {"t": "gap", "q": "Das war ein ___ Abend. (schön)", "a": "schöner", "o": ["schöner", "schöne", "schönes"], "en": "That was a lovely evening."},
+    {"t": "gap", "q": "Wien hat viele ___ Parks. (grün)", "a": "grüne", "o": ["grüne", "grünen", "grüner"], "en": "Vienna has many green parks."}
+   ]},
+  {"code": "P28", "week": 21, "title": "Polite indirect questions", "title_de": "Indirekte Fragen",
+   "explain": ["Make a question softer: Wissen Sie, ...? / Können Sie mir sagen, ...?", "The question word becomes a connector and the verb goes to the end. Yes/no questions use ob (whether)."],
+   "slots": [["polite start", "Wissen Sie,"], ["W-word / ob", "wo"], ["middle", "die Post"], ["end · verb", "ist?"]],
+   "examples": [["Wissen Sie, wo die Post ist?", "Do you know where the post office is?"], ["Können Sie mir sagen, wann der Zug fährt?", "Can you tell me when the train leaves?"], ["Ich weiß nicht, ob er kommt.", "I don't know whether he's coming."]],
+   "mistake": {"wrong": "Wissen Sie, wo ist die Post?", "right": "Wissen Sie, wo die Post ist?", "why": "Inside an indirect question the verb goes to the end."},
+   "drills": [
+    {"t": "tr", "q": "Make it indirect with Wissen Sie: Wo ist der Ausgang?", "a": "Wissen Sie, wo der Ausgang ist?", "en": "Do you know where the exit is?"},
+    {"t": "tr", "q": "Make it indirect with Können Sie mir sagen: Wann beginnt der Kurs?", "a": "Können Sie mir sagen, wann der Kurs beginnt?", "en": "Can you tell me when the course starts?"},
+    {"t": "gap", "q": "Ich weiß nicht, ___ die Bibliothek heute offen hat.", "a": "ob", "o": ["ob", "wenn", "dass"], "en": "I don't know whether the library is open today."},
+    {"t": "order", "a": "Weißt du, wie lange die Störung dauert?", "en": "Do you know how long the disruption will last?"},
+    {"t": "tr", "q": "Make it indirect with Weißt du: Kommt sie heute?", "a": "Weißt du, ob sie heute kommt?", "en": "Do you know whether she's coming today?"}
+   ]},
+  {"code": "P24", "week": 22, "title": "um ... zu and zu + infinitive", "title_de": "um ... zu und zu + Infinitiv",
+   "explain": ["um ... zu + infinitive at the end = in order to: Ich lerne Deutsch, um hier zu arbeiten.", "Many phrases take zu + infinitive: Ich habe keine Zeit, ... zu ... · Es ist schwer, ... zu ... · Ich habe vor, ... zu ...", "Separable verbs put zu in the middle: anzurufen, aufzustehen."],
+   "examples": [["Ich lerne Deutsch, um mit Leuten zu sprechen.", "I'm learning German to talk to people."], ["Es ist nicht leicht, eine Wohnung zu finden.", "It's not easy to find a flat."], ["Vergiss nicht, mich anzurufen!", "Don't forget to call me!"]],
+   "mistake": {"wrong": "Ich spare, um kaufen ein Fahrrad.", "right": "Ich spare, um ein Fahrrad zu kaufen.", "why": "zu + infinitive go to the end."},
+   "drills": [
+    {"t": "tr", "q": "Join with um ... zu: Ich gehe in die Bibliothek. Ich lerne dort.", "a": "Ich gehe in die Bibliothek, um dort zu lernen.", "en": "I'm going to the library to study there."},
+    {"t": "order", "a": "Ich habe keine Zeit, heute zu kochen.", "en": "I don't have time to cook today."},
+    {"t": "gap", "q": "Es ist schön, dich ___ sehen.", "a": "zu", "o": ["zu", "um", "für"], "en": "It's nice to see you."},
+    {"t": "gap", "q": "Ich habe vor, morgen früh ___. (aufstehen)", "a": "aufzustehen", "o": ["aufzustehen", "zu aufstehen", "aufstehen"], "en": "I plan to get up early tomorrow."},
+    {"t": "tr", "q": "Join with um ... zu: Ich spare Geld. Ich kaufe ein Fahrrad.", "a": "Ich spare Geld, um ein Fahrrad zu kaufen.", "en": "I'm saving money to buy a bike."}
+   ]},
+  {"code": "P38", "week": 23, "title": "Perfekt: angerufen, verstanden", "title_de": "Perfekt trennbarer und untrennbarer Verben",
+   "explain": ["Separable verbs put ge- in the middle: anrufen → angerufen, einkaufen → eingekauft, aufstehen → aufgestanden.", "Verbs starting with be-, ver-, er-, ent-, emp- or zer- get no ge-: bekommen → bekommen, verstehen → verstanden, erklären → erklärt."],
+   "examples": [["Ich habe den Vermieter angerufen.", "I called the landlord."], ["Ich habe die Nachricht nicht verstanden.", "I didn't understand the message."], ["Mein Paket ist nicht angekommen.", "My parcel hasn't arrived."]],
+   "mistake": {"wrong": "Ich habe es geverstanden.", "right": "Ich habe es verstanden.", "why": "ver- verbs never take ge-."},
+   "drills": [
+    {"t": "gap", "q": "Hast du schon ___? (einkaufen)", "a": "eingekauft", "o": ["eingekauft", "geeinkauft", "einkaufen"], "en": "Have you done the shopping yet?"},
+    {"t": "gap", "q": "Ich habe gestern einen Brief ___. (bekommen)", "a": "bekommen", "o": ["bekommen", "gebekommen", "bekamen"], "en": "I got a letter yesterday."},
+    {"t": "gap", "q": "Der Zug ist pünktlich ___. (ankommen)", "a": "angekommen", "o": ["angekommen", "geankommen", "ankommt"], "en": "The train arrived on time."},
+    {"t": "tr", "q": "Put into the Perfekt: Ich rufe meine Mutter an.", "a": "Ich habe meine Mutter angerufen.", "en": "I called my mother."},
+    {"t": "tr", "q": "Put into the Perfekt: Er erklärt die Aufgabe.", "a": "Er hat die Aufgabe erklärt.", "en": "He explained the task."}
+   ]}
+ ]
+}

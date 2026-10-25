@@ -9,6 +9,11 @@ import uni from '../../data/seed/3_uni.json'
 import home from '../../data/seed/4_home_city.json'
 import smalltalk from '../../data/seed/5_smalltalk_a2.json'
 import b1deck from '../../data/seed/6_b1_expression.json'
+import words from '../../data/seed/7_words.json'
+import curriculum from '../../data/curriculum.json'
+import grammarA1 from '../../data/grammar/a1.json'
+import grammarA2 from '../../data/grammar/a2.json'
+import grammarB1 from '../../data/grammar/b1.json'
 
 export type Cefr = 'A1' | 'A2' | 'B1'
 
@@ -92,7 +97,48 @@ export function applyOverlay(decks: Raw[], convFiles: Raw[], overlay: Overlay): 
   ]
 }
 
-export const PUBLIC_DECK_FILES: Raw[] = [survival, vienna, uni, home, smalltalk, b1deck]
+export const slugify = (s: string) =>
+  s
+    .toLowerCase()
+    .replace(/ä/g, 'ae')
+    .replace(/ö/g, 'oe')
+    .replace(/ü/g, 'ue')
+    .replace(/ß/g, 'ss')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+
+const ARTICLE = /^(der|die|das) /
+
+/**
+ * Word decks are written compactly as groups of [German, English, plural-or-forms] (data/seed/7_words.json).
+ * Nouns ("der Tisch") get gender and plural; verbs and adjectives get their key forms as context.
+ * tools/tts/generate.py mirrors this expansion.
+ */
+export function expandWordDeck(deck: Raw): Raw {
+  if (!deck.groups) return deck
+  const items: Raw[] = []
+  for (const g of deck.groups) {
+    for (const [de, en, extra] of g.words as [string, string, string | undefined][]) {
+      const m = de.match(ARTICLE)
+      const noun = !!m
+      const pluralOnly = extra === 'plural only' || extra === 'plural'
+      items.push({
+        slug: `w-${slugify(de)}`,
+        kind: 'word',
+        de,
+        en,
+        week: g.week,
+        tags: [g.topic],
+        gender: noun && !pluralOnly ? m![1] : null,
+        plural: noun && extra && extra !== '–' && !pluralOnly ? extra : null,
+        context: noun ? (pluralOnly ? 'Used in the plural.' : '') : extra && extra !== '–' ? extra : '',
+      })
+    }
+  }
+  return { ...deck, items }
+}
+
+export const PUBLIC_DECK_FILES: Raw[] = [survival, vienna, uni, home, smalltalk, b1deck, expandWordDeck(words)]
 export const PUBLIC_CONVERSATION_FILES: Raw[] = [a1, a2, b1]
 export const [DECK_FILES, CONVERSATION_FILES] = applyOverlay(PUBLIC_DECK_FILES, PUBLIC_CONVERSATION_FILES, PRIVATE_OVERLAY)
 
@@ -201,20 +247,88 @@ export function buildConversations(files: Raw[]): Conversation[] {
     .sort((a: Conversation, b: Conversation) => order[a.cefr] - order[b.cefr] || a.week - b.week || a.order - b.order)
 }
 
+// ---------- course: weeks and grammar ----------
+
+export type Drill =
+  | { t: 'gap'; q: string; a: string; o?: string[]; en?: string }
+  | { t: 'order'; a: string; en?: string }
+  | { t: 'tr'; q: string; a: string; alt?: string[]; en?: string }
+
+export interface Pattern {
+  code: string
+  week: number
+  cefr: Cefr
+  title: string
+  title_de: string
+  explain: string[]
+  slots?: [string, string][]
+  table?: [string, string][]
+  examples: [string, string][]
+  mistake?: { wrong: string; right: string; why: string }
+  drills: Drill[]
+}
+
+export interface Week {
+  week: number
+  cefr: Cefr
+  title: string
+  title_de: string
+  goals: string[]
+  patterns: string[]
+}
+
+export const GRAMMAR_FILES: Raw[] = [grammarA1, grammarA2, grammarB1]
+export const CURRICULUM: Raw = curriculum
+
+export function validateGrammar(files: Raw[], weeks: Raw): string[] {
+  const errors: string[] = []
+  const codes = new Set<string>()
+  for (const f of files) {
+    for (const p of f.patterns) {
+      const where = p.code
+      if (codes.has(p.code)) errors.push(`${where}: duplicate code`)
+      codes.add(p.code)
+      for (const k of ['code', 'week', 'title', 'title_de', 'explain', 'examples', 'drills']) if (!p[k]) errors.push(`${where}: missing ${k}`)
+      if ((p.drills?.length ?? 0) < 3) errors.push(`${where}: needs at least 3 drills`)
+      p.drills?.forEach((d: Raw, i: number) => {
+        if (!['gap', 'order', 'tr'].includes(d.t)) errors.push(`${where}#${i}: bad drill type ${d.t}`)
+        if (!d.a) errors.push(`${where}#${i}: drill needs an answer`)
+        if (d.t === 'gap' && !String(d.q).includes('___')) errors.push(`${where}#${i}: gap needs ___`)
+        if (d.t === 'gap' && d.o && !d.o.includes(d.a)) errors.push(`${where}#${i}: answer not among options`)
+        if (d.t === 'tr' && !d.q) errors.push(`${where}#${i}: transform needs a prompt`)
+      })
+    }
+  }
+  const seenWeeks = new Set<number>()
+  for (const w of weeks.weeks) {
+    seenWeeks.add(w.week)
+    for (const c of w.patterns) if (!codes.has(c)) errors.push(`week ${w.week}: unknown pattern ${c}`)
+  }
+  for (let n = 1; n <= 36; n++) if (!seenWeeks.has(n)) errors.push(`curriculum: week ${n} missing`)
+  return errors
+}
+
 export interface Content {
   items: ContentItem[]
   bySlug: Map<string, ContentItem>
   conversations: Conversation[]
   conversationBySlug: Map<string, Conversation>
+  patterns: Pattern[]
+  patternByCode: Map<string, Pattern>
+  weeks: Week[]
 }
 
-export function makeContent(decks: Raw[] = DECK_FILES, convs: Raw[] = CONVERSATION_FILES): Content {
+export function makeContent(decks: Raw[] = DECK_FILES, convs: Raw[] = CONVERSATION_FILES, grammar: Raw[] = GRAMMAR_FILES, weeks: Raw = CURRICULUM): Content {
   const items = buildItems(decks)
   const conversations = buildConversations(convs)
+  const patterns: Pattern[] = grammar.flatMap((f) => f.patterns.map((p: Raw) => ({ ...p, cefr: f.cefr }))).sort((a, b) => a.week - b.week)
   return {
     items,
     bySlug: new Map(items.map((i) => [i.slug, i])),
     conversations,
     conversationBySlug: new Map(conversations.map((c) => [c.slug, c])),
+    patterns,
+    patternByCode: new Map(patterns.map((p) => [p.code, p])),
+    weeks: weeks.weeks,
   }
 }

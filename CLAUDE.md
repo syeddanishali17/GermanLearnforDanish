@@ -16,7 +16,8 @@ Full spec: SPEC.md (v2.3). Do not reread it every session. Read docs/PROGRESS.md
 - Schema change: add `frontend/migrations/000N_name.sql`; never edit applied migrations.
 
 ## Layout
-- frontend/worker: index.ts (routes), srs.ts (ts-fsrs, intake, queue), progress.ts (day log, streak, dashboard), talk.ts (levels, conversations), content.ts (bundled JSON + validation), auth.ts, clock.ts (Vienna study days)
+- frontend/worker: index.ts (routes), srs.ts (ts-fsrs, intake, queue), progress.ts (day log, streak, dashboard), talk.ts (levels, conversations), course.ts (weeks, grammar mastery, daily Qaida), content.ts (bundled JSON + validation, word-group expansion), auth.ts, clock.ts (Vienna study days)
+- data: seed/*.json (phrases; 7_words.json uses compact groups), conversations/*.json, grammar/*.json (lessons + drills), curriculum.json (36 weeks)
 - frontend/src: pages/, components/, lib/ (api, outbox = offline answer queue, grade, speech = clip player, activity)
 
 ## Non-negotiables

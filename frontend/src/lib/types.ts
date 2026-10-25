@@ -69,6 +69,7 @@ export interface Daily {
   streak: { days: number; freezes_used_this_week: number }
   level: Level
   conversation: ConversationSummary | null
+  grammar: { code: string; title: string; accuracy: number | null; practised_today: boolean } | null
 }
 
 export interface Dashboard {
@@ -119,4 +120,46 @@ export interface ConversationDetail extends ConversationSummary {
 export interface Level {
   week: number
   cefr: Cefr
+}
+
+export interface PatternSummary {
+  code: string
+  week: number
+  cefr: Cefr
+  title: string
+  title_de: string
+  accuracy: number | null
+  rounds: number
+  mastered: boolean
+}
+
+export type Drill =
+  | { t: 'gap'; q: string; a: string; o?: string[]; en?: string }
+  | { t: 'order'; a: string; en?: string }
+  | { t: 'tr'; q: string; a: string; alt?: string[]; en?: string }
+
+export interface PatternDetail extends PatternSummary {
+  explain: string[]
+  slots?: [string, string][]
+  table?: [string, string][]
+  examples: [string, string][]
+  mistake?: { wrong: string; right: string; why: string }
+  drills: Drill[]
+}
+
+export interface WeekSummary {
+  week: number
+  cefr: Cefr
+  title: string
+  title_de: string
+  goals: string[]
+  patterns: PatternSummary[]
+  items: { total: number; started: number; words: number }
+  conversations: { total: number; practised: number }
+}
+
+export interface WeekDetail extends WeekSummary {
+  phrases: Item[]
+  words: Item[]
+  conversation_list: ConversationSummary[]
 }

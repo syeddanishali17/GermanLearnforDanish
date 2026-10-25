@@ -1,0 +1,142 @@
+{
+ "deck": "words",
+ "title": "Core words",
+ "status": "reviewed",
+ "note": "Compact format: [German, English, plural for nouns or key forms for verbs]. Expanded into items by worker/content.ts and tools/tts/generate.py.",
+ "groups": [
+  {"week": 1, "topic": "People and languages", "words": [
+   ["der Mann", "man", "die Männer"], ["die Frau", "woman; Mrs", "die Frauen"], ["das Kind", "child", "die Kinder"], ["der Freund", "friend (m.); boyfriend", "die Freunde"], ["die Freundin", "friend (f.); girlfriend", "die Freundinnen"],
+   ["der Nachbar", "neighbour (m.)", "die Nachbarn"], ["die Nachbarin", "neighbour (f.)", "die Nachbarinnen"], ["der Name", "name", "die Namen"], ["das Land", "country", "die Länder"], ["die Stadt", "city, town", "die Städte"],
+   ["die Sprache", "language", "die Sprachen"], ["der Student", "student (m.)", "die Studenten"], ["die Studentin", "student (f.)", "die Studentinnen"], ["die Leute", "people", "plural only"],
+   ["heißen", "to be called", "du heißt · er heißt · hat geheißen"], ["kommen", "to come", "er kommt · ist gekommen"], ["wohnen", "to live (reside)", "er wohnt · hat gewohnt"], ["sprechen", "to speak", "du sprichst · er spricht · hat gesprochen"], ["lernen", "to learn, to study", "er lernt · hat gelernt"], ["verstehen", "to understand", "er versteht · hat verstanden"]
+  ]},
+  {"week": 2, "topic": "Café and canteen", "words": [
+   ["der Kaffee", "coffee", "die Kaffees"], ["der Tee", "tea", "die Tees"], ["das Wasser", "water", "–"], ["die Milch", "milk", "–"], ["der Zucker", "sugar", "–"], ["das Brot", "bread", "die Brote"],
+   ["das Ei", "egg", "die Eier"], ["der Käse", "cheese", "–"], ["das Fleisch", "meat", "–"], ["das Huhn", "chicken", "die Hühner"], ["der Fisch", "fish", "die Fische"], ["das Gemüse", "vegetables", "–"],
+   ["das Obst", "fruit", "–"], ["der Reis", "rice", "–"], ["die Suppe", "soup", "die Suppen"], ["der Salat", "salad; lettuce", "die Salate"], ["der Apfel", "apple", "die Äpfel"], ["der Saft", "juice", "die Säfte"],
+   ["das Glas", "glass", "die Gläser"], ["die Tasse", "cup", "die Tassen"], ["essen", "to eat", "du isst · er isst · hat gegessen"], ["trinken", "to drink", "er trinkt · hat getrunken"], ["heiß", "hot", "heißer · am heißesten"], ["lecker", "tasty", "–"]
+  ]},
+  {"week": 3, "topic": "Shopping and money", "words": [
+   ["das Geld", "money", "–"], ["der Preis", "price", "die Preise"], ["der Supermarkt", "supermarket", "die Supermärkte"], ["das Geschäft", "shop; business", "die Geschäfte"], ["die Flasche", "bottle", "die Flaschen"],
+   ["die Packung", "packet", "die Packungen"], ["das Kilo", "kilo", "die Kilos"], ["die Karte", "card; ticket; menu", "die Karten"], ["teuer", "expensive", "teurer"], ["billig", "cheap", "billiger"],
+   ["kaufen", "to buy", "er kauft · hat gekauft"], ["bezahlen", "to pay", "er bezahlt · hat bezahlt"], ["brauchen", "to need", "er braucht · hat gebraucht"], ["kosten", "to cost", "es kostet · hat gekostet"], ["suchen", "to look for", "er sucht · hat gesucht"],
+   ["finden", "to find", "er findet · hat gefunden"], ["viel", "much, a lot", "mehr · am meisten"], ["wenig", "little, not much", "weniger"], ["groß", "big, tall", "größer"], ["klein", "small", "kleiner"], ["neu", "new", "neuer"], ["alt", "old", "älter"]
+  ]},
+  {"week": 4, "topic": "Restaurant and meals", "words": [
+   ["das Restaurant", "restaurant", "die Restaurants"], ["die Speisekarte", "menu", "die Speisekarten"], ["das Frühstück", "breakfast", "die Frühstücke"], ["das Mittagessen", "lunch", "die Mittagessen"], ["das Abendessen", "dinner", "die Abendessen"],
+   ["der Hunger", "hunger", "–"], ["der Durst", "thirst", "–"], ["der Kellner", "waiter", "die Kellner"], ["die Kellnerin", "waitress", "die Kellnerinnen"], ["der Tisch", "table", "die Tische"], ["der Stuhl", "chair", "die Stühle"],
+   ["die Gabel", "fork", "die Gabeln"], ["das Messer", "knife", "die Messer"], ["der Löffel", "spoon", "die Löffel"], ["der Teller", "plate", "die Teller"], ["bestellen", "to order", "er bestellt · hat bestellt"],
+   ["nehmen", "to take; to have (food)", "du nimmst · er nimmt · hat genommen"], ["schmecken", "to taste (good)", "es schmeckt · hat geschmeckt"], ["süß", "sweet", "süßer"], ["salzig", "salty", "–"], ["frisch", "fresh", "frischer"]
+  ]},
+  {"week": 5, "topic": "Getting around", "words": [
+   ["der Bahnhof", "train station", "die Bahnhöfe"], ["die Haltestelle", "stop (bus, tram)", "die Haltestellen"], ["der Zug", "train", "die Züge"], ["der Bus", "bus", "die Busse"], ["die Straßenbahn", "tram", "die Straßenbahnen"],
+   ["die U-Bahn", "underground", "die U-Bahnen"], ["das Auto", "car", "die Autos"], ["das Fahrrad", "bicycle", "die Fahrräder"], ["die Fahrkarte", "ticket", "die Fahrkarten"], ["der Weg", "way, path", "die Wege"],
+   ["die Straße", "street, road", "die Straßen"], ["der Platz", "square; seat; space", "die Plätze"], ["die Ampel", "traffic lights", "die Ampeln"], ["die Ecke", "corner", "die Ecken"], ["fahren", "to go (by vehicle), to drive", "du fährst · er fährt · ist gefahren"],
+   ["gehen", "to go, to walk", "er geht · ist gegangen"], ["umsteigen", "to change (trains)", "er steigt um · ist umgestiegen"], ["aussteigen", "to get off", "er steigt aus · ist ausgestiegen"], ["nah", "near", "näher"], ["weit", "far", "weiter"]
+  ]},
+  {"week": 6, "topic": "Time and days", "words": [
+   ["die Uhr", "clock; o'clock", "die Uhren"], ["die Stunde", "hour; lesson", "die Stunden"], ["die Minute", "minute", "die Minuten"], ["der Tag", "day", "die Tage"], ["die Woche", "week", "die Wochen"], ["der Monat", "month", "die Monate"],
+   ["das Jahr", "year", "die Jahre"], ["der Morgen", "morning", "die Morgen"], ["der Vormittag", "late morning", "die Vormittage"], ["der Nachmittag", "afternoon", "die Nachmittage"], ["der Abend", "evening", "die Abende"], ["die Nacht", "night", "die Nächte"],
+   ["der Montag", "Monday", "die Montage"], ["der Dienstag", "Tuesday", "die Dienstage"], ["der Mittwoch", "Wednesday", "die Mittwoche"], ["der Donnerstag", "Thursday", "die Donnerstage"], ["der Freitag", "Friday", "die Freitage"], ["der Samstag", "Saturday", "die Samstage"], ["der Sonntag", "Sunday", "die Sonntage"],
+   ["das Wochenende", "weekend", "die Wochenenden"], ["heute", "today", "–"], ["morgen", "tomorrow", "–"], ["gestern", "yesterday", "–"], ["jetzt", "now", "–"], ["früh", "early", "früher"], ["spät", "late", "später"],
+   ["immer", "always", "–"], ["oft", "often", "öfter"], ["manchmal", "sometimes", "–"], ["nie", "never", "–"], ["aufstehen", "to get up", "er steht auf · ist aufgestanden"], ["schlafen", "to sleep", "du schläfst · hat geschlafen"], ["arbeiten", "to work", "er arbeitet · hat gearbeitet"]
+  ]},
+  {"week": 7, "topic": "Home and health", "words": [
+   ["die Wohnung", "flat, apartment", "die Wohnungen"], ["das Zimmer", "room", "die Zimmer"], ["die Küche", "kitchen", "die Küchen"], ["das Bad", "bathroom", "die Bäder"], ["das Fenster", "window", "die Fenster"],
+   ["die Tür", "door", "die Türen"], ["der Schlüssel", "key", "die Schlüssel"], ["das Bett", "bed", "die Betten"], ["die Lampe", "lamp", "die Lampen"], ["der Kühlschrank", "fridge", "die Kühlschränke"],
+   ["der Kopf", "head", "die Köpfe"], ["der Bauch", "belly, stomach", "die Bäuche"], ["der Rücken", "back", "die Rücken"], ["der Hals", "throat; neck", "die Hälse"], ["das Auge", "eye", "die Augen"],
+   ["die Hand", "hand", "die Hände"], ["das Bein", "leg", "die Beine"], ["der Arzt", "doctor (m.)", "die Ärzte"], ["die Ärztin", "doctor (f.)", "die Ärztinnen"], ["das Medikament", "medicine", "die Medikamente"],
+   ["krank", "ill, sick", "kränker"], ["gesund", "healthy", "gesünder"], ["kaputt", "broken", "–"], ["putzen", "to clean", "er putzt · hat geputzt"]
+  ]},
+  {"week": 8, "topic": "Family", "words": [
+   ["die Familie", "family", "die Familien"], ["die Eltern", "parents", "plural only"], ["die Mutter", "mother", "die Mütter"], ["der Vater", "father", "die Väter"], ["der Bruder", "brother", "die Brüder"],
+   ["die Schwester", "sister", "die Schwestern"], ["der Sohn", "son", "die Söhne"], ["die Tochter", "daughter", "die Töchter"], ["die Oma", "grandma", "die Omas"], ["der Opa", "grandpa", "die Opas"],
+   ["die Geschwister", "siblings", "plural only"], ["der Onkel", "uncle", "die Onkel"], ["die Tante", "aunt", "die Tanten"], ["verheiratet", "married", "–"], ["ledig", "single", "–"], ["jung", "young", "jünger"]
+  ]},
+  {"week": 9, "topic": "Free time", "words": [
+   ["die Freizeit", "free time", "–"], ["das Hobby", "hobby", "die Hobbys"], ["der Sport", "sport", "–"], ["das Kino", "cinema", "die Kinos"], ["der Film", "film", "die Filme"], ["die Musik", "music", "–"],
+   ["das Buch", "book", "die Bücher"], ["das Spiel", "game; match", "die Spiele"], ["der Park", "park", "die Parks"], ["der Ausflug", "trip, outing", "die Ausflüge"], ["spielen", "to play", "er spielt · hat gespielt"],
+   ["lesen", "to read", "du liest · hat gelesen"], ["sehen", "to see", "du siehst · hat gesehen"], ["hören", "to hear, to listen", "er hört · hat gehört"], ["kochen", "to cook", "er kocht · hat gekocht"],
+   ["treffen", "to meet", "du triffst · hat getroffen"], ["schwimmen", "to swim", "er schwimmt · ist geschwommen"], ["wandern", "to hike", "er wandert · ist gewandert"], ["tanzen", "to dance", "er tanzt · hat getanzt"]
+  ]},
+  {"week": 10, "topic": "Weather and seasons", "words": [
+   ["das Wetter", "weather", "–"], ["die Sonne", "sun", "–"], ["der Regen", "rain", "–"], ["der Schnee", "snow", "–"], ["der Wind", "wind", "die Winde"], ["die Wolke", "cloud", "die Wolken"],
+   ["der Frühling", "spring", "–"], ["der Sommer", "summer", "–"], ["der Herbst", "autumn", "–"], ["der Winter", "winter", "–"], ["der Grad", "degree (temperature)", "zwanzig Grad"],
+   ["warm", "warm", "wärmer"], ["kalt", "cold", "kälter"], ["sonnig", "sunny", "–"], ["bewölkt", "cloudy", "–"], ["regnen", "to rain", "es regnet · hat geregnet"], ["schneien", "to snow", "es schneit · hat geschneit"]
+  ]},
+  {"week": 11, "topic": "Offices and services", "words": [
+   ["der Termin", "appointment", "die Termine"], ["die Post", "post office; mail", "–"], ["das Paket", "parcel", "die Pakete"], ["der Brief", "letter", "die Briefe"], ["die Bank", "bank; bench", "die Banken / die Bänke"],
+   ["das Konto", "bank account", "die Konten"], ["das Formular", "form", "die Formulare"], ["der Ausweis", "ID card", "die Ausweise"], ["der Reisepass", "passport", "die Reisepässe"], ["die Adresse", "address", "die Adressen"],
+   ["die Telefonnummer", "phone number", "die Telefonnummern"], ["die Nachricht", "message; news", "die Nachrichten"], ["anrufen", "to call (phone)", "er ruft an · hat angerufen"], ["schreiben", "to write", "er schreibt · hat geschrieben"],
+   ["warten", "to wait", "er wartet · hat gewartet"], ["öffnen", "to open", "er öffnet · hat geöffnet"], ["schließen", "to close", "er schließt · hat geschlossen"], ["offen", "open", "–"], ["geschlossen", "closed", "–"]
+  ]},
+  {"week": 12, "topic": "Describing words", "words": [
+   ["rot", "red", "–"], ["blau", "blue", "–"], ["grün", "green", "–"], ["gelb", "yellow", "–"], ["schwarz", "black", "–"], ["weiß", "white", "–"], ["grau", "grey", "–"], ["braun", "brown", "–"],
+   ["schön", "beautiful, nice", "schöner"], ["gut", "good", "besser · am besten"], ["schlecht", "bad", "schlechter"], ["schnell", "fast", "schneller"], ["langsam", "slow", "langsamer"],
+   ["laut", "loud", "lauter"], ["leise", "quiet", "leiser"], ["leicht", "easy; light", "leichter"], ["schwer", "difficult; heavy", "schwerer"], ["richtig", "right, correct", "–"], ["falsch", "wrong", "–"],
+   ["wichtig", "important", "wichtiger"], ["müde", "tired", "müder"], ["voll", "full", "voller"], ["leer", "empty", "leerer"]
+  ]},
+  {"week": 13, "topic": "Feelings", "words": [
+   ["froh", "glad", "froher"], ["traurig", "sad", "trauriger"], ["glücklich", "happy", "glücklicher"], ["nervös", "nervous", "nervöser"], ["wütend", "angry", "–"], ["zufrieden", "satisfied", "zufriedener"],
+   ["das Gefühl", "feeling", "die Gefühle"], ["die Angst", "fear", "die Ängste"], ["der Spaß", "fun", "–"], ["die Laune", "mood", "die Launen"], ["lachen", "to laugh", "er lacht · hat gelacht"], ["weinen", "to cry", "er weint · hat geweint"], ["erzählen", "to tell (a story)", "er erzählt · hat erzählt"]
+  ]},
+  {"week": 14, "topic": "Plans and the future", "words": [
+   ["der Plan", "plan", "die Pläne"], ["die Zukunft", "future", "–"], ["das Ziel", "goal; destination", "die Ziele"], ["der Traum", "dream", "die Träume"], ["planen", "to plan", "er plant · hat geplant"],
+   ["hoffen", "to hope", "er hofft · hat gehofft"], ["vorhaben", "to plan, to intend", "er hat vor · hat vorgehabt"], ["bleiben", "to stay", "er bleibt · ist geblieben"], ["bald", "soon", "–"], ["vielleicht", "maybe", "–"], ["sicher", "sure; safe", "sicherer"]
+  ]},
+  {"week": 15, "topic": "Cooking", "words": [
+   ["das Rezept", "recipe; prescription", "die Rezepte"], ["die Zwiebel", "onion", "die Zwiebeln"], ["der Knoblauch", "garlic", "–"], ["das Salz", "salt", "–"], ["der Pfeffer", "pepper", "–"], ["das Öl", "oil", "die Öle"],
+   ["die Pfanne", "pan", "die Pfannen"], ["der Topf", "pot", "die Töpfe"], ["die Linse", "lentil", "die Linsen"], ["braten", "to fry", "er brät · hat gebraten"], ["schneiden", "to cut", "er schneidet · hat geschnitten"], ["probieren", "to try, to taste", "er probiert · hat probiert"], ["scharf", "spicy; sharp", "schärfer"]
+  ]},
+  {"week": 16, "topic": "Invitations and celebrations", "words": [
+   ["die Einladung", "invitation", "die Einladungen"], ["die Party", "party", "die Partys"], ["das Geschenk", "present, gift", "die Geschenke"], ["der Geburtstag", "birthday", "die Geburtstage"], ["das Fest", "celebration, festival", "die Feste"],
+   ["einladen", "to invite", "er lädt ein · hat eingeladen"], ["feiern", "to celebrate", "er feiert · hat gefeiert"], ["besuchen", "to visit", "er besucht · hat besucht"], ["vorschlagen", "to suggest", "er schlägt vor · hat vorgeschlagen"], ["absagen", "to cancel", "er sagt ab · hat abgesagt"], ["pünktlich", "on time", "pünktlicher"]
+  ]},
+  {"week": 17, "topic": "At the doctor's", "words": [
+   ["die Krankheit", "illness", "die Krankheiten"], ["das Fieber", "fever", "–"], ["der Husten", "cough", "–"], ["der Schnupfen", "a cold, runny nose", "–"], ["die Schmerzen", "pain", "plural"], ["die Tablette", "tablet, pill", "die Tabletten"],
+   ["die Versicherung", "insurance", "die Versicherungen"], ["das Krankenhaus", "hospital", "die Krankenhäuser"], ["die Apotheke", "pharmacy", "die Apotheken"], ["der Zahnarzt", "dentist", "die Zahnärzte"],
+   ["wehtun", "to hurt", "es tut weh · hat wehgetan"], ["sich fühlen", "to feel", "er fühlt sich · hat sich gefühlt"], ["husten", "to cough", "er hustet · hat gehustet"]
+  ]},
+  {"week": 18, "topic": "Renting a flat", "words": [
+   ["die Miete", "rent", "die Mieten"], ["der Vermieter", "landlord", "die Vermieter"], ["die Vermieterin", "landlady", "die Vermieterinnen"], ["die Kaution", "deposit", "die Kautionen"], ["der Vertrag", "contract", "die Verträge"],
+   ["das Stockwerk", "floor, storey", "die Stockwerke"], ["der Keller", "basement, cellar", "die Keller"], ["der Balkon", "balcony", "die Balkone"], ["die Möbel", "furniture", "plural only"], ["die WG", "flat share", "die WGs"],
+   ["mieten", "to rent", "er mietet · hat gemietet"], ["einziehen", "to move in", "er zieht ein · ist eingezogen"], ["ausziehen", "to move out", "er zieht aus · ist ausgezogen"], ["umziehen", "to move (house)", "er zieht um · ist umgezogen"], ["hell", "bright", "heller"], ["dunkel", "dark", "dunkler"]
+  ]},
+  {"week": 19, "topic": "Work", "words": [
+   ["die Arbeit", "work", "die Arbeiten"], ["der Beruf", "profession, job", "die Berufe"], ["die Firma", "company", "die Firmen"], ["der Kollege", "colleague (m.)", "die Kollegen"], ["die Kollegin", "colleague (f.)", "die Kolleginnen"],
+   ["der Chef", "boss (m.)", "die Chefs"], ["die Chefin", "boss (f.)", "die Chefinnen"], ["das Gehalt", "salary", "die Gehälter"], ["die Erfahrung", "experience", "die Erfahrungen"], ["die Bewerbung", "application", "die Bewerbungen"],
+   ["das Praktikum", "internship", "die Praktika"], ["die Stelle", "position, job", "die Stellen"], ["sich bewerben", "to apply", "er bewirbt sich · hat sich beworben"], ["verdienen", "to earn", "er verdient · hat verdient"], ["selbstständig", "self-employed; independent", "–"]
+  ]},
+  {"week": 20, "topic": "Culture and the city", "words": [
+   ["das Museum", "museum", "die Museen"], ["das Konzert", "concert", "die Konzerte"], ["die Ausstellung", "exhibition", "die Ausstellungen"], ["das Theater", "theatre", "die Theater"], ["die Kirche", "church", "die Kirchen"],
+   ["der Markt", "market", "die Märkte"], ["die Sehenswürdigkeit", "sight, attraction", "die Sehenswürdigkeiten"], ["die Tradition", "tradition", "die Traditionen"], ["berühmt", "famous", "berühmter"], ["interessant", "interesting", "interessanter"], ["gemütlich", "cosy, relaxed", "gemütlicher"], ["modern", "modern", "moderner"]
+  ]},
+  {"week": 21, "topic": "Travel and announcements", "words": [
+   ["der Flughafen", "airport", "die Flughäfen"], ["der Flug", "flight", "die Flüge"], ["das Gepäck", "luggage", "–"], ["der Koffer", "suitcase", "die Koffer"], ["die Reise", "journey, trip", "die Reisen"],
+   ["das Hotel", "hotel", "die Hotels"], ["die Verspätung", "delay", "die Verspätungen"], ["die Durchsage", "announcement", "die Durchsagen"], ["die Störung", "disruption, fault", "die Störungen"], ["der Ausgang", "exit", "die Ausgänge"],
+   ["reisen", "to travel", "er reist · ist gereist"], ["ankommen", "to arrive", "er kommt an · ist angekommen"], ["abfahren", "to depart", "er fährt ab · ist abgefahren"], ["verpassen", "to miss (a train)", "er verpasst · hat verpasst"]
+  ]},
+  {"week": 22, "topic": "Studying", "words": [
+   ["das Studium", "university studies", "die Studien"], ["die Hausübung", "homework (Austria)", "die Hausübungen"], ["die Aufgabe", "task, exercise", "die Aufgaben"], ["die Präsentation", "presentation", "die Präsentationen"], ["die Note", "grade, mark", "die Noten"],
+   ["das Semester", "semester", "die Semester"], ["die Gruppe", "group", "die Gruppen"], ["die Frist", "deadline", "die Fristen"], ["erklären", "to explain", "er erklärt · hat erklärt"], ["wiederholen", "to repeat; to revise", "er wiederholt · hat wiederholt"],
+   ["vorbereiten", "to prepare", "er bereitet vor · hat vorbereitet"], ["bestehen", "to pass (an exam)", "er besteht · hat bestanden"], ["abgeben", "to hand in", "er gibt ab · hat abgegeben"]
+  ]},
+  {"week": 23, "topic": "Problems and solutions", "words": [
+   ["das Problem", "problem", "die Probleme"], ["der Fehler", "mistake", "die Fehler"], ["die Beschwerde", "complaint", "die Beschwerden"], ["die Lösung", "solution", "die Lösungen"], ["der Schaden", "damage", "die Schäden"],
+   ["sich beschweren", "to complain", "er beschwert sich · hat sich beschwert"], ["reparieren", "to repair", "er repariert · hat repariert"], ["funktionieren", "to work (machine)", "es funktioniert · hat funktioniert"],
+   ["vergessen", "to forget", "du vergisst · hat vergessen"], ["verlieren", "to lose", "er verliert · hat verloren"], ["zurückgeben", "to give back", "er gibt zurück · hat zurückgegeben"]
+  ]},
+  {"week": 24, "topic": "Talking about ideas", "words": [
+   ["die Meinung", "opinion", "die Meinungen"], ["die Idee", "idea", "die Ideen"], ["der Grund", "reason", "die Gründe"], ["die Möglichkeit", "possibility", "die Möglichkeiten"], ["der Vorteil", "advantage", "die Vorteile"],
+   ["der Nachteil", "disadvantage", "die Nachteile"], ["möglich", "possible", "–"], ["wahrscheinlich", "probably", "–"], ["eigentlich", "actually", "–"], ["genau", "exactly", "–"], ["meinen", "to mean; to think", "er meint · hat gemeint"]
+  ]},
+  {"week": 26, "topic": "Society and debate", "words": [
+   ["die Gesellschaft", "society", "die Gesellschaften"], ["die Politik", "politics", "–"], ["die Wirtschaft", "economy", "–"], ["die Umwelt", "environment", "–"], ["die Technik", "technology", "–"],
+   ["die Entwicklung", "development", "die Entwicklungen"], ["das Thema", "topic", "die Themen"], ["das Argument", "argument (point)", "die Argumente"], ["diskutieren", "to discuss", "er diskutiert · hat diskutiert"], ["vergleichen", "to compare", "er vergleicht · hat verglichen"]
+  ]},
+  {"week": 31, "topic": "News and media", "words": [
+   ["die Zeitung", "newspaper", "die Zeitungen"], ["der Artikel", "article", "die Artikel"], ["die Meldung", "news report", "die Meldungen"], ["die Regierung", "government", "die Regierungen"], ["die Wahl", "election; choice", "die Wahlen"],
+   ["entscheiden", "to decide", "er entscheidet · hat entschieden"], ["unterstützen", "to support", "er unterstützt · hat unterstützt"], ["sich entwickeln", "to develop", "es entwickelt sich · hat sich entwickelt"], ["berichten", "to report", "er berichtet · hat berichtet"]
+  ]}
+ ]
+}

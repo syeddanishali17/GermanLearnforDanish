@@ -14,6 +14,7 @@ import { all, bool, one, run, type Env } from './db'
 import * as progress from './progress'
 import * as srs from './srs'
 import * as talk from './talk'
+import * as course from './course'
 
 export const content = makeContent()
 type C = Context<{ Bindings: Env }>
@@ -36,8 +37,11 @@ async function body(c: C): Promise<Record<string, unknown> | null> {
   }
 }
 
+/** The repo's learner_profile.md starts with a note for repo readers; the app only needs the profile itself. */
+const DEFAULT_PROFILE = profileMd.slice(Math.max(0, profileMd.indexOf('\n- ') + 1))
+
 async function profile(db: D1Database): Promise<srs.Profile> {
-  await run(db, 'INSERT OR IGNORE INTO profile (id, learner_profile_md) VALUES (1, ?)', profileMd)
+  await run(db, 'INSERT OR IGNORE INTO profile (id, learner_profile_md) VALUES (1, ?)', DEFAULT_PROFILE)
   return (await one<srs.Profile>(db, 'SELECT * FROM profile WHERE id = 1'))!
 }
 
@@ -167,6 +171,7 @@ app.get('/daily', async (c) => {
     streak: await progress.streak(db, localDay(t)),
     level: lvl,
     conversation: rec ? talk.summary(rec, lvl.week, counts) : null,
+    grammar: await course.dailyGrammar(db, content, lvl.week, t),
   })
 })
 
@@ -375,6 +380,64 @@ app.post('/conversations/:slug/practice', async (c) => {
   return c.json({ ok: true, duplicate: false })
 })
 
+// ---------- course and grammar ----------
+
+app.get('/course', async (c) => {
+  const db = c.env.DB
+  const stats = await course.patternStats(db)
+  const states = await srs.itemStates(db)
+  const introduced = new Set([...states].filter(([, st]) => st.introduced_at).map(([slug]) => slug))
+  const counts = await talk.practiceCounts(db)
+  return c.json({
+    level: await talk.level(db, content),
+    weeks: content.weeks.map((w) => course.weekSummary(w, content, stats, introduced, counts)),
+    totals: { items: content.items.length, words: content.items.filter((i) => i.kind === 'word').length, conversations: content.conversations.length, patterns: content.patterns.length },
+  })
+})
+
+app.get('/course/:week', async (c) => {
+  const db = c.env.DB
+  const n = Number(c.req.param('week'))
+  const w = content.weeks.find((x) => x.week === n)
+  if (!w) return bad(c, 'Week not found', 404)
+  const stats = await course.patternStats(db)
+  const states = await srs.itemStates(db)
+  const introduced = new Set([...states].filter(([, st]) => st.introduced_at).map(([slug]) => slug))
+  const counts = await talk.practiceCounts(db)
+  const lvl = await talk.level(db, content)
+  return c.json({
+    ...course.weekSummary(w, content, stats, introduced, counts),
+    phrases: content.items.filter((i) => i.week === n && i.kind !== 'word').map((i) => itemOut(i, states.get(i.slug))),
+    words: content.items.filter((i) => i.week === n && i.kind === 'word').map((i) => itemOut(i, states.get(i.slug))),
+    conversation_list: content.conversations.filter((x) => x.week === n).map((x) => talk.summary(x, lvl.week, counts)),
+  })
+})
+
+app.get('/grammar/:code', async (c) => {
+  const p = content.patternByCode.get(c.req.param('code'))
+  if (!p) return bad(c, 'Pattern not found', 404)
+  const stats = await course.patternStats(c.env.DB)
+  return c.json({ ...p, ...course.patternSummary(p, stats.get(p.code)) })
+})
+
+app.post('/grammar/:code/practice', async (c) => {
+  const db = c.env.DB
+  const p = content.patternByCode.get(c.req.param('code'))
+  if (!p) return bad(c, 'Pattern not found', 404)
+  const b = await body(c)
+  const total = int(b?.total, 1, 50)
+  const correct = int(b?.correct, 0, 50)
+  if (total === null || correct === null || correct > total) return bad(c, 'Invalid result')
+  const uuid = str(b?.uuid, 40)
+  if (uuid && (await one(db, 'SELECT id FROM grammar_practice WHERE client_uuid = ?', uuid))) return c.json({ ok: true, duplicate: true })
+  const ts = tsOf(b?.ts)
+  await run(db, 'INSERT INTO grammar_practice (client_uuid, code, ts, correct, total) VALUES (?, ?, ?, ?, ?)', uuid, p.code, ts, correct, total)
+  // Drills are written production: they count toward the minimum day.
+  if (correct > 0) await progress.addToDay(db, localDay(ts), { produced: 1 })
+  await progress.refreshDay(db, content, await profile(db), now())
+  return c.json({ ok: true, duplicate: false })
+})
+
 // ---------- stats, settings, export ----------
 
 app.get('/stats/dashboard', async (c) => c.json(await progress.dashboard(c.env.DB, content, await profile(c.env.DB), now())))
@@ -395,7 +458,7 @@ app.put('/settings', async (c) => {
   const b = (await body(c)) ?? {}
   const fields: [string, string | number | null][] = [
     ['learner_profile_md', str(b.learner_profile_md, 20_000)],
-    ['new_per_day', int(b.new_per_day, 3, 10)],
+    ['new_per_day', int(b.new_per_day, 3, 20)],
     ['max_reviews_per_day', int(b.max_reviews_per_day, 20, 500)],
     ['weekly_target_days', int(b.weekly_target_days, 1, 7)],
     ['weekly_target_attempts', int(b.weekly_target_attempts, 0, 50)],
@@ -407,7 +470,7 @@ app.put('/settings', async (c) => {
 /** Full personal-data export (spec §12). */
 app.get('/export', async (c) => {
   const db = c.env.DB
-  const tables = ['profile', 'item_state', 'card', 'review_log', 'mission', 'day_log', 'content_report', 'conversation_practice', 'cost_ledger']
+  const tables = ['profile', 'item_state', 'card', 'review_log', 'mission', 'day_log', 'content_report', 'conversation_practice', 'grammar_practice', 'cost_ledger']
   const out: Record<string, unknown> = { exported_at: new Date().toISOString() }
   for (const t of tables) out[t] = await all(db, `SELECT * FROM ${t}`)
   return c.json(out, 200, { 'Content-Disposition': 'attachment; filename="ustad-export.json"' })

@@ -6,6 +6,7 @@ import { Badge, Card, German, ItemNotes, PageHeader, ReportButton, SpeakPair } f
 import { ACTION_LABEL, REGION_LABEL } from '../lib/labels'
 import { api } from '../lib/api'
 import type { Item } from '../lib/types'
+import { Loading } from '../components/Loading'
 
 const TABS: Item['learner_action'][] = ['use_now', 'recognise_now', 'later']
 
@@ -15,7 +16,7 @@ export function Culture() {
   const items = (q.data ?? []).filter((i) => i.learner_action === tab)
   return (
     <div className="space-y-4">
-      <PageHeader title="Vienna & Austria" sub="What it means, when it sounds natural, and whether to use it yet." back={null} />
+      <PageHeader title="Vienna & Austria" sub="What it means, when it sounds natural, and whether to use it yet." back="/kurs" />
       <div className="grid grid-cols-3 gap-1 rounded-2xl bg-line/60 p-1" role="tablist">
         {TABS.map((t) => (
           <button key={t} role="tab" aria-selected={tab === t} onClick={() => setTab(t)} className={`min-h-10 rounded-xl text-sm font-semibold ${tab === t ? 'bg-card text-ink shadow-sm' : 'text-muted'}`}>
@@ -45,10 +46,10 @@ export function ItemPage() {
   const { id } = useParams()
   const q = useQuery({ queryKey: ['item', id], queryFn: () => api<Item>(`/api/items/${id}`) })
   const i = q.data
-  if (!i) return <p className="pt-10 text-center text-muted">Loading…</p>
+  if (!i) return <Loading />
   return (
     <div className="space-y-4">
-      <PageHeader title={i.deck === 'vienna' ? 'Culture phrase' : 'Phrase'} back={i.deck === 'vienna' ? '/culture' : '/more'} />
+      <PageHeader title={i.deck === 'vienna' ? 'Culture phrase' : 'Phrase'} back={i.deck === 'vienna' ? '/culture' : `/kurs/${i.week}`} />
       <Card className="space-y-4">
         <div className="flex flex-wrap gap-1.5">
           <Badge tone="ustad">{ACTION_LABEL[i.learner_action]}</Badge>
@@ -57,7 +58,6 @@ export function ItemPage() {
           {i.status === 'flagged' && <Badge>reported</Badge>}
         </div>
         <German item={i} size="2xl" />
-        {i.plural && <p className="text-sm text-muted">Plural: {i.plural}</p>}
         <p className="text-lg">{i.en}</p>
         <SpeakPair text={i.de} />
         <ItemNotes item={i} />

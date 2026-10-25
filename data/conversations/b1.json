@@ -484,6 +484,90 @@
    ]
   },
   {
+   "slug": "b1-nachrichten",
+   "week": 31,
+   "register": "informal",
+   "title": "Talking about the news",
+   "title_de": "Über Nachrichten sprechen",
+   "partner": "Stefan, colleague",
+   "setting": "Lunch break. Stefan read something in the news.",
+   "goal": "Report what you read, recognise the passive, give a short opinion.",
+   "patterns": [
+    "P37",
+    "P23"
+   ],
+   "turns": [
+    {
+     "who": "Stefan",
+     "de": "Hast du gelesen? Die Jahreskarte für die Öffis soll teurer werden.",
+     "en": "Did you read? The annual public transport pass is supposed to get more expensive."
+    },
+    {
+     "who": "Du",
+     "de": "Ja, ich habe es heute in der Zeitung gesehen. Es wurde gestern bekannt gegeben.",
+     "en": "Yes, I saw it in the paper today. It was announced yesterday."
+    },
+    {
+     "who": "Stefan",
+     "de": "Ich finde das schade. Gerade junge Leute nutzen es viel.",
+     "en": "I think that's a shame. Young people in particular use it a lot."
+    },
+    {
+     "who": "Du",
+     "de": "Einerseits verstehe ich das, weil alles teurer wird. Andererseits sollten die Öffis billig bleiben.",
+     "en": "On the one hand I understand, because everything is getting more expensive. On the other hand public transport should stay cheap."
+    },
+    {
+     "who": "Stefan",
+     "de": "Genau. Sonst fahren wieder mehr Leute mit dem Auto.",
+     "en": "Exactly. Otherwise more people will drive again."
+    },
+    {
+     "who": "Du",
+     "de": "Steht in dem Artikel auch, wie viel es kosten wird?",
+     "en": "Does the article also say how much it will cost?"
+    },
+    {
+     "who": "Stefan",
+     "de": "Nicht genau. Es wird noch diskutiert.",
+     "en": "Not exactly. It's still being discussed."
+    },
+    {
+     "who": "Du",
+     "de": "Dann warten wir ab. Vielleicht wird für Studenten ein Rabatt eingeführt.",
+     "en": "Then let's wait and see. Maybe a discount will be introduced for students."
+    },
+    {
+     "who": "Stefan",
+     "de": "Das wäre gut. Liest du eigentlich österreichische Zeitungen?",
+     "en": "That would be good. Do you actually read Austrian newspapers?"
+    },
+    {
+     "who": "Du",
+     "de": "Ja, ich lese oft die Nachrichten in einfacher Sprache. Das hilft mir beim Deutschlernen.",
+     "en": "Yes, I often read news in simple language. It helps me learn German."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Es wurde gestern bekannt gegeben.",
+     "en": "It was announced yesterday."
+    },
+    {
+     "de": "Es wird noch diskutiert.",
+     "en": "It's still being discussed."
+    },
+    {
+     "de": "Dann warten wir ab.",
+     "en": "Then let's wait and see."
+    }
+   ],
+   "notes": [
+    "Jahreskarte = annual pass. Fares change from time to time; this dialogue is practice, not news.",
+    "News in simple German (einfache Sprache) is a great B1 reading habit."
+   ]
+  },
+  {
    "slug": "b1-ki-diskussion",
    "week": 32,
    "register": "informal",
@@ -576,6 +660,84 @@
    ]
   },
   {
+   "slug": "b1-homeoffice",
+   "week": 32,
+   "register": "informal",
+   "title": "Home office: yes or no?",
+   "title_de": "Homeoffice: ja oder nein?",
+   "partner": "Jonas, classmate who works part-time",
+   "setting": "After a seminar on modern work.",
+   "goal": "Discuss pros and cons using verbs with prepositions.",
+   "patterns": [
+    "P42",
+    "P23"
+   ],
+   "turns": [
+    {
+     "who": "Jonas",
+     "de": "Arbeitest du lieber im Büro oder von zu Hause?",
+     "en": "Do you prefer working in the office or from home?"
+    },
+    {
+     "who": "Du",
+     "de": "Das kommt darauf an. Zu Hause kann ich mich besser konzentrieren.",
+     "en": "It depends. At home I can concentrate better."
+    },
+    {
+     "who": "Jonas",
+     "de": "Mir geht es genau umgekehrt. Ich denke zu Hause dauernd an den Haushalt.",
+     "en": "For me it's exactly the other way round. At home I keep thinking about the housework."
+    },
+    {
+     "who": "Du",
+     "de": "Das verstehe ich. Im Büro freue ich mich dafür auf die Kollegen.",
+     "en": "I understand that. In the office, on the other hand, I look forward to seeing my colleagues."
+    },
+    {
+     "who": "Jonas",
+     "de": "Genau, und man spricht über Ideen, nicht nur über Aufgaben.",
+     "en": "Exactly, and you talk about ideas, not just tasks."
+    },
+    {
+     "who": "Du",
+     "de": "Woran merkst du, dass Homeoffice nicht gut für dich ist?",
+     "en": "How do you notice that home office isn't good for you?"
+    },
+    {
+     "who": "Jonas",
+     "de": "Ich ärgere mich am Abend, dass ich zu wenig geschafft habe.",
+     "en": "In the evening I'm annoyed that I didn't get enough done."
+    },
+    {
+     "who": "Du",
+     "de": "Vielleicht wäre eine Mischung am besten: zwei Tage zu Hause, drei im Büro.",
+     "en": "Maybe a mix would be best: two days at home, three in the office."
+    },
+    {
+     "who": "Jonas",
+     "de": "Da hast du recht. Darüber sollte ich mit meiner Chefin sprechen.",
+     "en": "You're right there. I should talk to my boss about that."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Das kommt darauf an.",
+     "en": "It depends."
+    },
+    {
+     "de": "Mir geht es genau umgekehrt.",
+     "en": "For me it's exactly the other way round."
+    },
+    {
+     "de": "Darüber sollte ich mit ... sprechen.",
+     "en": "I should talk to ... about that."
+    }
+   ],
+   "notes": [
+    "Verbs with fixed prepositions: sich konzentrieren auf, denken an, sich freuen auf, sprechen über, sich ärgern über."
+   ]
+  },
+  {
    "slug": "b1-heuriger",
    "week": 33,
    "register": "informal",
@@ -664,6 +826,91 @@
    "notes": [
     "Recognise only: di = dich, da = dir, wos = was, des = das, is = ist, a = ein/eine. You don't need to speak dialect.",
     "Soda Zitron (soda water with lemon) is the classic Austrian non-alcoholic order. A Gspritzter is wine with soda water."
+   ]
+  },
+  {
+   "slug": "b1-umzug-erzaehlen",
+   "week": 34,
+   "register": "informal",
+   "title": "The story of a move",
+   "title_de": "Die Geschichte eines Umzugs",
+   "partner": "Anna, friend",
+   "setting": "Anna asks how your move went.",
+   "goal": "Tell a longer story with bevor, nachdem, als and react to questions.",
+   "patterns": [
+    "P41",
+    "P21",
+    "P22"
+   ],
+   "turns": [
+    {
+     "who": "Anna",
+     "de": "Und, wie war der Umzug?",
+     "en": "So, how was the move?"
+    },
+    {
+     "who": "Du",
+     "de": "Anstrengend! Bevor ich überhaupt packen konnte, musste ich Kartons organisieren.",
+     "en": "Exhausting! Before I could even pack, I had to organise boxes."
+    },
+    {
+     "who": "Anna",
+     "de": "Wo hast du die her?",
+     "en": "Where did you get them?"
+    },
+    {
+     "who": "Du",
+     "de": "Ein Supermarkt hat mir alte Kartons geschenkt. Nachdem ich alles gepackt hatte, kam das nächste Problem.",
+     "en": "A supermarket gave me old boxes. After I had packed everything, the next problem came."
+    },
+    {
+     "who": "Anna",
+     "de": "Oje, welches?",
+     "en": "Oh dear, which one?"
+    },
+    {
+     "who": "Du",
+     "de": "Der Lift im neuen Haus war kaputt. Wir mussten alles in den vierten Stock tragen.",
+     "en": "The lift in the new building was broken. We had to carry everything to the fourth floor."
+    },
+    {
+     "who": "Anna",
+     "de": "Das klingt furchtbar! Wer hat dir geholfen?",
+     "en": "That sounds awful! Who helped you?"
+    },
+    {
+     "who": "Du",
+     "de": "Zwei Freunde aus meinem Kurs. Als wir fertig waren, haben wir zusammen Pizza gegessen.",
+     "en": "Two friends from my course. When we were finished, we had pizza together."
+    },
+    {
+     "who": "Anna",
+     "de": "Und gefällt dir die neue Wohnung?",
+     "en": "And do you like the new flat?"
+    },
+    {
+     "who": "Du",
+     "de": "Sehr! Sie ist heller und ruhiger als die alte. Nächste Woche lade ich euch ein.",
+     "en": "A lot! It's brighter and quieter than the old one. Next week I'll invite you all."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Bevor ich packen konnte, musste ich ...",
+     "en": "Before I could pack, I had to ..."
+    },
+    {
+     "de": "Nachdem ich alles gepackt hatte, ...",
+     "en": "After I had packed everything, ..."
+    },
+    {
+     "de": "Als wir fertig waren, ...",
+     "en": "When we were finished, ..."
+    }
+   ],
+   "notes": [
+    "Nachdem uses the Plusquamperfekt (hatte gepackt) for the earlier action. You mainly need to understand it; in speech people often simplify.",
+    "In Austria, remember to register your new address (Meldezettel) within three days."
    ]
   },
   {
@@ -771,6 +1018,91 @@
    "notes": [
     "This is the format of the B1 speaking test (Goethe and ÖIF): plan something together, make suggestions, react to your partner, agree at the end.",
     "Examiners reward reacting to your partner (Gute Frage, Stimmt, daran habe ich nicht gedacht), not only your own ideas."
+   ]
+  },
+  {
+   "slug": "b1-pruefung-praesentation",
+   "week": 36,
+   "register": "formal",
+   "title": "Exam task: present a topic",
+   "title_de": "Prüfungsaufgabe: ein Thema präsentieren",
+   "partner": "Examiner and exam partner",
+   "setting": "B1 speaking test, part 2: you present a topic with a clear structure, then answer questions.",
+   "goal": "Give a structured short presentation and handle follow-up questions.",
+   "patterns": [
+    "P23",
+    "P26",
+    "P41"
+   ],
+   "turns": [
+    {
+     "who": "Prüferin",
+     "de": "Bitte stellen Sie Ihr Thema vor: Wohnen in der Stadt oder auf dem Land?",
+     "en": "Please present your topic: living in the city or in the countryside?"
+    },
+    {
+     "who": "Du",
+     "de": "Gern. Ich spreche heute über das Thema „Wohnen in der Stadt oder auf dem Land“. Zuerst erzähle ich von meiner Erfahrung, dann vergleiche ich die Situation in meinem Heimatland und zum Schluss sage ich meine Meinung.",
+     "en": "Gladly. Today I'm talking about 'living in the city or in the countryside'. First I'll talk about my experience, then I'll compare the situation in my home country, and finally I'll give my opinion."
+    },
+    {
+     "who": "Du",
+     "de": "Ich wohne seit zwei Jahren in Wien. Am Anfang war die Stadt sehr groß für mich, aber jetzt finde ich das Leben hier sehr praktisch.",
+     "en": "I've lived in Vienna for two years. At first the city was very big for me, but now I find life here very practical."
+    },
+    {
+     "who": "Du",
+     "de": "In meinem Heimatland ziehen viele junge Leute in die Städte, weil es dort mehr Arbeit gibt. Auf dem Land ist das Leben ruhiger, aber es gibt weniger Möglichkeiten.",
+     "en": "In my home country many young people move to the cities because there is more work there. In the countryside life is quieter, but there are fewer opportunities."
+    },
+    {
+     "who": "Du",
+     "de": "Meiner Meinung nach hat beides Vor- und Nachteile. Wenn ich Kinder hätte, würde ich vielleicht lieber auf dem Land wohnen. Im Moment passt die Stadt besser zu mir.",
+     "en": "In my opinion both have advantages and disadvantages. If I had children, I might prefer living in the countryside. At the moment the city suits me better."
+    },
+    {
+     "who": "Partnerin",
+     "de": "Danke. Was gefällt dir an Wien am meisten?",
+     "en": "Thank you. What do you like most about Vienna?"
+    },
+    {
+     "who": "Du",
+     "de": "Am meisten gefallen mir die Öffis und die vielen Parks. Man braucht kein Auto.",
+     "en": "What I like most are the public transport and the many parks. You don't need a car."
+    },
+    {
+     "who": "Prüferin",
+     "de": "Und was ist der größte Nachteil?",
+     "en": "And what's the biggest disadvantage?"
+    },
+    {
+     "who": "Du",
+     "de": "Die Mieten. Obwohl Wien günstiger ist als andere Hauptstädte, ist eine Wohnung für Studenten teuer.",
+     "en": "The rents. Although Vienna is cheaper than other capitals, a flat is expensive for students."
+    },
+    {
+     "who": "Prüferin",
+     "de": "Vielen Dank, das war sehr klar.",
+     "en": "Thank you very much, that was very clear."
+    }
+   ],
+   "key_phrases": [
+    {
+     "de": "Ich spreche heute über das Thema ...",
+     "en": "Today I'm talking about ..."
+    },
+    {
+     "de": "Zuerst ..., dann ..., zum Schluss ...",
+     "en": "First ..., then ..., finally ..."
+    },
+    {
+     "de": "Meiner Meinung nach hat beides Vor- und Nachteile.",
+     "en": "In my opinion both have pros and cons."
+    }
+   ],
+   "notes": [
+    "Exam presentations reward a clear structure: introduce the topic, give your experience, compare, give your opinion, close.",
+    "Practise this with your own real topic and numbers until you can speak for two to three minutes."
    ]
   }
  ]
